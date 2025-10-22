@@ -1,0 +1,27 @@
+# UF COE Web Mapper - Project Rules
+
+## Project Context
+This is the UF College of Education Web Ecosystem Mapper MVP. It consists of:
+1. A TypeScript crawler in `/crawler` that discovers WordPress subsites
+2. A Next.js frontend with React Flow visualization at `/app/map`
+
+## Important Constraints
+- DO NOT overwrite root config files: package.json, tsconfig.json, next.config.ts, tailwind.config.*, postcss.config.mjs
+- DO NOT commit or push to Git automatically
+- The crawler has its own package.json and tsconfig.json in `/crawler`
+- Frontend components are in `/app/components` and `/app/map`
+
+## Architecture Notes
+- Crawler outputs to `public/data.json`
+- Frontend reads `public/data.json` for visualization
+- WordPress detection uses: wp-json → wp-content → meta (3-tier fallback)
+- Rate limiting: 250ms delay, 5 concurrent requests
+- User-Agent: UF-COE-Web-Mapper/1.0 (+mailto:phamkhoi@ufl.edu)
+
+## When Making Changes
+- For crawler: Edit files in `/crawler/src`
+- For frontend: Edit files in `/app/components` or `/app/map`
+- Always maintain TypeScript strict mode
+- Keep MVP scope: no Lighthouse, no auth, no heavy features
+- Document any new dependencies in DEPENDENCIES.md
+

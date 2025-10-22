@@ -1,0 +1,2369 @@
+{
+  "crawlTimestamp": "2025-10-22T21:48:11.699Z",
+  "root": "https://education.ufl.edu/",
+  "subsiteCount": 22,
+  "subsites": [
+    {
+      "id": "education-ufl-edu-study",
+      "baseUrl": "https://education.ufl.edu/study/",
+      "title": "Study - UF College of Education",
+      "detectionMethod": "meta",
+      "detectionConfidence": "medium",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Study - UF College of Education",
+          "url": "https://education.ufl.edu/study/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-admissions",
+      "baseUrl": "https://education.ufl.edu/admissions/",
+      "title": "Program Directory - Program Directory",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Program Directory - Program Directory",
+          "url": "https://education.ufl.edu/admissions/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-program-directory",
+      "baseUrl": "https://education.ufl.edu/program-directory/",
+      "title": "Program Directory - Program Directory",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Program Directory - Program Directory",
+          "url": "https://education.ufl.edu/program-directory/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-course-syllabi",
+      "baseUrl": "https://education.ufl.edu/course-syllabi/",
+      "title": "Course Syllabi - UF College of Education",
+      "detectionMethod": "meta",
+      "detectionConfidence": "medium",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Course Syllabi - UF College of Education",
+          "url": "https://education.ufl.edu/course-syllabi/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-coe-online",
+      "baseUrl": "https://education.ufl.edu/coe-online/",
+      "title": "UF College of Education - Online Learning - COE Online",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "UF College of Education - Online Learning - COE Online",
+          "url": "https://education.ufl.edu/coe-online/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/programs",
+          "title": "Programs & Certificates - COE Online",
+          "url": "https://education.ufl.edu/coe-online/programs",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/tuition-and-fees",
+          "title": "Tuition - UF College of Education online",
+          "url": "https://education.ufl.edu/coe-online/tuition-and-fees",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/online-accolades",
+          "title": "Online Accolades - COE Online",
+          "url": "https://education.ufl.edu/coe-online/online-accolades",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/contact-us",
+          "title": "Contact Us - COE Online",
+          "url": "https://education.ufl.edu/coe-online/contact-us",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/ufqm-standards-all-1-1",
+          "title": null,
+          "url": "https://education.ufl.edu/coe-online/ufqm-standards-all-1-1",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/blue-ribbon-presentation3",
+          "title": null,
+          "url": "https://education.ufl.edu/coe-online/blue-ribbon-presentation3",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-research",
+      "baseUrl": "https://education.ufl.edu/research/",
+      "title": "Research – College of Education – Resesarch",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Research – College of Education – Resesarch",
+          "url": "https://education.ufl.edu/research/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/research",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs"
+          ]
+        },
+        {
+          "path": "/funded-projects",
+          "title": "Funded Projects – Research",
+          "url": "https://education.ufl.edu/research/funded-projects",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/project-websites",
+          "title": "Project Websites – Research",
+          "url": "https://education.ufl.edu/research/project-websites",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/facts-and-figures",
+          "title": "Facts and Figures – Research",
+          "url": "https://education.ufl.edu/research/facts-and-figures",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/centers-and-institutes",
+          "title": "Centers, Institutes and Affiliates – Research",
+          "url": "https://education.ufl.edu/research/centers-and-institutes",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/research/uf-research-foundation-professors",
+          "title": "UF Research Foundation Professors – Research",
+          "url": "https://education.ufl.edu/research/research/uf-research-foundation-professors",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/uf-center-for-excellence-in-early-childhood-studies",
+          "title": "Anita Zucker Center for Excellence in Early Childhood Studies – Research",
+          "url": "https://education.ufl.edu/research/uf-center-for-excellence-in-early-childhood-studies",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/funded-projects/deans-area",
+          "title": "Dean’s Area – Research",
+          "url": "https://education.ufl.edu/research/funded-projects/deans-area",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/funded-projects/lastinger-center",
+          "title": "Lastinger Center for Learning – Research",
+          "url": "https://education.ufl.edu/research/funded-projects/lastinger-center",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/funded-projects/p-k-yonge",
+          "title": "P.K. Yonge – Research",
+          "url": "https://education.ufl.edu/research/funded-projects/p-k-yonge",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/funded-projects/school-of-human-development-and-organizational-studies-in-education",
+          "title": "School of Human Development and Organizational Studies in Education – Research",
+          "url": "https://education.ufl.edu/research/funded-projects/school-of-human-development-and-organizational-studies-in-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/funded-projects/school-of-special-education-school-psychology-and-early-childhood-studies",
+          "title": "School of Special Education, School Psychology and Early Childhood Studies – Research",
+          "url": "https://education.ufl.edu/research/funded-projects/school-of-special-education-school-psychology-and-early-childhood-studies",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/funded-projects/school-of-teaching-and-learning",
+          "title": "School of Teaching and Learning – Research",
+          "url": "https://education.ufl.edu/research/funded-projects/school-of-teaching-and-learning",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/files/2024/06/External-Annual-Report-FY2023_Published.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/research/files/2024/06/External-Annual-Report-FY2023_Published.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2021/08/Studying-Child-Care-Access_10-31-21.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/research/files/2021/08/Studying-Child-Care-Access_10-31-21.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2021/07/Initial-Efficacy-Trial-of-Florida-Embedded-Practices_06-30-25.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/research/files/2021/07/Initial-Efficacy-Trial-of-Florida-Embedded-Practices_06-30-25.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2021/04/VALI_06-30-24.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/research/files/2021/04/VALI_06-30-24.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2021/04/Developing-and-Evaluating_7-31-24.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/research/files/2021/04/Developing-and-Evaluating_7-31-24.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2021/03/Building-a-Statewide-System-for-Inclusion_9-30-21.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/research/files/2021/03/Building-a-Statewide-System-for-Inclusion_9-30-21.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2020/11/Practice-Based-Coaching_09-30-24.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/research/files/2020/11/Practice-Based-Coaching_09-30-24.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-educational-research",
+      "baseUrl": "https://education.ufl.edu/educational-research/",
+      "title": "Office of Educational Research Home - Office of Educational Research",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Office of Educational Research Home - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award",
+          "title": "Pre-Award - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/administration-and-staff",
+          "title": "Pre-Award Administration and Staff - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/administration-and-staff",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/research-support",
+          "title": "Proposal Support - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/research-support",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/research-support/intent-to-submit-form",
+          "title": "Intent to Submit Form - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/research-support/intent-to-submit-form",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/research-support/resources",
+          "title": "Resources - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/research-support/resources",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/research-support/requirements",
+          "title": "Requirements - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/research-support/requirements",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/research-support/faq",
+          "title": "Proposal-Related FAQs - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/research-support/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/research-communication",
+          "title": "Research Communication - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/research-communication",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/research-bulletin",
+          "title": "Research Bulletin - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/research-bulletin",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/research-spotlights",
+          "title": "Research Spotlights - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/research-spotlights",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/annual-report",
+          "title": "Annual Report - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/annual-report",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/funding",
+          "title": "Funding - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/funding",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/funding/funding-opportunities",
+          "title": "Funding Opportunities - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/funding/funding-opportunities",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/faculty-development",
+          "title": "Faculty Development - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/faculty-development",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/faculty-awards",
+          "title": "Faculty Awards - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/faculty-awards",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/faqs",
+          "title": "Pre-award FAQs - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/faqs",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/pre-award/contact-us",
+          "title": "Contact Pre-Award - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/contact-us",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/post-award",
+          "title": "Post-Award - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/post-award",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/post-award/administration-and-staff",
+          "title": "Administration and Staff - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/post-award/administration-and-staff",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-connect",
+      "baseUrl": "https://education.ufl.edu/connect/",
+      "title": "Connect - UF College of Education",
+      "detectionMethod": "meta",
+      "detectionConfidence": "medium",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Connect - UF College of Education",
+          "url": "https://education.ufl.edu/connect/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-student-services",
+      "baseUrl": "https://education.ufl.edu/student-services/",
+      "title": "Welcome to EduGator Central - Student Services",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Welcome to EduGator Central - Student Services",
+          "url": "https://education.ufl.edu/student-services/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/advising",
+          "title": "Advising - Student Services",
+          "url": "https://education.ufl.edu/student-services/advising",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/fieldexperience",
+          "title": "Field Experience - Student Services",
+          "url": "https://education.ufl.edu/student-services/fieldexperience",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/scholarships",
+          "title": "Funding - Student Services",
+          "url": "https://education.ufl.edu/student-services/scholarships",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/certificate",
+          "title": "Certification and Professional Development - Student Services",
+          "url": "https://education.ufl.edu/student-services/certificate",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/coe-student-ambassadors",
+          "title": "College of Education Student Ambassadors - Student Services",
+          "url": "https://education.ufl.edu/student-services/coe-student-ambassadors",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/graduate-online-services",
+          "title": "Graduate Online Services/Support - Student Services",
+          "url": "https://education.ufl.edu/student-services/graduate-online-services",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/team",
+          "title": "EduGator Central Team Members - Student Services",
+          "url": "https://education.ufl.edu/student-services/team",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/contact-us",
+          "title": "Contact Us - Student Services",
+          "url": "https://education.ufl.edu/student-services/contact-us",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/undergraduate-research",
+          "title": "Undergraduate Research - Student Services",
+          "url": "https://education.ufl.edu/student-services/undergraduate-research",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2025/10/22/edugator-newsletter-october-22-2025",
+          "title": "EduGator Newsletter |October 22, 2025 - Student Services",
+          "url": "https://education.ufl.edu/student-services/2025/10/22/edugator-newsletter-october-22-2025",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2025/10/08/edugator-newsletter-october-8-2025",
+          "title": "EduGator Newsletter |October 8, 2025 - Student Services",
+          "url": "https://education.ufl.edu/student-services/2025/10/08/edugator-newsletter-october-8-2025",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2025/10/01/edugator-newsletter-october-1-2025",
+          "title": "EduGator Newsletter |October 1, 2025 - Student Services",
+          "url": "https://education.ufl.edu/student-services/2025/10/01/edugator-newsletter-october-1-2025",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/page/2",
+          "title": "Welcome to EduGator Central - Student Services",
+          "url": "https://education.ufl.edu/student-services/page/2",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/edugator-newsletters",
+          "title": "EduGator Newsletter - Student Services",
+          "url": "https://education.ufl.edu/student-services/edugator-newsletters",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/files/2024/08/Petition-to-substitute-for-a-required-course-fillablepdf.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/student-services/files/2024/08/Petition-to-substitute-for-a-required-course-fillablepdf.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2024/03/Waiver-request.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/student-services/files/2024/03/Waiver-request.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2025/02/EDG4910-Enrollment-Request.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/student-services/files/2025/02/EDG4910-Enrollment-Request.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2025/02/PIP-Template-020325.docx",
+          "title": null,
+          "url": "https://education.ufl.edu/student-services/files/2025/02/PIP-Template-020325.docx",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2024/08/Updated-06.17.24-UF-COE-INTERNSHIP-HANDBOOK.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/student-services/files/2024/08/Updated-06.17.24-UF-COE-INTERNSHIP-HANDBOOK.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-alumni",
+      "baseUrl": "https://education.ufl.edu/alumni/",
+      "title": "Home- Alumni & Giving - Alumni",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Home- Alumni & Giving - Alumni",
+          "url": "https://education.ufl.edu/alumni/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/alumni",
+          "title": "Alumni - Alumni",
+          "url": "https://education.ufl.edu/alumni/alumni",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/alumni-awards",
+          "title": "Alumni Awards - Alumni",
+          "url": "https://education.ufl.edu/alumni/alumni-awards",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/patterson"
+          ]
+        },
+        {
+          "path": "/edugators-stories",
+          "title": "EduGators Stories - Alumni",
+          "url": "https://education.ufl.edu/alumni/edugators-stories",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/stay-connected",
+          "title": "Stay Connected - Alumni",
+          "url": "https://education.ufl.edu/alumni/stay-connected",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/making-an-impact",
+          "title": "Give to UF - Alumni",
+          "url": "https://education.ufl.edu/alumni/making-an-impact",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/making-an-impact/giving-overview",
+          "title": "Giving Overview - Alumni",
+          "url": "https://education.ufl.edu/alumni/making-an-impact/giving-overview",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/impact"
+          ]
+        },
+        {
+          "path": "/annual-giving",
+          "title": "Annual Giving - Alumni",
+          "url": "https://education.ufl.edu/alumni/annual-giving",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/deans-leadership-circle",
+          "title": "Dean's Leadership Circle - Alumni",
+          "url": "https://education.ufl.edu/alumni/deans-leadership-circle",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/about-us",
+          "title": "About Us - Alumni",
+          "url": "https://education.ufl.edu/alumni/about-us",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/resources",
+          "title": "Resources - Alumni",
+          "url": "https://education.ufl.edu/alumni/resources",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/2025/10/22/recent-college-of-education-graduate-advocates-for-students-with-disabilities",
+          "title": "Recent College of Education graduate advocates for students with disabilities - Alumni",
+          "url": "https://education.ufl.edu/alumni/2025/10/22/recent-college-of-education-graduate-advocates-for-students-with-disabilities",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/education-sciences"
+          ]
+        },
+        {
+          "path": "/category/alumni",
+          "title": "Alumni Archives - Alumni",
+          "url": "https://education.ufl.edu/alumni/category/alumni",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/2025/08/21/helen-gilbart-story",
+          "title": "Tampa Retiree Believes Technology Inspires Learning - Alumni",
+          "url": "https://education.ufl.edu/alumni/2025/08/21/helen-gilbart-story",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/category/uncategorized",
+          "title": "Uncategorized Archives - Alumni",
+          "url": "https://education.ufl.edu/alumni/category/uncategorized",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/2025/08/21/michael-gengler-story",
+          "title": "Lawyer Honors Teachers With Gift to UF’s College of Education - Alumni",
+          "url": "https://education.ufl.edu/alumni/2025/08/21/michael-gengler-story",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/page/2",
+          "title": "Home- Alumni & Giving - Alumni",
+          "url": "https://education.ufl.edu/alumni/page/2",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        },
+        {
+          "path": "/2025/05/23/your-story-your-impact-stakeholders-day-2025",
+          "title": "Your Story, Your Impact: Stakeholder's Day 2025 - Alumni",
+          "url": "https://education.ufl.edu/alumni/2025/05/23/your-story-your-impact-stakeholders-day-2025",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/administration/glenn-good"
+          ]
+        },
+        {
+          "path": "/2025/05/01/uf-recognizes-edugator-alumni-as-2025-40-gators-under-40-honorees",
+          "title": "UF recognizes Edugator alumni as 2025 40 Gators under 40 honorees - Alumni",
+          "url": "https://education.ufl.edu/alumni/2025/05/01/uf-recognizes-edugator-alumni-as-2025-40-gators-under-40-honorees",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/tlsi"
+          ]
+        },
+        {
+          "path": "/impact/james-patterson-scholars",
+          "title": "James Patterson Scholars - Alumni",
+          "url": "https://education.ufl.edu/alumni/impact/james-patterson-scholars",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/alumni",
+            "https://education.ufl.edu/admissions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-news",
+      "baseUrl": "https://education.ufl.edu/news/",
+      "title": "UF College of Education | News",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "UF College of Education | News",
+          "url": "https://education.ufl.edu/news/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/all-news",
+          "title": "All News - News",
+          "url": "https://education.ufl.edu/news/all-news",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/contact",
+          "title": "Share your news - News",
+          "url": "https://education.ufl.edu/news/contact",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/category/alumni",
+          "title": "Alumni Archives - News",
+          "url": "https://education.ufl.edu/news/category/alumni",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/category/awards",
+          "title": "Awards Archives - News",
+          "url": "https://education.ufl.edu/news/category/awards",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/category/press-release",
+          "title": "Press Release Archives - News",
+          "url": "https://education.ufl.edu/news/category/press-release",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/category/grants-research",
+          "title": "Grants and Research Archives - News",
+          "url": "https://education.ufl.edu/news/category/grants-research",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/category/students",
+          "title": "Students Archives - News",
+          "url": "https://education.ufl.edu/news/category/students",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2025/04/08/rising-beyond-uf-college-of-education-among-americas-top-5-public-graduate-education-schools",
+          "title": "Rising Beyond: UF College of Education Among America’s Top 5 Public Graduate Education Schools - News",
+          "url": "https://education.ufl.edu/news/2025/04/08/rising-beyond-uf-college-of-education-among-americas-top-5-public-graduate-education-schools",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2025/01/19/uf-demonstrates-a-decade-of-distinction-in-enhancing-education-through-online-offerings",
+          "title": "UF demonstrates a decade of distinction in enhancing education through online offerings - News",
+          "url": "https://education.ufl.edu/news/2025/01/19/uf-demonstrates-a-decade-of-distinction-in-enhancing-education-through-online-offerings",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2024/12/04/the-university-of-florida-pilots-goreacts-ai-assisted-feedback-tool-to-advance-teacher-preparation",
+          "title": "The University of Florida pilots GoReact’s AI-assisted feedback tool to advance teacher preparation - News",
+          "url": "https://education.ufl.edu/news/2024/12/04/the-university-of-florida-pilots-goreacts-ai-assisted-feedback-tool-to-advance-teacher-preparation",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2024/10/01/serving-students-with-disabilities-ufs-google-funded-program-makes-computer-science-education-accessible-for-all",
+          "title": "Serving students with disabilities, UF’s Google-funded program makes computer science education accessible for all - News",
+          "url": "https://education.ufl.edu/news/2024/10/01/serving-students-with-disabilities-ufs-google-funded-program-makes-computer-science-education-accessible-for-all",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2024/06/30/veterans-take-on-cybersecurity-uf-trains-veterans-in-hardware-defense",
+          "title": "Veterans Take on Cybersecurity: UF Trains Veterans in Hardware Defense - News",
+          "url": "https://education.ufl.edu/news/2024/06/30/veterans-take-on-cybersecurity-uf-trains-veterans-in-hardware-defense",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2023/11/01/uf-team-seeks-to-double-math-learning-through-ai",
+          "title": "UF team seeks to double math learning through AI - News",
+          "url": "https://education.ufl.edu/news/2023/11/01/uf-team-seeks-to-double-math-learning-through-ai",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2024/03/27/author-james-patterson-launches-transformational-literacy-classrooms",
+          "title": "Author James Patterson Launches Transformational Literacy Classrooms - News",
+          "url": "https://education.ufl.edu/news/2024/03/27/author-james-patterson-launches-transformational-literacy-classrooms",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2023/12/05/university-of-floridas-college-of-education-to-expand-undergraduate-research-and-transform-math-learning-statewide",
+          "title": "University of Florida’s College of Education to expand undergraduate research and transform math learning statewide - News",
+          "url": "https://education.ufl.edu/news/2023/12/05/university-of-floridas-college-of-education-to-expand-undergraduate-research-and-transform-math-learning-statewide",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2025/09/16/fulbright-hays-award-winning-doctoral-candidate-explores-cote-divoire",
+          "title": "Fulbright-Hays award-winning doctoral candidate explores Côte d’Ivoire - News",
+          "url": "https://education.ufl.edu/news/2025/09/16/fulbright-hays-award-winning-doctoral-candidate-explores-cote-divoire",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2025/07/23/uf-faculty-receives-nsf-career-grant-to-address-stem-workforce-skill-gaps",
+          "title": "UF faculty receives NSF CAREER grant to address STEM workforce skill gaps - News",
+          "url": "https://education.ufl.edu/news/2025/07/23/uf-faculty-receives-nsf-career-grant-to-address-stem-workforce-skill-gaps",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2025/07/18/uf-assistant-professor-chris-thomas-awarded-with-spencer-postdoctoral-fellowship",
+          "title": "UF Assistant Professor Chris Thomas awarded with Spencer Postdoctoral Fellowship - News",
+          "url": "https://education.ufl.edu/news/2025/07/18/uf-assistant-professor-chris-thomas-awarded-with-spencer-postdoctoral-fellowship",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/2025/06/16/college-of-education-professor-spearheads-fulbright-funded-research-in-malta",
+          "title": "College of Education Professor Spearheads Fulbright-Funded Research in Malta - News",
+          "url": "https://education.ufl.edu/news/2025/06/16/college-of-education-professor-spearheads-fulbright-funded-research-in-malta",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/news",
+            "https://education.ufl.edu/faculty",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/contact",
+            "https://education.ufl.edu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-etc",
+      "baseUrl": "https://education.ufl.edu/etc/",
+      "title": "Homepage - E-Learning, Technology and Communications",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Homepage - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/about",
+          "title": "About - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/about",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/services",
+          "title": "Services - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/services",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/work",
+          "title": "Work - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/work",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/team",
+          "title": "Team - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/team",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/resources",
+          "title": "Resources - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/resources",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/contact",
+          "title": "Contact - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/contact",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/services/communications",
+          "title": "Communications - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/services/communications",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/services/development",
+          "title": "Web and Application Development - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/services/development",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu/helpdesk",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/services/videography",
+          "title": "Videography - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/services/videography",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "https://education.ufl.edu/helpdesk",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/services/instructional-design",
+          "title": "Instructional Design - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/services/instructional-design",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "https://education.ufl.edu/coe-online/online-accolades",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/services/graphic-design",
+          "title": "Graphic Design - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/services/graphic-design",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/services/instructional-technology",
+          "title": "Instructional Technology - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/services/instructional-technology",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/work/online-dyslexia-certificate",
+          "title": "Online Dyslexia Certficiate - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/work/online-dyslexia-certificate",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/services/web-design",
+          "title": null,
+          "url": "https://education.ufl.edu/etc/services/web-design",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/services/software-development",
+          "title": "Page not found - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/services/software-development",
+          "isLive": false,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/casestudy_iihs",
+          "title": "IIHS - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/casestudy_iihs",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/a-to-z-of-early-childhood",
+          "title": "A to Z early childhood - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/a-to-z-of-early-childhood",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/collective-of-beautiful-minds-the-uf-institute-for-advanced-learning-technologies-documentary",
+          "title": "Collective of Beautiful Minds - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/collective-of-beautiful-minds-the-uf-institute-for-advanced-learning-technologies-documentary",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/helpdesk"
+          ]
+        },
+        {
+          "path": "/work/abovethenorm",
+          "title": "#AboveTheNorm - E-Learning, Technology and Communications",
+          "url": "https://education.ufl.edu/etc/work/abovethenorm",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/etc",
+            "https://education.ufl.edu/abovethenorm",
+            "https://education.ufl.edu/abovethenorm/2018/06/08/whats-in-those-norman-hall-lockers",
+            "http://education.ufl.edu",
+            "https://education.ufl.edu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-about",
+      "baseUrl": "https://education.ufl.edu/about/",
+      "title": "About - UF College of Education",
+      "detectionMethod": "meta",
+      "detectionConfidence": "medium",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "About - UF College of Education",
+          "url": "https://education.ufl.edu/about/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/mission-and-history",
+          "title": "Mission and History - UF College of Education",
+          "url": "https://education.ufl.edu/about/mission-and-history",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/facts",
+          "title": "Facts and Figures - UF College of Education",
+          "url": "https://education.ufl.edu/about/facts",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/schools",
+          "title": "Schools - UF College of Education",
+          "url": "https://education.ufl.edu/about/schools",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-administration",
+      "baseUrl": "https://education.ufl.edu/administration/",
+      "title": "Administration – University of Florida – College of Education",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Administration – University of Florida – College of Education",
+          "url": "https://education.ufl.edu/administration/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/administration",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs"
+          ]
+        },
+        {
+          "path": "/academic-affairs",
+          "title": "Academic Affairs – Administration",
+          "url": "https://education.ufl.edu/administration/academic-affairs",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/business-office",
+          "title": "Business Office – Administration",
+          "url": "https://education.ufl.edu/administration/business-office",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/administrative-profiles",
+          "title": "Administrative Profiles – Administration",
+          "url": "https://education.ufl.edu/administration/administrative-profiles",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/human-resources",
+          "title": "Human Resources – Administration",
+          "url": "https://education.ufl.edu/administration/human-resources",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/post-award-services",
+          "title": "Post-Award Services – Administration",
+          "url": "https://education.ufl.edu/administration/post-award-services",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/academic-affairs/academic-learning-compacts",
+          "title": "Academic Learning Compacts – Administration",
+          "url": "https://education.ufl.edu/administration/academic-affairs/academic-learning-compacts",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/forms-procedures-policies-for-faculty-development",
+          "title": "Forms, Procedures, & Policies for Faculty Development – Administration",
+          "url": "https://education.ufl.edu/administration/forms-procedures-policies-for-faculty-development",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/files/2025/01/COE-Organizational-Chart_2025.01.21.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/administration/files/2025/01/COE-Organizational-Chart_2025.01.21.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/elayne-colon",
+          "title": "Elayne Colón – Administration",
+          "url": "https://education.ufl.edu/administration/elayne-colon",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/files/2011/01/HDOSE-Bylaw-07072012.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/administration/files/2011/01/HDOSE-Bylaw-07072012.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2011/01/SESPECS-Bylaws-Policies-and-Procedures.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/administration/files/2011/01/SESPECS-Bylaws-Policies-and-Procedures.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2023/04/STLbylaws_revised-2_7_23.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/administration/files/2023/04/STLbylaws_revised-2_7_23.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2011/01/Faculty-Summer-Compensation-Policy-042511.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/administration/files/2011/01/Faculty-Summer-Compensation-Policy-042511.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/thomasenia-adams",
+          "title": "Thomasenia Adams – Administration",
+          "url": "https://education.ufl.edu/administration/thomasenia-adams",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/glenn-good",
+          "title": "Glenn Good – Administration",
+          "url": "https://education.ufl.edu/administration/glenn-good",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/erica-mccray",
+          "title": "Erica McCray – Administration",
+          "url": "https://education.ufl.edu/administration/erica-mccray",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/files/2011/01/SESPECS_Merit_Policy.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/administration/files/2011/01/SESPECS_Merit_Policy.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2016/09/STL-Merit-Policy-Approved-Jan2015.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/administration/files/2016/09/STL-Merit-Policy-Approved-Jan2015.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2011/01/Search-Procedures-Revised-9-7-06.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/administration/files/2011/01/Search-Procedures-Revised-9-7-06.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-faculty",
+      "baseUrl": "https://education.ufl.edu/faculty/",
+      "title": "COE Faculty - Faculty",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "COE Faculty - Faculty",
+          "url": "https://education.ufl.edu/faculty/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-impact",
+      "baseUrl": "https://education.ufl.edu/impact/",
+      "title": "2025 Impact - UF College of Education Impact Report",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "2025 Impact - UF College of Education Impact Report",
+          "url": "https://education.ufl.edu/impact/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/impact",
+            "https://education.ufl.edu/faculty/israel-maya",
+            "https://education.ufl.edu/news/2024/12/04/the-university-of-florida-pilots-goreacts-ai-assisted-feedback-tool-to-advance-teacher-preparation",
+            "https://education.ufl.edu/faculty/dassa-lori"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-educator-quality",
+      "baseUrl": "https://education.ufl.edu/educator-quality/",
+      "title": "Educator Quality – College of Education Site",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Educator Quality – College of Education Site",
+          "url": "https://education.ufl.edu/educator-quality/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs"
+          ]
+        },
+        {
+          "path": "/educator-standards",
+          "title": "Educator Standards – Educator Quality",
+          "url": "https://education.ufl.edu/educator-quality/educator-standards",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/title-ii-institutional-report",
+          "title": "Title II Institutional Report – Educator Quality",
+          "url": "https://education.ufl.edu/educator-quality/title-ii-institutional-report",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/files/2025/04/Value-Added-Model.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2025/04/Value-Added-Model.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2025/04/2022-2023-Overall-College-ITP-Program-Summary-copy.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2025/04/2022-2023-Overall-College-ITP-Program-Summary-copy.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2025/04/2022-2023-Ed-Leadership.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2025/04/2022-2023-Ed-Leadership.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2025/04/2022-2023-School-Counseling.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2025/04/2022-2023-School-Counseling.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2025/04/2022-2023-School-Psychology.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2025/04/2022-2023-School-Psychology.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2025/04/Title-II-1.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2025/04/Title-II-1.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2025/04/Employment.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2025/04/Employment.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/caep-accountability-measures-previous-years",
+          "title": "CAEP Accountability Measures – Previous Years – Educator Quality",
+          "url": "https://education.ufl.edu/educator-quality/caep-accountability-measures-previous-years",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi",
+            "https://education.ufl.edu/coe-online",
+            "https://education.ufl.edu/coe-online/programs",
+            "https://education.ufl.edu/student-services"
+          ]
+        },
+        {
+          "path": "/files/2019/12/FEAPs-Agricultural-Education-Bachelor-19-20.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2019/12/FEAPs-Agricultural-Education-Bachelor-19-20.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2019/12/ESOL-Agricultural-Education-Bachelors-19-20.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2019/12/ESOL-Agricultural-Education-Bachelors-19-20.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2019/12/REC-AgriculturalEducation-Bach-19-20.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2019/12/REC-AgriculturalEducation-Bach-19-20.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2017/01/Agricultural-Education-B-Subject-Area-Matrix_22nd-Edition.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2017/01/Agricultural-Education-B-Subject-Area-Matrix_22nd-Edition.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2023/12/Agricultural-Education-Bachelors.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2023/12/Agricultural-Education-Bachelors.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2019/12/FEAPs-Agricultural-Education-Masters-19-20.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2019/12/FEAPs-Agricultural-Education-Masters-19-20.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2019/12/ESOL-Agricultural-Education-Masters-19-20.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2019/12/ESOL-Agricultural-Education-Masters-19-20.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2019/12/Reading-Agricultural-Education-Masters-19-20.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2019/12/Reading-Agricultural-Education-Masters-19-20.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2017/01/Agricultural-Education-M-Subject-Area-Matrix_22nd-Edition.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educator-quality/files/2017/01/Agricultural-Education-M-Subject-Area-Matrix_22nd-Edition.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-contact",
+      "baseUrl": "https://education.ufl.edu/contact/",
+      "title": "Contact - UF College of Education",
+      "detectionMethod": "meta",
+      "detectionConfidence": "medium",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Contact - UF College of Education",
+          "url": "https://education.ufl.edu/contact/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/directory",
+          "title": "College Staff Directory - UF College of Education",
+          "url": "https://education.ufl.edu/contact/directory",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-helpdesk",
+      "baseUrl": "https://education.ufl.edu/helpdesk/",
+      "title": "Home - EduGator Helpdesk",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Home - EduGator Helpdesk",
+          "url": "https://education.ufl.edu/helpdesk/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/admissions/undergraduate-programs",
+            "https://education.ufl.edu/admissions/graduate-programs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-future-edugators",
+      "baseUrl": "https://education.ufl.edu/future-edugators/",
+      "title": "Future EduGators - UF College of Education",
+      "detectionMethod": "meta",
+      "detectionConfidence": "medium",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Future EduGators - UF College of Education",
+          "url": "https://education.ufl.edu/future-edugators/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-current-edugators",
+      "baseUrl": "https://education.ufl.edu/current-edugators/",
+      "title": "Current EduGators - UF College of Education",
+      "detectionMethod": "meta",
+      "detectionConfidence": "medium",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Current EduGators - UF College of Education",
+          "url": "https://education.ufl.edu/current-edugators/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-help-and-support",
+      "baseUrl": "https://education.ufl.edu/help-and-support/",
+      "title": "Home - EduGator Helpdesk",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Home - EduGator Helpdesk",
+          "url": "https://education.ufl.edu/help-and-support/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/admissions/undergraduate-programs",
+            "https://education.ufl.edu/admissions/graduate-programs"
+          ]
+        }
+      ]
+    }
+  ]
+}
