@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
-import GridView from '../components/GridView';
+import InteractiveDataExplorer from '../components/InteractiveDataExplorer';
 import { CrawlResult } from '../types/data';
 import { readFile } from 'fs/promises';
 import { join } from 'path';
 
 export const metadata: Metadata = {
-  title: 'Web Ecosystem Map | UF College of Education',
-  description: 'Interactive visualization of UF College of Education web ecosystem',
+  title: 'Interactive Data Explorer | UF College of Education',
+  description: 'Advanced visualization of UF College of Education web ecosystem',
 };
 
 async function getData(): Promise<CrawlResult> {
@@ -31,23 +31,28 @@ export default async function MapPage() {
 
   if (data.subsiteCount === 0) {
     return (
-      <div className="flex items-center justify-center min-h-screen bg-gray-100">
-        <div className="bg-white rounded-lg shadow-lg p-8 max-w-md">
-          <h1 className="text-2xl font-bold mb-4">No Data Available</h1>
-          <p className="text-gray-600 mb-4">
-            The web ecosystem map data is not available. Please run the crawler first to
-            generate the data.
-          </p>
-          <div className="bg-gray-50 p-4 rounded-md">
-            <p className="text-sm font-mono text-gray-800">
-              cd crawler && npm install && npm run dev
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
+        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-2xl p-8 max-w-md border border-gray-200 dark:border-gray-700">
+          <div className="text-center">
+            <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-700 rounded-full flex items-center justify-center text-white text-3xl mx-auto mb-4 shadow-lg shadow-blue-500/30">
+              🎓
+            </div>
+            <h1 className="text-2xl font-bold mb-4 text-gray-900 dark:text-gray-100">No Data Available</h1>
+            <p className="text-gray-600 dark:text-gray-400 mb-6">
+              The web ecosystem map data is not available. Please run the crawler first to
+              generate the data.
             </p>
+            <div className="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg border border-gray-200 dark:border-gray-700">
+              <p className="text-sm font-mono text-gray-800 dark:text-gray-200">
+                cd crawler && npm install && npm run dev
+              </p>
+            </div>
           </div>
         </div>
       </div>
     );
   }
 
-  return <GridView data={data} />;
+  return <InteractiveDataExplorer data={data} />;
 }
 
