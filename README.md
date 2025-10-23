@@ -4,15 +4,39 @@ A web crawler and visualization tool for discovering and mapping WordPress insta
 
 ---
 
+## Background & Impact
+
+### The Problem
+
+The College of Education previously lacked a reliable way to distinguish which URLs under `education.ufl.edu` were independent WordPress installations (separate site instances with their own dashboards) versus pages belonging to those installations. This ambiguity created operational risks: updates performed in one installation's dashboard did not affect other installations, making it hazardous to coordinate fixes or roll out changes without clear visibility into the web footprint.
+
+### The Solution
+
+After joining the web team, I implemented this automated crawler, data pipeline, and interactive frontend to address that gap. The system:
+
+- **Discovers** WordPress site instances hosted at subpaths under the domain
+- **Groups** pages by their parent installation using WordPress REST API detection
+- **Exposes** the results in a searchable, sortable interface with expandable site-instance cards
+
+### Real-World Impact
+
+This tool gives the team clear, auditable visibility into the college's web ecosystem, which directly supports:
+
+- **Safe coordination** - Apply fixes and upgrades confidently across independent installations
+- **Migration planning** - Identify consolidation opportunities and plan content migrations
+- **Systematic audits** - Perform accessibility, content ownership, and architectural reviews at scale
+
+---
+
 ## Overview
 
 This tool helps organizations understand their WordPress web ecosystem by:
 - Automatically discovering WordPress installations across a domain
-- Detecting WordPress sites using multiple fallback methods
+- Detecting WordPress sites using multiple fallback methods (REST API → assets → meta tags)
 - Cataloging all pages within each installation
 - Providing a searchable, filterable web interface for exploration
 
-**Use Case**: Organizations with complex multi-site WordPress deployments need visibility into their full web ecosystem for information architecture planning, migration projects, and content audits.
+**Technical Approach**: The crawler uses a 3-tier detection fallback to reliably identify WordPress installations, queries the WordPress REST API for accurate page counts, and outputs structured JSON data consumed by an accessible Next.js frontend.
 
 ---
 
