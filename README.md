@@ -8,23 +8,24 @@ A web crawler and visualization tool for discovering and mapping WordPress insta
 
 ### The Problem
 
-The College of Education previously lacked a reliable way to distinguish which URLs under `education.ufl.edu` were independent WordPress installations (separate site instances with their own dashboards) versus pages belonging to those installations. This ambiguity created operational risks: updates performed in one installation's dashboard did not affect other installations, making it hazardous to coordinate fixes or roll out changes without clear visibility into the web footprint.
+The College of Education previously lacked a reliable way to distinguish which URLs under `education.ufl.edu` were independent WordPress installations (separate site instances with their own dashboards) versus pages belonging to those installations.  
+This ambiguity created operational risks: updates performed in one installation's dashboard did not affect others, making it difficult to coordinate fixes, roll out changes, or plan migrations without clear visibility into the college's web footprint.
 
 ### The Solution
 
-After joining the web team, I implemented this automated crawler, data pipeline, and interactive frontend to address that gap. The system:
+After joining the web team, I developed this automated crawler, data pipeline, and interactive frontend to address that gap. The system:
 
-- **Discovers** WordPress site instances hosted at subpaths under the domain
-- **Groups** pages by their parent installation using WordPress REST API detection
-- **Exposes** the results in a searchable, sortable interface with expandable site-instance cards
+- Discovers WordPress site instances hosted at subpaths under the domain  
+- Groups pages by their parent installation using WordPress REST API detection  
+- Presents results in a clean, searchable, and sortable interface with expandable site-instance cards  
 
 ### Real-World Impact
 
-This tool gives the team clear, auditable visibility into the college's web ecosystem, which directly supports:
+The tool now provides the team with clear, auditable visibility into the College of Education's web ecosystem, enabling:
 
-- **Safe coordination** - Apply fixes and upgrades confidently across independent installations
-- **Migration planning** - Identify consolidation opportunities and plan content migrations
-- **Systematic audits** - Perform accessibility, content ownership, and architectural reviews at scale
+- **Safe coordination** — Apply fixes and upgrades confidently across independent installations  
+- **Migration planning** — Identify consolidation opportunities and plan content migrations  
+- **Systematic audits** — Perform accessibility, content ownership, and architectural reviews at scale
 
 ---
 
