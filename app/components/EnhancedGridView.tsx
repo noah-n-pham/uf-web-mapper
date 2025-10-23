@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { CrawlResult } from '../types/data';
 import EnhancedSubsiteCard from './EnhancedSubsiteCard';
 import { useMap } from './MapProvider';
-import { Search, X, TrendingUp, FileText, Globe } from 'lucide-react';
+import { Search, X, TrendingUp, FileText, Globe, ChevronDown } from 'lucide-react';
 
 interface EnhancedGridViewProps {
   data: CrawlResult;
@@ -52,8 +52,15 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
   const stats = useMemo(() => {
     const totalPages = data.subsites.reduce((sum, s) => sum + s.pages.length, 0);
     const liveSubsites = data.subsites.filter(s => s.isLive).length;
-    const avgPagesPerSite = Math.round(totalPages / data.subsiteCount);
-    return { totalPages, liveSubsites, avgPagesPerSite };
+    
+    // Calculate median pages per site
+    const pageCounts = data.subsites.map(s => s.pages.length).sort((a, b) => a - b);
+    const mid = Math.floor(pageCounts.length / 2);
+    const medianPagesPerSite = pageCounts.length % 2 === 0
+      ? Math.round((pageCounts[mid - 1] + pageCounts[mid]) / 2)
+      : pageCounts[mid];
+    
+    return { totalPages, liveSubsites, medianPagesPerSite };
   }, [data.subsites, data.subsiteCount]);
 
   return (
@@ -129,7 +136,7 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
               </div>
             </motion.div>
 
-            {/* Average metric */}
+            {/* Median metric */}
             <motion.div
               whileHover={{ scale: 1.02, y: -2 }}
               className="rounded-xl p-6 text-white shadow-xl relative overflow-hidden"
@@ -138,15 +145,15 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
                 boxShadow: '0 10px 30px -5px rgba(168, 85, 247, 0.5), 0 0 0 1px rgba(168, 85, 247, 0.1)' 
               }}
               role="listitem"
-              aria-label={`${stats.avgPagesPerSite} average pages per WordPress site`}
+              aria-label={`${stats.medianPagesPerSite} median pages per WordPress site`}
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-transparent" aria-hidden="true"></div>
               <div className="relative z-10">
                 <div className="flex items-center justify-between mb-2">
                   <TrendingUp className="w-8 h-8 drop-shadow-md" aria-hidden="true" />
-                  <span className="text-sm font-semibold tracking-wide">Average Pages</span>
+                  <span className="text-sm font-semibold tracking-wide">Median Pages</span>
                 </div>
-                <div className="text-4xl font-bold mb-1 drop-shadow-sm">{stats.avgPagesPerSite}</div>
+                <div className="text-4xl font-bold mb-1 drop-shadow-sm">{stats.medianPagesPerSite}</div>
                 <div className="text-sm font-medium opacity-95">Per WordPress site</div>
               </div>
             </motion.div>
@@ -163,7 +170,7 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
             Last crawled: {new Date(data.crawlTimestamp).toLocaleString()}
           </motion.div>
         </div>
-      </div>
+      </section>
 
       {/* Search and filters */}
       <section 
@@ -214,7 +221,7 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
             </div>
 
             {/* Sort */}
-            <div>
+            <div className="relative">
               <label htmlFor="sort-select" className="sr-only">
                 Sort subsites by
               </label>
@@ -222,19 +229,27 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
                 id="sort-select"
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
-                className="px-4 py-2.5 rounded-lg focus:outline-none focus:ring-2 transition-all cursor-pointer"
+                className="pl-4 pr-12 py-2.5 rounded-lg focus:outline-none focus:ring-2 transition-all cursor-pointer appearance-none"
                 style={{
                   background: 'var(--bg-tertiary)',
                   borderWidth: '1px',
                   borderColor: 'var(--border-secondary)',
                   color: 'var(--text-primary)',
-                  boxShadow: 'var(--shadow-sm)'
+                  boxShadow: 'var(--shadow-sm)',
+                  appearance: 'none',
+                  WebkitAppearance: 'none',
+                  MozAppearance: 'none'
                 }}
                 aria-label="Sort subsites"
               >
                 <option value="name">Sort: Name</option>
                 <option value="pages">Sort: Page Count</option>
               </select>
+              <ChevronDown
+                className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4"
+                style={{ color: 'var(--text-muted)' }}
+                aria-hidden="true"
+              />
             </div>
           </div>
         </div>
