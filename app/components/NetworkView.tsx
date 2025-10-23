@@ -17,9 +17,9 @@ import ReactFlow, {
   MiniMap,
 } from 'reactflow';
 import 'reactflow/dist/style.css';
-import { CrawlResult, Subsite } from '../types/data';
+import { CrawlResult } from '../types/data';
 import { useMap } from './MapProvider';
-import { ChevronDown, ChevronRight, Search, ChevronLeft, ChevronRight as ChevronRightIcon, X, Undo2, Filter, Layers } from 'lucide-react';
+import { ChevronDown, ChevronRight, Search, ChevronLeft, ChevronRight as ChevronRightIcon, X, Undo2, Layers } from 'lucide-react';
 
 interface NetworkViewProps {
   data: CrawlResult;
@@ -31,16 +31,16 @@ interface NodeHistoryItem {
   newPosition: { x: number; y: number };
 }
 
-// Color palette for clusters
+// Color palette for clusters (vibrant and distinct)
 const clusterColors = [
-  { main: 'from-blue-500 to-blue-600', border: 'border-blue-700', shadow: 'shadow-blue-500/30', page: 'bg-blue-50 dark:bg-blue-900/20 border-blue-300 dark:border-blue-700' },
-  { main: 'from-emerald-500 to-emerald-600', border: 'border-emerald-700', shadow: 'shadow-emerald-500/30', page: 'bg-emerald-50 dark:bg-emerald-900/20 border-emerald-300 dark:border-emerald-700' },
-  { main: 'from-purple-500 to-purple-600', border: 'border-purple-700', shadow: 'shadow-purple-500/30', page: 'bg-purple-50 dark:bg-purple-900/20 border-purple-300 dark:border-purple-700' },
-  { main: 'from-pink-500 to-pink-600', border: 'border-pink-700', shadow: 'shadow-pink-500/30', page: 'bg-pink-50 dark:bg-pink-900/20 border-pink-300 dark:border-pink-700' },
-  { main: 'from-orange-500 to-orange-600', border: 'border-orange-700', shadow: 'shadow-orange-500/30', page: 'bg-orange-50 dark:bg-orange-900/20 border-orange-300 dark:border-orange-700' },
-  { main: 'from-teal-500 to-teal-600', border: 'border-teal-700', shadow: 'shadow-teal-500/30', page: 'bg-teal-50 dark:bg-teal-900/20 border-teal-300 dark:border-teal-700' },
-  { main: 'from-indigo-500 to-indigo-600', border: 'border-indigo-700', shadow: 'shadow-indigo-500/30', page: 'bg-indigo-50 dark:bg-indigo-900/20 border-indigo-300 dark:border-indigo-700' },
-  { main: 'from-cyan-500 to-cyan-600', border: 'border-cyan-700', shadow: 'shadow-cyan-500/30', page: 'bg-cyan-50 dark:bg-cyan-900/20 border-cyan-300 dark:border-cyan-700' },
+  { main: 'from-blue-500 to-blue-600', border: 'border-blue-700', shadow: 'shadow-blue-500/40', page: 'bg-blue-50 dark:bg-blue-900/20 border-blue-300 dark:border-blue-700 text-blue-900 dark:text-blue-100' },
+  { main: 'from-emerald-500 to-emerald-600', border: 'border-emerald-700', shadow: 'shadow-emerald-500/40', page: 'bg-emerald-50 dark:bg-emerald-900/20 border-emerald-300 dark:border-emerald-700 text-emerald-900 dark:text-emerald-100' },
+  { main: 'from-purple-500 to-purple-600', border: 'border-purple-700', shadow: 'shadow-purple-500/40', page: 'bg-purple-50 dark:bg-purple-900/20 border-purple-300 dark:border-purple-700 text-purple-900 dark:text-purple-100' },
+  { main: 'from-pink-500 to-pink-600', border: 'border-pink-700', shadow: 'shadow-pink-500/40', page: 'bg-pink-50 dark:bg-pink-900/20 border-pink-300 dark:border-pink-700 text-pink-900 dark:text-pink-100' },
+  { main: 'from-orange-500 to-orange-600', border: 'border-orange-700', shadow: 'shadow-orange-500/40', page: 'bg-orange-50 dark:bg-orange-900/20 border-orange-300 dark:border-orange-700 text-orange-900 dark:text-orange-100' },
+  { main: 'from-teal-500 to-teal-600', border: 'border-teal-700', shadow: 'shadow-teal-500/40', page: 'bg-teal-50 dark:bg-teal-900/20 border-teal-300 dark:border-teal-700 text-teal-900 dark:text-teal-100' },
+  { main: 'from-indigo-500 to-indigo-600', border: 'border-indigo-700', shadow: 'shadow-indigo-500/40', page: 'bg-indigo-50 dark:bg-indigo-900/20 border-indigo-300 dark:border-indigo-700 text-indigo-900 dark:text-indigo-100' },
+  { main: 'from-cyan-500 to-cyan-600', border: 'border-cyan-700', shadow: 'shadow-cyan-500/40', page: 'bg-cyan-50 dark:bg-cyan-900/20 border-cyan-300 dark:border-cyan-700 text-cyan-900 dark:text-cyan-100' },
 ];
 
 // Custom node components
@@ -53,32 +53,33 @@ function SubsiteNode({ data, selected }: any) {
     <motion.div
       initial={{ scale: 0.8, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
+      whileHover={{ scale: 1.08 }}
       transition={{ type: "spring", stiffness: 300, damping: 25 }}
-      className={`px-7 py-5 rounded-2xl border-3 shadow-xl min-w-[240px] max-w-[260px] bg-gradient-to-br transition-all ${
+      className={`px-8 py-6 rounded-2xl border-3 shadow-2xl min-w-[260px] max-w-[280px] bg-gradient-to-br transition-all ${
         isSearchMatch
-          ? 'from-yellow-500 to-yellow-600 border-yellow-700 shadow-yellow-500/50 ring-4 ring-yellow-300 dark:ring-yellow-500 scale-110'
+          ? 'from-amber-400 to-amber-500 border-amber-600 ring-4 ring-amber-300 dark:ring-amber-500 scale-110'
           : `${colorScheme.main} ${colorScheme.border} ${colorScheme.shadow}`
-      } ${selected || isExpanded ? 'scale-110' : 'hover:scale-105'} text-white cursor-pointer`}
+      } ${selected || isExpanded ? 'scale-110 ring-2 ring-white/30' : ''} text-white cursor-pointer`}
     >
-      <div className="flex items-start gap-2 mb-2">
+      <div className="flex items-start gap-3 mb-3">
         <div className="flex-shrink-0 mt-0.5">
           {isExpanded ? (
-            <ChevronDown className="w-5 h-5" />
+            <ChevronDown className="w-6 h-6 drop-shadow-lg" />
           ) : (
-            <ChevronRight className="w-5 h-5" />
+            <ChevronRight className="w-6 h-6 drop-shadow-lg" />
           )}
         </div>
         <div className="flex-1 min-w-0">
-          <div className="font-bold text-sm leading-tight line-clamp-3 break-words mb-1">
+          <div className="font-bold text-base leading-tight line-clamp-3 break-words mb-2 drop-shadow-md">
             {data.label}
           </div>
-          <div className="text-xs opacity-90 font-medium">
+          <div className="text-sm opacity-95 font-semibold">
             {data.pageCount} page{data.pageCount !== 1 ? 's' : ''}
           </div>
         </div>
       </div>
       {isExpanded && (
-        <div className="text-xs opacity-75 mt-2 pl-7">Click to collapse</div>
+        <div className="text-xs opacity-85 mt-2 pl-9 italic">Click to collapse</div>
       )}
     </motion.div>
   );
@@ -93,17 +94,18 @@ function PageNode({ data }: any) {
       initial={{ scale: 0, opacity: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       exit={{ scale: 0, opacity: 0 }}
+      whileHover={{ scale: 1.1 }}
       transition={{ type: "spring", stiffness: 400, damping: 20 }}
-      className={`px-4 py-2.5 rounded-lg border-2 shadow-lg min-w-[160px] max-w-[180px] transition-all cursor-pointer ${
+      className={`px-4 py-3 rounded-xl border-2 shadow-lg min-w-[180px] max-w-[200px] transition-all cursor-pointer ${
         isSearchMatch
-          ? 'bg-yellow-400 text-yellow-900 border-yellow-600 ring-4 ring-yellow-300 shadow-yellow-500/50 scale-110'
-          : `${colorScheme.page} border-2 hover:shadow-xl hover:scale-105`
+          ? 'bg-amber-300 dark:bg-amber-600 text-amber-900 dark:text-amber-50 border-amber-500 ring-4 ring-amber-300 shadow-amber-500/50 scale-110'
+          : colorScheme.page
       }`}
     >
-      <div className={`text-xs font-semibold truncate ${isSearchMatch ? 'text-yellow-900' : 'text-gray-800 dark:text-gray-200'}`}>
+      <div className="text-xs font-bold truncate drop-shadow-sm">
         {data.label}
       </div>
-      <div className={`text-xs mt-1 ${isSearchMatch ? 'text-yellow-700' : 'text-gray-600 dark:text-gray-400'}`}>
+      <div className="text-xs mt-1 opacity-75">
         {data.isLive ? '✓ Live' : '○ Offline'}
       </div>
     </motion.div>
@@ -134,43 +136,48 @@ export default function NetworkView({ data }: NetworkViewProps) {
     []
   );
 
-  // Calculate spiral/radial positioning for subsites
-  const calculateSpiralPosition = (index: number, total: number) => {
-    const centerX = 1200;
-    const centerY = 800;
+  // Hexagonal grid positioning for subsites (even distribution, no overlap)
+  const calculateHexagonalPosition = (index: number) => {
+    // Hexagonal grid parameters
+    const hexWidth = 650;   // Horizontal spacing (wide enough for expanded clusters)
+    const hexHeight = 550;  // Vertical spacing
+    const cols = 9;         // Number of columns
     
-    // Golden angle spiral for even distribution
-    const goldenAngle = Math.PI * (3 - Math.sqrt(5)); // ~137.5 degrees
-    const angle = index * goldenAngle;
+    const col = index % cols;
+    const row = Math.floor(index / cols);
     
-    // Gradually increasing radius based on index
-    const radius = 100 + Math.sqrt(index) * 80;
+    // Hexagonal offset (odd rows shifted right by half width)
+    const xOffset = (row % 2) * (hexWidth / 2);
     
     return {
-      x: centerX + radius * Math.cos(angle),
-      y: centerY + radius * Math.sin(angle),
+      x: 150 + col * hexWidth + xOffset,
+      y: 150 + row * hexHeight,
     };
   };
 
-  // Calculate circular orbit for pages around subsite
-  const calculatePageOrbit = (subsitePos: { x: number; y: number }, pageIndex: number, totalPages: number) => {
-    const orbitRadius = 180;
-    const angle = (pageIndex / totalPages) * 2 * Math.PI - Math.PI / 2;
+  // Calculate circular orbit for pages around their parent subsite
+  const calculatePageOrbit = (subsitePos: { x: number; y: number }, pageIndex: number, totalPages: number, layer: number = 0) => {
+    const orbitRadius = 220 + (layer * 80); // Multiple layers if many pages
+    const pagesPerLayer = 8;
+    const currentLayer = Math.floor(pageIndex / pagesPerLayer);
+    const indexInLayer = pageIndex % pagesPerLayer;
+    const angleStep = (2 * Math.PI) / Math.min(totalPages, pagesPerLayer);
+    const angle = indexInLayer * angleStep - Math.PI / 2; // Start from top
     
     return {
-      x: subsitePos.x + orbitRadius * Math.cos(angle),
-      y: subsitePos.y + orbitRadius * Math.sin(angle),
+      x: subsitePos.x + (orbitRadius + currentLayer * 80) * Math.cos(angle),
+      y: subsitePos.y + (orbitRadius + currentLayer * 80) * Math.sin(angle),
     };
   };
 
-  // Generate clustered force-directed layout
+  // Generate hexagonal multi-cluster layout
   const { nodes, edges } = useMemo(() => {
     const generatedNodes: Node[] = [];
     const generatedEdges: Edge[] = [];
 
     // Filter subsites if needed
     let subsitesToShow = data.subsites;
-    if (showOnlyExpanded) {
+    if (showOnlyExpanded && expandedSubsites.size > 0) {
       subsitesToShow = data.subsites.filter((_, idx) => 
         expandedSubsites.has(`subsite-${data.subsites[idx].id}`)
       );
@@ -180,10 +187,10 @@ export default function NetworkView({ data }: NetworkViewProps) {
       const subsiteId = `subsite-${subsite.id}`;
       const isExpanded = expandedSubsites.has(subsiteId);
       const isSubsiteMatch = searchMatches.includes(subsiteId);
-      const colorIndex = subsiteIndex;
+      const colorIndex = data.subsites.indexOf(subsite); // Use original index for consistent colors
 
-      // Calculate spiral position for subsite
-      const subsitePos = calculateSpiralPosition(subsiteIndex, subsitesToShow.length);
+      // Calculate hexagonal position for this subsite
+      const subsitePos = calculateHexagonalPosition(subsiteIndex);
 
       generatedNodes.push({
         id: subsiteId,
@@ -201,23 +208,24 @@ export default function NetworkView({ data }: NetworkViewProps) {
         draggable: true,
       });
 
-      // Add pages if expanded (orbit around parent)
+      // Add pages if expanded (orbit around parent in their own local cluster)
       if (isExpanded) {
-        const pagesToShow = subsite.pages.slice(0, 40);
+        const pagesToShow = subsite.pages.slice(0, 32); // Max 32 pages (4 layers of 8)
 
         pagesToShow.forEach((page, pageIndex) => {
           const pageId = `page-${subsite.id}-${pageIndex}`;
           const isPageMatch = searchMatches.includes(pageId);
 
-          // Calculate orbit position
-          const pagePos = calculatePageOrbit(subsitePos, pageIndex, pagesToShow.length);
+          // Calculate local orbit position around THIS subsite
+          const layer = Math.floor(pageIndex / 8);
+          const pagePos = calculatePageOrbit(subsitePos, pageIndex, pagesToShow.length, layer);
 
           generatedNodes.push({
             id: pageId,
             type: 'page',
             position: pagePos,
             data: {
-              label: page.title?.substring(0, 35) || page.path,
+              label: page.title?.substring(0, 40) || page.path,
               url: page.url,
               isLive: page.isLive,
               pageData: page,
@@ -227,7 +235,7 @@ export default function NetworkView({ data }: NetworkViewProps) {
             draggable: false,
           });
 
-          // Curved edge from subsite to page
+          // Curved edge from subsite to page (local connection)
           generatedEdges.push({
             id: `${subsiteId}-${pageId}`,
             source: subsiteId,
@@ -235,14 +243,14 @@ export default function NetworkView({ data }: NetworkViewProps) {
             type: 'smoothstep',
             markerEnd: { 
               type: MarkerType.ArrowClosed, 
-              color: isPageMatch ? '#eab308' : '#94a3b8',
-              width: 15,
-              height: 15,
+              color: isPageMatch ? '#f59e0b' : '#94a3b8',
+              width: 12,
+              height: 12,
             },
             style: {
-              stroke: isPageMatch ? '#eab308' : '#cbd5e1',
+              stroke: isPageMatch ? '#f59e0b' : '#cbd5e1',
               strokeWidth: isPageMatch ? 3 : 1.5,
-              opacity: isPageMatch ? 1 : 0.6,
+              opacity: isPageMatch ? 1 : 0.5,
             },
             animated: isPageMatch,
           });
@@ -277,7 +285,6 @@ export default function NetworkView({ data }: NetworkViewProps) {
     data.subsites.forEach((subsite) => {
       const subsiteId = `subsite-${subsite.id}`;
       
-      // Match subsite
       if (
         subsite.title?.toLowerCase().includes(lowerTerm) ||
         subsite.baseUrl.toLowerCase().includes(lowerTerm)
@@ -285,7 +292,6 @@ export default function NetworkView({ data }: NetworkViewProps) {
         matches.push(subsiteId);
       }
 
-      // Match pages (only if expanded)
       if (expandedSubsites.has(subsiteId)) {
         subsite.pages.forEach((page, pageIndex) => {
           if (
@@ -302,13 +308,12 @@ export default function NetworkView({ data }: NetworkViewProps) {
     setSearchMatches(matches);
     setCurrentMatchIndex(0);
 
-    // Zoom to first match
     if (matches.length > 0) {
       setTimeout(() => {
         const currentNodes = getNodes();
         const matchNode = currentNodes.find(n => n.id === matches[0]);
         if (matchNode) {
-          setCenter(matchNode.position.x, matchNode.position.y, { zoom: 0.8, duration: 1000 });
+          setCenter(matchNode.position.x, matchNode.position.y, { zoom: 0.7, duration: 1000 });
         }
       }, 100);
     }
@@ -328,7 +333,7 @@ export default function NetworkView({ data }: NetworkViewProps) {
       const currentNodes = getNodes();
       const matchNode = currentNodes.find(n => n.id === searchMatches[newIndex]);
       if (matchNode) {
-        setCenter(matchNode.position.x, matchNode.position.y, { zoom: 0.8, duration: 1000 });
+        setCenter(matchNode.position.x, matchNode.position.y, { zoom: 0.7, duration: 1000 });
       }
     }, 50);
   }, [searchMatches, currentMatchIndex, setCenter, getNodes]);
@@ -361,7 +366,6 @@ export default function NetworkView({ data }: NetworkViewProps) {
       const target = e.target as HTMLElement;
       const isTyping = target.tagName === 'INPUT' || target.tagName === 'TEXTAREA';
 
-      // Escape always works
       if (e.key === 'Escape') {
         e.preventDefault();
         setSearchTerm('');
@@ -371,24 +375,20 @@ export default function NetworkView({ data }: NetworkViewProps) {
         return;
       }
 
-      // Don't trigger other shortcuts while typing
       if (isTyping) return;
 
-      // Ctrl/Cmd + Z for undo
       if ((e.ctrlKey || e.metaKey) && e.key === 'z') {
         e.preventDefault();
         handleUndo();
         return;
       }
 
-      // Ctrl/Cmd + F for search
       if ((e.ctrlKey || e.metaKey) && e.key === 'f') {
         e.preventDefault();
         document.getElementById('network-search')?.focus();
         return;
       }
 
-      // Arrow keys for navigation (only if search active)
       if (searchMatches.length > 0) {
         if (e.key === 'ArrowDown' || e.key === 'ArrowRight') {
           e.preventDefault();
@@ -415,7 +415,7 @@ export default function NetworkView({ data }: NetworkViewProps) {
         const oldPos = nodes.find(n => n.id === nodeId)?.position;
         
         if (oldPos && (Math.abs(oldPos.x - change.position.x) > 5 || Math.abs(oldPos.y - change.position.y) > 5)) {
-          setNodeHistory(prev => [...prev.slice(-10), { // Keep last 10 moves
+          setNodeHistory(prev => [...prev.slice(-10), {
             nodeId,
             oldPosition: oldPos,
             newPosition: change.position,
@@ -431,7 +431,6 @@ export default function NetworkView({ data }: NetworkViewProps) {
     if (node.type === 'subsite' && node.data.subsiteData) {
       const subsiteId = node.id;
       
-      // Toggle expansion
       setExpandedSubsites(prev => {
         const newSet = new Set(prev);
         if (newSet.has(subsiteId)) {
@@ -442,14 +441,12 @@ export default function NetworkView({ data }: NetworkViewProps) {
         return newSet;
       });
       
-      // Open detail panel
       setSelectedSubsite(node.data.subsiteData);
     }
   }, [setSelectedSubsite]);
 
-  // Expand all / Collapse all
   const handleExpandAll = useCallback(() => {
-    const allIds = new Set(data.subsites.map((_, idx) => `subsite-${data.subsites[idx].id}`));
+    const allIds = new Set(data.subsites.map((s) => `subsite-${s.id}`));
     setExpandedSubsites(allIds);
   }, [data.subsites]);
 
@@ -457,17 +454,16 @@ export default function NetworkView({ data }: NetworkViewProps) {
     setExpandedSubsites(new Set());
   }, []);
 
-  // Calculate total visible nodes
   const visibleNodeCount = useMemo(() => {
-    let count = data.subsiteCount;
+    let count = (showOnlyExpanded && expandedSubsites.size > 0) ? expandedSubsites.size : data.subsiteCount;
     expandedSubsites.forEach(id => {
-      const subsite = data.subsites.find((s, idx) => `subsite-${s.id}` === id);
+      const subsite = data.subsites.find((s) => `subsite-${s.id}` === id);
       if (subsite) {
-        count += Math.min(subsite.pages.length, 40);
+        count += Math.min(subsite.pages.length, 32);
       }
     });
     return count;
-  }, [expandedSubsites, data]);
+  }, [expandedSubsites, data, showOnlyExpanded]);
 
   return (
     <motion.div
@@ -485,10 +481,11 @@ export default function NetworkView({ data }: NetworkViewProps) {
         onNodeClick={onNodeClick}
         nodeTypes={nodeTypes}
         fitView
-        fitViewOptions={{ padding: 0.15 }}
+        fitViewOptions={{ padding: 0.12 }}
         minZoom={0.05}
         maxZoom={1.5}
-        className="dark:bg-gray-900"
+        className="transition-colors"
+        style={{ background: 'var(--bg-secondary)' }}
         proOptions={{ hideAttribution: true }}
         defaultEdgeOptions={{
           type: 'smoothstep',
@@ -496,31 +493,41 @@ export default function NetworkView({ data }: NetworkViewProps) {
       >
         <Background 
           variant={BackgroundVariant.Dots} 
-          gap={25} 
-          size={1.5}
-          className="opacity-40 dark:opacity-20"
-          color="#94a3b8"
+          gap={30} 
+          size={2}
+          className="opacity-30"
+          style={{ color: 'var(--border-secondary)' }}
         />
-        <Controls className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm border border-gray-300 dark:border-gray-700 rounded-xl shadow-lg" />
+        <Controls 
+          className="backdrop-blur-sm rounded-xl shadow-2xl border"
+          style={{
+            background: 'rgba(255, 255, 255, 0.95)',
+            borderColor: 'var(--border-secondary)'
+          }}
+        />
         <MiniMap 
-          className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm border border-gray-300 dark:border-gray-700 rounded-xl shadow-lg"
-          maskColor="rgb(0, 0, 0, 0.05)"
+          className="backdrop-blur-sm rounded-xl shadow-2xl border"
+          style={{
+            background: 'rgba(255, 255, 255, 0.95)',
+            borderColor: 'var(--border-secondary)'
+          }}
+          maskColor="rgba(212, 204, 196, 0.15)"
           nodeColor={(node) => {
             if (node.type === 'subsite') {
-              const colorScheme = clusterColors[node.data.colorIndex % clusterColors.length];
-              return node.data.isExpanded ? '#10b981' : '#6366f1';
+              const colors = ['#3b82f6', '#10b981', '#a855f7', '#ec4899', '#f97316', '#14b8a6', '#6366f1', '#06b6d4'];
+              return colors[node.data.colorIndex % colors.length];
             }
             return '#e2e8f0';
           }}
         />
 
         {/* Search & Controls Panel */}
-        <Panel position="top-left" className="backdrop-blur-sm rounded-2xl p-6 m-4 border w-96" style={{
-          background: 'rgba(255, 255, 255, 0.95)',
+        <Panel position="top-left" className="backdrop-blur-sm rounded-2xl p-6 m-4 border w-[400px]" style={{
+          background: 'rgba(255, 255, 255, 0.97)',
           borderColor: 'var(--border-secondary)',
           boxShadow: 'var(--shadow-xl)'
         }}>
-          <div className="flex items-center gap-3 mb-4">
+          <div className="flex items-center gap-3 mb-5">
             <Search className="w-6 h-6" style={{ color: 'var(--accent-blue)' }} />
             <h4 className="font-bold text-lg" style={{ color: 'var(--text-primary)' }}>
               Search & Navigate
@@ -536,7 +543,14 @@ export default function NetworkView({ data }: NetworkViewProps) {
                 placeholder="Search subsites and pages..."
                 value={searchTerm}
                 onChange={(e) => handleSearch(e.target.value)}
-                className="w-full px-4 py-3 pr-10 bg-white dark:bg-gray-900 border-2 border-gray-300 dark:border-gray-600 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-sm text-gray-900 dark:text-gray-100 placeholder-gray-400 dark:placeholder-gray-500 transition-all"
+                className="w-full px-4 py-3 pr-10 rounded-xl focus:outline-none focus:ring-2 transition-all placeholder-opacity-50"
+                style={{
+                  background: 'var(--bg-tertiary)',
+                  borderWidth: '2px',
+                  borderColor: 'var(--border-secondary)',
+                  color: 'var(--text-primary)',
+                  boxShadow: 'var(--shadow-sm)'
+                }}
               />
               {searchTerm && (
                 <button
@@ -545,30 +559,36 @@ export default function NetworkView({ data }: NetworkViewProps) {
                     setSearchMatches([]);
                     setCurrentMatchIndex(0);
                   }}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 p-1 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-colors"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 p-1 rounded-lg hover:opacity-70 transition-opacity"
+                  style={{ color: 'var(--text-muted)' }}
                 >
                   <X className="w-5 h-5" />
                 </button>
               )}
             </div>
 
-            {/* Search results navigation */}
+            {/* Search results */}
             {searchMatches.length > 0 && (
-              <div className="flex items-center justify-between bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 rounded-xl p-3 border border-blue-200 dark:border-blue-700">
-                <span className="text-sm font-bold text-blue-900 dark:text-blue-100">
+              <div className="flex items-center justify-between rounded-xl p-3 border-2" style={{
+                background: 'linear-gradient(to right, #fff9f0, #fef3c7)',
+                borderColor: '#fbbf24'
+              }}>
+                <span className="text-sm font-bold" style={{ color: '#78350f' }}>
                   {currentMatchIndex + 1} / {searchMatches.length}
                 </span>
                 <div className="flex gap-2">
                   <button
                     onClick={() => navigateMatches('prev')}
-                    className="p-2 rounded-lg bg-white dark:bg-gray-800 hover:bg-blue-200 dark:hover:bg-blue-700 text-blue-700 dark:text-blue-300 transition-all shadow-sm"
+                    className="p-2 rounded-lg bg-white hover:bg-amber-100 transition-all shadow-md"
+                    style={{ color: '#d97706' }}
                     title="Previous (↑ or ←)"
                   >
                     <ChevronLeft className="w-4 h-4" />
                   </button>
                   <button
                     onClick={() => navigateMatches('next')}
-                    className="p-2 rounded-lg bg-white dark:bg-gray-800 hover:bg-blue-200 dark:hover:bg-blue-700 text-blue-700 dark:text-blue-300 transition-all shadow-sm"
+                    className="p-2 rounded-lg bg-white hover:bg-amber-100 transition-all shadow-md"
+                    style={{ color: '#d97706' }}
                     title="Next (↓ or →)"
                   >
                     <ChevronRightIcon className="w-4 h-4" />
@@ -581,58 +601,78 @@ export default function NetworkView({ data }: NetworkViewProps) {
             <div className="grid grid-cols-2 gap-2">
               <button
                 onClick={handleExpandAll}
-                className="px-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg transition-all font-medium text-sm shadow-lg shadow-emerald-500/20"
+                className="px-4 py-2.5 bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white rounded-xl transition-all font-semibold text-sm shadow-lg"
+                style={{ boxShadow: '0 4px 14px rgba(5, 150, 105, 0.3)' }}
               >
                 Expand All
               </button>
               <button
                 onClick={handleCollapseAll}
-                className="px-4 py-2.5 bg-gray-500 hover:bg-gray-600 text-white rounded-lg transition-all font-medium text-sm shadow-lg"
+                className="px-4 py-2.5 rounded-xl transition-all font-semibold text-sm shadow-lg"
+                style={{
+                  background: 'var(--bg-accent)',
+                  color: 'var(--text-secondary)',
+                  borderWidth: '2px',
+                  borderColor: 'var(--border-secondary)'
+                }}
               >
                 Collapse All
               </button>
             </div>
 
-            {/* Filters */}
-            <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
+            {/* Filter */}
+            <div className="pt-4 border-t" style={{ borderColor: 'var(--border-primary)' }}>
               <label className="flex items-center gap-3 cursor-pointer group">
                 <input
                   type="checkbox"
                   checked={showOnlyExpanded}
                   onChange={(e) => setShowOnlyExpanded(e.target.checked)}
-                  className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-2 focus:ring-blue-500"
+                  className="w-4 h-4 rounded border-2 text-blue-600 focus:ring-2 focus:ring-blue-500"
+                  style={{ borderColor: 'var(--border-secondary)' }}
                 />
-                <span className="text-sm text-gray-700 dark:text-gray-300 group-hover:text-gray-900 dark:group-hover:text-gray-100">
+                <span className="text-sm font-medium group-hover:opacity-80 transition-opacity" style={{ color: 'var(--text-secondary)' }}>
                   Show only expanded clusters
                 </span>
               </label>
             </div>
 
             {/* Keyboard shortcuts */}
-            <div className="pt-4 border-t border-gray-200 dark:border-gray-700 space-y-2">
-              <div className="text-xs font-semibold text-gray-600 dark:text-gray-400 mb-2">
+            <div className="pt-4 border-t space-y-2" style={{ borderColor: 'var(--border-primary)' }}>
+              <div className="text-xs font-bold mb-3" style={{ color: 'var(--text-tertiary)' }}>
                 KEYBOARD SHORTCUTS
               </div>
-              <div className="grid grid-cols-2 gap-2 text-xs">
-                <div className="flex flex-col gap-1.5">
-                  <div className="flex items-center justify-between">
-                    <span className="text-gray-600 dark:text-gray-400">Search</span>
-                    <kbd className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded border border-gray-300 dark:border-gray-600 font-mono text-gray-700 dark:text-gray-300">⌘ F</kbd>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-gray-600 dark:text-gray-400">Clear</span>
-                    <kbd className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded border border-gray-300 dark:border-gray-600 font-mono text-gray-700 dark:text-gray-300">Esc</kbd>
-                  </div>
+              <div className="grid grid-cols-2 gap-x-3 gap-y-2 text-xs">
+                <div className="flex justify-between items-center">
+                  <span style={{ color: 'var(--text-tertiary)' }}>Search</span>
+                  <kbd className="px-2 py-1 rounded border font-mono text-xs" style={{
+                    background: 'var(--bg-accent)',
+                    borderColor: 'var(--border-secondary)',
+                    color: 'var(--text-secondary)'
+                  }}>⌘ F</kbd>
                 </div>
-                <div className="flex flex-col gap-1.5">
-                  <div className="flex items-center justify-between">
-                    <span className="text-gray-600 dark:text-gray-400">Undo</span>
-                    <kbd className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded border border-gray-300 dark:border-gray-600 font-mono text-gray-700 dark:text-gray-300">⌘ Z</kbd>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-gray-600 dark:text-gray-400">Next</span>
-                    <kbd className="px-2 py-1 bg-gray-100 dark:bg-gray-700 rounded border border-gray-300 dark:border-gray-600 font-mono text-gray-700 dark:text-gray-300">↓/→</kbd>
-                  </div>
+                <div className="flex justify-between items-center">
+                  <span style={{ color: 'var(--text-tertiary)' }}>Undo</span>
+                  <kbd className="px-2 py-1 rounded border font-mono text-xs" style={{
+                    background: 'var(--bg-accent)',
+                    borderColor: 'var(--border-secondary)',
+                    color: 'var(--text-secondary)'
+                  }}>⌘ Z</kbd>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span style={{ color: 'var(--text-tertiary)' }}>Clear</span>
+                  <kbd className="px-2 py-1 rounded border font-mono text-xs" style={{
+                    background: 'var(--bg-accent)',
+                    borderColor: 'var(--border-secondary)',
+                    color: 'var(--text-secondary)'
+                  }}>Esc</kbd>
+                </div>
+                <div className="flex justify-between items-center">
+                  <span style={{ color: 'var(--text-tertiary)' }}>Navigate</span>
+                  <kbd className="px-2 py-1 rounded border font-mono text-xs" style={{
+                    background: 'var(--bg-accent)',
+                    borderColor: 'var(--border-secondary)',
+                    color: 'var(--text-secondary)'
+                  }}>↑↓←→</kbd>
                 </div>
               </div>
             </div>
@@ -640,37 +680,37 @@ export default function NetworkView({ data }: NetworkViewProps) {
         </Panel>
 
         {/* Info & Stats Panel */}
-        <Panel position="top-right" className="backdrop-blur-sm rounded-2xl p-6 m-4 border w-72" style={{
-          background: 'rgba(255, 255, 255, 0.95)',
+        <Panel position="top-right" className="backdrop-blur-sm rounded-2xl p-6 m-4 border w-80" style={{
+          background: 'rgba(255, 255, 255, 0.97)',
           borderColor: 'var(--border-secondary)',
           boxShadow: 'var(--shadow-xl)'
         }}>
-          <div className="flex items-center gap-3 mb-4">
-            <Layers className="w-6 h-6 text-purple-600 dark:text-purple-400" />
-            <h4 className="font-bold text-lg text-gray-900 dark:text-gray-100">
+          <div className="flex items-center gap-3 mb-5">
+            <Layers className="w-6 h-6" style={{ color: 'var(--accent-purple)' }} />
+            <h4 className="font-bold text-lg" style={{ color: 'var(--text-primary)' }}>
               Cluster Stats
             </h4>
           </div>
           
           <div className="space-y-4">
             {/* Stats */}
-            <div className="space-y-2 text-sm">
+            <div className="space-y-3 text-sm">
               <div className="flex justify-between items-center">
-                <span className="text-gray-600 dark:text-gray-400">Total Subsites</span>
-                <span className="font-bold text-gray-900 dark:text-gray-100">{data.subsiteCount}</span>
+                <span style={{ color: 'var(--text-tertiary)' }}>Total Subsites</span>
+                <span className="font-bold text-lg" style={{ color: 'var(--text-primary)' }}>{data.subsiteCount}</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-gray-600 dark:text-gray-400">Expanded</span>
-                <span className="font-bold text-emerald-600 dark:text-emerald-400">{expandedSubsites.size}</span>
+                <span style={{ color: 'var(--text-tertiary)' }}>Expanded</span>
+                <span className="font-bold text-lg text-emerald-600 dark:text-emerald-400">{expandedSubsites.size}</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-gray-600 dark:text-gray-400">Visible Nodes</span>
-                <span className="font-bold text-blue-600 dark:text-blue-400">{visibleNodeCount}</span>
+                <span style={{ color: 'var(--text-tertiary)' }}>Visible Nodes</span>
+                <span className="font-bold text-lg text-blue-600 dark:text-blue-400">{visibleNodeCount}</span>
               </div>
               {nodeHistory.length > 0 && (
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600 dark:text-gray-400">Moves</span>
-                  <span className="font-bold text-purple-600 dark:text-purple-400">{nodeHistory.length}</span>
+                  <span style={{ color: 'var(--text-tertiary)' }}>Moves</span>
+                  <span className="font-bold text-lg text-purple-600 dark:text-purple-400">{nodeHistory.length}</span>
                 </div>
               )}
             </div>
@@ -679,40 +719,41 @@ export default function NetworkView({ data }: NetworkViewProps) {
             {nodeHistory.length > 0 && (
               <button
                 onClick={handleUndo}
-                className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white rounded-xl transition-all font-medium shadow-lg shadow-purple-500/30"
+                className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white rounded-xl transition-all font-bold shadow-xl"
+                style={{ boxShadow: '0 4px 14px rgba(124, 58, 237, 0.4)' }}
               >
-                <Undo2 className="w-4 h-4" />
+                <Undo2 className="w-5 h-5" />
                 Undo Last Move
               </button>
             )}
 
             {/* Legend */}
-            <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
-              <div className="text-xs font-semibold text-gray-600 dark:text-gray-400 mb-3">
+            <div className="pt-4 border-t" style={{ borderColor: 'var(--border-primary)' }}>
+              <div className="text-xs font-bold mb-3" style={{ color: 'var(--text-tertiary)' }}>
                 LEGEND
               </div>
-              <div className="flex flex-col gap-2.5 text-xs">
+              <div className="flex flex-col gap-3 text-xs">
                 <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-lg shadow-sm"></div>
-                  <span className="text-gray-700 dark:text-gray-300">WordPress Subsite</span>
+                  <div className="w-7 h-7 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl shadow-md"></div>
+                  <span className="font-medium" style={{ color: 'var(--text-secondary)' }}>WordPress Subsite</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 bg-emerald-50 dark:bg-emerald-900/20 border-2 border-emerald-300 dark:border-emerald-700 rounded-lg"></div>
-                  <span className="text-gray-700 dark:text-gray-300">Page (orbits subsite)</span>
+                  <div className="w-7 h-7 bg-emerald-50 dark:bg-emerald-900/20 border-2 border-emerald-300 dark:border-emerald-700 rounded-xl"></div>
+                  <span className="font-medium" style={{ color: 'var(--text-secondary)' }}>Page (orbits parent)</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-lg shadow-sm ring-2 ring-yellow-300"></div>
-                  <span className="text-gray-700 dark:text-gray-300">Search match</span>
+                  <div className="w-7 h-7 bg-gradient-to-br from-amber-400 to-amber-500 rounded-xl shadow-md ring-2 ring-amber-300"></div>
+                  <span className="font-medium" style={{ color: 'var(--text-secondary)' }}>Search match</span>
                 </div>
               </div>
             </div>
 
             {/* Tips */}
-            <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
-              <div className="text-xs text-gray-600 dark:text-gray-400 space-y-1.5">
-                <p>💡 <strong>Tip:</strong> Click a subsite to expand its pages in a circular orbit</p>
-                <p>🔍 <strong>Search:</strong> Highlights matches and auto-zooms</p>
-                <p>🎨 <strong>Colors:</strong> Each cluster has a unique gradient</p>
+            <div className="pt-4 border-t" style={{ borderColor: 'var(--border-primary)' }}>
+              <div className="text-xs space-y-2" style={{ color: 'var(--text-tertiary)' }}>
+                <p><strong style={{ color: 'var(--text-secondary)' }}>💡 Tip:</strong> Each subsite is an independent cluster with pages orbiting around it</p>
+                <p><strong style={{ color: 'var(--text-secondary)' }}>🎨 Layout:</strong> Hexagonal grid prevents overlap</p>
+                <p><strong style={{ color: 'var(--text-secondary)' }}>🔍 Search:</strong> Highlights and zooms to matches</p>
               </div>
             </div>
           </div>
