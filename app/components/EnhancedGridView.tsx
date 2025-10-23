@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { CrawlResult } from '../types/data';
 import EnhancedSubsiteCard from './EnhancedSubsiteCard';
 import { useMap } from './MapProvider';
-import { Search, X, TrendingUp, FileText, CheckCircle2 } from 'lucide-react';
+import { Search, X, TrendingUp, FileText, Globe } from 'lucide-react';
 
 interface EnhancedGridViewProps {
   data: CrawlResult;
@@ -18,8 +18,6 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
     setSearchTerm,
     sortBy,
     setSortBy,
-    filterBy,
-    setFilterBy,
   } = useMap();
 
   // Filter and sort subsites
@@ -36,11 +34,6 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
       );
     }
 
-    // Apply confidence filter
-    if (filterBy !== 'all') {
-      result = result.filter((subsite) => subsite.detectionConfidence === filterBy);
-    }
-
     // Apply sorting
     result.sort((a, b) => {
       switch (sortBy) {
@@ -48,23 +41,19 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
           return (a.title || a.baseUrl).localeCompare(b.title || b.baseUrl);
         case 'pages':
           return b.pages.length - a.pages.length;
-        case 'confidence':
-          const confidenceOrder = { high: 3, medium: 2, low: 1 };
-          return confidenceOrder[b.detectionConfidence] - confidenceOrder[a.detectionConfidence];
         default:
           return 0;
       }
     });
 
     return result;
-  }, [data.subsites, searchTerm, sortBy, filterBy]);
+  }, [data.subsites, searchTerm, sortBy]);
 
   const stats = useMemo(() => {
     const totalPages = data.subsites.reduce((sum, s) => sum + s.pages.length, 0);
-    const highConfidence = data.subsites.filter(s => s.detectionConfidence === 'high').length;
-    const mediumConfidence = data.subsites.filter(s => s.detectionConfidence === 'medium').length;
-    const highPercentage = Math.round((highConfidence / data.subsiteCount) * 100);
-    return { totalPages, highConfidence, mediumConfidence, highPercentage };
+    const liveSubsites = data.subsites.filter(s => s.isLive).length;
+    const avgPagesPerSite = Math.round(totalPages / data.subsiteCount);
+    return { totalPages, liveSubsites, avgPagesPerSite };
   }, [data.subsites, data.subsiteCount]);
 
   return (
@@ -88,11 +77,13 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
               className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl p-6 text-white shadow-lg shadow-blue-500/20"
             >
               <div className="flex items-center justify-between mb-2">
-                <TrendingUp className="w-8 h-8 opacity-80" />
+                <Globe className="w-8 h-8 opacity-80" />
                 <span className="text-blue-100 text-sm font-medium">WordPress Sites</span>
               </div>
               <div className="text-4xl font-bold mb-1">{data.subsiteCount}</div>
-              <div className="text-blue-100 text-sm">Installations discovered</div>
+              <div className="text-blue-100 text-sm">
+                {stats.liveSubsites} live • {data.subsiteCount - stats.liveSubsites} offline
+              </div>
             </motion.div>
 
             {/* Pages metric */}
@@ -108,17 +99,17 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
               <div className="text-emerald-100 text-sm">Across all sites</div>
             </motion.div>
 
-            {/* Confidence metric */}
+            {/* Average metric */}
             <motion.div
               whileHover={{ scale: 1.02, y: -2 }}
               className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl p-6 text-white shadow-lg shadow-purple-500/20"
             >
               <div className="flex items-center justify-between mb-2">
-                <CheckCircle2 className="w-8 h-8 opacity-80" />
-                <span className="text-purple-100 text-sm font-medium">High Confidence</span>
+                <TrendingUp className="w-8 h-8 opacity-80" />
+                <span className="text-purple-100 text-sm font-medium">Average Pages</span>
               </div>
-              <div className="text-4xl font-bold mb-1">{stats.highPercentage}%</div>
-              <div className="text-purple-100 text-sm">{stats.highConfidence} of {data.subsiteCount} sites</div>
+              <div className="text-4xl font-bold mb-1">{stats.avgPagesPerSite}</div>
+              <div className="text-purple-100 text-sm">Per WordPress site</div>
             </motion.div>
           </motion.div>
 
@@ -166,18 +157,6 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
             >
               <option value="name">Sort: Name</option>
               <option value="pages">Sort: Page Count</option>
-              <option value="confidence">Sort: Confidence</option>
-            </select>
-
-            {/* Filter */}
-            <select
-              value={filterBy}
-              onChange={(e) => setFilterBy(e.target.value)}
-              className="px-4 py-2.5 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-gray-100 transition-all cursor-pointer"
-            >
-              <option value="all">All Confidence</option>
-              <option value="high">High Only</option>
-              <option value="medium">Medium Only</option>
             </select>
           </div>
         </div>
@@ -213,15 +192,12 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
           >
             <Search className="w-16 h-16 mx-auto mb-4 text-gray-400" />
             <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100 mb-2">No subsites found</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">Try adjusting your search or filters</p>
+            <p className="text-gray-600 dark:text-gray-400 mb-4">Try adjusting your search</p>
             <button
-              onClick={() => {
-                setSearchTerm('');
-                setFilterBy('all');
-              }}
+              onClick={() => setSearchTerm('')}
               className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
             >
-              Clear filters
+              Clear search
             </button>
           </motion.div>
         )}
@@ -229,4 +205,3 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
     </motion.div>
   );
 }
-

@@ -12,23 +12,18 @@ interface EnhancedSubsiteCardProps {
 }
 
 export default function EnhancedSubsiteCard({ subsite, onClick, index }: EnhancedSubsiteCardProps) {
-  const confidenceColor = {
-    high: 'from-emerald-500/20 to-emerald-600/20 border-emerald-500/30',
-    medium: 'from-amber-500/20 to-amber-600/20 border-amber-500/30',
-    low: 'from-gray-500/20 to-gray-600/20 border-gray-500/30',
-  }[subsite.detectionConfidence];
-
-  const confidenceBadge = {
-    high: 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 border-emerald-500/20',
-    medium: 'bg-amber-500/10 text-amber-700 dark:text-amber-300 border-amber-500/20',
-    low: 'bg-gray-500/10 text-gray-700 dark:text-gray-300 border-gray-500/20',
-  }[subsite.detectionConfidence];
-
   const detectionIcons = {
     'wp-json': '🔌',
     'wp-content': '📦',
     'meta': '🏷️',
     'none': '❓',
+  };
+
+  const detectionLabels = {
+    'wp-json': 'REST API',
+    'wp-content': 'Assets',
+    'meta': 'Meta Tag',
+    'none': 'Unknown',
   };
 
   return (
@@ -49,22 +44,22 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
       className="group relative"
     >
       {/* Gradient glow on hover */}
-      <div className={`absolute -inset-0.5 bg-gradient-to-r ${confidenceColor} rounded-2xl opacity-0 group-hover:opacity-100 blur transition duration-300`}></div>
+      <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500/20 to-blue-600/20 rounded-2xl opacity-0 group-hover:opacity-100 blur transition duration-300"></div>
       
       {/* Card content */}
-      <div className="relative bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 cursor-pointer transition-all duration-300 h-full flex flex-col hover:shadow-xl dark:hover:shadow-gray-900/50">
+      <div className="relative bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 cursor-pointer transition-all duration-300 h-full flex flex-col hover:shadow-xl dark:hover:shadow-gray-900/50 min-h-[200px]">
         {/* Header */}
-        <div className="flex items-start justify-between mb-4">
-          <div className="flex-1">
-            <h3 className="font-semibold text-lg text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 mb-2">
+        <div className="flex items-start gap-3 mb-4">
+          <div className="flex-1 min-w-0">
+            <h3 className="font-semibold text-base text-gray-900 dark:text-gray-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 mb-2 break-words">
               {subsite.title || 'Untitled Site'}
             </h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 truncate font-mono">
-              {subsite.baseUrl.replace('https://education.ufl.edu', '')}
+            <p className="text-xs text-gray-500 dark:text-gray-400 truncate font-mono">
+              {subsite.baseUrl.replace('https://education.ufl.edu', '') || '/'}
             </p>
           </div>
           
-          <div className="flex-shrink-0 ml-3">
+          <div className="flex-shrink-0">
             {subsite.isLive ? (
               <CheckCircle2 className="w-5 h-5 text-emerald-500" />
             ) : (
@@ -74,19 +69,15 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
         </div>
 
         {/* Detection info */}
-        <div className="flex items-center gap-2 mb-4">
-          <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border ${confidenceBadge}`}>
-            <span className="w-2 h-2 rounded-full bg-current"></span>
-            {subsite.detectionConfidence.toUpperCase()}
-          </span>
-          <span className="text-xs text-gray-500 dark:text-gray-400 flex items-center gap-1">
-            {detectionIcons[subsite.detectionMethod]}
-            {subsite.detectionMethod}
+        <div className="mb-auto">
+          <span className="text-xs text-gray-500 dark:text-gray-400 flex items-center gap-1.5">
+            <span className="text-base">{detectionIcons[subsite.detectionMethod]}</span>
+            {detectionLabels[subsite.detectionMethod]}
           </span>
         </div>
 
         {/* Stats */}
-        <div className="mt-auto pt-4 border-t border-gray-100 dark:border-gray-700 flex items-center justify-between">
+        <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-700 flex items-center justify-between">
           <div className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
             <FileText className="w-4 h-4" />
             <span className="text-sm font-medium">{subsite.pages.length}</span>
@@ -107,4 +98,3 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
     </motion.div>
   );
 }
-

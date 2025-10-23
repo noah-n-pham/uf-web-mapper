@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { AnimatePresence } from 'framer-motion';
+import { ReactFlowProvider } from 'reactflow';
 import { CrawlResult } from '../types/data';
 import { ThemeProvider } from './ThemeProvider';
 import { MapProvider, useMap } from './MapProvider';
@@ -18,14 +19,16 @@ function ExplorerContent({ data }: InteractiveDataExplorerProps) {
   const { viewMode, selectedSubsite, setSelectedSubsite } = useMap();
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       <Header />
       
       <AnimatePresence mode="wait">
         {viewMode === 'cards' ? (
           <EnhancedGridView key="cards" data={data} />
         ) : (
-          <NetworkView key="network" data={data} />
+          <ReactFlowProvider>
+            <NetworkView key="network" data={data} />
+          </ReactFlowProvider>
         )}
       </AnimatePresence>
 
@@ -46,4 +49,3 @@ export default function InteractiveDataExplorer({ data }: InteractiveDataExplore
     </ThemeProvider>
   );
 }
-

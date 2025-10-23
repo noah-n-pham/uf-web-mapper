@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useCallback } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 import { Subsite } from '../types/data';
 
 type ViewMode = 'cards' | 'network';
@@ -14,8 +14,6 @@ interface MapContextType {
   setSearchTerm: (term: string) => void;
   sortBy: string;
   setSortBy: (sort: string) => void;
-  filterBy: string;
-  setFilterBy: (filter: string) => void;
 }
 
 const MapContext = createContext<MapContextType | undefined>(undefined);
@@ -25,7 +23,6 @@ export function MapProvider({ children }: { children: React.ReactNode }) {
   const [selectedSubsite, setSelectedSubsite] = useState<Subsite | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [sortBy, setSortBy] = useState('name');
-  const [filterBy, setFilterBy] = useState('all');
 
   return (
     <MapContext.Provider
@@ -38,8 +35,6 @@ export function MapProvider({ children }: { children: React.ReactNode }) {
         setSearchTerm,
         sortBy,
         setSortBy,
-        filterBy,
-        setFilterBy,
       }}
     >
       {children}
@@ -60,10 +55,7 @@ export function useMap() {
       setSearchTerm: () => {},
       sortBy: 'name',
       setSortBy: () => {},
-      filterBy: 'all',
-      setFilterBy: () => {},
     };
   }
   return context;
 }
-
