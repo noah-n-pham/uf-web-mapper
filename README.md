@@ -1,145 +1,114 @@
-# 🎓 UF College of Education Web Ecosystem Mapper
+# UF COE Web Ecosystem Mapper
 
-A production-ready web ecosystem mapper that discovers and visualizes WordPress subsites across the UF College of Education domain. Features a sophisticated warm academic color theme, advanced search, and smooth animations.
-
-**Portfolio-ready frontend showcase built with Next.js 16, React 19, TypeScript, and Tailwind CSS 4.**
+A web crawler and visualization tool for discovering and mapping WordPress installations across the UF College of Education domain.
 
 ---
 
-## 🎯 **Project Overview**
+## Overview
 
-### **What It Does:**
-- **Discovers** all WordPress installations under `education.ufl.edu`
-- **Detects** WordPress using 3-tier fallback (wp-json → wp-content → meta)
-- **Visualizes** 55 subsites and 1,191 pages in a clean card interface
-- **Provides** advanced search, sorting, and detailed exploration
+This tool helps organizations understand their WordPress web ecosystem by:
+- Automatically discovering WordPress installations across a domain
+- Detecting WordPress sites using multiple fallback methods
+- Cataloging all pages within each installation
+- Providing a searchable, filterable web interface for exploration
 
-### **Key Features:**
-- ✅ Warm academic color theme (cream/brown light, charcoal/coffee dark)
-- ✅ WCAG AAA accessible (all contrast ratios 4.5:1+)
-- ✅ Responsive grid (1-4 columns based on screen size)
-- ✅ Advanced search (real-time filtering)
-- ✅ Smart sorting (by name or page count)
-- ✅ Smooth animations (Framer Motion, spring physics)
-- ✅ Instant theme switching (light/dark)
-- ✅ Detail panels (slides from right with all pages)
+**Use Case**: Organizations with complex multi-site WordPress deployments need visibility into their full web ecosystem for information architecture planning, migration projects, and content audits.
 
 ---
 
-## 🏗️ **Architecture**
+## Features
 
-### **Stack:**
-- **Crawler:** TypeScript (Node.js), cheerio, robots-parser
-- **Frontend:** Next.js 16 (App Router), React 19, TypeScript
-- **Styling:** Tailwind CSS 4 with custom warm theme
-- **Animations:** Framer Motion
-- **Icons:** Lucide React
+- **Automated discovery** - Crawls domain to find WordPress installations
+- **Reliable detection** - 3-tier fallback method (REST API → assets → meta tags)
+- **Accurate counting** - Uses WordPress API for precise page counts
+- **Web interface** - Search, filter, and explore discovered sites
+- **Accessible** - WCAG 2.1 AA compliant
+- **Configurable** - Environment-based settings for different use cases
+- **Ethical crawling** - Respects robots.txt, includes rate limiting
 
-### **Project Structure:**
+---
+
+## Architecture
+
+### Components
+
+- **Crawler** (TypeScript/Node.js) - Discovers and catalogs WordPress sites
+- **Frontend** (Next.js) - Visualizes and explores crawl results
+- **Data Format** (JSON) - Static output for portability
+
+### Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| Crawler | TypeScript, cheerio, robots-parser |
+| Frontend | Next.js 16, React 19, TypeScript |
+| Styling | Tailwind CSS 4 |
+| Visualization | React components |
+
+### Project Structure
+
 ```
 /
-├── crawler/               # TypeScript web crawler
-│   ├── src/
-│   │   ├── index.ts      # Entry point
-│   │   ├── crawler.ts    # Main crawl logic
-│   │   ├── detector.ts   # WordPress detection (3-tier)
-│   │   └── utils.ts      # Utilities
-│   ├── Dockerfile        # Container for local runs
-│   └── package.json      # Crawler dependencies
-├── app/                   # Next.js App Router
-│   ├── components/        # React components
-│   │   ├── ThemeProvider.tsx
-│   │   ├── MapProvider.tsx
-│   │   ├── Header.tsx
-│   │   ├── EnhancedGridView.tsx
-│   │   ├── EnhancedSubsiteCard.tsx
-│   │   └── EnhancedDetailPanel.tsx
-│   ├── page.tsx          # Homepage with visualization
-│   └── types/
-│       └── data.ts        # TypeScript types
+├── crawler/              # Web crawler
+│   ├── src/             # TypeScript source
+│   ├── Dockerfile       # Container configuration
+│   └── package.json     # Crawler dependencies
+├── app/                 # Next.js application
+│   ├── components/      # UI components
+│   └── types/          # TypeScript types
 └── public/
-    └── data.json          # Crawler output
+    └── data.json       # Crawler output
 ```
 
 ---
 
-## 🚀 **Getting Started**
+## Installation
 
-### **Prerequisites:**
+**Requirements:**
 - Node.js 20+
 - npm or yarn
 
-### **Installation:**
-
 ```bash
-# Install frontend dependencies
+# Install dependencies
 npm install
+cd crawler && npm install && cd ..
 
-# Install crawler dependencies
-cd crawler
-npm install
-cd ..
-
-# Configure crawler (IMPORTANT for public use)
+# Configure crawler
 cp env.example .env
-# Edit .env and set your CRAWLER_CONTACT_EMAIL
+# Edit .env and set CRAWLER_CONTACT_EMAIL
 ```
 
 ---
 
-## 🕷️ **Running the Crawler**
+## Usage
 
-### **Option A: Node.js (Development)**
+### Running the Crawler
+
+**Prerequisites**: Set `CRAWLER_CONTACT_EMAIL` in `.env` file. This is required for responsible crawling and allows site administrators to contact you.
 
 ```bash
-# First time: Configure your contact email
-cp env.example .env
-# Edit .env and set CRAWLER_CONTACT_EMAIL=your-email@example.com
-
 cd crawler
 npm run build
 npm start
 ```
 
-**Output:** `public/data.json` (discovered 55 subsites, 1,191 pages)
+Output: `public/data.json`
 
-**⚠️ Important:** Always set `CRAWLER_CONTACT_EMAIL` before running the crawler. This allows website administrators to contact you if needed.
-
-### **Option B: Docker (Production)**
-
+**Docker Option:**
 ```bash
-# Build image
 docker build -t uf-coe-crawler ./crawler
-
-# Run with volume mount
 docker run --rm -v "$(pwd)/public:/output" uf-coe-crawler
 ```
 
-### **What the Crawler Does:**
+### Running the Frontend
 
-1. Fetches `robots.txt` from `education.ufl.edu`
-2. Discovers subdirectories through deep crawling + pattern matching
-3. Detects WordPress installations using:
-   - **Priority 1:** `/wp-json/` endpoint (HIGH confidence)
-   - **Priority 2:** `/wp-content/` assets (MEDIUM confidence)
-   - **Priority 3:** Meta generator tag (MEDIUM confidence)
-4. Uses WordPress REST API to get accurate page counts
-5. Outputs `public/data.json` with all discovered sites and pages
-
----
-
-## 🎨 **Running the Frontend**
-
-### **Development:**
-
+**Development:**
 ```bash
 npm run dev
+# Open http://localhost:3000
 ```
 
-**Open:** http://localhost:3000
-
-### **Production:**
-
+**Production:**
 ```bash
 npm run build
 npm start
@@ -147,53 +116,60 @@ npm start
 
 ---
 
-## 🎨 **Color Theme**
+## Configuration
 
-### **Warm Academic (Light Mode):**
-- **Background:** Warm cream (#fefcf9) - like aged quality paper
-- **Cards:** Pure white with warm shadows
-- **Text:** Rich dark brown (#1a1614) - comfortable reading
-- **Borders:** Warm beige (#e8e3df)
-- **Accents:** Vibrant blue, emerald, purple gradients
+### Environment Variables
 
-### **Sophisticated Earth (Dark Mode):**
-- **Background:** Rich charcoal (#0f0e0d) - not pure black
-- **Cards:** Coffee brown (#252320)
-- **Text:** Warm white (#faf8f6) - not harsh blue-white
-- **Borders:** Dark taupe (#3a3632)
-- **Accents:** Same vibrant gradients (pop on dark!)
+Set in `.env` file:
 
-**All colors WCAG AAA accessible** (contrast ratios 4.5:1 to 14:1)
+| Variable | Required | Default | Description |
+|----------|----------|---------|-------------|
+| `CRAWLER_CONTACT_EMAIL` | Yes | - | Contact email for User-Agent |
+| `SEED_URL` | No | `https://education.ufl.edu/` | Starting URL |
+| `MAX_CONCURRENCY` | No | `5` | Concurrent requests |
+| `DELAY_MS` | No | `250` | Delay between requests (ms) |
+| `OUTPUT_PATH` | No | `../public/data.json` | Output file path |
 
----
+### Rate Limiting
 
-## 🔍 **WordPress Detection**
+Default configuration:
+- 5 concurrent requests maximum
+- 250ms delay between requests to same host
+- Automatic robots.txt compliance
 
-### **3-Tier Fallback Approach:**
-
-**Priority 1: wp-json Endpoint (High Confidence)**
-```
-GET https://education.ufl.edu/subsite/wp-json/
-→ Success + JSON = WordPress confirmed
-```
-
-**Priority 2: wp-content Assets (Medium Confidence)**
-```
-Parse HTML for /subsite/wp-content/ URLs
-→ Found = WordPress confirmed
-```
-
-**Priority 3: Meta Generator (Medium Confidence)**
-```
-Search for <meta name="generator" content="WordPress ...">
-→ Found = WordPress confirmed
-```
+For production use, consider increasing `DELAY_MS` to 500-1000ms.
 
 ---
 
-## 📊 **Data Model**
+## WordPress Detection
 
-### **Output: `public/data.json`**
+The crawler uses a 3-tier fallback approach:
+
+### 1. REST API Endpoint (High Confidence)
+```
+GET /wp-json/
+→ Valid JSON response = WordPress confirmed
+```
+
+### 2. Asset Detection (Medium Confidence)
+```
+Parse HTML for /wp-content/ URLs
+→ Assets found = WordPress likely
+```
+
+### 3. Meta Generator (Medium Confidence)
+```html
+<meta name="generator" content="WordPress ...">
+→ Tag found = WordPress likely
+```
+
+Each method is attempted in order until WordPress is detected or all methods fail.
+
+---
+
+## Data Format
+
+Output: `public/data.json`
 
 ```json
 {
@@ -203,8 +179,8 @@ Search for <meta name="generator" content="WordPress ...">
   "subsites": [
     {
       "id": "unique-id",
-      "baseUrl": "https://education.ufl.edu/subsite/",
-      "title": "Subsite Title",
+      "baseUrl": "https://...",
+      "title": "Site Title",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
@@ -212,9 +188,9 @@ Search for <meta name="generator" content="WordPress ...">
         {
           "path": "/page-path",
           "title": "Page Title",
-          "url": "https://education.ufl.edu/subsite/page",
+          "url": "https://...",
           "isLive": true,
-          "outboundLinks": ["https://external.com"]
+          "outboundLinks": ["https://..."]
         }
       ]
     }
@@ -224,202 +200,123 @@ Search for <meta name="generator" content="WordPress ...">
 
 ---
 
-## ⚙️ **Configuration**
+## Deployment
 
-### **Crawler Settings** (Environment Variables):
+### Frontend (Vercel/Netlify)
 
-Set these in a `.env` file (copy from `env.example`):
+1. Push repository to GitHub
+2. Connect to hosting provider
+3. Deploy (no environment variables needed for frontend)
 
-```bash
-CRAWLER_CONTACT_EMAIL=your-email@example.com  # REQUIRED
-SEED_URL=https://education.ufl.edu/          # Optional
-MAX_CONCURRENCY=5                             # Optional
-DELAY_MS=250                                  # Optional
-```
+### Automated Crawling (GitHub Actions)
 
-The crawler will use these to build a proper User-Agent string:
-```
-UF-COE-Web-Mapper/1.0 (+mailto:your-email@example.com)
-```
+Optional: Set up scheduled crawling
 
-### **Rate Limiting:**
-- **5 concurrent requests** maximum
-- **250ms delay** between requests
-- **Respects robots.txt**
-- **Ethical crawling**
+1. Add repository secret: `CRAWLER_CONTACT_EMAIL`
+2. Rename `.github/workflows/crawler.yml.template` to `crawler.yml`
+3. Configure schedule in workflow file
+4. Enable workflow permissions (Settings → Actions → Read and write)
 
 ---
 
-## 🚢 **Deployment**
+## Development
 
-### **Before Deploying (Important!)**
-
-1. **Configure crawler contact info:**
-   ```bash
-   cp env.example .env
-   # Edit .env and set CRAWLER_CONTACT_EMAIL=your-email@example.com
-   ```
-
-2. **Verify no personal info in code:**
-   ```bash
-   grep -r "your-email" . --exclude-dir=node_modules --exclude-dir=.git
-   ```
-
-3. **Test locally:**
-   ```bash
-   cd crawler && npm run build && npm start
-   ```
-
-### **Frontend → Vercel**
-
-1. Push to GitHub
-2. Import project in Vercel (auto-detects Next.js)
-3. Deploy (no environment variables needed)
-
-### **Crawler → GitHub Actions (Optional)**
-
-To automate weekly crawls:
-
-1. **Add secret:** Repo Settings → Secrets → New secret
-   - Name: `CRAWLER_CONTACT_EMAIL`
-   - Value: your monitored email
-
-2. **Enable workflow:**
-   ```bash
-   mv .github/workflows/crawler.yml.template .github/workflows/crawler.yml
-   # Edit schedule as needed
-   ```
-
-3. **Grant permissions:** Settings → Actions → Workflow permissions → Read and write
-
-See `SECURITY.md` for responsible crawling guidelines.
-
----
-
-## 🧪 **Type Checking & Linting**
-
-### **Frontend:**
+### Type Checking
 ```bash
-npm run lint        # ESLint
-npx tsc --noEmit    # TypeScript check
+# Frontend
+npx tsc --noEmit
+
+# Crawler
+cd crawler && npm run type-check
 ```
 
-### **Crawler:**
+### Linting
 ```bash
-cd crawler
+# Frontend
 npm run lint
-npm run type-check
+
+# Crawler
+cd crawler && npm run lint
 ```
 
 ---
 
-## 📋 **Design Decisions**
+## Troubleshooting
 
-### **Why Card View Only?**
+### Crawler Not Finding Sites
 
-Initially implemented both card and network views, but removed the network view because:
+1. Verify seed URL is accessible:
+   ```bash
+   curl -I https://education.ufl.edu/
+   ```
 
-- **No unique value:** Network view duplicated card functionality
-- **Better UX:** One excellent interface > two redundant ones
-- **Simpler:** Reduced cognitive load for users
-- **Faster:** Better performance without React Flow overhead
-- **Cleaner:** Less code to maintain
-- **Professional:** Shows product thinking and restraint
+2. Check robots.txt:
+   ```bash
+   curl https://education.ufl.edu/robots.txt
+   ```
 
-**Result:** A focused, polished interface that does one thing excellently.
+3. Rebuild crawler:
+   ```bash
+   cd crawler
+   rm -rf node_modules dist
+   npm install && npm run build
+   ```
 
----
+### Frontend Build Issues
 
-## 🎓 **Portfolio Highlights**
-
-### **For Frontend SWE Roles:**
-
-**Technical Skills:**
-- ✅ Full-stack TypeScript (crawler + frontend)
-- ✅ Next.js 16 with App Router
-- ✅ React 19 (latest features)
-- ✅ Tailwind CSS 4 (custom theming)
-- ✅ Framer Motion (advanced animations)
-- ✅ Context API (state management)
-- ✅ SSR-safe patterns
-- ✅ Performance optimization
-
-**Design Skills:**
-- ✅ Custom color theme (warm academic)
-- ✅ WCAG AAA accessibility
-- ✅ Responsive design
-- ✅ Micro-interactions
-- ✅ Animation choreography
-- ✅ Visual hierarchy
-
-**Product Skills:**
-- ✅ Feature prioritization (removed redundant view)
-- ✅ User-centered decisions
-- ✅ Scope management
-- ✅ Data-driven choices
-
----
-
-## 📊 **Results**
-
-### **Discovered:**
-- **55 WordPress installations** (1 root + 54 sub-installations)
-- **1,191 total pages** (accurately counted via WordPress API)
-- **Complete sitemap** of UF College of Education web ecosystem
-
-### **Notable Subsites:**
-- Educational Technology (26 pages)
-- Faculty Policy (213 pages)
-- School Teaching & Learning (172 pages)
-- Educational Research (28 pages)
-- And 51 more...
-
----
-
-## 🐛 **Troubleshooting**
-
-### **Crawler Issues:**
 ```bash
-# Test connectivity
-curl -I https://education.ufl.edu/
-
-# Check robots.txt
-curl https://education.ufl.edu/robots.txt
-
-# Clean rebuild
-cd crawler
-rm -rf node_modules dist
+rm -rf .next node_modules
 npm install
 npm run build
 ```
 
-### **Frontend Issues:**
-```bash
-# Clear cache
-rm -rf .next
+---
 
-# Reinstall
-npm install
+## Security
 
-# Rebuild
-npm run build
-```
+**Important**: This tool crawls public websites. Follow responsible crawling practices:
+
+- Always set a valid contact email
+- Respect robots.txt rules
+- Use appropriate rate limiting
+- Monitor server responses
+- Stop if you receive complaints or rate-limiting errors
+
+See `SECURITY.md` for detailed guidelines and vulnerability reporting.
 
 ---
 
-## 📄 **License**
+## Accessibility
 
-**Project:** UF College of Education Web Ecosystem Mapper  
-**License:** MIT (see LICENSE file)
+This project follows WCAG 2.1 Level AA standards:
+- Full keyboard navigation support
+- Screen reader compatibility
+- Sufficient color contrast ratios
+- Responsive design up to 200% zoom
 
-For security issues, see SECURITY.md
-
----
-
-## 🙏 **Acknowledgments**
-
-Built for the UF College of Education to provide visibility into the web ecosystem and support information architecture planning.
+See `ACCESSIBILITY.md` for details.
 
 ---
 
-**A production-ready, portfolio-worthy frontend engineering showcase.** 🎓✨
+## License
+
+MIT License - see [LICENSE](LICENSE) file.
+
+---
+
+## Contributing
+
+This project was built for the UF College of Education. If you'd like to adapt it for your organization:
+
+1. Fork the repository
+2. Update `env.example` with your configuration
+3. Modify `crawler/src/index.ts` seedUrl as needed
+4. Follow the security guidelines in `SECURITY.md`
+
+---
+
+## Support
+
+- **Documentation**: Check the `/crawler/README.md` for crawler-specific docs
+- **Issues**: Use GitHub issues for bug reports and feature requests
+- **Security**: See `SECURITY.md` for vulnerability reporting
