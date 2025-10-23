@@ -19,7 +19,8 @@ import ReactFlow, {
 import 'reactflow/dist/style.css';
 import { CrawlResult, Subsite } from '../types/data';
 import { useMap } from './MapProvider';
-import { ChevronDown, ChevronRight, Search, ChevronLeft, ChevronRight as ChevronRightIcon, X, Undo2, Filter, Layers } from 'lucide-react';
+import { useTheme } from './ThemeProvider';
+import { ChevronDown, ChevronRight, Search, ChevronLeft, ChevronRight as ChevronRightIcon, X, Undo2, Filter, Layers, Info } from 'lucide-react';
 
 interface NetworkViewProps {
   data: CrawlResult;
@@ -112,6 +113,7 @@ function PageNode({ data }: any) {
 
 export default function NetworkView({ data }: NetworkViewProps) {
   const { setSelectedSubsite } = useMap();
+  const { theme } = useTheme();
   const [expandedSubsites, setExpandedSubsites] = useState<Set<string>>(new Set());
   const [searchTerm, setSearchTerm] = useState('');
   const [searchMatches, setSearchMatches] = useState<string[]>([]);
@@ -474,7 +476,12 @@ export default function NetworkView({ data }: NetworkViewProps) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="w-full h-[calc(100vh-10rem)] bg-gradient-to-br from-gray-50 via-gray-100 to-gray-50 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950"
+      className="w-full h-[calc(100vh-10rem)]"
+      style={{
+        background: theme === 'light' 
+          ? 'linear-gradient(135deg, #fefcf9 0%, #f8f5f1 30%, #fff9f0 60%, #fefcf9 100%)'
+          : 'linear-gradient(135deg, #0f0e0d 0%, #1a1816 30%, #252320 60%, #0f0e0d 100%)'
+      }}
     >
       <ReactFlow
         nodes={nodesState}
@@ -514,10 +521,12 @@ export default function NetworkView({ data }: NetworkViewProps) {
         />
 
         {/* Search & Controls Panel */}
-        <Panel position="top-left" className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-2xl shadow-2xl p-6 m-4 border border-gray-200 dark:border-gray-700 w-96">
-          <div className="flex items-center gap-3 mb-4">
-            <Search className="w-6 h-6 text-blue-600 dark:text-blue-400" />
-            <h4 className="font-bold text-lg text-gray-900 dark:text-gray-100">
+        <Panel position="top-left" className="bg-white/95 dark:bg-stone-900/95 backdrop-blur-2xl rounded-2xl shadow-2xl p-6 m-4 border-2 border-stone-200 dark:border-stone-800 w-96">
+          <div className="flex items-center gap-3 mb-5">
+            <div className="p-2 bg-gradient-to-br from-sky-500 to-sky-600 rounded-lg shadow-lg shadow-sky-500/30">
+              <Search className="w-5 h-5 text-white" />
+            </div>
+            <h4 className="font-bold text-lg text-stone-900 dark:text-stone-50">
               Search & Navigate
             </h4>
           </div>
@@ -635,7 +644,7 @@ export default function NetworkView({ data }: NetworkViewProps) {
         </Panel>
 
         {/* Info & Stats Panel */}
-        <Panel position="top-right" className="bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-2xl shadow-2xl p-6 m-4 border border-gray-200 dark:border-gray-700 w-72">
+        <Panel position="top-right" className="bg-white/95 dark:bg-stone-900/95 backdrop-blur-2xl rounded-2xl shadow-2xl p-6 m-4 border-2 border-stone-200 dark:border-stone-800 w-72">
           <div className="flex items-center gap-3 mb-4">
             <Layers className="w-6 h-6 text-purple-600 dark:text-purple-400" />
             <h4 className="font-bold text-lg text-gray-900 dark:text-gray-100">

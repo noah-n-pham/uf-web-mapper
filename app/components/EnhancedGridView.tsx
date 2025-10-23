@@ -61,55 +61,82 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800"
+      className="min-h-screen"
+      style={{ 
+        background: 'linear-gradient(135deg, #fefcf9 0%, #f8f5f1 50%, #fff9f0 100%)',
+      }}
     >
+      <style jsx>{`
+        .dark {
+          background: linear-gradient(135deg, #0f0e0d 0%, #1a1816 50%, #0f0e0d 100%) !important;
+        }
+      `}</style>
+
       {/* Metrics Dashboard */}
-      <div className="bg-white/50 dark:bg-gray-900/50 backdrop-blur-xl border-b border-gray-200 dark:border-gray-800">
+      <div className="bg-white/60 dark:bg-gray-900/60 backdrop-blur-2xl border-b border-stone-200/60 dark:border-stone-800/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="grid grid-cols-1 md:grid-cols-3 gap-6"
           >
-            {/* Sites metric */}
+            {/* Sites metric - Ocean Blue */}
             <motion.div
-              whileHover={{ scale: 1.02, y: -2 }}
-              className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl p-6 text-white shadow-lg shadow-blue-500/20"
+              whileHover={{ scale: 1.02, y: -4 }}
+              className="relative overflow-hidden rounded-2xl p-6 text-white shadow-2xl"
+              style={{
+                background: 'linear-gradient(135deg, #0ea5e9 0%, #0284c7 50%, #0369a1 100%)',
+              }}
             >
-              <div className="flex items-center justify-between mb-2">
-                <Globe className="w-8 h-8 opacity-80" />
-                <span className="text-blue-100 text-sm font-medium">WordPress Sites</span>
-              </div>
-              <div className="text-4xl font-bold mb-1">{data.subsiteCount}</div>
-              <div className="text-blue-100 text-sm">
-                {stats.liveSubsites} live • {data.subsiteCount - stats.liveSubsites} offline
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+              <div className="relative z-10">
+                <div className="flex items-center justify-between mb-3">
+                  <Globe className="w-9 h-9 opacity-90" />
+                  <span className="text-sky-100 text-sm font-semibold tracking-wide">WORDPRESS SITES</span>
+                </div>
+                <div className="text-5xl font-bold mb-1">{data.subsiteCount}</div>
+                <div className="text-sky-100 text-sm font-medium">
+                  {stats.liveSubsites} live • {data.subsiteCount - stats.liveSubsites} offline
+                </div>
               </div>
             </motion.div>
 
-            {/* Pages metric */}
+            {/* Pages metric - Forest Green */}
             <motion.div
-              whileHover={{ scale: 1.02, y: -2 }}
-              className="bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl p-6 text-white shadow-lg shadow-emerald-500/20"
+              whileHover={{ scale: 1.02, y: -4 }}
+              className="relative overflow-hidden rounded-2xl p-6 text-white shadow-2xl"
+              style={{
+                background: 'linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%)',
+              }}
             >
-              <div className="flex items-center justify-between mb-2">
-                <FileText className="w-8 h-8 opacity-80" />
-                <span className="text-emerald-100 text-sm font-medium">Total Pages</span>
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+              <div className="relative z-10">
+                <div className="flex items-center justify-between mb-3">
+                  <FileText className="w-9 h-9 opacity-90" />
+                  <span className="text-emerald-100 text-sm font-semibold tracking-wide">TOTAL PAGES</span>
+                </div>
+                <div className="text-5xl font-bold mb-1">{stats.totalPages.toLocaleString()}</div>
+                <div className="text-emerald-100 text-sm font-medium">Across all WordPress sites</div>
               </div>
-              <div className="text-4xl font-bold mb-1">{stats.totalPages.toLocaleString()}</div>
-              <div className="text-emerald-100 text-sm">Across all sites</div>
             </motion.div>
 
-            {/* Average metric */}
+            {/* Average metric - Royal Purple */}
             <motion.div
-              whileHover={{ scale: 1.02, y: -2 }}
-              className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl p-6 text-white shadow-lg shadow-purple-500/20"
+              whileHover={{ scale: 1.02, y: -4 }}
+              className="relative overflow-hidden rounded-2xl p-6 text-white shadow-2xl"
+              style={{
+                background: 'linear-gradient(135deg, #8b5cf6 0%, #7c3aed 50%, #6d28d9 100%)',
+              }}
             >
-              <div className="flex items-center justify-between mb-2">
-                <TrendingUp className="w-8 h-8 opacity-80" />
-                <span className="text-purple-100 text-sm font-medium">Average Pages</span>
+              <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+              <div className="relative z-10">
+                <div className="flex items-center justify-between mb-3">
+                  <TrendingUp className="w-9 h-9 opacity-90" />
+                  <span className="text-purple-100 text-sm font-semibold tracking-wide">AVG PER SITE</span>
+                </div>
+                <div className="text-5xl font-bold mb-1">{stats.avgPagesPerSite}</div>
+                <div className="text-purple-100 text-sm font-medium">Average pages per site</div>
               </div>
-              <div className="text-4xl font-bold mb-1">{stats.avgPagesPerSite}</div>
-              <div className="text-purple-100 text-sm">Per WordPress site</div>
             </motion.div>
           </motion.div>
 
@@ -118,7 +145,7 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="mt-6 text-center text-sm text-gray-600 dark:text-gray-400"
+            className="mt-6 text-center text-sm text-stone-600 dark:text-stone-400"
           >
             Last crawled: {new Date(data.crawlTimestamp).toLocaleString()}
           </motion.div>
@@ -126,23 +153,23 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
       </div>
 
       {/* Search and filters */}
-      <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border-b border-gray-200 dark:border-gray-800 sticky top-16 z-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div className="bg-white/70 dark:bg-gray-900/70 backdrop-blur-2xl border-b border-stone-200/60 dark:border-stone-800/60 sticky top-16 z-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex flex-col sm:flex-row gap-3">
             {/* Search */}
             <div className="flex-1 relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-gray-400" />
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-stone-400 dark:text-stone-500" />
               <input
                 type="text"
                 placeholder="Search subsites by name or URL..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-10 py-2.5 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-gray-100 transition-all"
+                className="w-full pl-12 pr-12 py-3 bg-white dark:bg-stone-900 border-2 border-stone-200 dark:border-stone-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-sky-500 dark:focus:ring-sky-400 text-stone-900 dark:text-stone-100 placeholder-stone-400 dark:placeholder-stone-500 transition-all shadow-sm"
               />
               {searchTerm && (
                 <button
                   onClick={() => setSearchTerm('')}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 p-1 rounded-lg hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-400 hover:text-stone-600 dark:hover:text-stone-300 transition-colors"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -153,9 +180,9 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
             <select
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
-              className="px-4 py-2.5 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:text-gray-100 transition-all cursor-pointer"
+              className="px-5 py-3 bg-white dark:bg-stone-900 border-2 border-stone-200 dark:border-stone-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-sky-500 focus:border-sky-500 dark:focus:ring-sky-400 text-stone-900 dark:text-stone-100 transition-all cursor-pointer shadow-sm font-medium"
             >
-              <option value="name">Sort: Name</option>
+              <option value="name">Sort: Name (A-Z)</option>
               <option value="pages">Sort: Page Count</option>
             </select>
           </div>
@@ -163,15 +190,15 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
       </div>
 
       {/* Grid Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         {filteredAndSortedSubsites.length > 0 ? (
           <>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="mb-4 text-sm text-gray-600 dark:text-gray-400"
+              className="mb-6 text-sm font-medium text-stone-600 dark:text-stone-400"
             >
-              Showing {filteredAndSortedSubsites.length} of {data.subsiteCount} subsites
+              Showing <span className="text-sky-600 dark:text-sky-400 font-bold">{filteredAndSortedSubsites.length}</span> of <span className="font-bold">{data.subsiteCount}</span> WordPress subsites
             </motion.div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {filteredAndSortedSubsites.map((subsite, index) => (
@@ -188,14 +215,16 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="text-center py-20"
+            className="text-center py-24"
           >
-            <Search className="w-16 h-16 mx-auto mb-4 text-gray-400" />
-            <h3 className="text-lg font-medium text-gray-900 dark:text-gray-100 mb-2">No subsites found</h3>
-            <p className="text-gray-600 dark:text-gray-400 mb-4">Try adjusting your search</p>
+            <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-gradient-to-br from-stone-100 to-stone-200 dark:from-stone-800 dark:to-stone-700 flex items-center justify-center">
+              <Search className="w-10 h-10 text-stone-400 dark:text-stone-500" />
+            </div>
+            <h3 className="text-xl font-bold text-stone-900 dark:text-stone-100 mb-2">No subsites found</h3>
+            <p className="text-stone-600 dark:text-stone-400 mb-6">Try adjusting your search term</p>
             <button
               onClick={() => setSearchTerm('')}
-              className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+              className="px-8 py-3 bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-600 hover:to-sky-700 text-white rounded-xl transition-all font-semibold shadow-lg shadow-sky-500/30"
             >
               Clear search
             </button>
