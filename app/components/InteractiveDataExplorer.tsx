@@ -19,7 +19,7 @@ function ExplorerContent({ data }: InteractiveDataExplorerProps) {
   const { viewMode, selectedSubsite, setSelectedSubsite } = useMap();
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+    <div className="min-h-screen transition-colors duration-300" style={{ background: 'var(--bg-primary)' }}>
       <Header />
       
       <AnimatePresence mode="wait">

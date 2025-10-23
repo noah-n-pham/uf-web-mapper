@@ -37,71 +37,79 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
         damping: 30
       }}
       whileHover={{ 
-        y: -6,
+        y: -4,
         transition: { type: "spring", stiffness: 400, damping: 20 }
       }}
       onClick={onClick}
       className="group relative"
     >
-      {/* Sophisticated glow on hover */}
-      <div className="absolute -inset-1 bg-gradient-to-r from-sky-400/30 via-emerald-400/30 to-purple-400/30 dark:from-sky-500/20 dark:via-emerald-500/20 dark:to-purple-500/20 rounded-2xl opacity-0 group-hover:opacity-100 blur-xl transition-all duration-500"></div>
+      {/* Warm gradient glow on hover */}
+      <div 
+        className="absolute -inset-0.5 rounded-2xl opacity-0 group-hover:opacity-100 blur transition duration-300"
+        style={{ background: 'linear-gradient(to right, rgba(2, 132, 199, 0.15), rgba(5, 150, 105, 0.15))' }}
+      ></div>
       
-      {/* Card content with warm colors */}
-      <div className="relative bg-white dark:bg-stone-900 rounded-2xl border-2 border-stone-200 dark:border-stone-800 p-7 cursor-pointer transition-all duration-300 h-full flex flex-col min-h-[200px] group-hover:shadow-2xl group-hover:border-sky-300 dark:group-hover:border-sky-700 backdrop-blur-sm">
-        {/* Decorative corner accent */}
-        <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br from-sky-500/10 to-transparent dark:from-sky-400/10 rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-        
+      {/* Card content */}
+      <div 
+        className="relative rounded-xl border p-6 cursor-pointer transition-all duration-300 h-full flex flex-col min-h-[200px]"
+        style={{
+          background: 'var(--bg-tertiary)',
+          borderColor: 'var(--border-primary)',
+          boxShadow: 'var(--shadow-md)'
+        }}
+      >
         {/* Header */}
-        <div className="flex items-start gap-3 mb-4 relative z-10">
+        <div className="flex items-start gap-3 mb-4">
           <div className="flex-1 min-w-0">
-            <h3 className="font-bold text-base text-stone-900 dark:text-stone-50 group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors line-clamp-2 break-words mb-2 leading-snug">
+            <h3 
+              className="font-semibold text-base group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 break-words mb-2"
+              style={{ color: 'var(--text-primary)' }}
+            >
               {subsite.title || 'Untitled Site'}
             </h3>
-            <p className="text-xs text-stone-500 dark:text-stone-400 truncate font-mono bg-stone-50 dark:bg-stone-800/50 px-2 py-1 rounded-md">
+            <p 
+              className="text-xs truncate font-mono"
+              style={{ color: 'var(--text-tertiary)' }}
+            >
               {subsite.baseUrl.replace('https://education.ufl.edu', '') || '/'}
             </p>
           </div>
           
           <div className="flex-shrink-0">
             {subsite.isLive ? (
-              <div className="p-1.5 bg-emerald-100 dark:bg-emerald-900/30 rounded-lg">
-                <CheckCircle2 className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
-              </div>
+              <CheckCircle2 className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
             ) : (
-              <div className="p-1.5 bg-stone-100 dark:bg-stone-800 rounded-lg">
-                <AlertCircle className="w-5 h-5 text-stone-400 dark:text-stone-500" />
-              </div>
+              <AlertCircle className="w-5 h-5" style={{ color: 'var(--text-muted)' }} />
             )}
           </div>
         </div>
 
         {/* Detection info */}
-        <div className="mb-auto relative z-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-stone-50 dark:bg-stone-800/50 rounded-lg border border-stone-200 dark:border-stone-700">
+        <div className="mb-auto">
+          <span className="text-xs flex items-center gap-1.5" style={{ color: 'var(--text-tertiary)' }}>
             <span className="text-base">{detectionIcons[subsite.detectionMethod]}</span>
-            <span className="text-xs font-medium text-stone-600 dark:text-stone-400">
-              {detectionLabels[subsite.detectionMethod]}
-            </span>
-          </div>
+            {detectionLabels[subsite.detectionMethod]}
+          </span>
         </div>
 
-        {/* Stats footer */}
-        <div className="mt-5 pt-5 border-t border-stone-200 dark:border-stone-800 flex items-center justify-between relative z-10">
-          <div className="flex items-center gap-2 text-stone-700 dark:text-stone-300">
-            <div className="p-1.5 bg-stone-100 dark:bg-stone-800 rounded-lg">
-              <FileText className="w-4 h-4" />
-            </div>
-            <span className="text-sm font-bold">{subsite.pages.length}</span>
-            <span className="text-sm text-stone-500 dark:text-stone-400">
+        {/* Stats */}
+        <div 
+          className="mt-4 pt-4 border-t flex items-center justify-between"
+          style={{ borderColor: 'var(--border-primary)' }}
+        >
+          <div className="flex items-center gap-2" style={{ color: 'var(--text-secondary)' }}>
+            <FileText className="w-4 h-4" />
+            <span className="text-sm font-medium">{subsite.pages.length}</span>
+            <span className="text-sm" style={{ color: 'var(--text-tertiary)' }}>
               page{subsite.pages.length !== 1 ? 's' : ''}
             </span>
           </div>
           
           <motion.div
-            className="flex items-center gap-1.5 text-sky-600 dark:text-sky-400 opacity-0 group-hover:opacity-100 transition-opacity font-semibold"
-            whileHover={{ x: 3 }}
+            className="flex items-center gap-1 text-blue-600 dark:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity"
+            whileHover={{ x: 2 }}
           >
-            <span className="text-sm">Explore</span>
+            <span className="text-sm font-medium">View</span>
             <ExternalLink className="w-4 h-4" />
           </motion.div>
         </div>
