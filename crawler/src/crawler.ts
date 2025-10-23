@@ -129,29 +129,116 @@ export class Crawler {
   }
 
   /**
-   * Discover subdirectories from the root page
+   * Check common WordPress Multisite subdirectory patterns
+   */
+  private async checkCommonSubdirectories(): Promise<Set<string>> {
+    const commonPatterns = [
+      'educational-technology',
+      'education-technology',
+      'edtech',
+      'special-education',
+      'specialeducation',
+      'higher-education',
+      'highereducation',
+      'curriculum',
+      'counseling',
+      'school-psychology',
+      'schoolpsychology',
+      'edleadership',
+      'educational-leadership',
+      'elearning',
+      'e-learning',
+      'lastinger',
+      'coe-research',
+      'graduate',
+      'undergraduate',
+      'online-programs',
+      'cep',
+      'ese',
+      'erme',
+    ];
+    
+    const foundSubdirs = new Set<string>();
+    
+    for (const pattern of commonPatterns) {
+      const testUrl = `${this.config.seedUrl.replace(/\/$/, '')}/${pattern}/`;
+      
+      try {
+        await this.enforceDelay();
+        const response = await fetch(testUrl, {
+          method: 'HEAD',
+          headers: { 'User-Agent': this.config.userAgent },
+          signal: AbortSignal.timeout(5000)
+        });
+        
+        if (response.ok || response.status === 301 || response.status === 302) {
+          foundSubdirs.add(testUrl);
+        }
+      } catch {
+        // Pattern doesn't exist
+      }
+    }
+    
+    return foundSubdirs;
+  }
+
+  /**
+   * Discover subdirectories by crawling multiple levels
    */
   private async discoverSubdirectories(): Promise<Set<string>> {
     console.log('\n📂 Discovering subdirectories...');
     const subdirs = new Set<string>();
+    const visited = new Set<string>();
+    const queue = [this.config.seedUrl];
     
-    const result = await this.fetchPage(this.config.seedUrl);
-    if (!result) {
-      console.error('❌ Could not fetch root page');
-      return subdirs;
-    }
+    // Crawl up to 3 levels deep to find all subdirectories
+    let depth = 0;
+    const maxDepth = 3;
+    const maxPagesToCheck = 100;
+    let pagesChecked = 0;
     
-    const links = this.extractLinks(result.html, this.config.seedUrl);
-    
-    for (const link of links) {
-      const subdir = getSubdirectory(link, this.config.seedUrl);
-      if (subdir) {
-        const baseUrl = new URL(subdir, this.config.seedUrl).href;
-        subdirs.add(baseUrl);
+    while (queue.length > 0 && depth < maxDepth && pagesChecked < maxPagesToCheck) {
+      const currentUrl = queue.shift()!;
+      
+      if (visited.has(currentUrl) || !this.isAllowed(currentUrl)) {
+        continue;
       }
+      
+      visited.add(currentUrl);
+      pagesChecked++;
+      
+      const result = await this.fetchPage(currentUrl);
+      if (!result) continue;
+      
+      const links = this.extractLinks(result.html, currentUrl);
+      
+      for (const link of links) {
+        const subdir = getSubdirectory(link, this.config.seedUrl);
+        if (subdir) {
+          const baseUrl = new URL(subdir, this.config.seedUrl).href;
+          subdirs.add(baseUrl);
+          
+          // Add to queue for further exploration if not visited
+          if (!visited.has(link) && isUnderRoot(link, this.config.seedUrl)) {
+            queue.push(link);
+          }
+        }
+      }
+      
+      depth++;
     }
     
-    console.log(`✅ Found ${subdirs.size} potential subdirectories`);
+    console.log(`✅ Found ${subdirs.size} subdirectories from crawling`);
+    
+    // Also check common patterns
+    console.log('🔍 Checking common WordPress subdirectory patterns...');
+    const commonSubdirs = await this.checkCommonSubdirectories();
+    
+    for (const subdir of commonSubdirs) {
+      subdirs.add(subdir);
+    }
+    
+    console.log(`✅ Total: ${subdirs.size} potential subdirectories`);
     return subdirs;
   }
 
@@ -190,7 +277,7 @@ export class Crawler {
   /**
    * Crawl pages within a subsite
    */
-  private async crawlSubsitePages(subsite: Subsite, maxPages: number = 20): Promise<void> {
+  private async crawlSubsitePages(subsite: Subsite, maxPages: number = 100): Promise<void> {
     console.log(`\n📄 Crawling pages for: ${subsite.baseUrl}`);
     
     const visited = new Set<string>();
@@ -241,6 +328,60 @@ export class Crawler {
   }
 
   /**
+   * Check if a subdirectory is a separate WordPress installation
+   * by comparing its WordPress signals to the root site
+   */
+  private async isSeparateWordPressInstall(subdirUrl: string): Promise<boolean> {
+    // Check if subdir has its own wp-json endpoint (most reliable)
+    try {
+      const subdirWpJson = `${subdirUrl.replace(/\/$/, '')}/wp-json/`;
+      const response = await fetch(subdirWpJson, {
+        method: 'GET',
+        headers: { 'User-Agent': this.config.userAgent },
+        signal: AbortSignal.timeout(10000)
+      });
+      
+      if (response.ok) {
+        const contentType = response.headers.get('content-type') || '';
+        if (contentType.includes('application/json')) {
+          const data: any = await response.json();
+          // Check if the wp-json endpoint reports this subdir as its URL
+          if (data && data.url && data.url.includes(subdirUrl.replace(/\/$/, ''))) {
+            return true; // Separate installation
+          }
+        }
+      }
+    } catch {
+      // wp-json not available for this subdir
+    }
+    
+    // Check if subdir has its own wp-content path
+    try {
+      const response = await fetch(subdirUrl, {
+        method: 'GET',
+        headers: { 'User-Agent': this.config.userAgent },
+        signal: AbortSignal.timeout(10000)
+      });
+      
+      if (response.ok) {
+        const html = await response.text();
+        const subdirPath = new URL(subdirUrl).pathname.replace(/\/$/, '');
+        
+        // Look for wp-content URLs that include this subdirectory path
+        // e.g., /subdir/wp-content/ indicates separate installation
+        const separateWpContentPattern = new RegExp(`${subdirPath}/wp-content/`, 'i');
+        if (separateWpContentPattern.test(html)) {
+          return true; // Has its own wp-content
+        }
+      }
+    } catch {
+      // Error checking
+    }
+    
+    return false; // Likely just a page of the root site
+  }
+
+  /**
    * Main crawl method
    */
   async crawl(): Promise<CrawlResult> {
@@ -249,16 +390,51 @@ export class Crawler {
     console.log(`\n🚀 Starting crawl from: ${this.config.seedUrl}`);
     console.log(`⚙️  Concurrency: ${this.config.maxConcurrency}, Delay: ${this.config.delayMs}ms\n`);
     
+    // First, detect the ROOT WordPress installation
+    console.log('🔎 Detecting root WordPress installation...');
+    const rootDetection = await detectWordPress(this.config.seedUrl, this.config.userAgent);
+    
+    if (rootDetection.isWordPress) {
+      console.log(`✅ Root site is WordPress (via ${rootDetection.method}, confidence: ${rootDetection.confidence})`);
+      
+      // Create root subsite entry
+      const result = await this.fetchPage(this.config.seedUrl);
+      const title = result ? this.extractTitle(result.html) : null;
+      
+      const rootSubsite: Subsite = {
+        id: generateId(this.config.seedUrl),
+        baseUrl: this.config.seedUrl,
+        title: title || 'UF College of Education',
+        detectionMethod: rootDetection.method,
+        detectionConfidence: rootDetection.confidence,
+        isLive: result !== null && result.status === 200,
+        pages: []
+      };
+      
+      this.state.subsites.set(this.config.seedUrl, rootSubsite);
+    } else {
+      console.log('⚠️  Root site is not WordPress or cannot be detected');
+    }
+    
     // Discover subdirectories
     const subdirectories = await this.discoverSubdirectories();
     
-    // Detect WordPress installations
-    console.log('\n🔎 Detecting WordPress installations...');
+    // Detect SEPARATE WordPress installations (not just pages)
+    console.log('\n🔎 Detecting separate WordPress installations in subdirectories...');
     for (const subdir of subdirectories) {
-      await this.detectSubsite(subdir);
+      console.log(`\n🔍 Checking: ${subdir}`);
+      
+      // Check if this is a separate WordPress installation
+      const isSeparate = await this.isSeparateWordPressInstall(subdir);
+      
+      if (isSeparate) {
+        await this.detectSubsite(subdir);
+      } else {
+        console.log(`ℹ️  Not a separate WordPress installation (likely a page of root site)`);
+      }
     }
     
-    // Crawl pages for each subsite
+    // Crawl pages for each subsite (including root)
     console.log('\n📚 Crawling subsite pages...');
     for (const subsite of this.state.subsites.values()) {
       await this.crawlSubsitePages(subsite);
@@ -273,7 +449,7 @@ export class Crawler {
     };
     
     console.log(`\n✅ Crawl complete!`);
-    console.log(`📊 Found ${result.subsiteCount} WordPress subsites`);
+    console.log(`📊 Found ${result.subsiteCount} WordPress site(s) (including root)`);
     console.log(`📄 Total pages: ${result.subsites.reduce((sum, s) => sum + s.pages.length, 0)}`);
     
     return result;
