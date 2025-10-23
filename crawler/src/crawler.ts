@@ -275,11 +275,74 @@ export class Crawler {
   }
 
   /**
-   * Crawl pages within a subsite
+   * Fetch pages from WordPress REST API
    */
-  private async crawlSubsitePages(subsite: Subsite, maxPages: number = 100): Promise<void> {
-    console.log(`\n📄 Crawling pages for: ${subsite.baseUrl}`);
+  private async fetchPagesFromAPI(subsite: Subsite): Promise<Page[]> {
+    const pages: Page[] = [];
+    const baseUrl = subsite.baseUrl.replace(/\/$/, '');
+    const apiUrl = `${baseUrl}/wp-json/wp/v2/pages`;
     
+    try {
+      // First request to get total count
+      await this.enforceDelay();
+      const response = await fetch(`${apiUrl}?per_page=100`, {
+        method: 'GET',
+        headers: { 'User-Agent': this.config.userAgent },
+        signal: AbortSignal.timeout(15000)
+      });
+      
+      if (!response.ok) {
+        console.log(`⚠️  API not accessible, falling back to crawling`);
+        return this.crawlSubsitePagesLegacy(subsite);
+      }
+      
+      const totalPages = parseInt(response.headers.get('X-WP-Total') || '0');
+      const totalApiPages = parseInt(response.headers.get('X-WP-TotalPages') || '1');
+      
+      console.log(`   API reports ${totalPages} pages across ${totalApiPages} API page(s)`);
+      
+      // Fetch all pages from API
+      for (let apiPage = 1; apiPage <= totalApiPages && apiPage <= 10; apiPage++) {
+        await this.enforceDelay();
+        
+        const pageResponse = await fetch(`${apiUrl}?per_page=100&page=${apiPage}`, {
+          method: 'GET',
+          headers: { 'User-Agent': this.config.userAgent },
+          signal: AbortSignal.timeout(15000)
+        });
+        
+        if (!pageResponse.ok) continue;
+        
+        const pageData = await pageResponse.json() as any[];
+        
+        for (const wpPage of pageData) {
+          const pageUrl = wpPage.link || '';
+          const urlObj = new URL(pageUrl);
+          const baseUrlObj = new URL(baseUrl);
+          const path = urlObj.pathname.replace(baseUrlObj.pathname.replace(/\/$/, ''), '') || '/';
+          
+          pages.push({
+            path,
+            title: wpPage.title?.rendered || null,
+            url: pageUrl,
+            isLive: true,
+            outboundLinks: [] // Could extract from content if needed
+          });
+        }
+      }
+      
+      return pages;
+      
+    } catch (error) {
+      console.log(`⚠️  API error, falling back to crawling`);
+      return this.crawlSubsitePagesLegacy(subsite);
+    }
+  }
+
+  /**
+   * Legacy crawling method (fallback when API not available)
+   */
+  private async crawlSubsitePagesLegacy(subsite: Subsite, maxPages: number = 50): Promise<Page[]> {
     const visited = new Set<string>();
     const queue = [subsite.baseUrl];
     const pages: Page[] = [];
@@ -310,7 +373,7 @@ export class Crawler {
         title,
         url,
         isLive: result.status === 200,
-        outboundLinks: outboundLinks.slice(0, 5) // Limit outbound links
+        outboundLinks: outboundLinks.slice(0, 5)
       };
       
       pages.push(page);
@@ -323,8 +386,19 @@ export class Crawler {
       }
     }
     
+    return pages;
+  }
+
+  /**
+   * Crawl pages within a subsite using WordPress API
+   */
+  private async crawlSubsitePages(subsite: Subsite): Promise<void> {
+    console.log(`\n📄 Crawling pages for: ${subsite.baseUrl}`);
+    
+    const pages = await this.fetchPagesFromAPI(subsite);
+    
     subsite.pages = pages;
-    console.log(`✅ Crawled ${pages.length} pages`);
+    console.log(`✅ Found ${pages.length} pages`);
   }
 
   /**
