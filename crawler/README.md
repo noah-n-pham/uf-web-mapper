@@ -15,6 +15,20 @@ TypeScript-based web crawler for discovering and mapping WordPress subsites unde
 npm install
 ```
 
+## ⚠️ Required Configuration
+
+**IMPORTANT**: Before running the crawler, you MUST set your contact email:
+
+```bash
+# Copy the example environment file
+cp env.example .env
+
+# Edit .env and set:
+CRAWLER_CONTACT_EMAIL=your-email@example.com
+```
+
+This is required for ethical crawling and allows website administrators to contact you.
+
 ## Usage
 
 ### Build and Run
@@ -40,16 +54,33 @@ npm run lint
 
 ## Configuration
 
-Edit `src/index.ts` to modify:
-- Seed URL
-- Concurrency limits
-- Delay timing
-- User-Agent string
-- Output path
+### Required Environment Variables
 
-## Environment Variables
+Set these in a `.env` file:
 
-- `OUTPUT_PATH`: Override output file location (default: `../public/data.json`)
+- **`CRAWLER_CONTACT_EMAIL`** (REQUIRED): Your contact email for the User-Agent
+  - Example: `your-email@example.com`
+  - This is included in the User-Agent string for transparency
+
+### Optional Environment Variables
+
+- `CRAWLER_USER_AGENT`: Custom User-Agent string (default: auto-generated with email)
+- `SEED_URL`: Starting URL for crawl (default: `https://education.ufl.edu/`)
+- `MAX_CONCURRENCY`: Concurrent requests (default: `5`)
+- `DELAY_MS`: Delay between requests in ms (default: `250`)
+- `OUTPUT_PATH`: Output file location (default: `../public/data.json`)
+
+### Security Best Practices
+
+⚠️ **Never commit your `.env` file** - it's already in `.gitignore`
+
+For ethical crawling:
+- Use a valid, monitored email in `CRAWLER_CONTACT_EMAIL`
+- Increase `DELAY_MS` to 500-1000ms for public/production use
+- Monitor server responses and adjust rate limits if needed
+- Stop crawling if you receive complaints or 429/503 errors
+
+See the root `SECURITY.md` for complete guidelines.
 
 ## Docker
 
@@ -57,9 +88,14 @@ Edit `src/index.ts` to modify:
 # Build
 docker build -t uf-coe-crawler .
 
-# Run with volume mount
-docker run --rm -v "$(pwd)/../public:/output" uf-coe-crawler
+# Run with volume mount and environment variables
+docker run --rm \
+  -v "$(pwd)/../public:/output" \
+  -e CRAWLER_CONTACT_EMAIL=your-email@example.com \
+  uf-coe-crawler
 ```
+
+**Note**: You must provide `CRAWLER_CONTACT_EMAIL` when running the container.
 
 ## Output Format
 
@@ -100,7 +136,14 @@ npm run build
 - Verify output directory exists
 - Review error logs
 
+## Security
+
+See `SECURITY.md` in the root directory for:
+- Responsible crawling guidelines
+- Security best practices
+- Vulnerability reporting
+
 ## License
 
-Internal use - UF College of Education
+MIT License - see LICENSE file in root directory
 

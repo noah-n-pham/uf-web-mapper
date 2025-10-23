@@ -56,6 +56,7 @@ jobs:
         working-directory: ./crawler
         run: npm start
         env:
+          CRAWLER_CONTACT_EMAIL: ${{ secrets.CRAWLER_CONTACT_EMAIL }}
           OUTPUT_PATH: ../public/data.json
       
       - name: Verify output
@@ -89,6 +90,8 @@ jobs:
           retention-days: 30
 
 # Notes:
+# - Set CRAWLER_CONTACT_EMAIL as a repository secret before enabling this workflow
+#   (Repo Settings → Secrets and variables → Actions → New repository secret)
 # - The [skip ci] tag prevents infinite loops if you enable push triggers
 # - The artifact upload allows you to download and review data before committing
 # - Consider adding a notification step (Slack, email, etc.) on failure

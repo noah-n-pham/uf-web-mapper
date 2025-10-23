@@ -16,7 +16,8 @@ This is the UF College of Education Web Ecosystem Mapper MVP. It consists of:
 - Frontend reads `public/data.json` for visualization
 - WordPress detection uses: wp-json → wp-content → meta (3-tier fallback)
 - Rate limiting: 250ms delay, 5 concurrent requests
-- User-Agent: UF-COE-Web-Mapper/1.0 (+mailto:phamkhoi@ufl.edu)
+- User-Agent: Configured via CRAWLER_CONTACT_EMAIL environment variable
+- See `env.example` for required crawler configuration
 
 ## When Making Changes
 - For crawler: Edit files in `/crawler/src`

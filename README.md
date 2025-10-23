@@ -54,8 +54,7 @@ A production-ready web ecosystem mapper that discovers and visualizes WordPress 
 │   │   ├── EnhancedGridView.tsx
 │   │   ├── EnhancedSubsiteCard.tsx
 │   │   └── EnhancedDetailPanel.tsx
-│   ├── map/
-│   │   └── page.tsx      # Visualization route
+│   ├── page.tsx          # Homepage with visualization
 │   └── types/
 │       └── data.ts        # TypeScript types
 └── public/
@@ -80,6 +79,10 @@ npm install
 cd crawler
 npm install
 cd ..
+
+# Configure crawler (IMPORTANT for public use)
+cp env.example .env
+# Edit .env and set your CRAWLER_CONTACT_EMAIL
 ```
 
 ---
@@ -89,12 +92,18 @@ cd ..
 ### **Option A: Node.js (Development)**
 
 ```bash
+# First time: Configure your contact email
+cp env.example .env
+# Edit .env and set CRAWLER_CONTACT_EMAIL=your-email@example.com
+
 cd crawler
 npm run build
 npm start
 ```
 
 **Output:** `public/data.json` (discovered 55 subsites, 1,191 pages)
+
+**⚠️ Important:** Always set `CRAWLER_CONTACT_EMAIL` before running the crawler. This allows website administrators to contact you if needed.
 
 ### **Option B: Docker (Production)**
 
@@ -127,7 +136,7 @@ docker run --rm -v "$(pwd)/public:/output" uf-coe-crawler
 npm run dev
 ```
 
-**Open:** http://localhost:3000/map
+**Open:** http://localhost:3000
 
 ### **Production:**
 
@@ -217,14 +226,20 @@ Search for <meta name="generator" content="WordPress ...">
 
 ## ⚙️ **Configuration**
 
-### **Crawler Settings** (`crawler/src/index.ts`):
-```typescript
-{
-  seedUrl: 'https://education.ufl.edu/',
-  maxConcurrency: 5,           // Concurrent requests
-  delayMs: 250,                // Delay between requests
-  userAgent: 'UF-COE-Web-Mapper/1.0 (+mailto:phamkhoi@ufl.edu)',
-}
+### **Crawler Settings** (Environment Variables):
+
+Set these in a `.env` file (copy from `env.example`):
+
+```bash
+CRAWLER_CONTACT_EMAIL=your-email@example.com  # REQUIRED
+SEED_URL=https://education.ufl.edu/          # Optional
+MAX_CONCURRENCY=5                             # Optional
+DELAY_MS=250                                  # Optional
+```
+
+The crawler will use these to build a proper User-Agent string:
+```
+UF-COE-Web-Mapper/1.0 (+mailto:your-email@example.com)
 ```
 
 ### **Rate Limiting:**
@@ -237,23 +252,47 @@ Search for <meta name="generator" content="WordPress ...">
 
 ## 🚢 **Deployment**
 
-### **Frontend (Vercel):**
-1. Push repo to GitHub
-2. Connect to Vercel
-3. Set root directory: `/` (repo root)
-4. Deploy
+### **Before Deploying (Important!)**
 
-Vercel automatically detects Next.js and deploys.
+1. **Configure crawler contact info:**
+   ```bash
+   cp env.example .env
+   # Edit .env and set CRAWLER_CONTACT_EMAIL=your-email@example.com
+   ```
 
-### **Crawler (GitHub Actions):**
+2. **Verify no personal info in code:**
+   ```bash
+   grep -r "your-email" . --exclude-dir=node_modules --exclude-dir=.git
+   ```
 
-A template is provided at `.github/workflows/crawler.yml.template`.
+3. **Test locally:**
+   ```bash
+   cd crawler && npm run build && npm start
+   ```
 
-**To enable:**
-1. Rename to `crawler.yml`
-2. Uncomment commit/push step (if desired)
-3. Set cron schedule
-4. Grant workflow write permissions
+### **Frontend → Vercel**
+
+1. Push to GitHub
+2. Import project in Vercel (auto-detects Next.js)
+3. Deploy (no environment variables needed)
+
+### **Crawler → GitHub Actions (Optional)**
+
+To automate weekly crawls:
+
+1. **Add secret:** Repo Settings → Secrets → New secret
+   - Name: `CRAWLER_CONTACT_EMAIL`
+   - Value: your monitored email
+
+2. **Enable workflow:**
+   ```bash
+   mv .github/workflows/crawler.yml.template .github/workflows/crawler.yml
+   # Edit schedule as needed
+   ```
+
+3. **Grant permissions:** Settings → Actions → Workflow permissions → Read and write
+
+See `SECURITY.md` for responsible crawling guidelines.
 
 ---
 
@@ -368,11 +407,12 @@ npm run build
 
 ---
 
-## 📄 **License & Contact**
+## 📄 **License**
 
 **Project:** UF College of Education Web Ecosystem Mapper  
-**Contact:** phamkhoi@ufl.edu  
-**License:** Internal use
+**License:** MIT (see LICENSE file)
+
+For security issues, see SECURITY.md
 
 ---
 
