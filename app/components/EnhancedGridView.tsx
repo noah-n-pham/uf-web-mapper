@@ -78,15 +78,18 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
             {/* Sites metric */}
             <motion.div
               whileHover={{ scale: 1.02, y: -2 }}
-              className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl p-6 text-white shadow-xl"
-              style={{ boxShadow: '0 10px 25px -5px rgba(2, 132, 199, 0.3)' }}
+              className="rounded-xl p-6 text-white shadow-xl"
+              style={{ 
+                background: 'linear-gradient(to bottom right, #0369a1, #0284c7)',
+                boxShadow: '0 10px 25px -5px rgba(2, 132, 199, 0.3)' 
+              }}
             >
               <div className="flex items-center justify-between mb-2">
                 <Globe className="w-8 h-8 opacity-90" />
-                <span className="text-blue-50 text-sm font-medium">WordPress Sites</span>
+                <span className="text-sm font-medium" style={{ color: 'rgba(255, 255, 255, 0.95)' }}>WordPress Sites</span>
               </div>
               <div className="text-4xl font-bold mb-1">{data.subsiteCount}</div>
-              <div className="text-blue-100 text-sm">
+              <div className="text-sm" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
                 {stats.liveSubsites} live • {data.subsiteCount - stats.liveSubsites} offline
               </div>
             </motion.div>
@@ -94,29 +97,35 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
             {/* Pages metric */}
             <motion.div
               whileHover={{ scale: 1.02, y: -2 }}
-              className="bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl p-6 text-white shadow-xl"
-              style={{ boxShadow: '0 10px 25px -5px rgba(5, 150, 105, 0.3)' }}
+              className="rounded-xl p-6 text-white shadow-xl"
+              style={{ 
+                background: 'linear-gradient(to bottom right, #047857, #059669)',
+                boxShadow: '0 10px 25px -5px rgba(5, 150, 105, 0.3)' 
+              }}
             >
               <div className="flex items-center justify-between mb-2">
                 <FileText className="w-8 h-8 opacity-90" />
-                <span className="text-emerald-50 text-sm font-medium">Total Pages</span>
+                <span className="text-sm font-medium" style={{ color: 'rgba(255, 255, 255, 0.95)' }}>Total Pages</span>
               </div>
               <div className="text-4xl font-bold mb-1">{stats.totalPages.toLocaleString()}</div>
-              <div className="text-emerald-100 text-sm">Across all sites</div>
+              <div className="text-sm" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>Across all sites</div>
             </motion.div>
 
             {/* Average metric */}
             <motion.div
               whileHover={{ scale: 1.02, y: -2 }}
-              className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl p-6 text-white shadow-xl"
-              style={{ boxShadow: '0 10px 25px -5px rgba(124, 58, 237, 0.3)' }}
+              className="rounded-xl p-6 text-white shadow-xl"
+              style={{ 
+                background: 'linear-gradient(to bottom right, #7c3aed, #8b5cf6)',
+                boxShadow: '0 10px 25px -5px rgba(124, 58, 237, 0.3)' 
+              }}
             >
               <div className="flex items-center justify-between mb-2">
                 <TrendingUp className="w-8 h-8 opacity-90" />
-                <span className="text-purple-50 text-sm font-medium">Average Pages</span>
+                <span className="text-sm font-medium" style={{ color: 'rgba(255, 255, 255, 0.95)' }}>Average Pages</span>
               </div>
               <div className="text-4xl font-bold mb-1">{stats.avgPagesPerSite}</div>
-              <div className="text-purple-100 text-sm">Per WordPress site</div>
+              <div className="text-sm" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>Per WordPress site</div>
             </motion.div>
           </motion.div>
 
@@ -222,7 +231,10 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
             <p className="mb-4" style={{ color: 'var(--text-tertiary)' }}>Try adjusting your search</p>
             <button
               onClick={() => setSearchTerm('')}
-              className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium shadow-lg"
+              className="px-6 py-2 text-white rounded-lg transition-colors font-medium shadow-lg"
+              style={{ background: 'var(--accent-blue)' }}
+              onMouseEnter={(e) => e.currentTarget.style.opacity = '0.9'}
+              onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
             >
               Clear search
             </button>

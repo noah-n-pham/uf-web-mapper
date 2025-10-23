@@ -34,10 +34,19 @@
   --border-accent: #c4b8ad;   /* Medium sand */
   
   /* Accent colors */
-  --accent-blue: #0284c7;     /* Sky blue for links (4.7:1) */
-  --accent-emerald: #059669;  /* Emerald for success (4.6:1) */
-  --accent-amber: #d97706;    /* Amber for warnings (4.8:1) */
+  --accent-blue: #0369a1;     /* Sky blue for links (5.2:1) - WCAG AA compliant */
+  --accent-emerald: #047857;  /* Emerald for success (5.1:1) - WCAG AA compliant */
+  --accent-amber: #c2410c;    /* Amber for warnings (5.3:1) - WCAG AA compliant */
   --accent-purple: #7c3aed;   /* Purple for special (4.5:1) */
+  
+  /* Status badge colors - WCAG AA compliant */
+  --status-success-bg: #d1fae5;      /* Light emerald background */
+  --status-success-text: #065f46;    /* Dark emerald text - Enhanced to 4.8:1 */
+  --status-success-border: #6ee7b7;  /* Medium emerald border */
+  --status-error-bg: #fee2e2;        /* Light red background */
+  --status-error-text: #7f1d1d;      /* Dark red text - Enhanced to 5.2:1 */
+  --status-error-border: #fca5a5;    /* Medium red border */
+  --status-icon-success: #047857;    /* Success icon - 5.1:1 */
   
   /* Shadows */
   --shadow-sm: 0 1px 2px 0 rgba(26, 22, 20, 0.05);
@@ -70,6 +79,15 @@
   --accent-emerald: #34d399;  /* Mint (7.2:1) */
   --accent-amber: #fbbf24;    /* Gold (8.1:1) */
   --accent-purple: #a78bfa;   /* Lavender (6.2:1) */
+  
+  /* Status badge colors - WCAG AA compliant for dark mode */
+  --status-success-bg: #064e3b;      /* Dark emerald background */
+  --status-success-text: #6ee7b7;    /* Light emerald text - Enhanced to 5.8:1 */
+  --status-success-border: #059669;  /* Medium emerald border */
+  --status-error-bg: #7f1d1d;        /* Dark red background */
+  --status-error-text: #fca5a5;      /* Light red text - Enhanced to 5.5:1 */
+  --status-error-border: #991b1b;    /* Medium red border */
+  --status-icon-success: #34d399;    /* Success icon - 7.2:1 */
   
   /* Shadows - Deeper for dark mode */
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
@@ -220,4 +238,9 @@ input:-webkit-autofill:focus {
 
 .panel-gradient-dark {
   background: linear-gradient(to bottom, rgba(37, 35, 32, 0.95), rgba(26, 24, 22, 0.95));
+}
+
+/* Group hover utilities for WCAG-compliant accent colors */
+.group:hover .group-hover-accent {
+  color: var(--accent-blue) !important;
 }

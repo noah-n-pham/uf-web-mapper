@@ -96,11 +96,14 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
               >
                 <div className="flex items-center justify-between">
                   <span className="text-sm font-medium" style={{ color: 'var(--text-secondary)' }}>Status</span>
-                  <span className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium ${
-                    subsite.isLive 
-                      ? 'bg-emerald-100 dark:bg-emerald-900/30 text-emerald-800 dark:text-emerald-300' 
-                      : 'bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300'
-                  }`}>
+                  <span 
+                    className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium border"
+                    style={{
+                      background: subsite.isLive ? 'var(--status-success-bg)' : 'var(--status-error-bg)',
+                      color: subsite.isLive ? 'var(--status-success-text)' : 'var(--status-error-text)',
+                      borderColor: subsite.isLive ? 'var(--status-success-border)' : 'var(--status-error-border)'
+                    }}
+                  >
                     {subsite.isLive ? (
                       <>
                         <CheckCircle2 className="w-4 h-4" />
@@ -159,12 +162,18 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                       >
                         <div className="flex items-start justify-between mb-2">
                           <h4 
-                            className="font-medium flex-1 mr-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors"
+                            className="font-medium flex-1 mr-2 transition-colors"
                             style={{ color: 'var(--text-primary)' }}
+                            onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-blue)'}
+                            onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
                           >
                             {page.title || page.path}
                           </h4>
-                          <span className={`flex-shrink-0 w-2 h-2 rounded-full mt-2 ${page.isLive ? 'bg-emerald-500' : 'bg-gray-400'}`} title={page.isLive ? 'Live' : 'Offline'} />
+                          <span 
+                            className="flex-shrink-0 w-2 h-2 rounded-full mt-2" 
+                            style={{ background: page.isLive ? 'var(--status-icon-success)' : 'var(--text-muted)' }}
+                            title={page.isLive ? 'Live' : 'Offline'} 
+                          />
                         </div>
 
                         <div className="flex items-center text-xs mb-3" style={{ color: 'var(--text-tertiary)' }}>

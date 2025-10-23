@@ -62,7 +62,7 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
         <div className="flex items-start gap-3 mb-4">
           <div className="flex-1 min-w-0">
             <h3 
-              className="font-semibold text-base group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 break-words mb-2"
+              className="font-semibold text-base transition-colors line-clamp-2 break-words mb-2 group-hover-accent"
               style={{ color: 'var(--text-primary)' }}
             >
               {subsite.title || 'Untitled Site'}
@@ -77,7 +77,7 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
           
           <div className="flex-shrink-0">
             {subsite.isLive ? (
-              <CheckCircle2 className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
+              <CheckCircle2 className="w-5 h-5" style={{ color: 'var(--status-icon-success)' }} />
             ) : (
               <AlertCircle className="w-5 h-5" style={{ color: 'var(--text-muted)' }} />
             )}
@@ -106,7 +106,8 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
           </div>
           
           <motion.div
-            className="flex items-center gap-1 text-blue-600 dark:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity"
+            className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity"
+            style={{ color: 'var(--accent-blue)' }}
             whileHover={{ x: 2 }}
           >
             <span className="text-sm font-medium">View</span>
