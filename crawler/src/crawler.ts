@@ -129,39 +129,98 @@ export class Crawler {
   }
 
   /**
-   * Check common WordPress Multisite subdirectory patterns
+   * Extract all unique first-level subdirectory patterns from URLs
    */
-  private async checkCommonSubdirectories(): Promise<Set<string>> {
-    const commonPatterns = [
-      'educational-technology',
-      'education-technology',
-      'edtech',
-      'special-education',
-      'specialeducation',
-      'higher-education',
-      'highereducation',
-      'curriculum',
-      'counseling',
-      'school-psychology',
-      'schoolpsychology',
-      'edleadership',
-      'educational-leadership',
-      'elearning',
-      'e-learning',
-      'lastinger',
-      'coe-research',
-      'graduate',
-      'undergraduate',
-      'online-programs',
-      'cep',
-      'ese',
-      'erme',
-    ];
+  private extractAllSubdirectoryPatterns(urls: Set<string>): Set<string> {
+    const patterns = new Set<string>();
+    const rootPath = new URL(this.config.seedUrl).pathname.replace(/\/$/, '');
     
-    const foundSubdirs = new Set<string>();
+    for (const url of urls) {
+      try {
+        const urlObj = new URL(url);
+        const path = urlObj.pathname;
+        
+        // Extract first-level subdirectory after root
+        const relativePath = path.replace(rootPath, '').replace(/^\//, '');
+        const parts = relativePath.split('/').filter(Boolean);
+        
+        if (parts.length > 0) {
+          patterns.add(parts[0]);
+        }
+      } catch {
+        // Invalid URL
+      }
+    }
     
-    for (const pattern of commonPatterns) {
+    return patterns;
+  }
+
+  /**
+   * Aggressively discover ALL subdirectories by deep crawling and pattern extraction
+   */
+  private async discoverSubdirectories(): Promise<Set<string>> {
+    console.log('\n📂 Discovering ALL subdirectories (comprehensive scan)...');
+    const subdirs = new Set<string>();
+    const allUrls = new Set<string>();
+    const visited = new Set<string>();
+    const queue = [this.config.seedUrl];
+    
+    // Phase 1: Deep crawl to collect ALL URLs (no depth limit, but page limit for time)
+    console.log('🔍 Phase 1: Deep crawling for all URLs...');
+    const maxPagesToCheck = 200; // Increased for comprehensive discovery
+    let pagesChecked = 0;
+    
+    while (queue.length > 0 && pagesChecked < maxPagesToCheck) {
+      const currentUrl = queue.shift()!;
+      
+      if (visited.has(currentUrl) || !this.isAllowed(currentUrl)) {
+        continue;
+      }
+      
+      visited.add(currentUrl);
+      allUrls.add(currentUrl);
+      pagesChecked++;
+      
+      if (pagesChecked % 50 === 0) {
+        console.log(`   Crawled ${pagesChecked} pages, found ${allUrls.size} unique URLs...`);
+      }
+      
+      const result = await this.fetchPage(currentUrl);
+      if (!result) continue;
+      
+      const links = this.extractLinks(result.html, currentUrl);
+      
+      for (const link of links) {
+        allUrls.add(link);
+        const subdir = getSubdirectory(link, this.config.seedUrl);
+        if (subdir) {
+          const baseUrl = new URL(subdir, this.config.seedUrl).href;
+          subdirs.add(baseUrl);
+        }
+        
+        // Add to queue for further exploration
+        if (!visited.has(link) && isUnderRoot(link, this.config.seedUrl)) {
+          queue.push(link);
+        }
+      }
+    }
+    
+    console.log(`✅ Crawled ${pagesChecked} pages, collected ${allUrls.size} unique URLs`);
+    console.log(`✅ Found ${subdirs.size} subdirectories from links`);
+    
+    // Phase 2: Extract ALL unique subdirectory patterns from collected URLs
+    console.log('\n🔍 Phase 2: Extracting subdirectory patterns from all URLs...');
+    const patterns = this.extractAllSubdirectoryPatterns(allUrls);
+    console.log(`✅ Found ${patterns.size} unique subdirectory patterns`);
+    
+    // Phase 3: Test each pattern to see if it exists
+    console.log('\n🔍 Phase 3: Testing all patterns for existence...');
+    let testedCount = 0;
+    for (const pattern of patterns) {
       const testUrl = `${this.config.seedUrl.replace(/\/$/, '')}/${pattern}/`;
+      
+      // Skip if already found
+      if (subdirs.has(testUrl)) continue;
       
       try {
         await this.enforceDelay();
@@ -172,73 +231,17 @@ export class Crawler {
         });
         
         if (response.ok || response.status === 301 || response.status === 302) {
-          foundSubdirs.add(testUrl);
+          subdirs.add(testUrl);
+          testedCount++;
         }
       } catch {
         // Pattern doesn't exist
       }
     }
     
-    return foundSubdirs;
-  }
-
-  /**
-   * Discover subdirectories by crawling multiple levels
-   */
-  private async discoverSubdirectories(): Promise<Set<string>> {
-    console.log('\n📂 Discovering subdirectories...');
-    const subdirs = new Set<string>();
-    const visited = new Set<string>();
-    const queue = [this.config.seedUrl];
+    console.log(`✅ Found ${testedCount} additional subdirectories from pattern testing`);
+    console.log(`✅ TOTAL: ${subdirs.size} potential subdirectories discovered`);
     
-    // Crawl up to 3 levels deep to find all subdirectories
-    let depth = 0;
-    const maxDepth = 3;
-    const maxPagesToCheck = 100;
-    let pagesChecked = 0;
-    
-    while (queue.length > 0 && depth < maxDepth && pagesChecked < maxPagesToCheck) {
-      const currentUrl = queue.shift()!;
-      
-      if (visited.has(currentUrl) || !this.isAllowed(currentUrl)) {
-        continue;
-      }
-      
-      visited.add(currentUrl);
-      pagesChecked++;
-      
-      const result = await this.fetchPage(currentUrl);
-      if (!result) continue;
-      
-      const links = this.extractLinks(result.html, currentUrl);
-      
-      for (const link of links) {
-        const subdir = getSubdirectory(link, this.config.seedUrl);
-        if (subdir) {
-          const baseUrl = new URL(subdir, this.config.seedUrl).href;
-          subdirs.add(baseUrl);
-          
-          // Add to queue for further exploration if not visited
-          if (!visited.has(link) && isUnderRoot(link, this.config.seedUrl)) {
-            queue.push(link);
-          }
-        }
-      }
-      
-      depth++;
-    }
-    
-    console.log(`✅ Found ${subdirs.size} subdirectories from crawling`);
-    
-    // Also check common patterns
-    console.log('🔍 Checking common WordPress subdirectory patterns...');
-    const commonSubdirs = await this.checkCommonSubdirectories();
-    
-    for (const subdir of commonSubdirs) {
-      subdirs.add(subdir);
-    }
-    
-    console.log(`✅ Total: ${subdirs.size} potential subdirectories`);
     return subdirs;
   }
 
