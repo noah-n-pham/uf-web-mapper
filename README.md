@@ -27,6 +27,8 @@ The tool now provides the team with clear, auditable visibility into the College
 - **Migration planning** — Identify consolidation opportunities and plan content migrations  
 - **Systematic audits** — Perform accessibility, content ownership, and architectural reviews at scale
 
+**Adaptability**: While built for UF COE, this tool can be easily configured for any organization managing multiple WordPress installations across a domain. The crawler is designed to be domain-agnostic and requires only environment variable configuration to target different domains.
+
 ---
 
 ## Overview
@@ -331,12 +333,25 @@ MIT License - see [LICENSE](LICENSE) file.
 
 ## Contributing
 
-This project was built for the UF College of Education. If you'd like to adapt it for your organization:
+### Adapting for Your Organization
 
-1. Fork the repository
-2. Update `env.example` with your configuration
-3. Modify `crawler/src/index.ts` seedUrl as needed
-4. Follow the security guidelines in `SECURITY.md`
+This project was built for the UF College of Education, but it's designed to work for any organization facing similar challenges with WordPress multi-site ecosystems. The tool is domain-agnostic and highly configurable.
+
+**To adapt for your organization:**
+
+1. **Fork the repository** — Create your own copy
+2. **Configure the crawler** — Set your domain in the `SEED_URL` environment variable
+3. **Set contact information** — Update `CRAWLER_CONTACT_EMAIL` for responsible crawling
+4. **Adjust rate limiting** — Tune `MAX_CONCURRENCY` and `DELAY_MS` for your needs
+5. **Run and deploy** — Follow the installation and deployment guides above
+
+No code changes are required for basic adaptation. The crawler automatically discovers WordPress installations regardless of domain structure. For advanced customization, see the `/crawler/README.md` documentation.
+
+**Common use cases for other organizations:**
+- Universities with distributed department websites
+- Large enterprises with franchise or regional WordPress sites  
+- Digital agencies managing multiple client installations
+- Government organizations with decentralized web presence
 
 ---
 
