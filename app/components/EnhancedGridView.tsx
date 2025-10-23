@@ -63,69 +63,92 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
       exit={{ opacity: 0 }}
       style={{ background: 'var(--bg-primary)' }}
       className="min-h-screen"
+      id="main-content"
+      role="main"
     >
       {/* Metrics Dashboard */}
-      <div className="backdrop-blur-xl border-b" style={{ 
-        background: 'rgba(255, 252, 249, 0.5)',
-        borderColor: 'var(--border-primary)'
-      }}>
+      <section 
+        className="backdrop-blur-xl border-b" 
+        style={{ 
+          background: 'var(--bg-secondary)',
+          borderColor: 'var(--border-primary)'
+        }}
+        aria-label="Website metrics overview"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="grid grid-cols-1 md:grid-cols-3 gap-6"
+            role="list"
+            aria-label="Key metrics"
           >
             {/* Sites metric */}
             <motion.div
               whileHover={{ scale: 1.02, y: -2 }}
-              className="rounded-xl p-6 text-white shadow-xl"
+              className="rounded-xl p-6 text-white shadow-xl relative overflow-hidden"
               style={{ 
-                background: 'linear-gradient(to bottom right, #0369a1, #0284c7)',
-                boxShadow: '0 10px 25px -5px rgba(2, 132, 199, 0.3)' 
+                background: 'linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #60a5fa 100%)',
+                boxShadow: '0 10px 30px -5px rgba(59, 130, 246, 0.5), 0 0 0 1px rgba(59, 130, 246, 0.1)' 
               }}
+              role="listitem"
+              aria-label={`${data.subsiteCount} WordPress sites total`}
             >
-              <div className="flex items-center justify-between mb-2">
-                <Globe className="w-8 h-8 opacity-90" />
-                <span className="text-sm font-medium" style={{ color: 'rgba(255, 255, 255, 0.95)' }}>WordPress Sites</span>
-              </div>
-              <div className="text-4xl font-bold mb-1">{data.subsiteCount}</div>
-              <div className="text-sm" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
-                {stats.liveSubsites} live • {data.subsiteCount - stats.liveSubsites} offline
+              <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-transparent" aria-hidden="true"></div>
+              <div className="relative z-10">
+                <div className="flex items-center justify-between mb-2">
+                  <Globe className="w-8 h-8 drop-shadow-md" aria-hidden="true" />
+                  <span className="text-sm font-semibold tracking-wide">WordPress Sites</span>
+                </div>
+                <div className="text-4xl font-bold mb-1 drop-shadow-sm">{data.subsiteCount}</div>
+                <div className="text-sm font-medium opacity-95">
+                  {stats.liveSubsites} live • {data.subsiteCount - stats.liveSubsites} offline
+                </div>
               </div>
             </motion.div>
 
             {/* Pages metric */}
             <motion.div
               whileHover={{ scale: 1.02, y: -2 }}
-              className="rounded-xl p-6 text-white shadow-xl"
+              className="rounded-xl p-6 text-white shadow-xl relative overflow-hidden"
               style={{ 
-                background: 'linear-gradient(to bottom right, #047857, #059669)',
-                boxShadow: '0 10px 25px -5px rgba(5, 150, 105, 0.3)' 
+                background: 'linear-gradient(135deg, #047857 0%, #10b981 50%, #34d399 100%)',
+                boxShadow: '0 10px 30px -5px rgba(16, 185, 129, 0.5), 0 0 0 1px rgba(16, 185, 129, 0.1)' 
               }}
+              role="listitem"
+              aria-label={`${stats.totalPages} total pages across all sites`}
             >
-              <div className="flex items-center justify-between mb-2">
-                <FileText className="w-8 h-8 opacity-90" />
-                <span className="text-sm font-medium" style={{ color: 'rgba(255, 255, 255, 0.95)' }}>Total Pages</span>
+              <div className="absolute inset-0 bg-gradient-to-tr from-emerald-600/20 to-transparent" aria-hidden="true"></div>
+              <div className="relative z-10">
+                <div className="flex items-center justify-between mb-2">
+                  <FileText className="w-8 h-8 drop-shadow-md" aria-hidden="true" />
+                  <span className="text-sm font-semibold tracking-wide">Total Pages</span>
+                </div>
+                <div className="text-4xl font-bold mb-1 drop-shadow-sm">{stats.totalPages.toLocaleString()}</div>
+                <div className="text-sm font-medium opacity-95">Across all sites</div>
               </div>
-              <div className="text-4xl font-bold mb-1">{stats.totalPages.toLocaleString()}</div>
-              <div className="text-sm" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>Across all sites</div>
             </motion.div>
 
             {/* Average metric */}
             <motion.div
               whileHover={{ scale: 1.02, y: -2 }}
-              className="rounded-xl p-6 text-white shadow-xl"
+              className="rounded-xl p-6 text-white shadow-xl relative overflow-hidden"
               style={{ 
-                background: 'linear-gradient(to bottom right, #7c3aed, #8b5cf6)',
-                boxShadow: '0 10px 25px -5px rgba(124, 58, 237, 0.3)' 
+                background: 'linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%)',
+                boxShadow: '0 10px 30px -5px rgba(168, 85, 247, 0.5), 0 0 0 1px rgba(168, 85, 247, 0.1)' 
               }}
+              role="listitem"
+              aria-label={`${stats.avgPagesPerSite} average pages per WordPress site`}
             >
-              <div className="flex items-center justify-between mb-2">
-                <TrendingUp className="w-8 h-8 opacity-90" />
-                <span className="text-sm font-medium" style={{ color: 'rgba(255, 255, 255, 0.95)' }}>Average Pages</span>
+              <div className="absolute inset-0 bg-gradient-to-tr from-purple-600/20 to-transparent" aria-hidden="true"></div>
+              <div className="relative z-10">
+                <div className="flex items-center justify-between mb-2">
+                  <TrendingUp className="w-8 h-8 drop-shadow-md" aria-hidden="true" />
+                  <span className="text-sm font-semibold tracking-wide">Average Pages</span>
+                </div>
+                <div className="text-4xl font-bold mb-1 drop-shadow-sm">{stats.avgPagesPerSite}</div>
+                <div className="text-sm font-medium opacity-95">Per WordPress site</div>
               </div>
-              <div className="text-4xl font-bold mb-1">{stats.avgPagesPerSite}</div>
-              <div className="text-sm" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>Per WordPress site</div>
             </motion.div>
           </motion.div>
 
@@ -143,17 +166,25 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
       </div>
 
       {/* Search and filters */}
-      <div className="backdrop-blur-xl border-b sticky top-16 z-20" style={{
-        background: 'rgba(255, 255, 255, 0.8)',
-        borderColor: 'var(--border-primary)'
-      }}>
+      <section 
+        className="backdrop-blur-xl border-b sticky top-16 z-20" 
+        style={{
+          background: 'var(--bg-secondary)',
+          borderColor: 'var(--border-primary)'
+        }}
+        aria-label="Search and filter controls"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col sm:flex-row gap-3">
             {/* Search */}
             <div className="flex-1 relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: 'var(--text-muted)' }} />
+              <label htmlFor="subsite-search" className="sr-only">
+                Search subsites by name or URL
+              </label>
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: 'var(--text-muted)' }} aria-hidden="true" />
               <input
-                type="text"
+                id="subsite-search"
+                type="search"
                 placeholder="Search subsites by name or URL..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -165,40 +196,52 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
                   color: 'var(--text-primary)',
                   boxShadow: 'var(--shadow-sm)'
                 }}
+                aria-describedby="search-description"
               />
+              <span id="search-description" className="sr-only">
+                Filter the list of subsites by typing a name or URL
+              </span>
               {searchTerm && (
                 <button
                   onClick={() => setSearchTerm('')}
                   className="absolute right-3 top-1/2 -translate-y-1/2 hover:opacity-70 transition-opacity"
                   style={{ color: 'var(--text-muted)' }}
+                  aria-label="Clear search"
                 >
-                  <X className="w-5 h-5" />
+                  <X className="w-5 h-5" aria-hidden="true" />
                 </button>
               )}
             </div>
 
             {/* Sort */}
-            <select
-              value={sortBy}
-              onChange={(e) => setSortBy(e.target.value)}
-              className="px-4 py-2.5 rounded-lg focus:outline-none focus:ring-2 transition-all cursor-pointer"
-              style={{
-                background: 'var(--bg-tertiary)',
-                borderWidth: '1px',
-                borderColor: 'var(--border-secondary)',
-                color: 'var(--text-primary)',
-                boxShadow: 'var(--shadow-sm)'
-              }}
-            >
-              <option value="name">Sort: Name</option>
-              <option value="pages">Sort: Page Count</option>
-            </select>
+            <div>
+              <label htmlFor="sort-select" className="sr-only">
+                Sort subsites by
+              </label>
+              <select
+                id="sort-select"
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value)}
+                className="px-4 py-2.5 rounded-lg focus:outline-none focus:ring-2 transition-all cursor-pointer"
+                style={{
+                  background: 'var(--bg-tertiary)',
+                  borderWidth: '1px',
+                  borderColor: 'var(--border-secondary)',
+                  color: 'var(--text-primary)',
+                  boxShadow: 'var(--shadow-sm)'
+                }}
+                aria-label="Sort subsites"
+              >
+                <option value="name">Sort: Name</option>
+                <option value="pages">Sort: Page Count</option>
+              </select>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Grid Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" aria-label="Subsites list">
         {filteredAndSortedSubsites.length > 0 ? (
           <>
             <motion.div
@@ -206,10 +249,16 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
               animate={{ opacity: 1 }}
               className="mb-4 text-sm"
               style={{ color: 'var(--text-tertiary)' }}
+              role="status"
+              aria-live="polite"
             >
               Showing {filteredAndSortedSubsites.length} of {data.subsiteCount} subsites
             </motion.div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div 
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+              role="list"
+              aria-label="Filtered subsites"
+            >
               {filteredAndSortedSubsites.map((subsite, index) => (
                 <EnhancedSubsiteCard
                   key={subsite.id}
@@ -225,8 +274,10 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             className="text-center py-20"
+            role="status"
+            aria-live="polite"
           >
-            <Search className="w-16 h-16 mx-auto mb-4" style={{ color: 'var(--text-muted)' }} />
+            <Search className="w-16 h-16 mx-auto mb-4" style={{ color: 'var(--text-muted)' }} aria-hidden="true" />
             <h3 className="text-lg font-medium mb-2" style={{ color: 'var(--text-primary)' }}>No subsites found</h3>
             <p className="mb-4" style={{ color: 'var(--text-tertiary)' }}>Try adjusting your search</p>
             <button
@@ -235,12 +286,13 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
               style={{ background: 'var(--accent-blue)' }}
               onMouseEnter={(e) => e.currentTarget.style.opacity = '0.9'}
               onMouseLeave={(e) => e.currentTarget.style.opacity = '1'}
+              aria-label="Clear search and show all subsites"
             >
               Clear search
             </button>
           </motion.div>
         )}
-      </div>
+      </section>
     </motion.div>
   );
 }

@@ -11,12 +11,53 @@ interface EnhancedDetailPanelProps {
 }
 
 export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetailPanelProps) {
+  const panelRef = React.useRef<HTMLDivElement>(null);
+  const closeButtonRef = React.useRef<HTMLButtonElement>(null);
+
   const detectionMethodLabel = {
     'wp-json': 'REST API (wp-json)',
     'wp-content': 'WordPress Assets (wp-content)',
     'meta': 'Meta Generator Tag',
     'none': 'Unknown',
   }[subsite?.detectionMethod || 'none'];
+
+  // Focus trap and keyboard support
+  React.useEffect(() => {
+    if (subsite && closeButtonRef.current) {
+      closeButtonRef.current.focus();
+    }
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+
+      // Focus trap
+      if (e.key === 'Tab' && panelRef.current) {
+        const focusableElements = panelRef.current.querySelectorAll(
+          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+        const firstElement = focusableElements[0] as HTMLElement;
+        const lastElement = focusableElements[focusableElements.length - 1] as HTMLElement;
+
+        if (e.shiftKey && document.activeElement === firstElement) {
+          e.preventDefault();
+          lastElement.focus();
+        } else if (!e.shiftKey && document.activeElement === lastElement) {
+          e.preventDefault();
+          firstElement.focus();
+        }
+      }
+    };
+
+    if (subsite) {
+      document.addEventListener('keydown', handleKeyDown);
+    }
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [subsite, onClose]);
 
   return (
     <AnimatePresence>
@@ -30,10 +71,12 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
             onClick={onClose}
             className="fixed inset-0 backdrop-blur-sm z-40"
             style={{ background: 'rgba(26, 22, 20, 0.4)' }}
+            aria-hidden="true"
           />
 
           {/* Panel with warm colors */}
-          <motion.div
+          <motion.aside
+            ref={panelRef}
             initial={{ x: '100%' }}
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
@@ -43,9 +86,13 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
               background: 'var(--bg-tertiary)',
               boxShadow: 'var(--shadow-xl)'
             }}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="panel-title"
+            aria-describedby="panel-description"
           >
             {/* Header */}
-            <div 
+            <header 
               className="sticky top-0 backdrop-blur-sm border-b px-6 py-4 flex items-center justify-between z-10"
               style={{
                 background: 'rgba(255, 255, 255, 0.95)',
@@ -53,7 +100,7 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
               }}
             >
               <div className="flex-1 mr-4">
-                <h2 className="text-2xl font-bold mb-1" style={{ color: 'var(--text-primary)' }}>
+                <h2 id="panel-title" className="text-2xl font-bold mb-1" style={{ color: 'var(--text-primary)' }}>
                   {subsite.title || 'Untitled Site'}
                 </h2>
                 <a
@@ -62,12 +109,14 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                   rel="noopener noreferrer"
                   className="text-sm hover:underline break-all flex items-center gap-1"
                   style={{ color: 'var(--accent-blue)' }}
+                  aria-label={`Visit ${subsite.title || 'subsite'} website (opens in new tab)`}
                 >
                   {subsite.baseUrl}
-                  <ExternalLink className="w-3 h-3" />
+                  <ExternalLink className="w-3 h-3" aria-hidden="true" />
                 </a>
               </div>
               <motion.button
+                ref={closeButtonRef}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 onClick={onClose}
@@ -76,15 +125,16 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                   color: 'var(--text-tertiary)',
                   background: 'transparent'
                 }}
+                aria-label="Close details panel"
               >
-                <X className="w-6 h-6" />
+                <X className="w-6 h-6" aria-hidden="true" />
               </motion.button>
-            </div>
+            </header>
 
             {/* Content */}
-            <div className="px-6 py-6 space-y-6">
+            <div className="px-6 py-6 space-y-6" id="panel-description">
               {/* Status & Detection Info */}
-              <motion.div
+              <motion.section
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.1 }}
@@ -93,6 +143,7 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                   background: 'var(--bg-secondary)',
                   borderColor: 'var(--border-primary)'
                 }}
+                aria-label="Site status and detection information"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-sm font-medium" style={{ color: 'var(--text-secondary)' }}>Status</span>
@@ -103,15 +154,17 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                       color: subsite.isLive ? 'var(--status-success-text)' : 'var(--status-error-text)',
                       borderColor: subsite.isLive ? 'var(--status-success-border)' : 'var(--status-error-border)'
                     }}
+                    role="status"
+                    aria-label={`Site status: ${subsite.isLive ? 'Live' : 'Offline'}`}
                   >
                     {subsite.isLive ? (
                       <>
-                        <CheckCircle2 className="w-4 h-4" />
+                        <CheckCircle2 className="w-4 h-4" aria-hidden="true" />
                         Live
                       </>
                     ) : (
                       <>
-                        <AlertCircle className="w-4 h-4" />
+                        <AlertCircle className="w-4 h-4" aria-hidden="true" />
                         Offline
                       </>
                     )}
@@ -128,27 +181,28 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                   style={{ borderColor: 'var(--border-primary)' }}
                 >
                   <span className="text-sm font-medium" style={{ color: 'var(--text-secondary)' }}>Total Pages</span>
-                  <span className="text-lg font-bold" style={{ color: 'var(--text-primary)' }}>{subsite.pages.length}</span>
+                  <span className="text-lg font-bold" style={{ color: 'var(--text-primary)' }} aria-label={`${subsite.pages.length} total pages`}>{subsite.pages.length}</span>
                 </div>
-              </motion.div>
+              </motion.section>
 
               {/* Pages List */}
-              <motion.div
+              <motion.section
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
+                aria-labelledby="pages-heading"
               >
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-lg font-semibold flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
-                    <FileText className="w-5 h-5" />
+                  <h3 id="pages-heading" className="text-lg font-semibold flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
+                    <FileText className="w-5 h-5" aria-hidden="true" />
                     Pages ({subsite.pages.length})
                   </h3>
                 </div>
 
                 {subsite.pages.length > 0 ? (
-                  <div className="space-y-3">
+                  <div className="space-y-3" role="list" aria-label="Pages in this subsite">
                     {subsite.pages.map((page, index) => (
-                      <motion.div
+                      <motion.article
                         key={`${subsite.id}-${page.url}-${index}`}
                         initial={{ opacity: 0, x: -20 }}
                         animate={{ opacity: 1, x: 0 }}
@@ -159,6 +213,7 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                           borderColor: 'var(--border-primary)',
                           boxShadow: 'var(--shadow-sm)'
                         }}
+                        role="listitem"
                       >
                         <div className="flex items-start justify-between mb-2">
                           <h4 
@@ -172,7 +227,8 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                           <span 
                             className="flex-shrink-0 w-2 h-2 rounded-full mt-2" 
                             style={{ background: page.isLive ? 'var(--status-icon-success)' : 'var(--text-muted)' }}
-                            title={page.isLive ? 'Live' : 'Offline'} 
+                            role="status"
+                            aria-label={page.isLive ? 'Live page' : 'Offline page'}
                           />
                         </div>
 
@@ -187,12 +243,13 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                             rel="noopener noreferrer"
                             className="text-xs hover:underline flex items-center gap-1"
                             style={{ color: 'var(--accent-blue)' }}
+                            aria-label={`Visit ${page.title || page.path} (opens in new tab)`}
                           >
                             Visit page
-                            <ExternalLink className="w-3 h-3" />
+                            <ExternalLink className="w-3 h-3" aria-hidden="true" />
                           </a>
                           {page.outboundLinks.length > 0 && (
-                            <span className="text-xs" style={{ color: 'var(--text-tertiary)' }}>
+                            <span className="text-xs" style={{ color: 'var(--text-tertiary)' }} aria-label={`${page.outboundLinks.length} outbound links`}>
                               {page.outboundLinks.length} link{page.outboundLinks.length !== 1 ? 's' : ''}
                             </span>
                           )}
@@ -203,11 +260,12 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                             <summary 
                               className="text-xs cursor-pointer hover:opacity-70 flex items-center gap-1 transition-opacity"
                               style={{ color: 'var(--text-tertiary)' }}
+                              aria-label={`Show ${page.outboundLinks.length} outbound links`}
                             >
-                              <ChevronDown className="w-3 h-3" />
+                              <ChevronDown className="w-3 h-3" aria-hidden="true" />
                               Outbound links
                             </summary>
-                            <ul className="mt-2 ml-4 space-y-1">
+                            <ul className="mt-2 ml-4 space-y-1" aria-label="Outbound links from this page">
                               {page.outboundLinks.map((link, linkIndex) => (
                                 <li key={`${page.url}-link-${linkIndex}-${link}`} className="text-xs">
                                   <a
@@ -216,6 +274,7 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                                     rel="noopener noreferrer"
                                     className="hover:underline break-all"
                                     style={{ color: 'var(--accent-blue)' }}
+                                    aria-label={`Visit ${link} (opens in new tab)`}
                                   >
                                     {link}
                                   </a>
@@ -224,18 +283,18 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                             </ul>
                           </details>
                         )}
-                      </motion.div>
+                      </motion.article>
                     ))}
                   </div>
                 ) : (
-                  <div className="text-center py-12" style={{ color: 'var(--text-tertiary)' }}>
-                    <FileText className="w-12 h-12 mx-auto mb-3 opacity-50" />
+                  <div className="text-center py-12" style={{ color: 'var(--text-tertiary)' }} role="status">
+                    <FileText className="w-12 h-12 mx-auto mb-3 opacity-50" aria-hidden="true" />
                     <p>No pages discovered</p>
                   </div>
                 )}
-              </motion.div>
+              </motion.section>
             </div>
-          </motion.div>
+          </motion.aside>
         </>
       )}
     </AnimatePresence>

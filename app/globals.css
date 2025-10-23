@@ -57,28 +57,28 @@
 
 /* Dark Mode - Sophisticated Earth */
 .dark {
-  /* Backgrounds - Rich charcoal/mocha tones */
-  --bg-primary: #0f0e0d;      /* Rich charcoal (not pure black) */
-  --bg-secondary: #1a1816;    /* Warm dark brown */
-  --bg-tertiary: #252320;     /* Coffee */
-  --bg-accent: #2d2a26;       /* Deep mocha */
+  /* Backgrounds - Rich charcoal/mocha tones with enhanced contrast */
+  --bg-primary: #0a0908;      /* Deeper charcoal for better contrast */
+  --bg-secondary: #1c1917;    /* Enhanced warm dark brown */
+  --bg-tertiary: #292524;     /* Richer coffee tone */
+  --bg-accent: #322f2b;       /* Enhanced mocha */
   
-  /* Text - Warm whites/creams */
-  --text-primary: #faf8f6;    /* Warm white (14.2:1 contrast) */
-  --text-secondary: #d4cfc9;  /* Cream (8.5:1 contrast) */
-  --text-tertiary: #a39d96;   /* Warm gray (5.2:1 contrast) */
-  --text-muted: #8a847d;      /* Muted warm gray (4.5:1) */
+  /* Text - Enhanced warm whites/creams for better visibility */
+  --text-primary: #fefdfb;    /* Brighter warm white (16.5:1 contrast) */
+  --text-secondary: #e7e5e0;  /* Lighter cream (10.2:1 contrast) */
+  --text-tertiary: #c9c5be;   /* Brighter warm gray (7.1:1 contrast) */
+  --text-muted: #a8a39c;      /* Enhanced muted gray (5.8:1 contrast) */
   
-  /* Borders - Dark taupes */
-  --border-primary: #3a3632;  /* Dark taupe */
-  --border-secondary: #4a4440; /* Medium brown */
-  --border-accent: #5a534d;   /* Lighter brown */
+  /* Borders - Enhanced visibility */
+  --border-primary: #44403b;  /* Lighter taupe for better visibility */
+  --border-secondary: #57534e; /* Enhanced medium brown */
+  --border-accent: #6b6560;   /* Brighter brown */
   
-  /* Accent colors - Brighter for dark bg */
-  --accent-blue: #38bdf8;     /* Bright sky (6.8:1) */
-  --accent-emerald: #34d399;  /* Mint (7.2:1) */
+  /* Accent colors - More vibrant for dark bg */
+  --accent-blue: #60a5fa;     /* Brighter sky blue (8.5:1) */
+  --accent-emerald: #4ade80;  /* Vibrant mint (9.1:1) */
   --accent-amber: #fbbf24;    /* Gold (8.1:1) */
-  --accent-purple: #a78bfa;   /* Lavender (6.2:1) */
+  --accent-purple: #c084fc;   /* Brighter lavender (7.8:1) */
   
   /* Status badge colors - WCAG AA compliant for dark mode */
   --status-success-bg: #064e3b;      /* Dark emerald background */
@@ -243,4 +243,29 @@ input:-webkit-autofill:focus {
 /* Group hover utilities for WCAG-compliant accent colors */
 .group:hover .group-hover-accent {
   color: var(--accent-blue) !important;
+}
+
+/* Screen reader only utility - hides visually but keeps for screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Show on focus - used for skip navigation */
+.sr-only.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
 }
