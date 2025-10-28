@@ -229,20 +229,32 @@ Output: `public/data.json`
 
 ## Deployment
 
-### Frontend (Vercel/Netlify)
+### Quick Start
 
-1. Push repository to GitHub
-2. Connect to hosting provider
-3. Deploy (no environment variables needed for frontend)
+**Frontend**: Deploy to Vercel by connecting your GitHub repository (no environment variables needed)
 
-### Automated Crawling (GitHub Actions)
+**Automated Crawls**: Set up GitHub Actions for weekly data updates
 
-Optional: Set up scheduled crawling
+📖 **See [DEPLOYMENT.md](DEPLOYMENT.md) for complete step-by-step deployment instructions**
 
-1. Add repository secret: `CRAWLER_CONTACT_EMAIL`
-2. Rename `.github/workflows/crawler.yml.template` to `crawler.yml`
-3. Configure schedule in workflow file
-4. Enable workflow permissions (Settings → Actions → Read and write)
+### Prerequisites
+
+- GitHub repository with code
+- Recent `public/data.json` file from crawler
+- Valid contact email for crawler (for GitHub Actions)
+
+### Summary
+
+1. **Vercel**: Import repo → Auto-deploy on push to main
+2. **GitHub Actions**: 
+   - Add secret: `CRAWLER_CONTACT_EMAIL`
+   - Rename workflow template: `crawler.yml.template` → `crawler.yml`
+   - Enable write permissions in repo settings
+   - Optionally uncomment schedule for weekly runs
+
+📖 **Detailed guides:**
+- [DEPLOYMENT.md](DEPLOYMENT.md) - Complete deployment walkthrough
+- [.github/workflows/SETUP.md](.github/workflows/SETUP.md) - GitHub Actions setup
 
 ---
 
@@ -355,8 +367,21 @@ No code changes are required for basic adaptation. The crawler automatically dis
 
 ---
 
+## Documentation
+
+- **[README.md](README.md)** - Main documentation (you are here)
+- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Production deployment guide
+- **[DEPENDENCIES.md](DEPENDENCIES.md)** - Dependency documentation and rationale
+- **[SECURITY.md](SECURITY.md)** - Security policy and responsible crawling
+- **[ACCESSIBILITY.md](ACCESSIBILITY.md)** - WCAG 2.1 AA compliance details
+- **[crawler/README.md](crawler/README.md)** - Crawler-specific documentation
+- **[.github/workflows/SETUP.md](.github/workflows/SETUP.md)** - GitHub Actions setup guide
+
+---
+
 ## Support
 
-- **Documentation**: Check the `/crawler/README.md` for crawler-specific docs
+- **Documentation**: See links above for comprehensive guides
 - **Issues**: Use GitHub issues for bug reports and feature requests
 - **Security**: See `SECURITY.md` for vulnerability reporting
+- **Deployment**: See `DEPLOYMENT.md` for production deployment help
