@@ -293,7 +293,7 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
             aria-live="polite"
           >
             <Search className="w-16 h-16 mx-auto mb-4" style={{ color: 'var(--text-muted)' }} aria-hidden="true" />
-            <h3 className="text-lg font-medium mb-2" style={{ color: 'var(--text-primary)' }}>No subsites found</h3>
+            <h2 className="text-lg font-medium mb-2" style={{ color: 'var(--text-primary)' }}>No subsites found</h2>
             <p className="mb-4" style={{ color: 'var(--text-tertiary)' }}>Try adjusting your search</p>
             <button
               onClick={() => setSearchTerm('')}

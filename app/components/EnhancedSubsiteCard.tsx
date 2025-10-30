@@ -72,12 +72,12 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
         {/* Header */}
         <div className="flex items-start gap-3 mb-4">
           <div className="flex-1 min-w-0">
-            <h3 
+            <h2 
               className="font-semibold text-base transition-colors line-clamp-2 break-words mb-2 group-hover-accent"
               style={{ color: 'var(--text-primary)' }}
             >
               {subsite.title || 'Untitled Site'}
-            </h3>
+            </h2>
             <p 
               className="text-xs truncate font-mono"
               style={{ color: 'var(--text-tertiary)' }}
