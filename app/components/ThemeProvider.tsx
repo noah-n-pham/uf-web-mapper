@@ -13,10 +13,8 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>('light');
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     // Check localStorage first, then system preference
     const stored = localStorage.getItem('theme') as Theme | null;
     if (stored) {
@@ -44,10 +42,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  if (!mounted) {
-    return <>{children}</>;
-  }
-
+  // Always render with Provider to avoid hydration mismatch
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {children}
