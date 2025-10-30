@@ -13,13 +13,13 @@
 
 name: Web Ecosystem Crawler
 
-# Trigger options (all commented by default)
+# Trigger options
 on:
-  # Schedule option - uncomment and configure as needed
-  # schedule:
-  #   - cron: '0 2 * * 0'  # Weekly on Sunday at 2 AM UTC
+  # Weekly automatic crawl every Sunday at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * 0'  # Weekly on Sunday at 2 AM UTC
   
-  # Manual trigger option (always available once workflow is renamed)
+  # Manual trigger option (can still trigger manually anytime)
   workflow_dispatch:
   
   # Push trigger option - uncomment if needed
@@ -69,17 +69,14 @@ jobs:
             exit 1
           fi
       
-      # OPTIONAL: Commit and push the generated data.json
-      # This step is COMMENTED by default for safety.
-      # Uncomment ONLY if you want automated commits.
-      #
-      # - name: Commit and push data.json
-      #   run: |
-      #     git config --local user.email "github-actions[bot]@users.noreply.github.com"
-      #     git config --local user.name "github-actions[bot]"
-      #     git add public/data.json
-      #     git diff --staged --quiet || git commit -m "chore: update web ecosystem data [skip ci]"
-      #     git push
+      # Auto-commit: Push updated data.json to trigger Vercel deployment
+      - name: Commit and push data.json
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/data.json
+          git diff --staged --quiet || git commit -m "chore: update web ecosystem data [skip ci]"
+          git push
       
       # Alternative: Upload as artifact (useful for manual review)
       - name: Upload data.json as artifact
