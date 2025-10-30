@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-10-23T09:03:46.473Z",
+  "crawlTimestamp": "2025-10-30T14:09:42.564Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -6935,13 +6935,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/students/",
-          "title": "Ph.D. Students",
-          "url": "https://education.ufl.edu/curriculum-teaching/students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/mae/faq/",
           "title": "M.A.E. Frequently Asked Questions",
           "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/mae/faq/",
@@ -6956,23 +6949,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/mae/program-requirements/",
-          "title": "M.A.E. Program Requirements",
-          "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/mae/program-requirements/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/mae/",
           "title": "On Campus M.A.E.",
           "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/mae/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-testimonials/",
-          "title": "Student Testimonials",
-          "url": "https://education.ufl.edu/curriculum-teaching/student-testimonials/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -7019,13 +6998,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/edd/key-features-for-ed-d/",
-          "title": "Ed.D. Key Features",
-          "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/edd/key-features-for-ed-d/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/on-campus-ph-d/faq/",
           "title": "Ph.D. Frequently Asked Questions ",
           "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/on-campus-ph-d/faq/",
@@ -7043,13 +7015,6 @@
           "path": "/prospective-students/on-campus-ph-d/",
           "title": "On-Campus Ph.D.",
           "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/on-campus-ph-d/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/masters-programs/",
-          "title": "Master&#8217;s Programs",
-          "url": "https://education.ufl.edu/curriculum-teaching/masters-programs/",
           "isLive": true,
           "outboundLinks": []
         },
