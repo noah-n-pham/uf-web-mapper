@@ -229,32 +229,48 @@ Output: `public/data.json`
 
 ## Deployment
 
-### Quick Start
+### Frontend Deployment (Vercel)
 
-**Frontend**: Deploy to Vercel by connecting your GitHub repository (no environment variables needed)
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com) and import your repository
+3. Vercel auto-detects Next.js - no configuration needed
+4. Click **Deploy**
+5. Your site is live! ✨
 
-**Automated Crawls**: Set up GitHub Actions for weekly data updates
+**Note**: No environment variables needed for the frontend. The app reads from `public/data.json`.
 
-📖 **See [DEPLOYMENT.md](DEPLOYMENT.md) for complete step-by-step deployment instructions**
+### Automated Weekly Crawls (GitHub Actions)
 
-### Prerequisites
+The repository includes a workflow that can run the crawler automatically and update your data.
 
-- GitHub repository with code
-- Recent `public/data.json` file from crawler
-- Valid contact email for crawler (for GitHub Actions)
+**Setup steps:**
 
-### Summary
+1. **Add Repository Secret**
+   - Go to repo **Settings** → **Secrets and variables** → **Actions**
+   - Add: `CRAWLER_CONTACT_EMAIL` = your monitored email
 
-1. **Vercel**: Import repo → Auto-deploy on push to main
-2. **GitHub Actions**: 
-   - Add secret: `CRAWLER_CONTACT_EMAIL`
-   - Rename workflow template: `crawler.yml.template` → `crawler.yml`
-   - Enable write permissions in repo settings
-   - Optionally uncomment schedule for weekly runs
+2. **Enable Write Permissions**
+   - **Settings** → **Actions** → **General** → **Workflow permissions**
+   - Select **"Read and write permissions"** → Save
 
-📖 **Detailed guides:**
-- [DEPLOYMENT.md](DEPLOYMENT.md) - Complete deployment walkthrough
-- [.github/workflows/SETUP.md](.github/workflows/SETUP.md) - GitHub Actions setup
+3. **Activate Workflow** (already done if using `.github/workflows/crawler.yml`)
+   - The workflow runs weekly (Sunday 2 AM UTC) or manually via Actions tab
+   - Auto-commits updated `data.json` to trigger Vercel deployment
+
+**How it works:**
+```
+Weekly cron schedule
+    ↓
+GitHub Actions runs crawler
+    ↓
+Commits updated data.json
+    ↓
+Vercel auto-deploys
+    ↓
+Fresh data live!
+```
+
+**Manual trigger**: Go to **Actions** → **Web Ecosystem Crawler** → **Run workflow**
 
 ---
 
@@ -370,12 +386,10 @@ No code changes are required for basic adaptation. The crawler automatically dis
 ## Documentation
 
 - **[README.md](README.md)** - Main documentation (you are here)
-- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Production deployment guide
-- **[DEPENDENCIES.md](DEPENDENCIES.md)** - Dependency documentation and rationale
 - **[SECURITY.md](SECURITY.md)** - Security policy and responsible crawling
 - **[ACCESSIBILITY.md](ACCESSIBILITY.md)** - WCAG 2.1 AA compliance details
+- **[DEPENDENCIES.md](DEPENDENCIES.md)** - Dependency documentation and rationale
 - **[crawler/README.md](crawler/README.md)** - Crawler-specific documentation
-- **[.github/workflows/SETUP.md](.github/workflows/SETUP.md)** - GitHub Actions setup guide
 
 ---
 
@@ -384,4 +398,3 @@ No code changes are required for basic adaptation. The crawler automatically dis
 - **Documentation**: See links above for comprehensive guides
 - **Issues**: Use GitHub issues for bug reports and feature requests
 - **Security**: See `SECURITY.md` for vulnerability reporting
-- **Deployment**: See `DEPLOYMENT.md` for production deployment help
