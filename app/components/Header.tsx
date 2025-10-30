@@ -72,10 +72,10 @@ export default function Header({ data }: HeaderProps) {
 
             {/* Theme toggle */}
             <motion.button
-              whileHover={{ scale: 1.05, rotate: 180 }}
+              whileHover={{ rotate: 180 }}
               whileTap={{ scale: 0.95 }}
               onClick={toggleTheme}
-              className="p-2.5 rounded-lg transition-colors"
+              className="p-2.5 rounded-lg transition-colors hover:opacity-90"
               style={{
                 background: 'var(--bg-secondary)',
                 color: 'var(--text-secondary)'
