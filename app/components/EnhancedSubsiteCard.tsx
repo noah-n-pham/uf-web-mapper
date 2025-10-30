@@ -52,7 +52,7 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
       ></div>
       
       {/* Card content */}
-      <article 
+      <div 
         className="relative rounded-xl border p-6 cursor-pointer transition-all duration-300 h-full flex flex-col min-h-[200px]"
         style={{
           background: 'var(--bg-tertiary)',
@@ -128,7 +128,7 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
             <ExternalLink className="w-4 h-4" />
           </motion.div>
         </div>
-      </article>
+      </div>
     </motion.div>
   );
 }
