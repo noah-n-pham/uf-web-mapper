@@ -15,9 +15,9 @@ name: Web Ecosystem Crawler
 
 # Trigger options
 on:
-  # Weekly automatic crawl every Sunday at 2 AM UTC
+  # Daily automatic crawl at 4 AM Eastern Time (9 AM UTC)
   schedule:
-    - cron: '0 2 * * 0'  # Weekly on Sunday at 2 AM UTC
+    - cron: '0 9 * * *'  # Daily at 9 AM UTC (4 AM EST / 5 AM EDT)
   
   # Manual trigger option (can still trigger manually anytime)
   workflow_dispatch:
