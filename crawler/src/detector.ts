@@ -8,6 +8,7 @@ export interface DetectionResult {
   isWordPress: boolean;
   method: DetectionMethod;
   confidence: DetectionConfidence;
+  canonicalUrl?: string; // The canonical URL from the page (if different from baseUrl)
 }
 
 /**
@@ -21,19 +22,32 @@ export async function detectWordPress(
   // Priority 1: Check for /wp-json/ endpoint
   const wpJsonResult = await checkWpJson(baseUrl, userAgent);
   if (wpJsonResult.isWordPress) {
-    return wpJsonResult;
+    // Also check for canonical URL
+    const canonicalUrl = await getCanonicalUrl(baseUrl, userAgent);
+    return {
+      ...wpJsonResult,
+      canonicalUrl
+    };
   }
   
   // Priority 2: Check for /wp-content/ in asset URLs
   const wpContentResult = await checkWpContent(baseUrl, userAgent);
   if (wpContentResult.isWordPress) {
-    return wpContentResult;
+    const canonicalUrl = await getCanonicalUrl(baseUrl, userAgent);
+    return {
+      ...wpContentResult,
+      canonicalUrl
+    };
   }
   
   // Priority 3: Check for meta generator tag
   const metaResult = await checkMetaGenerator(baseUrl, userAgent);
   if (metaResult.isWordPress) {
-    return metaResult;
+    const canonicalUrl = await getCanonicalUrl(baseUrl, userAgent);
+    return {
+      ...metaResult,
+      canonicalUrl
+    };
   }
   
   return {
@@ -151,5 +165,42 @@ async function checkMetaGenerator(baseUrl: string, userAgent: string): Promise<D
     method: 'none',
     confidence: 'low'
   };
+}
+
+/**
+ * Extract canonical URL from a page's HTML
+ * Returns the canonical URL if found and different from the baseUrl, otherwise returns undefined
+ */
+async function getCanonicalUrl(baseUrl: string, userAgent: string): Promise<string | undefined> {
+  try {
+    const response = await fetch(baseUrl, {
+      method: 'GET',
+      headers: {
+        'User-Agent': userAgent
+      },
+      signal: AbortSignal.timeout(10000)
+    });
+    
+    if (response.ok) {
+      const html = await response.text();
+      
+      // Extract canonical URL from link tag
+      const canonicalMatch = html.match(/<link[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["']/i);
+      if (canonicalMatch) {
+        const canonicalUrl = canonicalMatch[1];
+        const normalizedBase = baseUrl.replace(/\/$/, '');
+        const normalizedCanonical = canonicalUrl.replace(/\/$/, '');
+        
+        // Only return if canonical URL is different from base URL
+        if (normalizedBase !== normalizedCanonical) {
+          return normalizedCanonical;
+        }
+      }
+    }
+  } catch (error) {
+    // Error fetching page or parsing - return undefined
+  }
+  
+  return undefined;
 }
 

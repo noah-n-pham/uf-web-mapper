@@ -21,6 +21,9 @@ export interface Subsite {
   detectionConfidence: DetectionConfidence;
   isLive: boolean;
   pages: Page[];
+  canonicalUrl?: string; // The canonical URL if different from baseUrl
+  isAlias?: boolean; // True if this is an alias pointing to another installation
+  aliasTarget?: string; // The canonical installation this aliases to
 }
 
 export interface CrawlResult {

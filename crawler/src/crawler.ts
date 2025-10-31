@@ -257,6 +257,11 @@ export class Crawler {
       const id = generateId(baseUrl);
       console.log(`✅ WordPress detected via ${detection.method} (confidence: ${detection.confidence})`);
       
+      // Check for canonical URL mismatch
+      if (detection.canonicalUrl) {
+        console.log(`⚠️  Canonical URL differs: ${detection.canonicalUrl}`);
+      }
+      
       // Fetch title
       const result = await this.fetchPage(baseUrl);
       const title = result ? this.extractTitle(result.html) : null;
@@ -268,7 +273,8 @@ export class Crawler {
         detectionMethod: detection.method,
         detectionConfidence: detection.confidence,
         isLive: result !== null && result.status === 200,
-        pages: []
+        pages: [],
+        canonicalUrl: detection.canonicalUrl
       };
       
       this.state.subsites.set(baseUrl, subsite);
@@ -459,6 +465,38 @@ export class Crawler {
   }
 
   /**
+   * Detect and flag subsites that are aliases (point to the same canonical URL)
+   */
+  private detectAliases(): void {
+    const subsiteArray = Array.from(this.state.subsites.values());
+    
+    for (const subsite of subsiteArray) {
+      if (subsite.canonicalUrl) {
+        // Normalize URLs for comparison
+        const normalizedCanonical = subsite.canonicalUrl.replace(/\/$/, '');
+        
+        // Check if the canonical URL matches any other subsite's baseUrl
+        for (const otherSubsite of subsiteArray) {
+          const normalizedOtherBase = otherSubsite.baseUrl.replace(/\/$/, '');
+          
+          if (normalizedCanonical === normalizedOtherBase && subsite.id !== otherSubsite.id) {
+            // This is an alias pointing to another subsite
+            subsite.isAlias = true;
+            subsite.aliasTarget = otherSubsite.baseUrl;
+            console.log(`   ➜ ${subsite.baseUrl} is an alias for ${otherSubsite.baseUrl}`);
+            break;
+          }
+        }
+        
+        // Even if no matching subsite found, if canonical differs, note it
+        if (!subsite.isAlias) {
+          console.log(`   ⚠️  ${subsite.baseUrl} has canonical URL ${subsite.canonicalUrl} (no matching subsite found)`);
+        }
+      }
+    }
+  }
+
+  /**
    * Main crawl method
    */
   async crawl(): Promise<CrawlResult> {
@@ -516,6 +554,10 @@ export class Crawler {
     for (const subsite of this.state.subsites.values()) {
       await this.crawlSubsitePages(subsite);
     }
+    
+    // Detect aliases (subsites with canonical URLs pointing to other subsites)
+    console.log('\n🔗 Detecting aliases...');
+    this.detectAliases();
     
     // Build result
     const result: CrawlResult = {

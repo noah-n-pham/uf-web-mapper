@@ -47,6 +47,7 @@ This tool helps organizations understand their WordPress web ecosystem by:
 
 - **Automated discovery** - Crawls domain to find WordPress installations
 - **Reliable detection** - 3-tier fallback method (REST API → assets → meta tags)
+- **Alias detection** - Identifies when multiple URLs point to the same WordPress installation
 - **Accurate counting** - Uses WordPress API for precise page counts
 - **Web interface** - Search, filter, and explore discovered sites
 - **Accessible** - WCAG 2.1 AA compliant
@@ -192,6 +193,23 @@ Parse HTML for /wp-content/ URLs
 
 Each method is attempted in order until WordPress is detected or all methods fail.
 
+### Alias Detection
+
+The crawler automatically detects when multiple URLs point to the same WordPress installation:
+
+1. **Canonical URL Extraction** - Reads `<link rel="canonical">` tags from each site
+2. **Cross-Reference Analysis** - Compares canonical URLs across all discovered sites
+3. **Alias Flagging** - Marks sites where the canonical URL differs from the accessed URL
+
+**Why This Matters**: Some WordPress installations are accessible via multiple URLs (e.g., `/profiles/` and `/faculty/`). While they appear as separate sites, they may share the same WordPress dashboard and content. The alias detection feature:
+
+- Prevents double-counting of sites
+- Clarifies which URLs share the same admin dashboard
+- Helps avoid confusion during maintenance and updates
+- Provides transparency about your web ecosystem's actual structure
+
+Aliases are clearly marked in the UI with an orange badge and warning message.
+
 ---
 
 ## Data Format
@@ -211,6 +229,9 @@ Output: `public/data.json`
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
+      "canonicalUrl": "https://...",  // Optional: if differs from baseUrl
+      "isAlias": false,                // Optional: true if pointing to another installation
+      "aliasTarget": "https://...",    // Optional: the canonical installation URL
       "pages": [
         {
           "path": "/page-path",
@@ -224,6 +245,11 @@ Output: `public/data.json`
   ]
 }
 ```
+
+**New in Data Format:**
+- `canonicalUrl` - Present when a site's canonical URL differs from its access URL
+- `isAlias` - Set to `true` when the site is an alias pointing to another installation
+- `aliasTarget` - The baseUrl of the canonical installation this site aliases to
 
 ---
 

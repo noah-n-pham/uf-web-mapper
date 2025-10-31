@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Subsite } from '../types/data';
-import { FileText, CheckCircle2, AlertCircle, ExternalLink } from 'lucide-react';
+import { FileText, CheckCircle2, AlertCircle, ExternalLink, Link2 } from 'lucide-react';
 
 interface EnhancedSubsiteCardProps {
   subsite: Subsite;
@@ -72,18 +72,43 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
         {/* Header */}
         <div className="flex items-start gap-3 mb-4">
           <div className="flex-1 min-w-0">
-            <h2 
-              className="font-semibold text-base transition-colors line-clamp-2 break-words mb-2 group-hover-accent"
-              style={{ color: 'var(--text-primary)' }}
-            >
-              {subsite.title || 'Untitled Site'}
-            </h2>
+            <div className="flex items-center gap-2 mb-2">
+              <h2 
+                className="font-semibold text-base transition-colors line-clamp-2 break-words group-hover-accent"
+                style={{ color: 'var(--text-primary)' }}
+              >
+                {subsite.title || 'Untitled Site'}
+              </h2>
+              {subsite.isAlias && (
+                <span 
+                  className="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium rounded-full flex-shrink-0"
+                  style={{ 
+                    background: 'rgba(251, 146, 60, 0.1)',
+                    color: 'rgb(234, 88, 12)',
+                    border: '1px solid rgba(251, 146, 60, 0.3)'
+                  }}
+                  title={`Alias for ${subsite.aliasTarget}`}
+                  aria-label={`This is an alias pointing to ${subsite.aliasTarget}`}
+                >
+                  <Link2 className="w-3 h-3" aria-hidden="true" />
+                  Alias
+                </span>
+              )}
+            </div>
             <p 
               className="text-xs truncate font-mono"
               style={{ color: 'var(--text-tertiary)' }}
             >
               {subsite.baseUrl.replace('https://education.ufl.edu', '') || '/'}
             </p>
+            {subsite.isAlias && subsite.aliasTarget && (
+              <p 
+                className="text-xs mt-1 flex items-center gap-1"
+                style={{ color: 'rgb(234, 88, 12)' }}
+              >
+                <span>→ Points to: {subsite.aliasTarget.replace('https://education.ufl.edu', '')}</span>
+              </p>
+            )}
           </div>
           
           <div className="flex-shrink-0" aria-label={subsite.isLive ? 'Live site' : 'Offline site'}>
