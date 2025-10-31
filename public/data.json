@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-10-30T14:09:42.564Z",
+  "crawlTimestamp": "2025-10-31T16:35:04.958Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -2055,7 +2055,8 @@
           "isLive": true,
           "outboundLinks": []
         }
-      ]
+      ],
+      "canonicalUrl": "https://education.ufl.edu/eprc-1"
     },
     {
       "id": "education-ufl-edu-profiles",
@@ -2086,7 +2087,10 @@
           "isLive": true,
           "outboundLinks": []
         }
-      ]
+      ],
+      "canonicalUrl": "https://education.ufl.edu/faculty",
+      "isAlias": true,
+      "aliasTarget": "https://education.ufl.edu/faculty/"
     },
     {
       "id": "education-ufl-edu-international-education",
@@ -6970,13 +6974,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/edd/program-requirements/",
-          "title": "Ed.D. Program Requirements",
-          "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/edd/program-requirements/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/edd/application/",
           "title": "Online Ed.D. &#8211; Application Instruction",
           "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/edd/application/",
@@ -7026,13 +7023,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/apply-now/",
-          "title": "Apply Now",
-          "url": "https://education.ufl.edu/curriculum-teaching/apply-now/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/contact-us/",
           "title": "Contact Us",
           "url": "https://education.ufl.edu/curriculum-teaching/contact-us/",
@@ -7040,9 +7030,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/ctte-doctoral-student-comments/",
-          "title": "CTTE Doctoral Student Comments",
-          "url": "https://education.ufl.edu/curriculum-teaching/ctte-doctoral-student-comments/",
+          "path": "/apply-now/",
+          "title": "Apply Now",
+          "url": "https://education.ufl.edu/curriculum-teaching/apply-now/",
           "isLive": true,
           "outboundLinks": []
         }
