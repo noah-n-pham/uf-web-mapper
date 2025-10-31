@@ -79,19 +79,19 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
               >
                 {subsite.title || 'Untitled Site'}
               </h2>
-              {subsite.isAlias && (
+              {(subsite as any).aliases && (subsite as any).aliases.length > 0 && (
                 <span 
                   className="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium rounded-full flex-shrink-0"
                   style={{ 
-                    background: 'rgba(251, 146, 60, 0.1)',
-                    color: 'rgb(234, 88, 12)',
-                    border: '1px solid rgba(251, 146, 60, 0.3)'
+                    background: 'rgba(59, 130, 246, 0.1)',
+                    color: 'rgb(37, 99, 235)',
+                    border: '1px solid rgba(59, 130, 246, 0.3)'
                   }}
-                  title={`Alias for ${subsite.aliasTarget}`}
-                  aria-label={`This is an alias pointing to ${subsite.aliasTarget}`}
+                  title={`Accessible via ${(subsite as any).aliases.length + 1} URL${(subsite as any).aliases.length > 0 ? 's' : ''}`}
+                  aria-label={`This installation has ${(subsite as any).aliases.length} alias URL${(subsite as any).aliases.length !== 1 ? 's' : ''}`}
                 >
                   <Link2 className="w-3 h-3" aria-hidden="true" />
-                  Alias
+                  {(subsite as any).aliases.length + 1} URLs
                 </span>
               )}
             </div>
@@ -101,12 +101,12 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
             >
               {subsite.baseUrl.replace('https://education.ufl.edu', '') || '/'}
             </p>
-            {subsite.isAlias && subsite.aliasTarget && (
+            {(subsite as any).aliases && (subsite as any).aliases.length > 0 && (
               <p 
                 className="text-xs mt-1 flex items-center gap-1"
-                style={{ color: 'rgb(234, 88, 12)' }}
+                style={{ color: 'rgb(37, 99, 235)' }}
               >
-                <span>→ Points to: {subsite.aliasTarget.replace('https://education.ufl.edu', '')}</span>
+                <span>+ {(subsite as any).aliases.length} more URL{(subsite as any).aliases.length !== 1 ? 's' : ''}</span>
               </p>
             )}
           </div>

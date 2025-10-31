@@ -20,9 +20,36 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
     setSortBy,
   } = useMap();
 
+  // Merge aliases into their target installations and filter out standalone aliases
+  const mergedSubsites = useMemo(() => {
+    const merged = [...data.subsites];
+    const aliasMap = new Map<string, string[]>(); // Maps canonical baseUrl to array of alias URLs
+    
+    // First pass: collect aliases
+    data.subsites.forEach(subsite => {
+      if (subsite.isAlias && subsite.aliasTarget) {
+        const target = subsite.aliasTarget.replace(/\/$/, '');
+        const existing = aliasMap.get(target) || [];
+        aliasMap.set(target, [...existing, subsite.baseUrl]);
+      }
+    });
+    
+    // Second pass: attach aliases to their targets and filter out alias subsites
+    return merged
+      .filter(subsite => !subsite.isAlias) // Remove standalone alias entries
+      .map(subsite => {
+        const normalized = subsite.baseUrl.replace(/\/$/, '');
+        const aliases = aliasMap.get(normalized) || [];
+        return {
+          ...subsite,
+          aliases // Add array of alias URLs to the canonical subsite
+        };
+      });
+  }, [data.subsites]);
+
   // Filter and sort subsites
   const filteredAndSortedSubsites = useMemo(() => {
-    let result = [...data.subsites];
+    let result = [...mergedSubsites];
 
     // Apply search filter
     if (searchTerm) {
@@ -30,7 +57,8 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
       result = result.filter(
         (subsite) =>
           subsite.title?.toLowerCase().includes(term) ||
-          subsite.baseUrl.toLowerCase().includes(term)
+          subsite.baseUrl.toLowerCase().includes(term) ||
+          (subsite.aliases && subsite.aliases.some((alias: string) => alias.toLowerCase().includes(term)))
       );
     }
 
@@ -47,11 +75,14 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
     });
 
     return result;
-  }, [data.subsites, searchTerm, sortBy]);
+  }, [mergedSubsites, searchTerm, sortBy]);
 
   const stats = useMemo(() => {
-    const totalPages = data.subsites.reduce((sum, s) => sum + s.pages.length, 0);
-    const liveSubsites = data.subsites.filter(s => s.isLive).length;
+    // Count unique installations (excluding aliases)
+    const uniqueInstallations = data.subsites.filter(s => !s.isAlias);
+    const totalPages = uniqueInstallations.reduce((sum, s) => sum + s.pages.length, 0);
+    const liveSubsites = uniqueInstallations.filter(s => s.isLive).length;
+    const aliasCount = data.subsites.filter(s => s.isAlias).length;
     
     // Calculate median pages per site
     const pageCounts = data.subsites.map(s => s.pages.length).sort((a, b) => a - b);
@@ -60,8 +91,8 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
       ? Math.round((pageCounts[mid - 1] + pageCounts[mid]) / 2)
       : pageCounts[mid];
     
-    return { totalPages, liveSubsites, medianPagesPerSite };
-  }, [data.subsites, data.subsiteCount]);
+    return { totalPages, liveSubsites, medianPagesPerSite, uniqueCount: uniqueInstallations.length, aliasCount };
+  }, [data.subsites]);
 
   return (
     <motion.div
@@ -99,7 +130,7 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
                 boxShadow: '0 10px 30px -5px rgba(59, 130, 246, 0.5), 0 0 0 1px rgba(59, 130, 246, 0.1)' 
               }}
               role="listitem"
-              aria-label={`${data.subsiteCount} WordPress sites total`}
+              aria-label={`${stats.uniqueCount} unique WordPress installations`}
             >
               <div className="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-transparent" aria-hidden="true"></div>
               <div className="relative z-10">
@@ -107,9 +138,10 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
                   <Globe className="w-8 h-8 drop-shadow-md" aria-hidden="true" />
                   <span className="text-sm font-semibold tracking-wide">WordPress Sites</span>
                 </div>
-                <div className="text-4xl font-bold mb-1 drop-shadow-sm">{data.subsiteCount}</div>
+                <div className="text-4xl font-bold mb-1 drop-shadow-sm">{stats.uniqueCount}</div>
                 <div className="text-sm font-medium opacity-95">
-                  {stats.liveSubsites} live • {data.subsiteCount - stats.liveSubsites} offline
+                  {stats.liveSubsites} live • {stats.uniqueCount - stats.liveSubsites} offline
+                  {stats.aliasCount > 0 && <> • {stats.aliasCount} alias{stats.aliasCount !== 1 ? 'es' : ''}</>}
                 </div>
               </div>
             </motion.div>
@@ -267,7 +299,7 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
               role="status"
               aria-live="polite"
             >
-              Showing {filteredAndSortedSubsites.length} of {data.subsiteCount} subsites
+              Showing {filteredAndSortedSubsites.length} of {stats.uniqueCount} unique installations{stats.aliasCount > 0 ? ` (${stats.aliasCount} alias${stats.aliasCount !== 1 ? 'es' : ''} merged)` : ''}
             </motion.div>
             <div 
               className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"

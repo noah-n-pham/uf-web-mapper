@@ -133,28 +133,46 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
 
             {/* Content */}
             <div className="px-6 py-6 space-y-6" id="panel-description">
-              {/* Alias Warning */}
-              {subsite.isAlias && (
+              {/* Access URLs Info */}
+              {(subsite as any).aliases && (subsite as any).aliases.length > 0 && (
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.05 }}
-                  className="rounded-xl p-4 border flex items-start gap-3"
+                  className="rounded-xl p-5 border"
                   style={{
-                    background: 'rgba(251, 146, 60, 0.05)',
-                    borderColor: 'rgba(251, 146, 60, 0.3)'
+                    background: 'rgba(59, 130, 246, 0.05)',
+                    borderColor: 'rgba(59, 130, 246, 0.2)'
                   }}
-                  role="alert"
-                  aria-live="polite"
+                  role="region"
+                  aria-label="Access URLs for this installation"
                 >
-                  <AlertTriangle className="w-5 h-5 flex-shrink-0 mt-0.5" style={{ color: 'rgb(234, 88, 12)' }} aria-hidden="true" />
-                  <div className="flex-1">
-                    <h3 className="font-semibold text-sm mb-1" style={{ color: 'rgb(234, 88, 12)' }}>
-                      Alias Detected
-                    </h3>
-                    <p className="text-sm" style={{ color: 'rgb(154, 52, 18)' }}>
-                      This URL is an alias that points to <strong>{subsite.aliasTarget}</strong>. Both URLs likely share the same WordPress dashboard and content. Managing one will affect the other.
-                    </p>
+                  <div className="flex items-start gap-3 mb-3">
+                    <Link2 className="w-5 h-5 flex-shrink-0 mt-0.5" style={{ color: 'rgb(37, 99, 235)' }} aria-hidden="true" />
+                    <div className="flex-1">
+                      <h3 className="font-semibold text-sm mb-1" style={{ color: 'rgb(37, 99, 235)' }}>
+                        Multiple Access URLs
+                      </h3>
+                      <p className="text-sm mb-3" style={{ color: 'rgb(30, 64, 175)' }}>
+                        This WordPress installation is accessible via {(subsite as any).aliases.length + 1} different URLs. All URLs share the same dashboard and content.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2 text-sm">
+                      <CheckCircle2 className="w-4 h-4 flex-shrink-0" style={{ color: 'rgb(37, 99, 235)' }} aria-hidden="true" />
+                      <span className="font-mono text-xs" style={{ color: 'var(--text-primary)' }}>
+                        {subsite.baseUrl.replace('https://education.ufl.edu', '')} <span style={{ color: 'rgb(37, 99, 235)' }} className="font-semibold">(canonical)</span>
+                      </span>
+                    </div>
+                    {(subsite as any).aliases.map((alias: string, idx: number) => (
+                      <div key={alias} className="flex items-center gap-2 text-sm">
+                        <Link2 className="w-4 h-4 flex-shrink-0" style={{ color: 'var(--text-tertiary)' }} aria-hidden="true" />
+                        <span className="font-mono text-xs" style={{ color: 'var(--text-secondary)' }}>
+                          {alias.replace('https://education.ufl.edu', '')} <span style={{ color: 'var(--text-tertiary)' }} className="text-xs">(alias)</span>
+                        </span>
+                      </div>
+                    ))}
                   </div>
                 </motion.div>
               )}
@@ -201,18 +219,6 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                   <span className="text-sm font-medium" style={{ color: 'var(--text-secondary)' }}>Detection</span>
                   <span className="text-sm text-right" style={{ color: 'var(--text-primary)' }}>{detectionMethodLabel}</span>
                 </div>
-
-                {subsite.canonicalUrl && (
-                  <div className="flex items-start justify-between pt-3 border-t" style={{ borderColor: 'var(--border-primary)' }}>
-                    <span className="text-sm font-medium flex items-center gap-1.5" style={{ color: 'var(--text-secondary)' }}>
-                      <Link2 className="w-4 h-4" aria-hidden="true" />
-                      Canonical URL
-                    </span>
-                    <span className="text-xs text-right font-mono max-w-[200px] truncate" style={{ color: 'var(--text-primary)' }} title={subsite.canonicalUrl}>
-                      {subsite.canonicalUrl.replace('https://education.ufl.edu', '')}
-                    </span>
-                  </div>
-                )}
 
                 <div 
                   className="flex items-center justify-between pt-3 border-t"
