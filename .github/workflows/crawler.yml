@@ -1,15 +1,5 @@
 # GitHub Actions Workflow Template for UF COE Web Mapper Crawler
-# 
-# This is a TEMPLATE ONLY - it is NOT active by default.
-# 
-# To enable:
-# 1. Rename this file from crawler.yml.template to crawler.yml
-# 2. Uncomment the commit/push step below if you want automated commits
-# 3. Set a cron schedule (currently commented)
-# 4. Grant workflow write permissions:
-#    Repo Settings → Actions → General → Workflow permissions → Read and write
-#
-# WARNING: Do not enable this until you are ready for automated crawls and commits.
+
 
 name: Web Ecosystem Crawler
 
