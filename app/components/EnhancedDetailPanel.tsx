@@ -69,7 +69,8 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="fixed inset-0 backdrop-blur-sm z-40 modal-backdrop-light dark:modal-backdrop-dark"
+            className="fixed inset-0 backdrop-blur-sm z-40"
+            style={{ background: 'rgba(26, 22, 20, 0.4)' }}
             aria-hidden="true"
           />
 
@@ -95,8 +96,7 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
               className="sticky top-0 backdrop-blur-sm border-b px-6 py-4 flex items-center justify-between z-10"
               style={{
                 background: 'var(--bg-tertiary)',
-                borderColor: 'var(--border-primary)',
-                opacity: 0.95
+                borderColor: 'var(--border-primary)'
               }}
             >
               <div className="flex-1 mr-4">
@@ -139,30 +139,26 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.05 }}
-                  className="rounded-xl p-5 border"
-                  style={{
-                    background: 'var(--bg-accent)',
-                    borderColor: 'var(--border-accent)'
-                  }}
+                  className="rounded-xl p-5 border bg-blue-50 dark:bg-blue-950 border-blue-200 dark:border-blue-800"
                   role="region"
                   aria-label="Access URLs for this installation"
                 >
                   <div className="flex items-start gap-3 mb-3">
-                    <Link2 className="w-5 h-5 flex-shrink-0 mt-0.5" style={{ color: 'var(--accent-blue)' }} aria-hidden="true" />
+                    <Link2 className="w-5 h-5 flex-shrink-0 mt-0.5" style={{ color: 'var(--accent-blue-strong)' }} aria-hidden="true" />
                     <div className="flex-1">
-                      <h3 className="font-semibold text-sm mb-1" style={{ color: 'var(--accent-blue)' }}>
+                      <h3 className="font-semibold text-sm mb-1" style={{ color: 'var(--accent-blue-strong)' }}>
                         Multiple Access URLs
                       </h3>
-                      <p className="text-sm mb-3" style={{ color: 'var(--text-secondary)' }}>
+                      <p className="text-sm mb-3" style={{ color: 'var(--accent-blue-darker)' }}>
                         This WordPress installation is accessible via {(subsite as any).aliases.length + 1} different URLs. All URLs share the same dashboard and content.
                       </p>
                     </div>
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2 text-sm">
-                      <CheckCircle2 className="w-4 h-4 flex-shrink-0" style={{ color: 'var(--accent-blue)' }} aria-hidden="true" />
+                      <CheckCircle2 className="w-4 h-4 flex-shrink-0" style={{ color: 'var(--accent-blue-strong)' }} aria-hidden="true" />
                       <span className="font-mono text-xs" style={{ color: 'var(--text-primary)' }}>
-                        {subsite.baseUrl.replace('https://education.ufl.edu', '')} <span style={{ color: 'var(--accent-blue)' }} className="font-semibold">(canonical)</span>
+                        {subsite.baseUrl.replace('https://education.ufl.edu', '')} <span style={{ color: 'var(--accent-blue-strong)' }} className="font-semibold">(canonical)</span>
                       </span>
                     </div>
                     {(subsite as any).aliases.map((alias: string, idx: number) => (

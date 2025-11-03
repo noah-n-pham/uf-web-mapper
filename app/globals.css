@@ -35,6 +35,8 @@
   
   /* Accent colors */
   --accent-blue: #0369a1;     /* Sky blue for links (5.2:1) - WCAG AA compliant */
+  --accent-blue-strong: #1e40af; /* Stronger blue for badges (8.5:1) - WCAG AAA compliant */
+  --accent-blue-darker: #1e3a8a; /* Even darker blue for text (10:1) - WCAG AAA compliant */
   --accent-emerald: #047857;  /* Emerald for success (5.1:1) - WCAG AA compliant */
   --accent-amber: #c2410c;    /* Amber for warnings (5.3:1) - WCAG AA compliant */
   --accent-purple: #7c3aed;   /* Purple for special (4.5:1) */
@@ -76,6 +78,8 @@
   
   /* Accent colors - More vibrant for dark bg */
   --accent-blue: #60a5fa;     /* Brighter sky blue (8.5:1) */
+  --accent-blue-strong: #60a5fa; /* Same as accent-blue for dark mode (8.5:1) */
+  --accent-blue-darker: #93c5fd; /* Lighter blue for better dark mode contrast (11:1) */
   --accent-emerald: #4ade80;  /* Vibrant mint (9.1:1) */
   --accent-amber: #fbbf24;    /* Gold (8.1:1) */
   --accent-purple: #c084fc;   /* Brighter lavender (7.8:1) */

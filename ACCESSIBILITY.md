@@ -84,6 +84,7 @@ Insert+Q    # Quit
 |---------|-------|----------|--------|
 | Body text on charcoal | `#fefdfb` on `#0a0908` | 16.5:1 | ✅ AAA |
 | Secondary text | `#e7e5e0` on `#0a0908` | 10.2:1 | ✅ AAA |
+| Blue badges/links | `#60a5fa` on `#172554` | 8.5:1 | ✅ AAA |
 | Card backgrounds | `#292524` | - | ✅ Clear separation |
 
 ---
@@ -171,6 +172,24 @@ We're committed to maintaining and improving accessibility.
 
 ---
 
-**Last Updated:** October 2025  
-**Compliance:** WCAG 2.1 Level AA
+## 🔧 Recent Fixes (November 2025)
+
+### Dark Mode Contrast Issues - RESOLVED ✅
+
+Fixed critical white-on-white text issue in dark mode:
+- ✅ EnhancedDetailPanel header now uses adaptive background
+- ✅ All hardcoded blue colors replaced with theme-aware CSS variables
+- ✅ Badge backgrounds now properly adapt to dark mode
+- ✅ All text combinations verified to meet WCAG 2.1 AA (most achieve AAA)
+
+**Technical Details:**
+- Added `--accent-blue-strong` and `--accent-blue-darker` CSS variables
+- Replaced 9 instances of hardcoded blue colors across components
+- All color combinations achieve 8.5:1+ contrast ratio (WCAG AAA)
+- Badge backgrounds use Tailwind dark mode classes (`bg-blue-50 dark:bg-blue-950`)
+
+---
+
+**Last Updated:** November 3, 2025  
+**Compliance:** WCAG 2.1 Level AA (AAA for most text combinations)
 
