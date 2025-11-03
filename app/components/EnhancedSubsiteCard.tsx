@@ -83,9 +83,9 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
                 <span 
                   className="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium rounded-full flex-shrink-0"
                   style={{ 
-                    background: 'rgba(59, 130, 246, 0.1)',
-                    color: 'rgb(37, 99, 235)',
-                    border: '1px solid rgba(59, 130, 246, 0.3)'
+                    background: 'var(--bg-accent)',
+                    color: 'var(--accent-blue)',
+                    border: '1px solid var(--border-accent)'
                   }}
                   title={`Accessible via ${(subsite as any).aliases.length + 1} URL${(subsite as any).aliases.length > 0 ? 's' : ''}`}
                   aria-label={`This installation has ${(subsite as any).aliases.length} alias URL${(subsite as any).aliases.length !== 1 ? 's' : ''}`}
@@ -104,7 +104,7 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
             {(subsite as any).aliases && (subsite as any).aliases.length > 0 && (
               <p 
                 className="text-xs mt-1 flex items-center gap-1"
-                style={{ color: 'rgb(37, 99, 235)' }}
+                style={{ color: 'var(--accent-blue)' }}
               >
                 <span>+ {(subsite as any).aliases.length} more URL{(subsite as any).aliases.length !== 1 ? 's' : ''}</span>
               </p>
