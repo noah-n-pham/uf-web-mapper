@@ -44,9 +44,9 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
       className="group relative"
       role="listitem"
     >
-      {/* Warm gradient glow on hover */}
+      {/* Warm gradient glow on hover and focus */}
       <div 
-        className="absolute -inset-0.5 rounded-2xl opacity-0 group-hover:opacity-100 blur transition duration-300"
+        className="absolute -inset-0.5 rounded-2xl opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 blur transition duration-300"
         style={{ background: 'linear-gradient(to right, rgba(2, 132, 199, 0.15), rgba(5, 150, 105, 0.15))' }}
         aria-hidden="true"
       ></div>
@@ -142,7 +142,7 @@ export default function EnhancedSubsiteCard({ subsite, onClick, index }: Enhance
           </div>
           
           <motion.div
-            className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity"
+            className="flex items-center gap-1 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity"
             style={{ color: 'var(--accent-blue)' }}
             whileHover={{ x: 2 }}
             aria-hidden="true"

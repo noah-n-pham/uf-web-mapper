@@ -243,7 +243,7 @@ export default function EnhancedGridView({ data }: EnhancedGridViewProps) {
               {searchTerm && (
                 <button
                   onClick={() => setSearchTerm('')}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 hover:opacity-70 transition-opacity"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 hover:opacity-70 focus:opacity-70 transition-opacity"
                   style={{ color: 'var(--text-muted)' }}
                   aria-label="Clear search"
                 >

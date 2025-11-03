@@ -107,7 +107,7 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                   href={subsite.baseUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-sm hover:underline break-all flex items-center gap-1"
+                  className="text-sm hover:underline focus:underline break-all flex items-center gap-1"
                   style={{ color: 'var(--accent-blue)' }}
                   aria-label={`Visit ${subsite.title || 'subsite'} website (opens in new tab)`}
                 >
@@ -281,7 +281,7 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                             href={page.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-xs hover:underline flex items-center gap-1"
+                            className="text-xs hover:underline focus:underline flex items-center gap-1"
                             style={{ color: 'var(--accent-blue)' }}
                             aria-label={`Visit ${page.title || page.path} (opens in new tab)`}
                           >
@@ -298,7 +298,7 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                         {page.outboundLinks.length > 0 && (
                           <details className="mt-3">
                             <summary 
-                              className="text-xs cursor-pointer hover:opacity-70 flex items-center gap-1 transition-opacity"
+                              className="text-xs cursor-pointer hover:opacity-70 focus:opacity-70 flex items-center gap-1 transition-opacity"
                               style={{ color: 'var(--text-tertiary)' }}
                               aria-label={`Show ${page.outboundLinks.length} outbound links`}
                             >
@@ -312,7 +312,7 @@ export default function EnhancedDetailPanel({ subsite, onClose }: EnhancedDetail
                                     href={link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="hover:underline break-all"
+                                    className="hover:underline focus:underline break-all"
                                     style={{ color: 'var(--accent-blue)' }}
                                     aria-label={`Visit ${link} (opens in new tab)`}
                                   >
