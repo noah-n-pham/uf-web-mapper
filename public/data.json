@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-11-12T09:11:20.913Z",
+  "crawlTimestamp": "2025-11-13T09:12:14.878Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -1384,92 +1384,15 @@
     {
       "id": "education-ufl-edu-administration",
       "baseUrl": "https://education.ufl.edu/administration/",
-      "title": "Administration – University of Florida – College of Education",
+      "title": "Home - Administration- College of Education",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
-          "path": "/human-resources/",
-          "title": "Human Resources",
-          "url": "https://education.ufl.edu/administration/human-resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/erica-mccray/",
-          "title": "Erica McCray",
-          "url": "https://education.ufl.edu/administration/erica-mccray/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/elayne-colon/",
-          "title": "Elayne Colón",
-          "url": "https://education.ufl.edu/administration/elayne-colon/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/thomasenia-adams/",
-          "title": "Thomasenia Adams",
-          "url": "https://education.ufl.edu/administration/thomasenia-adams/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/glenn-good/",
-          "title": "Glenn Good",
-          "url": "https://education.ufl.edu/administration/glenn-good/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/post-award-services/",
-          "title": "Post-Award Services",
-          "url": "https://education.ufl.edu/administration/post-award-services/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/chart/",
-          "title": "chart",
-          "url": "https://education.ufl.edu/administration/chart/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/academic-affairs/academic-learning-compacts/",
           "title": "Academic Learning Compacts",
           "url": "https://education.ufl.edu/administration/academic-affairs/academic-learning-compacts/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/academic-affairs/international-programs/",
-          "title": "International Programs",
-          "url": "https://education.ufl.edu/administration/academic-affairs/international-programs/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/forms-procedures-policies-for-faculty-development/",
-          "title": "Forms, Procedures, &amp; Policies for Faculty Development",
-          "url": "https://education.ufl.edu/administration/forms-procedures-policies-for-faculty-development/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/administration/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/business-office/",
-          "title": "Business Office",
-          "url": "https://education.ufl.edu/administration/business-office/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -1481,13 +1404,35 @@
           "outboundLinks": []
         },
         {
+          "path": "/human-resources/",
+          "title": "Human Resources",
+          "url": "https://education.ufl.edu/administration/human-resources/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/business-office/",
+          "title": "Business Office",
+          "url": "https://education.ufl.edu/administration/business-office/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/administrative-profiles/",
           "title": "Administrative Profiles",
           "url": "https://education.ufl.edu/administration/administrative-profiles/",
           "isLive": true,
           "outboundLinks": []
+        },
+        {
+          "path": "/",
+          "title": "Home",
+          "url": "https://education.ufl.edu/administration/",
+          "isLive": true,
+          "outboundLinks": []
         }
-      ]
+      ],
+      "canonicalUrl": "https://education.ufl.edu/administration-1"
     },
     {
       "id": "education-ufl-edu-faculty",
