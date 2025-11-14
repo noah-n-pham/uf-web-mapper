@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-11-13T09:12:14.878Z",
+  "crawlTimestamp": "2025-11-14T09:11:20.394Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -1431,8 +1431,7 @@
           "isLive": true,
           "outboundLinks": []
         }
-      ],
-      "canonicalUrl": "https://education.ufl.edu/administration-1"
+      ]
     },
     {
       "id": "education-ufl-edu-faculty",
@@ -6991,6 +6990,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/draft/schools-society-and-policy/",
+          "title": "Schools, Society, and Policy",
+          "url": "https://education.ufl.edu/education-sciences/draft/schools-society-and-policy/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/draft/",
           "title": "Draft",
