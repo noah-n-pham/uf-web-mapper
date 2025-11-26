@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2025-11-25T09:12:56.881Z",
+  "crawlTimestamp": "2025-11-26T09:11:16.926Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 54,
+  "subsiteCount": 55,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -1205,6 +1205,13 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/work/ar-expeditions/",
+          "title": "AR Expeditions",
+          "url": "https://education.ufl.edu/etc/work/ar-expeditions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/onboarding/resources/",
           "title": "Resources",
           "url": "https://education.ufl.edu/etc/onboarding/resources/",
@@ -2191,6 +2198,86 @@
           "path": "/",
           "title": "Homepage",
           "url": "https://education.ufl.edu/abovethenorm/",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-hdose",
+      "baseUrl": "https://education.ufl.edu/hdose/",
+      "title": "School of Human Development and Organizational Studies (HDOSE) – UF College of Education",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/2025-hdose-welcome-week/",
+          "title": "2025 HDOSE Welcome Week",
+          "url": "https://education.ufl.edu/hdose/2025-hdose-welcome-week/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/news/",
+          "title": "News",
+          "url": "https://education.ufl.edu/hdose/news/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/highlights/",
+          "title": "Highlights",
+          "url": "https://education.ufl.edu/hdose/highlights/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/open-graduate-seminar-courses/",
+          "title": "Open Seminars",
+          "url": "https://education.ufl.edu/hdose/open-graduate-seminar-courses/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/graduate-student-funding/",
+          "title": "Graduate Student Funding",
+          "url": "https://education.ufl.edu/hdose/graduate-student-funding/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/staff/",
+          "title": "Staff",
+          "url": "https://education.ufl.edu/hdose/staff/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/contact/",
+          "title": "Contact",
+          "url": "https://education.ufl.edu/hdose/contact/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/resources/",
+          "title": "Resources",
+          "url": "https://education.ufl.edu/hdose/resources/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/programs/",
+          "title": "Programs",
+          "url": "https://education.ufl.edu/hdose/programs/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/",
+          "title": "School of Human Development and Organizational Studies in Education",
+          "url": "https://education.ufl.edu/hdose/",
           "isLive": true,
           "outboundLinks": []
         }
