@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-12-01T09:13:59.384Z",
+  "crawlTimestamp": "2025-12-02T09:13:56.577Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -1643,13 +1643,6 @@
           "path": "/home/",
           "title": "Home",
           "url": "https://education.ufl.edu/helpdesk/home/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/homepage/",
-          "title": "Original Home &#8211; Archive this when possible",
-          "url": "https://education.ufl.edu/helpdesk/homepage/",
           "isLive": true,
           "outboundLinks": []
         }
