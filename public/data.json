@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-12-03T09:12:45.867Z",
+  "crawlTimestamp": "2025-12-04T09:13:17.876Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -717,6 +717,13 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/centers-and-institutes/",
+          "title": "Centers, Institutes and Affiliates",
+          "url": "https://education.ufl.edu/educational-research/centers-and-institutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/annual-report/",
           "title": "Annual Report",
           "url": "https://education.ufl.edu/educational-research/annual-report/",
@@ -1044,6 +1051,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/distinguished-alumnus/",
+          "title": "Distinguished Alumnus",
+          "url": "https://education.ufl.edu/alumni/distinguished-alumnus/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/sign-up-for-norman-notes/",
           "title": "Sign up for Norman Notes",
