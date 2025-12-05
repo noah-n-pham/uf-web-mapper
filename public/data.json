@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-12-04T09:13:17.876Z",
+  "crawlTimestamp": "2025-12-05T09:16:14.036Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -1597,6 +1597,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/faculty-resources/course-accessibility/",
+          "title": "Course Accessibility",
+          "url": "https://education.ufl.edu/helpdesk/faculty-resources/course-accessibility/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/it-resources/",
           "title": "IT Resources",
@@ -5637,219 +5644,628 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/leadership-styles-quiz/overview/",
-          "title": "EduGator Leadership Styles Overview",
-          "url": "https://education.ufl.edu/educational-leadership/leadership-styles-quiz/overview/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/leadership-styles-quiz/results/",
-          "title": "Results",
-          "url": "https://education.ufl.edu/educational-leadership/leadership-styles-quiz/results/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/leadership-styles-quiz/",
-          "title": "Leadership Styles Quiz",
-          "url": "https://education.ufl.edu/educational-leadership/leadership-styles-quiz/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/webinar-uf-ed-leadership-and-policy/",
-          "title": "Webinar UF Ed Leadership and Policy",
-          "url": "https://education.ufl.edu/educational-leadership/webinar-uf-ed-leadership-and-policy/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/webinar/",
-          "title": "Webinar",
-          "url": "https://education.ufl.edu/educational-leadership/webinar/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/edlwebinar/",
-          "title": "Webinar Email Invite",
-          "url": "https://education.ufl.edu/educational-leadership/edlwebinar/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/lead/",
-          "title": "Webinar &#8211; Invitation &#8211; M",
-          "url": "https://education.ufl.edu/educational-leadership/lead/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/tfa-student-webinar/",
-          "title": "UF Educational Leadership &amp; Policy TFA Prospective Student Webinar",
-          "url": "https://education.ufl.edu/educational-leadership/tfa-student-webinar/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-m-ed-systems-leadership-track/faq/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed-systems-leadership-track/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-m-ed-systems-leadership-track/application/",
-          "title": "Application Instructions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed-systems-leadership-track/application/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-m-ed-systems-leadership-track/",
-          "title": "Online M.Ed.- Systems Leadership Track",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed-systems-leadership-track/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/ed-s/application/",
-          "title": "Application Instructions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/ed-s/application/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/ed-s/faq/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/ed-s/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/ed-s/",
-          "title": "Ed.S.",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/ed-s/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-m-ed/application/",
-          "title": "Application Instructions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed/application/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-m-ed/faq/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-m-ed/",
-          "title": "Online M.Ed.- School Leadership Track",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-m-ed/application/",
-          "title": "Application Instructions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-m-ed/application/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-m-ed/faq/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-m-ed/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-m-ed/",
-          "title": "On-Campus M.Ed.",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-m-ed/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-ed-d/application/",
-          "title": "Application Instructions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-ed-d/application/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-ed-d/faq/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-ed-d/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-ph-d/application/",
-          "title": "Application Instructions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-ph-d/application/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-ed-d/",
-          "title": "Online Ed.D",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-ed-d/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-ph-d/faq/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-ph-d/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-ph-d/",
-          "title": "On-Campus Ph.D.",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-ph-d/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/educational-leadership/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-faculty/",
-          "title": "Program Faculty",
-          "url": "https://education.ufl.edu/educational-leadership/program-faculty/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-highlight/",
-          "title": "Program Highlights",
-          "url": "https://education.ufl.edu/educational-leadership/program-highlight/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/",
-          "title": "Prospective Students",
-          "url": "https://education.ufl.edu/educational-leadership/prospective-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/",
-          "title": "Educational Leadership and Policy",
+          "title": "Educational Leadership and Policy at the University of Florida",
           "url": "https://education.ufl.edu/educational-leadership/",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/educational-leadership",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory"
+          ]
+        },
+        {
+          "path": "/webinar-uf-ed-leadership-and-policy",
+          "title": "Webinar UF Ed Leadership and Policy - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/webinar-uf-ed-leadership-and-policy",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students",
+          "title": "Prospective Students - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/program-highlight",
+          "title": "Program Highlights - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/program-highlight",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/program-faculty",
+          "title": "Program Faculty - University of Florida Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/program-faculty",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/contact-us",
+          "title": "Contact Us - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/contact-us",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-m-ed",
+          "title": "Online M.Ed School Leadership Track - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-m-ed-systems-leadership-track",
+          "title": "Online M.Ed. Systems Leadership Track - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed-systems-leadership-track",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-m-ed",
+          "title": "On-Campus M.Ed. - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-m-ed",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-ed-d",
+          "title": "Online Ed.D - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-ed-d",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/ed-s",
+          "title": "On Campus or Online Ed.S. - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/ed-s",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2025/12/02/educational-leadership-and-policy-faculty-in-the-news",
+          "title": "Educational Leadership and Policy Faculty in the News - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/2025/12/02/educational-leadership-and-policy-faculty-in-the-news",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2025/06/05/dr-chris-thomas-awarded-prestigious-naed-spencer-postdoctoral-fellowship",
+          "title": "Dr. Chris Thomas Awarded Prestigious NAEd/Spencer Postdoctoral Fellowship - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/2025/06/05/dr-chris-thomas-awarded-prestigious-naed-spencer-postdoctoral-fellowship",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2024/04/27/edd-student-michael-chaires-named-florida-assistant-principal-of-the-year",
+          "title": "EdD Student Michael Chaires Named Florida Assistant Principal of the Year - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/2024/04/27/edd-student-michael-chaires-named-florida-assistant-principal-of-the-year",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-ph-d/application",
+          "title": "Ph.D. Application Instructions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-ph-d/application",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-ed-d/application",
+          "title": "Online Ed.D.Application Instructions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-ed-d/application",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/files/2024/07/M.Ed_.-Online-FALL-2024-ProgramPlan-completed-3.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educational-leadership/files/2024/07/M.Ed_.-Online-FALL-2024-ProgramPlan-completed-3.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/online-m-ed/application",
+          "title": "Online M.Ed. - School Leadership Application Instructions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed/application",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/files/2024/07/Program-Plan-EL-M.Ed_.-Systems-Leadership-Track-2.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educational-leadership/files/2024/07/Program-Plan-EL-M.Ed_.-Systems-Leadership-Track-2.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/online-m-ed-systems-leadership-track/application",
+          "title": "Online M.Ed.- Systems Leadership Application Instructions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed-systems-leadership-track/application",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/ed-s/application",
+          "title": "Online Ed.S.Application Instructions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/ed-s/application",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-m-ed/application",
+          "title": "On-Campus M.Ed. Application Instructions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-m-ed/application",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/category/faculty-news",
+          "title": "Faculty News Archives - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/category/faculty-news",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/category/student-news",
+          "title": "Student News Archives - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/category/student-news",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2024/01/10/new-podcast-chalk-and-gavel-explores-ed-law-and-policy",
+          "title": "New Podcast Chalk and Gavel Explores Ed Law and Policy - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/2024/01/10/new-podcast-chalk-and-gavel-explores-ed-law-and-policy",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2023/11/09/phd-student-parker-van-hart-named-appam-entrepreneurship-fellow",
+          "title": "PhD Student Parker Van Hart Named APPAM Entrepreneurship Fellow - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/2023/11/09/phd-student-parker-van-hart-named-appam-entrepreneurship-fellow",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2023/09/19/post-doctoral-scholar-profile-dr-ann-marie-cotman",
+          "title": "Post-Doctoral Scholar Profile: Dr. Ann Marie Cotman - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/2023/09/19/post-doctoral-scholar-profile-dr-ann-marie-cotman",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2023/01/22/drs-redding-and-currans-research-tops-most-read-lists",
+          "title": "Drs. Redding and Curran’s Research Tops Most-Read Lists - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/2023/01/22/drs-redding-and-currans-research-tops-most-read-lists",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2022/12/04/faculty-and-students-present-research-at-ucea",
+          "title": "Faculty and Students Present Research at UCEA - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/2022/12/04/faculty-and-students-present-research-at-ucea",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2022/12/22/dr-christopher-thomas-wins-education-law-book-award",
+          "title": "Dr. Christopher Thomas Wins Education Law Book Award - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/2022/12/22/dr-christopher-thomas-wins-education-law-book-award",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/2022/11/23/craig-wood-honored-with-lifetime-achievement-award-from-education-law-association",
+          "title": "Craig Wood Honored with Lifetime Achievement Award from Education Law Association - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/2022/11/23/craig-wood-honored-with-lifetime-achievement-award-from-education-law-association",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/files/2024/07/CV_Kent_2024.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educational-leadership/files/2024/07/CV_Kent_2024.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/Thank%20you!%20We%20will%20follow%20up%20with%20more%20information%20on%20our%20program%20offerings%20shortly.%20In%20the%20meantime,%20follow%20us%20on%20social%20media",
+          "title": "Page not found - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/Thank%20you!%20We%20will%20follow%20up%20with%20more%20information%20on%20our%20program%20offerings%20shortly.%20In%20the%20meantime,%20follow%20us%20on%20social%20media",
+          "isLive": false,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-m-ed/faq",
+          "title": "Frequently Asked Questions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/educational-leadership/prospective-students/online-m-ed-systems-leadership-track",
+          "title": "Online M.Ed. Systems Leadership Track - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/educational-leadership/prospective-students/online-m-ed-systems-leadership-track",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-m-ed-systems-leadership-track/faq",
+          "title": "Frequently Asked Questions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed-systems-leadership-track/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-m-ed/faq",
+          "title": "On-Campus M.Ed.Frequently Asked Questions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-m-ed/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-ed-d/faq",
+          "title": "Online Ed.D. Frequently Asked Questions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-ed-d/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/ed-s/faq",
+          "title": "Frequently Asked Questions - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/ed-s/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-ph-d/faq",
+          "title": "On-campus Ph.D. Frequently Asked Questions - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-ph-d/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-m-ed-systems-leadership-track/educational-leadership/prospective-students/online-m-ed-systems-leadership-track",
+          "title": "Online M.Ed. Systems Leadership Track - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed-systems-leadership-track/educational-leadership/prospective-students/online-m-ed-systems-leadership-track",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/author/jonwalker",
+          "title": "jonwalker, Author at Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/author/jonwalker",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/author/abhiramgorle",
+          "title": "abhiramgorle, Author at Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/author/abhiramgorle",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/author/evejung",
+          "title": "evekung, Author at Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/author/evejung",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/category/faculty-news/page/2",
+          "title": "Faculty News Archives - Page 2 of 2 - Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/category/faculty-news/page/2",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-phd",
+          "title": "On-Campus Ph.D. - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-phd",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/educational-leadership/prospective-students/educational-leadership/prospective-students/online-m-ed-systems-leadership-track",
+          "title": "Online M.Ed. Systems Leadership Track - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/educational-leadership/prospective-students/educational-leadership/prospective-students/online-m-ed-systems-leadership-track",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-m-ed-systems-leadership-track/educational-leadership/prospective-students/educational-leadership/prospective-students/online-m-ed-systems-leadership-track",
+          "title": "Online M.Ed. Systems Leadership Track - UF Educational Leadership and Policy",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed-systems-leadership-track/educational-leadership/prospective-students/educational-leadership/prospective-students/online-m-ed-systems-leadership-track",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/author/evejung/page/2",
+          "title": "evekung, Author at Educational Leadership and Policy - Page 2 of 2",
+          "url": "https://education.ufl.edu/educational-leadership/author/evejung/page/2",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/files/2024/10/PhD-Program-Plan-Prepopulated-2022-2023-PDF.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/educational-leadership/files/2024/10/PhD-Program-Plan-Prepopulated-2022-2023-PDF.pdf",
           "isLive": true,
           "outboundLinks": []
         }
@@ -5864,130 +6280,292 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/prospective-students/on-campus-med/webinars/",
-          "title": "Webinars",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-med/webinars/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-med/faq/",
-          "title": "Frequently Asked Questions &#8211; Online M.Ed.",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/online-med/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-med/application-instructions/",
-          "title": "Application Instructions &#8211; Online M.Ed.",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/online-med/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-med/",
-          "title": "Online M.Ed. Program",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/online-med/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/hybrid-edd/faq/",
-          "title": "Frequently Asked Questions &#8211; Ed.D.",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/hybrid-edd/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/hybrid-edd/application-instructions/",
-          "title": "Application Instructions &#8211; Ed.D.",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/hybrid-edd/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/hybrid-edd/",
-          "title": "Hybrid Ed.D.",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/hybrid-edd/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-phd/faq/",
-          "title": "Frequently Asked Questions &#8211; Ph.D.",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-phd/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-phd/application-instructions/",
-          "title": "Application Instructions &#8211; Ph.D.",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-phd/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-phd/",
-          "title": "On-Campus Ph.D.",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-phd/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-med/faq/",
-          "title": "Frequently Asked Questions &#8211; On Campus M.Ed",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-med/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-med/application-instructions/",
-          "title": "Application Instructions &#8211; On-Campus M.Ed.",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-med/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-med/",
-          "title": "On-Campus M.Ed.",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-med/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/",
-          "title": "Prospective Students",
-          "url": "https://education.ufl.edu/higher-education/prospective-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-highlights/",
-          "title": "Program Highlights",
-          "url": "https://education.ufl.edu/higher-education/program-highlights/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty/",
-          "title": "Program Faculty",
-          "url": "https://education.ufl.edu/higher-education/faculty/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/",
-          "title": "Higher Education Homepage",
+          "title": "Higher Education Administration at UF",
           "url": "https://education.ufl.edu/higher-education/",
           "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/contact-us",
+          "title": "Contact Us - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/contact-us",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students",
+          "title": "Higher Education Degree Programs at UF",
+          "url": "https://education.ufl.edu/higher-education/prospective-students",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/program-highlights",
+          "title": "Program Highlights - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/program-highlights",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/faculty",
+          "title": "Higher Education Faculty - UF College of Education",
+          "url": "https://education.ufl.edu/higher-education/faculty",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-phd",
+          "title": "On-Campus Ph.D. in Higher Education Administration at UF",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-phd",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/hybrid-edd",
+          "title": "Hybrid Ed.D. Program in Higher Education at UF",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/hybrid-edd",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-med",
+          "title": "On-Campus Student Affairs Program at UF",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-med",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-med",
+          "title": "Online Master's in Higher Education - UF College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/online-med",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-phd/application-instructions",
+          "title": "Application Instructions - Ph.D. - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-phd/application-instructions",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/hybrid-edd/application-instructions",
+          "title": "Application Instructions - Ed.D. - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/hybrid-edd/application-instructions",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-med/application-instructions",
+          "title": "Application Instructions - On-Campus M.Ed. - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-med/application-instructions",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-med/application-instructions",
+          "title": "Application Instructions - Online M.Ed. - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/online-med/application-instructions",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-phd/faq",
+          "title": "Frequently Asked Questions - Ph.D. - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-phd/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/files/2025/03/HEA-PhD-Program-Plan-2020.docx",
+          "title": null,
+          "url": "https://education.ufl.edu/higher-education/files/2025/03/HEA-PhD-Program-Plan-2020.docx",
+          "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/higher-education/contact-us/",
+          "path": "/prospective-students/hybrid-edd/faq",
+          "title": "Frequently Asked Questions - Ed.D. - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/hybrid-edd/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-med/faq",
+          "title": "Frequently Asked Questions - On Campus M.Ed - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-med/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-med/webinars",
+          "title": "Webinars - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-med/webinars",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/GradAdmissions@coe.ufl.edu",
+          "title": "Page not found - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/GradAdmissions@coe.ufl.edu",
+          "isLive": false,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-med/faq",
+          "title": "Frequently Asked Questions - Online M.Ed. - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/online-med/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/files/2025/03/Online-MEd-Program-Plan-for-Website.docx",
+          "title": null,
+          "url": "https://education.ufl.edu/higher-education/files/2025/03/Online-MEd-Program-Plan-for-Website.docx",
           "isLive": true,
           "outboundLinks": []
+        },
+        {
+          "path": "/files/2025/03/UF_Graduate_AdmittedChecklist.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/higher-education/files/2025/03/UF_Graduate_AdmittedChecklist.pdf",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/files/2018/01/fellowship-assistantship-form.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/higher-education/files/2018/01/fellowship-assistantship-form.pdf",
+          "isLive": false,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-med/application-instructions/GradAdmissions@coe.ufl.edu",
+          "title": "Page not found - Higher Education - College of Education",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/on-campus-med/application-instructions/GradAdmissions@coe.ufl.edu",
+          "isLive": false,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
         }
       ]
     },
@@ -6233,6 +6811,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/disabilities-in-society-minor/",
+          "title": "Disabilities in Society Minor",
+          "url": "https://education.ufl.edu/special-education/prospective-students/disabilities-in-society-minor/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/contact-form-db/",
           "title": "Contact Form DB",
@@ -6810,67 +7395,648 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/prospective-students/bachelors-of-art-in-elementary-education/application-instructions/",
-          "title": "Application Instructions",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/bachelors-of-art-in-elementary-education/faq/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-highlights/",
-          "title": "Program Highlights",
-          "url": "https://education.ufl.edu/elementary-education/program-highlights/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/elementary-education/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-faculty/",
-          "title": "Program Faculty",
-          "url": "https://education.ufl.edu/elementary-education/program-faculty/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/",
-          "title": "Prospective Students",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/elementary-online/",
-          "title": "Online Elementary Apprenticeship",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-online/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/bachelors-of-art-in-elementary-education/",
-          "title": "Bachelors of Art in Elementary Education",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/",
-          "title": "Elementary Education Homepage",
+          "title": "Elementary Education Homepage - Elementary Education",
           "url": "https://education.ufl.edu/elementary-education/",
           "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students",
+          "title": "Prospective Students - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/program-faculty",
+          "title": "Program Faculty - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/program-faculty",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/contact-us",
+          "title": "Contact Us - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/contact-us",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-online",
+          "title": "Online Elementary Apprenticeship - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-online",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/bbeckett@coe.ufl.edu",
+          "title": "Page not found - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/bbeckett@coe.ufl.edu",
+          "isLive": false,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/alexisdixon@ufl.edu",
+          "title": "Page not found - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/alexisdixon@ufl.edu",
+          "isLive": false,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/lespinosa@coe.ufl.edu",
+          "title": "Page not found - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/lespinosa@coe.ufl.edu",
+          "isLive": false,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/bachelors-of-art-in-elementary-education/faq",
+          "title": "Frequently Asked Questions - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/bachelors-of-art-in-elementary-education/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/files/2025/08/2025-Fall-Elementary-BAE-Upper-Division-Program-Plan1.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/elementary-education/files/2025/08/2025-Fall-Elementary-BAE-Upper-Division-Program-Plan1.pdf",
+          "isLive": true,
           "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
         }
       ]
     },
@@ -7005,60 +8171,82 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/draft/schools-society-and-policy/",
-          "title": "Schools, Society, and Policy",
-          "url": "https://education.ufl.edu/education-sciences/draft/schools-society-and-policy/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/draft/",
-          "title": "Draft",
-          "url": "https://education.ufl.edu/education-sciences/draft/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-b-a/",
-          "title": "Online B.A.",
-          "url": "https://education.ufl.edu/education-sciences/prospective-students/online-b-a/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-b-a/",
-          "title": "On-campus B.A.",
-          "url": "https://education.ufl.edu/education-sciences/prospective-students/on-campus-b-a/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-highlights/",
-          "title": "Program Highlights",
-          "url": "https://education.ufl.edu/education-sciences/program-highlights/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/",
-          "title": "Prospective Students",
-          "url": "https://education.ufl.edu/education-sciences/prospective-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/education-sciences/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/",
-          "title": "Homepage",
+          "title": "Homepage - Education Science",
           "url": "https://education.ufl.edu/education-sciences/",
           "isLive": true,
-          "outboundLinks": []
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students",
+          "title": "Prospective Students - Education Science",
+          "url": "https://education.ufl.edu/education-sciences/prospective-students",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/program-highlights",
+          "title": "Program Highlights - Education Science",
+          "url": "https://education.ufl.edu/education-sciences/program-highlights",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/contact-us",
+          "title": "Contact Us - Education Science",
+          "url": "https://education.ufl.edu/education-sciences/contact-us",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/on-campus-b-a",
+          "title": "On-campus B.A. - Education Science",
+          "url": "https://education.ufl.edu/education-sciences/prospective-students/on-campus-b-a",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/online-b-a",
+          "title": "Online B.A. - Education Science",
+          "url": "https://education.ufl.edu/education-sciences/prospective-students/online-b-a",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
         }
       ]
     },
