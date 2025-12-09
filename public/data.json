@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-12-08T09:14:20.363Z",
+  "crawlTimestamp": "2025-12-09T09:13:13.083Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -8216,13 +8216,6 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
-        {
-          "path": "/accessibility-test/",
-          "title": "Accessibility-test",
-          "url": "https://education.ufl.edu/computer-science-education/accessibility-test/",
-          "isLive": true,
-          "outboundLinks": []
-        },
         {
           "path": "/prospective-students/online-ed-d/online-ed-d-cohort/",
           "title": "Online Ed.D. Cohort",
