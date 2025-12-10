@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-12-09T09:13:13.083Z",
+  "crawlTimestamp": "2025-12-10T09:13:23.114Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -7018,6 +7018,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/disabilities-in-society/",
+          "title": "Disabilities in Society",
+          "url": "https://education.ufl.edu/education-sciences/disabilities-in-society/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/draft/schools-society-and-policy/",
           "title": "Schools, Society, and Policy",
