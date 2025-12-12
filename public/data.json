@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-12-11T09:14:17.504Z",
+  "crawlTimestamp": "2025-12-12T09:12:58.397Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -616,430 +616,93 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/research/uf-research-foundation-professors/",
+          "title": "UF Research Foundation Professors",
+          "url": "https://education.ufl.edu/research/research/uf-research-foundation-professors/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/",
-          "title": "Research – College of Education – Resesarch",
+          "title": "Research",
           "url": "https://education.ufl.edu/research/",
           "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/research",
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs"
-          ]
+          "outboundLinks": []
         },
         {
-          "path": "/funded-projects",
-          "title": "Funded Projects – Research",
-          "url": "https://education.ufl.edu/research/funded-projects",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/project-websites",
-          "title": "Project Websites – Research",
-          "url": "https://education.ufl.edu/research/project-websites",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/facts-and-figures",
-          "title": "Facts and Figures – Research",
-          "url": "https://education.ufl.edu/research/facts-and-figures",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/centers-and-institutes",
-          "title": "Centers, Institutes and Affiliates – Research",
-          "url": "https://education.ufl.edu/research/centers-and-institutes",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/research/uf-research-foundation-professors",
-          "title": "UF Research Foundation Professors – Research",
-          "url": "https://education.ufl.edu/research/research/uf-research-foundation-professors",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/uf-center-for-excellence-in-early-childhood-studies",
-          "title": "Anita Zucker Center for Excellence in Early Childhood Studies – Research",
-          "url": "https://education.ufl.edu/research/uf-center-for-excellence-in-early-childhood-studies",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/funded-projects/deans-area",
-          "title": "Dean’s Area – Research",
-          "url": "https://education.ufl.edu/research/funded-projects/deans-area",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/funded-projects/lastinger-center",
-          "title": "Lastinger Center for Learning – Research",
-          "url": "https://education.ufl.edu/research/funded-projects/lastinger-center",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/funded-projects/p-k-yonge",
-          "title": "P.K. Yonge – Research",
-          "url": "https://education.ufl.edu/research/funded-projects/p-k-yonge",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/funded-projects/school-of-human-development-and-organizational-studies-in-education",
-          "title": "School of Human Development and Organizational Studies in Education – Research",
-          "url": "https://education.ufl.edu/research/funded-projects/school-of-human-development-and-organizational-studies-in-education",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/funded-projects/school-of-special-education-school-psychology-and-early-childhood-studies",
-          "title": "School of Special Education, School Psychology and Early Childhood Studies – Research",
-          "url": "https://education.ufl.edu/research/funded-projects/school-of-special-education-school-psychology-and-early-childhood-studies",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/funded-projects/school-of-teaching-and-learning",
-          "title": "School of Teaching and Learning – Research",
-          "url": "https://education.ufl.edu/research/funded-projects/school-of-teaching-and-learning",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/files/2024/06/External-Annual-Report-FY2023_Published.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2024/06/External-Annual-Report-FY2023_Published.pdf",
+          "path": "/project-websites/",
+          "title": "Project Websites",
+          "url": "https://education.ufl.edu/research/project-websites/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2021/08/Studying-Child-Care-Access_10-31-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/08/Studying-Child-Care-Access_10-31-21.pdf",
+          "path": "/funded-projects/",
+          "title": "Funded Projects",
+          "url": "https://education.ufl.edu/research/funded-projects/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2021/07/Initial-Efficacy-Trial-of-Florida-Embedded-Practices_06-30-25.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/07/Initial-Efficacy-Trial-of-Florida-Embedded-Practices_06-30-25.pdf",
+          "path": "/facts-and-figures/",
+          "title": "Facts and Figures",
+          "url": "https://education.ufl.edu/research/facts-and-figures/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2021/04/VALI_06-30-24.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/04/VALI_06-30-24.pdf",
+          "path": "/centers-and-institutes/",
+          "title": "Centers, Institutes and Affiliates",
+          "url": "https://education.ufl.edu/research/centers-and-institutes/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2021/04/Developing-and-Evaluating_7-31-24.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/04/Developing-and-Evaluating_7-31-24.pdf",
+          "path": "/funded-projects/deans-area/",
+          "title": "Dean&#8217;s Area",
+          "url": "https://education.ufl.edu/research/funded-projects/deans-area/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2021/03/Building-a-Statewide-System-for-Inclusion_9-30-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/03/Building-a-Statewide-System-for-Inclusion_9-30-21.pdf",
+          "path": "/funded-projects/uf-center-for-excellence-in-early-childhood-studies/",
+          "title": "Anita Zucker Center for Excellence in Early Childhood Studies",
+          "url": "https://education.ufl.edu/research/funded-projects/uf-center-for-excellence-in-early-childhood-studies/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2020/11/Practice-Based-Coaching_09-30-24.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/11/Practice-Based-Coaching_09-30-24.pdf",
+          "path": "/funded-projects/school-of-teaching-and-learning/",
+          "title": "School of Teaching and Learning",
+          "url": "https://education.ufl.edu/research/funded-projects/school-of-teaching-and-learning/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2020/09/Sunshine-Portal_-06-30-23.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/09/Sunshine-Portal_-06-30-23.pdf",
+          "path": "/funded-projects/school-of-special-education-school-psychology-and-early-childhood-studies/",
+          "title": "School of Special Education, School Psychology and Early Childhood Studies",
+          "url": "https://education.ufl.edu/research/funded-projects/school-of-special-education-school-psychology-and-early-childhood-studies/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2020/08/Multilevel-Determinants_06-30-24.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/08/Multilevel-Determinants_06-30-24.pdf",
+          "path": "/funded-projects/school-of-human-development-and-organizational-studies-in-education/",
+          "title": "School of Human Development and Organizational Studies in Education",
+          "url": "https://education.ufl.edu/research/funded-projects/school-of-human-development-and-organizational-studies-in-education/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2020/07/TFF_06-30-23.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/07/TFF_06-30-23.pdf",
+          "path": "/funded-projects/p-k-yonge/",
+          "title": "P.K. Yonge",
+          "url": "https://education.ufl.edu/research/funded-projects/p-k-yonge/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2020/03/Measuring-and-Mapping-Child-Care_9-30-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/03/Measuring-and-Mapping-Child-Care_9-30-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/09/Florida-EPIC_06-30-22.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2019/09/Florida-EPIC_06-30-22.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2018/12/Training-Teachers-to-Teach-Vocabulary_06-30-22.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2018/12/Training-Teachers-to-Teach-Vocabulary_06-30-22.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2018/10/BEST-in-CLASS-Efficacy_6-30-22.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2018/10/BEST-in-CLASS-Efficacy_6-30-22.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2014/09/Evaluation-of-Preschool-Special-Education-Practices_11-22-17.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2014/09/Evaluation-of-Preschool-Special-Education-Practices_11-22-17.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2015/09/Preparing-Leaders-in-Early-Childhood-Studies_5-15-19.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2015/09/Preparing-Leaders-in-Early-Childhood-Studies_5-15-19.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2017/10/Evaluating-a-Social-Emotional-Learning-Curriculum_06-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2017/10/Evaluating-a-Social-Emotional-Learning-Curriculum_06-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/06/Enhancing-Communication-Skills-of-Primary-Care-Providers_03-31-23.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/06/Enhancing-Communication-Skills-of-Primary-Care-Providers_03-31-23.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/09/Improving-Family-and-Healthcare-Communication_06-30-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2019/09/Improving-Family-and-Healthcare-Communication_06-30-21.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/09/Vinik-Early-Learning_06-30-24.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/09/Vinik-Early-Learning_06-30-24.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/09/Pinellas-County-Early-Learning-Initiative_06-30-24.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/09/Pinellas-County-Early-Learning-Initiative_06-30-24.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/08/PDG-R-CoachingCoP-Year-2_12-30-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/08/PDG-R-CoachingCoP-Year-2_12-30-21.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/08/PDG-R-CCRR-Year-2_06-30-22.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/08/PDG-R-CCRR-Year-2_06-30-22.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/08/Trident-United-Way-CCLI_06-30-23.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/08/Trident-United-Way-CCLI_06-30-23.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/07/Support-for-the-Coalition-of-NW-FL-CoP-Facilitators_04-29-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/07/Support-for-the-Coalition-of-NW-FL-CoP-Facilitators_04-29-21.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/07/Seminole-Instructional-Coaching-PD_06-30-22.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/07/Seminole-Instructional-Coaching-PD_06-30-22.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/07/ECS-Support-for-CoachJAX_09-30-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/07/ECS-Support-for-CoachJAX_09-30-21.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/01/Support-for-ECS_08-31-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/01/Support-for-ECS_08-31-21.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/01/COVID-19-Baseline-Data_10-15-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2021/01/COVID-19-Baseline-Data_10-15-21.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2020/12/PDG_06-30-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/12/PDG_06-30-21.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2020/12/Charleston-Comprehensive-Literacy-Initiative_06-30-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/12/Charleston-Comprehensive-Literacy-Initiative_06-30-21.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2020/11/Calcasieu-Parish-Believe-and-Prepare_06-30-21.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/11/Calcasieu-Parish-Believe-and-Prepare_06-30-21.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2020/11/Flamingo-Literacy-Matrix_08-31-22.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/11/Flamingo-Literacy-Matrix_08-31-22.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2020/08/Pinellas-County-PD_06-30-23.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/08/Pinellas-County-PD_06-30-23.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2020/08/MA-Strongstart-New-Profit_06-30-24.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/08/MA-Strongstart-New-Profit_06-30-24.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2020/06/MA-Strongstart-ECSO_6-30-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/06/MA-Strongstart-ECSO_6-30-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2020/06/OEL-Health-and-Safety-Modules_7-30-23.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/research/files/2020/06/OEL-Health-and-Safety-Modules_7-30-23.pdf",
+          "path": "/funded-projects/lastinger-center-for-learning/",
+          "title": "Lastinger Center for Learning",
+          "url": "https://education.ufl.edu/research/funded-projects/lastinger-center-for-learning/",
           "isLive": true,
           "outboundLinks": []
         }
@@ -1262,8 +925,8 @@
       "id": "education-ufl-edu-student-services",
       "baseUrl": "https://education.ufl.edu/student-services/",
       "title": "Welcome to EduGator Central - Student Services",
-      "detectionMethod": "meta",
-      "detectionConfidence": "medium",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
@@ -1883,376 +1546,44 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/caep-accountability-measures-previous-years/",
+          "title": "CAEP Accountability Measures &#8211; Previous Years",
+          "url": "https://education.ufl.edu/educator-quality/caep-accountability-measures-previous-years/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/university-council-on-teacher-education-ucote/",
+          "title": "University Council on Teacher Education",
+          "url": "https://education.ufl.edu/educator-quality/university-council-on-teacher-education-ucote/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/title-ii-institutional-report/",
+          "title": "Title II Institutional Report",
+          "url": "https://education.ufl.edu/educator-quality/title-ii-institutional-report/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/educator-standards/",
+          "title": "Educator Standards",
+          "url": "https://education.ufl.edu/educator-quality/educator-standards/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/",
-          "title": "Educator Quality – College of Education Site",
+          "title": "Educator Quality",
           "url": "https://education.ufl.edu/educator-quality/",
           "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/educator-quality",
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs"
-          ]
-        },
-        {
-          "path": "/educator-standards",
-          "title": "Educator Standards – Educator Quality",
-          "url": "https://education.ufl.edu/educator-quality/educator-standards",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/title-ii-institutional-report",
-          "title": "Title II Institutional Report – Educator Quality",
-          "url": "https://education.ufl.edu/educator-quality/title-ii-institutional-report",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/files/2025/04/Value-Added-Model.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2025/04/Value-Added-Model.pdf",
-          "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/04/2022-2023-Overall-College-ITP-Program-Summary-copy.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2025/04/2022-2023-Overall-College-ITP-Program-Summary-copy.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2025/04/2022-2023-Ed-Leadership.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2025/04/2022-2023-Ed-Leadership.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2025/04/2022-2023-School-Counseling.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2025/04/2022-2023-School-Counseling.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2025/04/2022-2023-School-Psychology.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2025/04/2022-2023-School-Psychology.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2025/04/Title-II-1.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2025/04/Title-II-1.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2025/04/Employment.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2025/04/Employment.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/caep-accountability-measures-previous-years",
-          "title": "CAEP Accountability Measures – Previous Years – Educator Quality",
-          "url": "https://education.ufl.edu/educator-quality/caep-accountability-measures-previous-years",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/files/2019/12/FEAPs-Agricultural-Education-Bachelor-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/FEAPs-Agricultural-Education-Bachelor-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/ESOL-Agricultural-Education-Bachelors-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/ESOL-Agricultural-Education-Bachelors-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/REC-AgriculturalEducation-Bach-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/REC-AgriculturalEducation-Bach-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2017/01/Agricultural-Education-B-Subject-Area-Matrix_22nd-Edition.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2017/01/Agricultural-Education-B-Subject-Area-Matrix_22nd-Edition.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2023/12/Agricultural-Education-Bachelors.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2023/12/Agricultural-Education-Bachelors.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/FEAPs-Agricultural-Education-Masters-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/FEAPs-Agricultural-Education-Masters-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/ESOL-Agricultural-Education-Masters-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/ESOL-Agricultural-Education-Masters-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/Reading-Agricultural-Education-Masters-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/Reading-Agricultural-Education-Masters-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2017/01/Agricultural-Education-M-Subject-Area-Matrix_22nd-Edition.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2017/01/Agricultural-Education-M-Subject-Area-Matrix_22nd-Edition.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/FEAPs-Art-Education-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/FEAPs-Art-Education-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/ESOL-Art-Education-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/ESOL-Art-Education-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/Reading-Art-Education-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/Reading-Art-Education-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2017/01/Art-Education-B-Subject-Area-Matrix_22nd-Edition_mt.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2017/01/Art-Education-B-Subject-Area-Matrix_22nd-Edition_mt.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2023/12/Art-Education-Bachelors.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2023/12/Art-Education-Bachelors.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/FEAPs-Art-Education-EPI-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/FEAPs-Art-Education-EPI-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/ESOL-ArtEducation-EPI-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/ESOL-ArtEducation-EPI-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/Reading-Art-Education-EPI-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/Reading-Art-Education-EPI-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2017/01/Art-Ed-EPI-Subject-Area-Matrix_22nd-Edition_mt.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2017/01/Art-Ed-EPI-Subject-Area-Matrix_22nd-Edition_mt.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2023/12/Art-Education-EPI.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2023/12/Art-Education-EPI.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/FEAPs-EarlyChild-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/FEAPs-EarlyChild-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/ESOL-EarlyChild-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/ESOL-EarlyChild-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/Reading-EarlyChild-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/Reading-EarlyChild-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2017/01/Early-Childhood-Subject-Area-Matrix_22nd-Edition-copy2.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2017/01/Early-Childhood-Subject-Area-Matrix_22nd-Edition-copy2.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/10/Early-Childhood_FEAPS.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2021/10/Early-Childhood_FEAPS.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/10/Early-Childhood_ESOL.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2021/10/Early-Childhood_ESOL.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/10/Early-Childhood_Reading.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2021/10/Early-Childhood_Reading.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/10/Early-Childhood_Subject-Area.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2021/10/Early-Childhood_Subject-Area.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2023/12/Early-Childhood-BAE.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2023/12/Early-Childhood-BAE.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/FPLS-Educational-Leadership-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/FPLS-Educational-Leadership-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/10/ElemEd_FEAPS.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2021/10/ElemEd_FEAPS.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/10/ElemEd_ESOL.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2021/10/ElemEd_ESOL.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/10/ElemEd_Reading.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2021/10/ElemEd_Reading.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/10/ElemEd_Subject-Area.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2021/10/ElemEd_Subject-Area.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2023/12/Elementary-Ed-BAE.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2023/12/Elementary-Ed-BAE.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/FEAPs-ElemDualCert-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/FEAPs-ElemDualCert-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/ESOL-ElemDualCert-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/ESOL-ElemDualCert-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2019/12/Reading-ElemDualCert-19-20.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2019/12/Reading-ElemDualCert-19-20.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2021/10/Elementary-Education-Dual-Cert.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2021/10/Elementary-Education-Dual-Cert.pdf",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/files/2023/12/Elementary-Ed-Single-_-Dual-Cert.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/educator-quality/files/2023/12/Elementary-Ed-Single-_-Dual-Cert.pdf",
+          "path": "/conceptual-framework/",
+          "title": "Conceptual Framework",
+          "url": "https://education.ufl.edu/educator-quality/conceptual-framework/",
           "isLive": true,
           "outboundLinks": []
         }
@@ -4435,526 +3766,1493 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/2024-2025-meeting-minutes/",
+          "title": "2024-2025 Meeting Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/2024-2025-meeting-minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/2023-2024-meeting-minutes/",
+          "title": "2023-2024 Meeting Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/2023-2024-meeting-minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/2022-2023-meeting-minutes/",
+          "title": "2022-2023 Meeting Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/2022-2023-meeting-minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/2021-2022-faculty-policy-council-meeting-minutes/",
+          "title": "2021-2022 Faculty Policy Council Meeting Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/2021-2022-faculty-policy-council-meeting-minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/resources/",
+          "title": "Resources",
+          "url": "https://education.ufl.edu/faculty-policy/resources/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-policy-council-committees/",
+          "title": "FPC Standing &amp; Ad Hoc Committees",
+          "url": "https://education.ufl.edu/faculty-policy/faculty-policy-council-committees/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/policies/",
+          "title": "Policies",
+          "url": "https://education.ufl.edu/faculty-policy/policies/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/minutes/",
+          "title": "Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/calendar/",
+          "title": "Calendar",
+          "url": "https://education.ufl.edu/faculty-policy/calendar/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/membership/",
+          "title": "2025-2026 Membership",
+          "url": "https://education.ufl.edu/faculty-policy/membership/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/",
-          "title": "Faculty Policy Council – University of Florida – College of Education",
+          "title": "Faculty Policy Council",
           "url": "https://education.ufl.edu/faculty-policy/",
           "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/faculty-policy",
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs"
-          ]
+          "outboundLinks": []
         },
         {
-          "path": "/membership",
-          "title": "2025-2026 Membership – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/membership",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/calendar",
-          "title": "Calendar – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/calendar",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/minutes",
-          "title": "Minutes – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/minutes",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/policies",
-          "title": "Policies – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/policies",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/faculty-policy-council-committees",
-          "title": "FPC Standing & Ad Hoc Committees – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/faculty-policy-council-committees",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/resources",
-          "title": "Resources – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/resources",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/files/2022/04/Constitution-UF-COE-Revised-4-27-22.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2022/04/Constitution-UF-COE-Revised-4-27-22.pdf",
+          "path": "/2020-2021-fpc-minutes/",
+          "title": "2020-2021 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/2020-2021-fpc-minutes/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/10/COE-Doctoral-Research-Requirements-4.18.22.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/10/COE-Doctoral-Research-Requirements-4.18.22.pdf",
+          "path": "/2019-2020-fpc-minutes/",
+          "title": "2019-2020 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/2019-2020-fpc-minutes/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2022/11/REM-Courses-APPROVED.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2022/11/REM-Courses-APPROVED.pdf",
+          "path": "/2018-2019-fpc-minutes/",
+          "title": "2018-2019 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/2018-2019-fpc-minutes/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/11/FPC-Meeting-Minutes-10.20.2025-reformatted.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/11/FPC-Meeting-Minutes-10.20.2025-reformatted.pdf",
+          "path": "/2017-2018-fpc-minutes/",
+          "title": "2017-2018 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/2017-2018-fpc-minutes/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/11/Fall-Kickoff-Minutes-Sept-2025.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/11/Fall-Kickoff-Minutes-Sept-2025.pdf",
+          "path": "/2016-2017-fpc-minutes/",
+          "title": "2016-2017 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/2016-2017-fpc-minutes/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/10/FPC-Meeting-Minutes-8.25.25.docx",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/10/FPC-Meeting-Minutes-8.25.25.docx",
+          "path": "/2016-2017-fpc-members/",
+          "title": "2016-2017 FPC Members",
+          "url": "https://education.ufl.edu/faculty-policy/2016-2017-fpc-members/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/10/4.21-FPC-Spring-Faculty-Meeting-Minutes-1.docx",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/10/4.21-FPC-Spring-Faculty-Meeting-Minutes-1.docx",
+          "path": "/2016-2017-fpc-archive/",
+          "title": "2016-2017 FPC Archive",
+          "url": "https://education.ufl.edu/faculty-policy/2016-2017-fpc-archive/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/08/3.24_FPC-Meeting-Minutes.docx",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/08/3.24_FPC-Meeting-Minutes.docx",
+          "path": "/2015-2016-fpc-minutes/",
+          "title": "2015-2016 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/2015-2016-fpc-minutes/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/03/2.17_FPC-Meeting-Minutes.docx",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/03/2.17_FPC-Meeting-Minutes.docx",
+          "path": "/2015-2016-fpc-members/",
+          "title": "2015-2016 FPC Members",
+          "url": "https://education.ufl.edu/faculty-policy/2015-2016-fpc-members/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/02/1.27_FPC-Meeting-Minutes.docx",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/02/1.27_FPC-Meeting-Minutes.docx",
+          "path": "/2015-2016-fpc-archive/",
+          "title": "2015-2016 FPC Archive",
+          "url": "https://education.ufl.edu/faculty-policy/2015-2016-fpc-archive/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/02/11.18_FPC-Meeting-Minutes_Draft.docx",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/02/11.18_FPC-Meeting-Minutes_Draft.docx",
+          "path": "/fpc-archive-2015-2016/",
+          "title": "FPC Archive 2015-2016",
+          "url": "https://education.ufl.edu/faculty-policy/fpc-archive-2015-2016/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2025/01/10.21_FPC-Meeting-Minutes.docx",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/01/10.21_FPC-Meeting-Minutes.docx",
+          "path": "/archive/fpc-committee-2014-2015/",
+          "title": "FPC Committee 2014-2015",
+          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-committee-2014-2015/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2024/11/8.26_FPC-Meeting-Minutes.docx",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2024/11/8.26_FPC-Meeting-Minutes.docx",
+          "path": "/archive/fpc-minutes-2014-2015/",
+          "title": "FPC Minutes 2014-2015",
+          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-minutes-2014-2015/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2024/11/9.16-FPC-Meeting-Minutes-Fall-Faculty-Kickoff.docx",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2024/11/9.16-FPC-Meeting-Minutes-Fall-Faculty-Kickoff.docx",
+          "path": "/archive/fpc-archive-2014-2015/",
+          "title": "FPC Archive 2014-2015",
+          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-archive-2014-2015/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/2023-2024-meeting-minutes",
-          "title": "2023-2024 Meeting Minutes – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2023-2024-meeting-minutes",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2022-2023-meeting-minutes",
-          "title": "2022-2023 Meeting Minutes – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2022-2023-meeting-minutes",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2021-2022-faculty-policy-council-meeting-minutes",
-          "title": "2021-2022 Faculty Policy Council Meeting Minutes – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2021-2022-faculty-policy-council-meeting-minutes",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2020-2021-fpc-minutes",
-          "title": "2020-2021 FPC Minutes – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2020-2021-fpc-minutes",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2019-2020-fpc-minutes",
-          "title": "2019-2020 FPC Minutes – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2019-2020-fpc-minutes",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2018-2019-fpc-minutes",
-          "title": "2018-2019 FPC Minutes – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2018-2019-fpc-minutes",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2017-2018-fpc-minutes",
-          "title": "2017-2018 FPC Minutes – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2017-2018-fpc-minutes",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2016-2017-fpc-minutes",
-          "title": "2016-2017 FPC Minutes – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2016-2017-fpc-minutes",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2015-2016-fpc-archive",
-          "title": "2015-2016 FPC Archive – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2015-2016-fpc-archive",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/archive/fpc-archive-2014-2015",
-          "title": "FPC Archive 2014-2015 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-archive-2014-2015",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/archive/fpc-archive-2013-2014",
-          "title": "FPC Archive 2013-2014 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-archive-2013-2014",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/archive/2012-2013-fpc-archive",
-          "title": "2012-2013 FPC Archive – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/archive/2012-2013-fpc-archive",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/archive/fpc-archive-2011-2012",
-          "title": "FPC Archive 2011-2012 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-archive-2011-2012",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2010-2011",
-          "title": "FPC Archive 2010-2011 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2010-2011",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2009-2010",
-          "title": "FPC Archive 2009-2010 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2009-2010",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2007-2008",
-          "title": "FPC Archive 2007-2008 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2007-2008",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2006-2007",
-          "title": "FPC Archive 2006-2007 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2006-2007",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2005-2006",
-          "title": "FPC Archive 2005-2006 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2005-2006",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2004-2005",
-          "title": "FPC Archive 2004-2005 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2004-2005",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2003-2004",
-          "title": "FPC Archive 2003-2004 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2003-2004",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2002-2003",
-          "title": "FPC Archive 2002-2003 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2002-2003",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/2001-2002",
-          "title": "FPC Archive 2001-2002 – Faculty Policy Council",
-          "url": "https://education.ufl.edu/faculty-policy/2001-2002",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu/program-directory",
-            "https://education.ufl.edu/course-syllabi",
-            "https://education.ufl.edu/coe-online",
-            "https://education.ufl.edu/coe-online/programs",
-            "https://education.ufl.edu/student-services"
-          ]
-        },
-        {
-          "path": "/files/2025/03/COE-senate-appropriation-policy.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2025/03/COE-senate-appropriation-policy.pdf",
+          "path": "/archive/2013-2014-fpc-members/",
+          "title": "2013-2014 FPC Members",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2013-2014-fpc-members/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2023/12/Non-Tenure-Pre-Promotion-Review-Revisions-11-2-23.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2023/12/Non-Tenure-Pre-Promotion-Review-Revisions-11-2-23.pdf",
+          "path": "/archive/fpc-archive-2013-2014/2013-2014-fpc-minutes/",
+          "title": "2013-2014 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-archive-2013-2014/2013-2014-fpc-minutes/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2022/10/COE_Strategic-Plan_2016_Final.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2022/10/COE_Strategic-Plan_2016_Final.pdf",
+          "path": "/archive/fpc-archive-2013-2014/",
+          "title": "FPC Archive 2013-2014",
+          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-archive-2013-2014/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2023/03/FAC.Recommendation-Sabbatical-PD-Leave_2.23.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2023/03/FAC.Recommendation-Sabbatical-PD-Leave_2.23.pdf",
+          "path": "/archive/2012-2013-fpc-archive/fpc-membership-2012-2013/",
+          "title": "FPC Membership 2012-2013",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2012-2013-fpc-archive/fpc-membership-2012-2013/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2022/04/BAC-Recommendations-to-FPC-related-to-Merit-Policies_FINAL.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2022/04/BAC-Recommendations-to-FPC-related-to-Merit-Policies_FINAL.pdf",
+          "path": "/archive/2012-2013-fpc-archive/fpc-calendar-2012-2013/",
+          "title": "FPC Calendar 2012-2013",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2012-2013-fpc-archive/fpc-calendar-2012-2013/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2022/02/Faculty-Salary-Influence_2021.12.09.pdf",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2022/02/Faculty-Salary-Influence_2021.12.09.pdf",
+          "path": "/archive/2012-2013-fpc-archive/fpc-meeting-minutes-2012-2013/",
+          "title": "FPC Meeting Minutes 2012-2013",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2012-2013-fpc-archive/fpc-meeting-minutes-2012-2013/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/files/2021/02/Guiding-Principles-for-Budget-Decisions.docx",
-          "title": null,
-          "url": "https://education.ufl.edu/faculty-policy/files/2021/02/Guiding-Principles-for-Budget-Decisions.docx",
+          "path": "/archive/2012-2013-fpc-archive/",
+          "title": "2012-2013 FPC Archive",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2012-2013-fpc-archive/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/feb-25-faculty-policy-council-meeting-minutes/",
+          "title": "Feb. 25 Faculty Policy Council Meeting Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/feb-25-faculty-policy-council-meeting-minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/fpc-minutes-february-4-2013/",
+          "title": "FPC Minutes February 4, 2013",
+          "url": "https://education.ufl.edu/faculty-policy/fpc-minutes-february-4-2013/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/coe-award-processes/",
+          "title": "COE Award Processes",
+          "url": "https://education.ufl.edu/faculty-policy/coe-award-processes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/january-14th-fpc-minutes/",
+          "title": "January 14th FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/january-14th-fpc-minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/december-3rd-faculty-policy-council-meeting-minutes/",
+          "title": "December 3rd Faculty Policy Council Meeting Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/december-3rd-faculty-policy-council-meeting-minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/november-5th-faculty-policy-council-meeting-minutes/",
+          "title": "November 5th Faculty Policy Council Meeting Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/november-5th-faculty-policy-council-meeting-minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/october-1-2012/",
+          "title": "October 1, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/october-1-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/august-27-2012/",
+          "title": "August 27, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/august-27-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/fpc-archive-2011-2012/fpc-minutes-2011-2012/fpc-minutes-april-30-2012/",
+          "title": "FPC Minutes April 30, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-archive-2011-2012/fpc-minutes-2011-2012/fpc-minutes-april-30-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/fpc-archive-2011-2012/fpc-minutes-2011-2012/",
+          "title": "FPC Minutes 2011-2012",
+          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-archive-2011-2012/fpc-minutes-2011-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/fpc-archive-2011-2012/",
+          "title": "FPC Archive 2011-2012",
+          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-archive-2011-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ad-hoc-committee-on-academic-affairs-3/",
+          "title": "Ad-Hoc Committee on Academic Affairs",
+          "url": "https://education.ufl.edu/faculty-policy/ad-hoc-committee-on-academic-affairs-3/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/fpc-minutes-april-23-2012/",
+          "title": "FPC Minutes April 23, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/fpc-minutes-april-23-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ccc-minutes-april-9-2012/",
+          "title": "CCC Minutes April 9, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/ccc-minutes-april-9-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-policy-council-minutes-march-26-2012/",
+          "title": "Faculty Policy Council Minutes March 26, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/faculty-policy-council-minutes-march-26-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/bac-minutes-march-26-2012/",
+          "title": "BAC Minutes March 26, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/bac-minutes-march-26-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/bac-minutes-february-6-2012/",
+          "title": "BAC Minutes February 6, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/bac-minutes-february-6-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/bac-minutes-october-10-2011/",
+          "title": "BAC Minutes October 10, 2011",
+          "url": "https://education.ufl.edu/faculty-policy/bac-minutes-october-10-2011/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/bac-minutes-september-25-2011/",
+          "title": "BAC Minutes September 25, 2011",
+          "url": "https://education.ufl.edu/faculty-policy/bac-minutes-september-25-2011/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/end-of-year-report-faculty-affairs/",
+          "title": "End of Year Report Faculty Affairs",
+          "url": "https://education.ufl.edu/faculty-policy/end-of-year-report-faculty-affairs/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/end-of-year-report-college-diversity-committee/",
+          "title": "End of Year Report College Diversity Committee",
+          "url": "https://education.ufl.edu/faculty-policy/end-of-year-report-college-diversity-committee/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/end-of-year-report-technology-and-distance-education/",
+          "title": "End of Year Report Technology and Distance Education",
+          "url": "https://education.ufl.edu/faculty-policy/end-of-year-report-technology-and-distance-education/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/end-of-year-report-research-advisory-committee/",
+          "title": "End of Year Report Research Advisory Committee",
+          "url": "https://education.ufl.edu/faculty-policy/end-of-year-report-research-advisory-committee/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/end-of-year-report-long-range-planning-committee/",
+          "title": "End of Year Report Long Range Planning Committee",
+          "url": "https://education.ufl.edu/faculty-policy/end-of-year-report-long-range-planning-committee/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/end-of-year-report-lectures-seminars-and-awards/",
+          "title": "End of Year Report Lectures Seminars and Awards",
+          "url": "https://education.ufl.edu/faculty-policy/end-of-year-report-lectures-seminars-and-awards/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/end-of-year-report-curriculum-committee/",
+          "title": "End of Year Report Curriculum Committee",
+          "url": "https://education.ufl.edu/faculty-policy/end-of-year-report-curriculum-committee/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/end-of-year-report-budgetary-affairs/",
+          "title": "End of Year Report Budgetary Affairs",
+          "url": "https://education.ufl.edu/faculty-policy/end-of-year-report-budgetary-affairs/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ccc-minutes-september-19-2011/",
+          "title": "CCC Minutes September 19, 2011",
+          "url": "https://education.ufl.edu/faculty-policy/ccc-minutes-september-19-2011/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ccc-minutes-november-21-2011/",
+          "title": "CCC Minutes November 21, 2011",
+          "url": "https://education.ufl.edu/faculty-policy/ccc-minutes-november-21-2011/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ccc-minutes-december-19-2012/",
+          "title": "CCC Minutes December 19 2012",
+          "url": "https://education.ufl.edu/faculty-policy/ccc-minutes-december-19-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ccc-minutes-january-30-2012/",
+          "title": "CCC Minutes January 30 2012",
+          "url": "https://education.ufl.edu/faculty-policy/ccc-minutes-january-30-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ccc-minutes-february-27-2012/",
+          "title": "CCC Minutes February 27, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/ccc-minutes-february-27-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/fpc-minutes-february-20-2012/",
+          "title": "FPC Minutes February 20 2012",
+          "url": "https://education.ufl.edu/faculty-policy/fpc-minutes-february-20-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/january-23-2012/",
+          "title": "January 23, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/january-23-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/lrp-minutes-january-31-2012/",
+          "title": "LRP Minutes January 31, 2012",
+          "url": "https://education.ufl.edu/faculty-policy/lrp-minutes-january-31-2012/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/fpc-minutes-december-12-2011/",
+          "title": "FPC Minutes December 12, 2011",
+          "url": "https://education.ufl.edu/faculty-policy/fpc-minutes-december-12-2011/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/lrpc-january-24-2012-minutes/",
+          "title": "LRPC January 24, 2012 Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/lrpc-january-24-2012-minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/technology-and-distance-education/",
+          "title": "Technology and Distance Education",
+          "url": "https://education.ufl.edu/faculty-policy/technology-and-distance-education/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/research/",
+          "title": "Research Advisory Committee",
+          "url": "https://education.ufl.edu/faculty-policy/research/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/long-range-affairs/",
+          "title": "Long Range Planning Committee",
+          "url": "https://education.ufl.edu/faculty-policy/long-range-affairs/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/lectures/",
+          "title": "Lectures, Seminars, and Awards Committee",
+          "url": "https://education.ufl.edu/faculty-policy/lectures/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/budgetary-affairs/",
+          "title": "Budgetary Affairs Committee",
+          "url": "https://education.ufl.edu/faculty-policy/budgetary-affairs/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/agenda/",
+          "title": "Agenda Committee",
+          "url": "https://education.ufl.edu/faculty-policy/agenda/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/november-14-2011/",
+          "title": "November 14, 2011",
+          "url": "https://education.ufl.edu/faculty-policy/november-14-2011/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/october-17-2011/",
+          "title": "October 17, 2011",
+          "url": "https://education.ufl.edu/faculty-policy/october-17-2011/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2009-2010/minutes/",
+          "title": "2009-2010 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2009-2010/minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/february-18-2003/",
+          "title": "Meeting Minutes for February 18, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/february-18-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/constitution/",
+          "title": "2001-2002 Constitution",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/constitution/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/operating-and-standing-committee-membership/",
+          "title": "Operating and Standing Committee Membership",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/operating-and-standing-committee-membership/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/deans-advisory-committee-notes/february-27-2001/",
+          "title": "Dean&#8217;s Advisory Committtee Notes for February 27, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/deans-advisory-committee-notes/february-27-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/deans-advisory-committee-notes/january-15-2001/",
+          "title": "Dean&#8217;s Advisory Committee Notes for January 15, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/deans-advisory-committee-notes/january-15-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/deans-advisory-committee-notes/november-7-2001/",
+          "title": "Dean&#8217;s Advisory Committee Notes for November 7, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/deans-advisory-committee-notes/november-7-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/deans-advisory-committee-notes/october-3-2001/",
+          "title": "Dean&#8217;s Advisory Committee Notes for October 3, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/deans-advisory-committee-notes/october-3-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/deans-advisory-committee-notes/september-5-2001/",
+          "title": "Dean&#8217;s Advisory Committee Notes for September 5, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/deans-advisory-committee-notes/september-5-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/deans-advisory-committee-notes/",
+          "title": "2001-2002 Dean&#8217;s Advisory Committee Notes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/deans-advisory-committee-notes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-spring-2002/may-2-2002/",
+          "title": "Meeting Minutes for May 2, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-spring-2002/may-2-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-spring-2002/april-29-2002/",
+          "title": "Meeting Minutes for April 29, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-spring-2002/april-29-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-spring-2002/spring-faculty-meeting-april-25-2002/",
+          "title": "Spring Faculty Meeting Minutes for April 25, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-spring-2002/spring-faculty-meeting-april-25-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-spring-2002/march-18-2002/",
+          "title": "Meeting Minutes for March 18, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-spring-2002/march-18-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-spring-2002/february-18-2002/",
+          "title": "Meeting Minutes for February 18, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-spring-2002/february-18-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-spring-2002/february-4-2002/",
+          "title": "Meeting Minutes for February 4, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-spring-2002/february-4-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-spring-2002/january-14-2002/",
+          "title": "Meeting Minutes for January 14, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-spring-2002/january-14-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-fall-2001/december-10-2001/",
+          "title": "Meeting Minutes for December 10, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-fall-2001/december-10-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-fall-2001/november-26-2001/",
+          "title": "Meeting Minutes for November 26, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-fall-2001/november-26-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-fall-2001/october-1-2001/",
+          "title": "Meeting Minutes for October 1, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-fall-2001/october-1-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-fall-2001/september-10-2001/",
+          "title": "Meeting Minutes for September 10, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-fall-2001/september-10-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-fall-2001/fall-faculty-meeting-september-7-2001/",
+          "title": "Fall Faculty Meeting Minutes for September 7, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-fall-2001/fall-faculty-meeting-september-7-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-fall-2001/july-24-2001/",
+          "title": "Meeting Minutes for July 24, 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-fall-2001/july-24-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-spring-2002/",
+          "title": "FPC Minutes for Spring 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-spring-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/minutes-fall-2001/",
+          "title": "FPC Meeting Minutes for Fall 2001",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/minutes-fall-2001/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/membership/",
+          "title": "2001-2002 FPC Membership",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/membership/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/constitution/",
+          "title": "2002-2003 Constitution",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/constitution/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/2002-2003-operating-and-standing-committee-membership/",
+          "title": "2002-2003 Operating and Standing Committee Membership",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/2002-2003-operating-and-standing-committee-membership/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/college-policies-for-faculty-review/assistant-and-associate-dean-review-procedures/",
+          "title": "Assistant and Associate Dean Review Procedures",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/college-policies-for-faculty-review/assistant-and-associate-dean-review-procedures/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/college-policies-for-faculty-review/graduate-admissions-policy/",
+          "title": "Graduate Admissions Policy",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/college-policies-for-faculty-review/graduate-admissions-policy/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/college-policies-for-faculty-review/dissertation-submission-policy/",
+          "title": "Dissertation Submission Policy",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/college-policies-for-faculty-review/dissertation-submission-policy/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/college-policies-for-faculty-review/",
+          "title": "College Policies for Faculty Review",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/college-policies-for-faculty-review/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/spring-2003-faculty-forums/faculty-forum-notes/",
+          "title": "Faculty Forum Notes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/spring-2003-faculty-forums/faculty-forum-notes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/spring-2003-faculty-forums/",
+          "title": "Spring 2003 Faculty Forums",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/spring-2003-faculty-forums/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/college-of-education-2003-review-plan/",
+          "title": "College of Education 2003 Review Plan",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/college-of-education-2003-review-plan/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/fall-faculty-meeting-minutes-october-11-2002/",
+          "title": "Fall Faculty Meeting Minutes for October 11, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/fall-faculty-meeting-minutes-october-11-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/june-24-2003/",
+          "title": "Dean Advisory Council Minutes for June 24, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/june-24-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/may-13-2003/",
+          "title": "Dean Advisory Council Minutes for May 13, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/may-13-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/march-4-2003/",
+          "title": "Dean Advisory Council Minutes for March 4, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/march-4-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/january-7-2003/",
+          "title": "Dean Advisory Council for January 7, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/january-7-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/november-19-2002/",
+          "title": "Dean Advisory Council Minutes for November 19, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/november-19-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/november-5-2002/",
+          "title": "Dean Advisory Council Minutes for November 5, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/november-5-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/october-15-2002/",
+          "title": "Dean Advisory Council Minutes for October 15, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/october-15-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/october-1-2002/",
+          "title": "Dean Advisory Council Minutes for October 1, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/october-1-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/september-17-2002/",
+          "title": "Dean Advisory Council Minutes for September 17, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/september-17-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/september-3-2002/",
+          "title": "Dean Advisory Council Minutes for September 3, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/september-3-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/august-20-2002/",
+          "title": "Dean Advisory Council Minutes for August 20, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/august-20-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/august-12-2002/",
+          "title": "Dean Advisory Council Minutes for August 12, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/august-12-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/dean-advisory-council-minutes/",
+          "title": "Dean Advisory Council Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/dean-advisory-council-minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-spring-2003/may-5-2003/",
+          "title": "Meeting Minutes for May 5, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-spring-2003/may-5-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-spring-2003/april-21-2003/",
+          "title": "Meeting Minutes for April 21, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-spring-2003/april-21-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-spring-2003/april-7-2003/",
+          "title": "Meeting Minutes for April 7, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-spring-2003/april-7-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-spring-2003/march-24-2003/",
+          "title": "Meeting Minutes for March 24, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-spring-2003/march-24-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-spring-2003/february-24-2003/",
+          "title": "Meeting Minutes for February 24, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-spring-2003/february-24-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-spring-2003/february-10-2003/",
+          "title": "Meeting Minutes for February 10, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-spring-2003/february-10-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-spring-2003/january-27-2003/",
+          "title": "Meeting Minutes for January 27, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-spring-2003/january-27-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-spring-2003/january-13-2003/",
+          "title": "Meeting Minutes for January 13, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-spring-2003/january-13-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-fall-2002/december-16-2002/",
+          "title": "Meeting Minutes for December 16, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-fall-2002/december-16-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-fall-2002/december-2-2002/",
+          "title": "Meeting Minutes for December 2, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-fall-2002/december-2-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-fall-2002/november-18-2002/",
+          "title": "Meeting Minutes for November 18, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-fall-2002/november-18-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-fall-2002/november-4-2002/",
+          "title": "Meeting Minutes for November 4, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-fall-2002/november-4-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-fall-2002/october-21-2002/",
+          "title": "Meeting Minutes for October 21, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-fall-2002/october-21-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-fall-2002/october-7-2002/",
+          "title": "Meeting Minutes for October 7, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-fall-2002/october-7-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-fall-2002/september-23-2002/",
+          "title": "Meeting Minutes for September 23, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-fall-2002/september-23-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-fall-2002/september-9-2002/",
+          "title": "Meeting Minutes for September 9, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-fall-2002/september-9-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-fall-2002/august-26-2002/",
+          "title": "Meeting Minutes for August 26, 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-fall-2002/august-26-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-spring-2003/",
+          "title": "FPC Meeting Minutes for Spring 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-spring-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/minutes-fall-2002/",
+          "title": "FPC Meeting Minutes for Fall 2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/minutes-fall-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/membership/",
+          "title": "2002-2003 FPC Membership",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/membership/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/2003-2004-evaluation-of-coe-dean/deans-statement-2004/",
+          "title": "Dean&#8217;s Statement 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/2003-2004-evaluation-of-coe-dean/deans-statement-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/2003-2004-evaluation-of-coe-dean/annual-review-procedures-for-coe-dean/",
+          "title": "Annual Review Procedures for COE Dean",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/2003-2004-evaluation-of-coe-dean/annual-review-procedures-for-coe-dean/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/2003-2004-evaluation-of-coe-dean/",
+          "title": "2003-2004 Evaluation of COE Dean",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/2003-2004-evaluation-of-coe-dean/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/college-policies-for-faculty-review/pre-tenure-review-policy/",
+          "title": "Pre-Tenure Review Policy (2003 &#8211; 2004)",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/college-policies-for-faculty-review/pre-tenure-review-policy/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/college-policies-for-faculty-review/doctoral-research-requirements/",
+          "title": "Doctoral Research Requirements",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/college-policies-for-faculty-review/doctoral-research-requirements/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/college-policies-for-faculty-review/",
+          "title": "College Policies for Faculty Review",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/college-policies-for-faculty-review/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/deans-advisory-council-december-16-2003/",
+          "title": "Dean&#8217;s Advisory Council Minutes for December 16, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/deans-advisory-council-december-16-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/deans-advisory-council-september-23-2003/",
+          "title": "Dean&#8217;s Advisory Council Minutes for September 23, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/deans-advisory-council-september-23-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/deans-advisory-council-august-26-2004/",
+          "title": "Dean&#8217;s Advisory Council Minutes for August 26, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/deans-advisory-council-august-26-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/march-29-2004/",
+          "title": "Faculty Meeting Minutes for March 29, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/march-29-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/april-19-2004/",
+          "title": "Meeting Minutes for April 19, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/april-19-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/april-5-2004/",
+          "title": "Meeting Minutes for April 5, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/april-5-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/march-22-2004/",
+          "title": "Meeting Minutes for March 22, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/march-22-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/februrary-23-2004/",
+          "title": "Meeting Minutes for Februrary 23, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/februrary-23-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/february-9-2004/",
+          "title": "Meeting Minutes for February 9, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/february-9-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/january-12-2004/",
+          "title": "Meeting Minutes for January 12, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/january-12-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/december-1-2003/",
+          "title": "Meeting Minutes for December 1, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/december-1-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/november-17-2003/",
+          "title": "Meeting Minutes for November 17, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/november-17-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/november-10-2003/",
+          "title": "Meeting Minutes for November 10, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/november-10-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/october-6-2003/",
+          "title": "Meeting Minutes for October 6, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/october-6-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/september-22-2003/",
+          "title": "Meeting Minutes for September 22, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/september-22-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/september-8-2003/",
+          "title": "Meeting Minutes for September 8, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/september-8-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/august-25-2003/",
+          "title": "Meeting Minutes for August 25, 2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/august-25-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/calendar/",
+          "title": "2003-2004 FPC Calendar",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/calendar/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/minutes/",
+          "title": "2003-2004 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/membership/",
+          "title": "2003-2004 FPC Membership",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/membership/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/recent-college-goals-and-achievements-2000-2004/",
+          "title": "Recent College Goals and Achievements 2000 &#8211; 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/recent-college-goals-and-achievements-2000-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/coe-responses-to-uf-strategic-plan/",
+          "title": "COE Responses to UF Strategic Plan",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/coe-responses-to-uf-strategic-plan/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/university-of-florida-faculty-survey-2004/",
+          "title": "University of Florida Faculty Survey 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/university-of-florida-faculty-survey-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/college-policies-for-faculty-review/pre-tenure-review-policy/",
+          "title": "Pre-Tenure Review Policy",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/college-policies-for-faculty-review/pre-tenure-review-policy/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/college-policies-for-faculty-review/tenure-probationary-period/",
+          "title": "Tenure Probationary Period",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/college-policies-for-faculty-review/tenure-probationary-period/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/college-policies-for-faculty-review/doctoral-research-requirements/",
+          "title": "Doctoral Research Requirements",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/college-policies-for-faculty-review/doctoral-research-requirements/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/college-policies-for-faculty-review/",
+          "title": "College Policies for Faculty Review",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/college-policies-for-faculty-review/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/evaluation-of-coe-dean/roles-and-responsibilities-of-a-college-dean-april-1-2004-march-31-2005/",
+          "title": "Roles and Responsibilities of a College Dean",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/evaluation-of-coe-dean/roles-and-responsibilities-of-a-college-dean-april-1-2004-march-31-2005/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/evaluation-of-coe-dean/",
+          "title": "2004-2005 Evaluation of COE Dean",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/evaluation-of-coe-dean/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/constitution/",
+          "title": "2004-2005 FPC Constitution",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/constitution/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/minutes/november-8-2004/",
+          "title": "Meeting Minutes for November 8, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/minutes/november-8-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/minutes/october-25-2004/",
+          "title": "Meeting Minutes for October 25, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/minutes/october-25-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/minutes/october-11-2004/",
+          "title": "Meeting Minutes for October 11, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/minutes/october-11-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/minutes/august-30-2004/",
+          "title": "Meeting Minutes for August 30, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/minutes/august-30-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/minutes/may-10-2004/",
+          "title": "Meeting Minutes for May 10, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/minutes/may-10-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/minutes/",
+          "title": "2004-2005 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/calendar/",
+          "title": "2004-2005 FPC Calendar",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/calendar/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2005-2006/minutes/",
+          "title": "2005-2006 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2005-2006/minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2006-2007/minutes/",
+          "title": "2006-2007 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2006-2007/minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2006-2007/membership/",
+          "title": "2006-2007 FPC Membership",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2006-2007/membership/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2006-2007/calendar/",
+          "title": "2006-2007 FPC Calendar",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2006-2007/calendar/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2007-2008/committee-reports/",
+          "title": "2007-2008 FPC Committee Reports",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2007-2008/committee-reports/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2007-2008/minutes/",
+          "title": "2007-2008 FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2007-2008/minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/2011-2012-membership/",
+          "title": "2011-2012 FPC Membership",
+          "url": "https://education.ufl.edu/faculty-policy/2011-2012-membership/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2010-2011/minutes/",
+          "title": "FPC Minutes",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2010-2011/minutes/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/calendar-o/",
+          "title": "2018-2019 FPC Calendar",
+          "url": "https://education.ufl.edu/faculty-policy/calendar-o/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/membership-2/",
+          "title": "2021-2022 FPC Membership",
+          "url": "https://education.ufl.edu/faculty-policy/membership-2/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2010-2011/",
+          "title": "FPC Archive 2010-2011",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2010-2011/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2009-2010/",
+          "title": "FPC Archive 2009-2010",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2009-2010/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/fpc-archive-2008-2009/",
+          "title": "FPC Archive 2008-2009",
+          "url": "https://education.ufl.edu/faculty-policy/archive/fpc-archive-2008-2009/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2007-2008/",
+          "title": "FPC Archive 2007-2008",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2007-2008/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2006-2007/",
+          "title": "FPC Archive 2006-2007",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2006-2007/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2005-2006/",
+          "title": "FPC Archive 2005-2006",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2005-2006/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/",
+          "title": "FPC Archive 2004-2005",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2003-2004/",
+          "title": "FPC Archive 2003-2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2003-2004/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2002-2003/",
+          "title": "FPC Archive 2002-2003",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2002-2003/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2001-2002/",
+          "title": "FPC Archive 2001-2002",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2001-2002/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/",
+          "title": "FPC Archive",
+          "url": "https://education.ufl.edu/faculty-policy/archive/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/constitution/",
+          "title": "Constitution",
+          "url": "https://education.ufl.edu/faculty-policy/constitution/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/fpc-committee-reports/",
+          "title": "2012-2013 FPC Committees",
+          "url": "https://education.ufl.edu/faculty-policy/fpc-committee-reports/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/archive/2004-2005/minutes/september-13-2004/",
+          "title": "Fall Faculty Meeting Minutes for September 13, 2004",
+          "url": "https://education.ufl.edu/faculty-policy/archive/2004-2005/minutes/september-13-2004/",
           "isLive": true,
           "outboundLinks": []
         }
@@ -6719,6 +7017,27 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/educational-technology/",
+          "title": "Educational Technology",
+          "url": "https://education.ufl.edu/education-sciences/educational-technology/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/education-psychology-research/",
+          "title": "Education Psychology &#038; Research",
+          "url": "https://education.ufl.edu/education-sciences/education-psychology-research/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/application/",
+          "title": "Application Instructions",
+          "url": "https://education.ufl.edu/education-sciences/application/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/early-childhood-studies/",
           "title": "Early Childhood Studies",
