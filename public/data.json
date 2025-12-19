@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2025-12-18T09:14:14.116Z",
+  "crawlTimestamp": "2025-12-19T09:12:15.799Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -7019,7 +7019,7 @@
     {
       "id": "education-ufl-edu-education-sciences",
       "baseUrl": "https://education.ufl.edu/education-sciences/",
-      "title": "Homepage - Education Science",
+      "title": "Education Sciences - Education Science",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
@@ -7067,9 +7067,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/draft/",
-          "title": "Draft",
-          "url": "https://education.ufl.edu/education-sciences/draft/",
+          "path": "/",
+          "title": "Education Sciences",
+          "url": "https://education.ufl.edu/education-sciences/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -7105,13 +7105,6 @@
           "path": "/contact-us/",
           "title": "Contact Us",
           "url": "https://education.ufl.edu/education-sciences/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Homepage",
-          "url": "https://education.ufl.edu/education-sciences/",
           "isLive": true,
           "outboundLinks": []
         }
