@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-01-12T09:15:42.240Z",
+  "crawlTimestamp": "2026-01-13T09:13:46.763Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 55,
   "subsites": [
@@ -6708,23 +6708,16 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/online-mae-early-childhood-practitioner-leader-track/application/",
+          "path": "/prospective-students/online-mae-early-childhood-practitioner-leader-track__trashed/application/",
           "title": "Application Instructions",
-          "url": "https://education.ufl.edu/early-childhood/prospective-students/online-mae-early-childhood-practitioner-leader-track/application/",
+          "url": "https://education.ufl.edu/early-childhood/prospective-students/online-mae-early-childhood-practitioner-leader-track__trashed/application/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/online-mae-early-childhood-practitioner-leader-track/faq/",
+          "path": "/prospective-students/online-mae-early-childhood-practitioner-leader-track__trashed/faq/",
           "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/early-childhood/prospective-students/online-mae-early-childhood-practitioner-leader-track/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-mae-early-childhood-practitioner-leader-track/",
-          "title": "Online M.A.E. (Early Childhood Practitioner Leader Track)",
-          "url": "https://education.ufl.edu/early-childhood/prospective-students/online-mae-early-childhood-practitioner-leader-track/",
+          "url": "https://education.ufl.edu/early-childhood/prospective-students/online-mae-early-childhood-practitioner-leader-track__trashed/faq/",
           "isLive": true,
           "outboundLinks": []
         },
