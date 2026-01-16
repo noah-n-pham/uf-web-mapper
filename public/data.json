@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-01-15T09:14:35.244Z",
+  "crawlTimestamp": "2026-01-16T09:13:02.438Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 55,
+  "subsiteCount": 53,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -2145,65 +2145,6 @@
           "path": "/",
           "title": "Home",
           "url": "https://education.ufl.edu/international-education/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
-      "id": "education-ufl-edu-abovethenorm",
-      "baseUrl": "https://education.ufl.edu/abovethenorm/",
-      "title": "#AbovetheNorm – College of Education Norman Hall Rehabilitation Project",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/test/",
-          "title": "test",
-          "url": "https://education.ufl.edu/abovethenorm/test/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/blog/",
-          "title": "Blog",
-          "url": "https://education.ufl.edu/abovethenorm/blog/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact/",
-          "title": "Contact",
-          "url": "https://education.ufl.edu/abovethenorm/contact/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/archive/",
-          "title": "Archive",
-          "url": "https://education.ufl.edu/abovethenorm/archive/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/timeline/",
-          "title": "Timeline",
-          "url": "https://education.ufl.edu/abovethenorm/timeline/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about/",
-          "title": "About",
-          "url": "https://education.ufl.edu/abovethenorm/about/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Homepage",
-          "url": "https://education.ufl.edu/abovethenorm/",
           "isLive": true,
           "outboundLinks": []
         }
@@ -8780,51 +8721,6 @@
           "path": "/",
           "title": "Home",
           "url": "https://education.ufl.edu/riel/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
-      "id": "education-ufl-edu-capes",
-      "baseUrl": "https://education.ufl.edu/capes/",
-      "title": "CAPES – Collaborative Assessment and Program Evaluation Services",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/specialists/",
-          "title": "Specialists",
-          "url": "https://education.ufl.edu/capes/specialists/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/services/",
-          "title": "Services",
-          "url": "https://education.ufl.edu/capes/services/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/portfolio/",
-          "title": "Portfolio",
-          "url": "https://education.ufl.edu/capes/portfolio/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/capes/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/capes/",
           "isLive": true,
           "outboundLinks": []
         }
