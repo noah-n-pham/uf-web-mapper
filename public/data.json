@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-01-23T09:14:49.024Z",
+  "crawlTimestamp": "2026-01-24T09:11:24.893Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 53,
   "subsites": [
@@ -6944,6 +6944,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/program-requirements/",
+          "title": "Program Requirements",
+          "url": "https://education.ufl.edu/education-sciences/program-requirements/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/educational-technology/",
           "title": "Educational Technology",
