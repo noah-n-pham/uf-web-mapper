@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-01-26T09:17:30.440Z",
+  "crawlTimestamp": "2026-01-27T09:15:54.602Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 53,
   "subsites": [
@@ -485,7 +485,7 @@
     {
       "id": "education-ufl-edu-program-directory",
       "baseUrl": "https://education.ufl.edu/program-directory/",
-      "title": "Program Directory - Program Directory",
+      "title": "Program Directory - University of Florida College of Education",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
