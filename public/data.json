@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-01-27T09:15:54.602Z",
+  "crawlTimestamp": "2026-01-28T09:17:14.009Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 53,
   "subsites": [
@@ -71,13 +71,6 @@
           "path": "/templates/internal-process/yoast-seo/",
           "title": "Yoast SEO",
           "url": "https://education.ufl.edu/templates/internal-process/yoast-seo/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/graduate-pathways/",
-          "title": "3rd Annual Graduate Pathways Fair",
-          "url": "https://education.ufl.edu/graduate-pathways/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -390,13 +383,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/contact/directory-2/",
-          "title": "Directory",
-          "url": "https://education.ufl.edu/contact/directory-2/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/current-edugators/",
           "title": "Current EduGators",
           "url": "https://education.ufl.edu/current-edugators/",
@@ -477,6 +463,20 @@
           "path": "/templates/header-templates/",
           "title": "Header Templates",
           "url": "https://education.ufl.edu/templates/header-templates/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/notice-of-search-committee/",
+          "title": "Notice of Search Committee",
+          "url": "https://education.ufl.edu/notice-of-search-committee/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/coe-college-employment/",
+          "title": "Positions",
+          "url": "https://education.ufl.edu/coe-college-employment/",
           "isLive": true,
           "outboundLinks": []
         }
