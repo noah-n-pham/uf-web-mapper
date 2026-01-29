@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-01-28T09:17:14.009Z",
+  "crawlTimestamp": "2026-01-29T09:21:29.410Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 53,
+  "subsiteCount": 50,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -602,107 +602,6 @@
           "path": "/",
           "title": "UF College of Education &#8211; Online Learning",
           "url": "https://education.ufl.edu/coe-online/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
-      "id": "education-ufl-edu-research",
-      "baseUrl": "https://education.ufl.edu/research/",
-      "title": "Research – College of Education – Resesarch",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/research/uf-research-foundation-professors/",
-          "title": "UF Research Foundation Professors",
-          "url": "https://education.ufl.edu/research/research/uf-research-foundation-professors/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Research",
-          "url": "https://education.ufl.edu/research/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/project-websites/",
-          "title": "Project Websites",
-          "url": "https://education.ufl.edu/research/project-websites/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/funded-projects/",
-          "title": "Funded Projects",
-          "url": "https://education.ufl.edu/research/funded-projects/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/facts-and-figures/",
-          "title": "Facts and Figures",
-          "url": "https://education.ufl.edu/research/facts-and-figures/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/centers-and-institutes/",
-          "title": "Centers, Institutes and Affiliates",
-          "url": "https://education.ufl.edu/research/centers-and-institutes/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/funded-projects/deans-area/",
-          "title": "Dean&#8217;s Area",
-          "url": "https://education.ufl.edu/research/funded-projects/deans-area/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/funded-projects/uf-center-for-excellence-in-early-childhood-studies/",
-          "title": "Anita Zucker Center for Excellence in Early Childhood Studies",
-          "url": "https://education.ufl.edu/research/funded-projects/uf-center-for-excellence-in-early-childhood-studies/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/funded-projects/school-of-teaching-and-learning/",
-          "title": "School of Teaching and Learning",
-          "url": "https://education.ufl.edu/research/funded-projects/school-of-teaching-and-learning/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/funded-projects/school-of-special-education-school-psychology-and-early-childhood-studies/",
-          "title": "School of Special Education, School Psychology and Early Childhood Studies",
-          "url": "https://education.ufl.edu/research/funded-projects/school-of-special-education-school-psychology-and-early-childhood-studies/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/funded-projects/school-of-human-development-and-organizational-studies-in-education/",
-          "title": "School of Human Development and Organizational Studies in Education",
-          "url": "https://education.ufl.edu/research/funded-projects/school-of-human-development-and-organizational-studies-in-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/funded-projects/p-k-yonge/",
-          "title": "P.K. Yonge",
-          "url": "https://education.ufl.edu/research/funded-projects/p-k-yonge/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/funded-projects/lastinger-center-for-learning/",
-          "title": "Lastinger Center for Learning",
-          "url": "https://education.ufl.edu/research/funded-projects/lastinger-center-for-learning/",
           "isLive": true,
           "outboundLinks": []
         }
@@ -2014,40 +1913,6 @@
           "outboundLinks": []
         }
       ]
-    },
-    {
-      "id": "education-ufl-edu-profiles",
-      "baseUrl": "https://education.ufl.edu/profiles/",
-      "title": "COE Faculty - Faculty",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/profiles/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/list/",
-          "title": "List",
-          "url": "https://education.ufl.edu/profiles/list/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/view/",
-          "title": "View",
-          "url": "https://education.ufl.edu/profiles/view/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ],
-      "canonicalUrl": "https://education.ufl.edu/faculty",
-      "isAlias": true,
-      "aliasTarget": "https://education.ufl.edu/faculty/"
     },
     {
       "id": "education-ufl-edu-international-education",
@@ -5367,79 +5232,6 @@
       ]
     },
     {
-      "id": "education-ufl-edu-prevention-intervention-network",
-      "baseUrl": "https://education.ufl.edu/prevention-intervention-network/",
-      "title": "Home - Prevention & Intervention Network",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/prevention-intervention-network/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/news/",
-          "title": "News",
-          "url": "https://education.ufl.edu/prevention-intervention-network/news/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/resources/",
-          "title": "Resources",
-          "url": "https://education.ufl.edu/prevention-intervention-network/resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/our-team/",
-          "title": "Our Team",
-          "url": "https://education.ufl.edu/prevention-intervention-network/our-team/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/projects/",
-          "title": "Projects",
-          "url": "https://education.ufl.edu/prevention-intervention-network/projects/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about/",
-          "title": "About",
-          "url": "https://education.ufl.edu/prevention-intervention-network/about/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/prevention-intervention-network/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/example/",
-          "title": "Example Page",
-          "url": "https://education.ufl.edu/prevention-intervention-network/example/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/sample-page/",
-          "title": "Sample Page",
-          "url": "https://education.ufl.edu/prevention-intervention-network/sample-page/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
       "id": "education-ufl-edu-counselor-education",
       "baseUrl": "https://education.ufl.edu/counselor-education/",
       "title": "Counselor Education — University of Florida",
@@ -8323,6 +8115,40 @@
       ]
     },
     {
+      "id": "education-ufl-edu-profiles",
+      "baseUrl": "https://education.ufl.edu/profiles/",
+      "title": "COE Faculty - Faculty",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Home",
+          "url": "https://education.ufl.edu/profiles/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/list/",
+          "title": "List",
+          "url": "https://education.ufl.edu/profiles/list/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/view/",
+          "title": "View",
+          "url": "https://education.ufl.edu/profiles/view/",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ],
+      "canonicalUrl": "https://education.ufl.edu/faculty",
+      "isAlias": true,
+      "aliasTarget": "https://education.ufl.edu/faculty/"
+    },
+    {
       "id": "education-ufl-edu-early-childhood-bachelors",
       "baseUrl": "https://education.ufl.edu/early-childhood-bachelors/",
       "title": "Early Childhood BAE – University of Florida College of Education",
@@ -8340,356 +8166,73 @@
       ]
     },
     {
-      "id": "education-ufl-edu-best-in-class",
-      "baseUrl": "https://education.ufl.edu/best-in-class/",
-      "title": "BEST in CLASS",
+      "id": "education-ufl-edu-prevention-intervention-network",
+      "baseUrl": "https://education.ufl.edu/prevention-intervention-network/",
+      "title": "Home - Prevention & Intervention Network",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
-          "path": "/dissemination/other-media/",
-          "title": "Other Media",
-          "url": "https://education.ufl.edu/best-in-class/dissemination/other-media/",
+          "path": "/contact-us/",
+          "title": "Contact Us",
+          "url": "https://education.ufl.edu/prevention-intervention-network/contact-us/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/style/",
-          "title": "Style",
-          "url": "https://education.ufl.edu/best-in-class/style/",
+          "path": "/news/",
+          "title": "News",
+          "url": "https://education.ufl.edu/prevention-intervention-network/news/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/related-projects/",
-          "title": "Related Projects",
-          "url": "https://education.ufl.edu/best-in-class/related-projects/",
+          "path": "/resources/",
+          "title": "Resources",
+          "url": "https://education.ufl.edu/prevention-intervention-network/resources/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/about/about-us/maureen-a-conroy-ph-d/",
-          "title": "Maureen A. Conroy, Ph.D.",
-          "url": "https://education.ufl.edu/best-in-class/about/about-us/maureen-a-conroy-ph-d/",
+          "path": "/our-team/",
+          "title": "Our Team",
+          "url": "https://education.ufl.edu/prevention-intervention-network/our-team/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/about/about-us/lisa-m-abrams-ph-d/",
-          "title": "Lisa M. Abrams, Ph.D.",
-          "url": "https://education.ufl.edu/best-in-class/about/about-us/lisa-m-abrams-ph-d/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about/about-us/kevin-s-sutherland-ph-d/",
-          "title": "Kevin S. Sutherland, Ph.D.",
-          "url": "https://education.ufl.edu/best-in-class/about/about-us/kevin-s-sutherland-ph-d/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about/about-us/kelly-whalon-ph-d/",
-          "title": "Kelly Whalon, Ph.D.",
-          "url": "https://education.ufl.edu/best-in-class/about/about-us/kelly-whalon-ph-d/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about/about-us/abigail-k-vo-ph-d/",
-          "title": "Abigail K. Vo, Ph.D.",
-          "url": "https://education.ufl.edu/best-in-class/about/about-us/abigail-k-vo-ph-d/",
+          "path": "/projects/",
+          "title": "Projects",
+          "url": "https://education.ufl.edu/prevention-intervention-network/projects/",
           "isLive": true,
           "outboundLinks": []
         },
         {
           "path": "/about/",
           "title": "About",
-          "url": "https://education.ufl.edu/best-in-class/about/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/dissemination/",
-          "title": "Dissemination",
-          "url": "https://education.ufl.edu/best-in-class/dissemination/",
+          "url": "https://education.ufl.edu/prevention-intervention-network/about/",
           "isLive": true,
           "outboundLinks": []
         },
         {
           "path": "/",
-          "title": "BEST in CLASS &#8211; Home",
-          "url": "https://education.ufl.edu/best-in-class/",
+          "title": "Home",
+          "url": "https://education.ufl.edu/prevention-intervention-network/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/about/about-us/",
-          "title": "About Us",
-          "url": "https://education.ufl.edu/best-in-class/about/about-us/",
+          "path": "/example/",
+          "title": "Example Page",
+          "url": "https://education.ufl.edu/prevention-intervention-network/example/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/about/about-best-in-class/",
-          "title": "About BEST in CLASS",
-          "url": "https://education.ufl.edu/best-in-class/about/about-best-in-class/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/best-in-class/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/materials-for-researchers/",
-          "title": "Materials for Researchers",
-          "url": "https://education.ufl.edu/best-in-class/materials-for-researchers/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about/benefits-of-best-in-class/",
-          "title": "Benefits of BEST in CLASS",
-          "url": "https://education.ufl.edu/best-in-class/about/benefits-of-best-in-class/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/dissemination/presentations/",
-          "title": "Presentations",
-          "url": "https://education.ufl.edu/best-in-class/dissemination/presentations/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about/theoretical-framework/",
-          "title": "Theoretical Framework",
-          "url": "https://education.ufl.edu/best-in-class/about/theoretical-framework/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about/implementation/",
-          "title": "Implementation",
-          "url": "https://education.ufl.edu/best-in-class/about/implementation/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/dissemination/publications/",
-          "title": "Publications",
-          "url": "https://education.ufl.edu/best-in-class/dissemination/publications/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
-      "id": "education-ufl-edu-cognitive-behavioral-research-group",
-      "baseUrl": "https://education.ufl.edu/cognitive-behavioral-research-group/",
-      "title": "Cognitive Behavioral – University of Florida – College of Education Sites site",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/unit-introduction-videos/",
-          "title": "Unit Introduction Videos",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/unit-introduction-videos/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/unit-4-videos/",
-          "title": "Unit 4 Videos",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/unit-4-videos/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/unit-3-videos/",
-          "title": "Unit 3 Videos",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/unit-3-videos/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/unit-2-videos/",
-          "title": "Unit 2 Videos",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/unit-2-videos/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/unit-1-videos/",
-          "title": "Unit 1 Videos",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/unit-1-videos/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/catch-up-videos/",
-          "title": "Catch Up Videos",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/catch-up-videos/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/camera-help/",
-          "title": "Camera Help",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/camera-help/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/i-control/research-team/ksu-research-team/",
-          "title": "KSU Research Team",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/i-control/research-team/ksu-research-team/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/i-control/research-team/uf-research-team/",
-          "title": "UF Research Team",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/i-control/research-team/uf-research-team/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/i-control/research-activities/",
-          "title": "Research Activities",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/i-control/research-activities/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/icontrol-resources/",
-          "title": "iControl Resources",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/icontrol-resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/research-assistants/",
-          "title": "Research Assistants",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/research-assistants/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/icontrol-presentations/",
-          "title": "I Control Presentations",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/icontrol-presentations/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/i-control-videos/",
-          "title": "I Control Videos",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/i-control-videos/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/cognitive-behavioral-test-page/",
-          "title": "An Executive Function Skill Intervention for Middle School Students with Emotional &amp; Behavioral Disorders",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/cognitive-behavioral-test-page/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/i-control/contact/",
-          "title": "Contact",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/i-control/contact/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/i-control/research-team/",
-          "title": "I Control Research Team",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/i-control/research-team/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/i-control/research-group/",
-          "title": "Research Group",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/i-control/research-group/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/i-control/abstract/",
-          "title": "Abstract",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/i-control/abstract/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/research-team-contact/",
-          "title": "Research Team",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/research-team-contact/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/blog/",
-          "title": "Blog",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/blog/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact/",
-          "title": "Contact",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/contact/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/consultation-training-workshops/",
-          "title": "Consultation &amp; Training Workshops",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/consultation-training-workshops/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/books/",
-          "title": "Books",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/books/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/i-control/",
-          "title": "I Control",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/i-control/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/doctoral-student-research/",
-          "title": "Doctoral Student Research",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/doctoral-student-research/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/publications/",
-          "title": "Publications",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/publications/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Cognitive-Behavioral Research Group",
-          "url": "https://education.ufl.edu/cognitive-behavioral-research-group/",
+          "path": "/sample-page/",
+          "title": "Sample Page",
+          "url": "https://education.ufl.edu/prevention-intervention-network/sample-page/",
           "isLive": true,
           "outboundLinks": []
         }
