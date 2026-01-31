@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-01-30T09:20:04.123Z",
+  "crawlTimestamp": "2026-01-31T09:14:00.292Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 48,
   "subsites": [
@@ -470,13 +470,6 @@
           "path": "/templates/header-templates/",
           "title": "Header Templates",
           "url": "https://education.ufl.edu/templates/header-templates/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/notice-of-search-committee/",
-          "title": "Notice of Search Committee",
-          "url": "https://education.ufl.edu/notice-of-search-committee/",
           "isLive": true,
           "outboundLinks": []
         },
