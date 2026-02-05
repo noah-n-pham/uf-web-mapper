@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-02-04T09:22:49.416Z",
+  "crawlTimestamp": "2026-02-05T09:24:30.442Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 48,
+  "subsiteCount": 47,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -6347,107 +6347,6 @@
       "canonicalUrl": "https://education.ufl.edu/faculty",
       "isAlias": true,
       "aliasTarget": "https://education.ufl.edu/faculty/"
-    },
-    {
-      "id": "education-ufl-edu-international-education",
-      "baseUrl": "https://education.ufl.edu/international-education/",
-      "title": "International Education – UF College of Education",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/stephen-smith-and-mary-brownell/",
-          "title": "Stephen Smith and Mary Brownell",
-          "url": "https://education.ufl.edu/international-education/stephen-smith-and-mary-brownell/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/nancy-dana/",
-          "title": "Nancy Dana",
-          "url": "https://education.ufl.edu/international-education/nancy-dana/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/mary-mclean/",
-          "title": "Mary McLean",
-          "url": "https://education.ufl.edu/international-education/mary-mclean/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/jeanne-repetto/",
-          "title": "Jeanne Repetto",
-          "url": "https://education.ufl.edu/international-education/jeanne-repetto/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/danling-fu/",
-          "title": "Danling Fu",
-          "url": "https://education.ufl.edu/international-education/danling-fu/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/brian-reichow/",
-          "title": "Brian Reichow",
-          "url": "https://education.ufl.edu/international-education/brian-reichow/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/alyson-adams/",
-          "title": "Alyson Adams",
-          "url": "https://education.ufl.edu/international-education/alyson-adams/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/jaqueline-swank/",
-          "title": "Jaqueline Swank",
-          "url": "https://education.ufl.edu/international-education/jaqueline-swank/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/partnerships/",
-          "title": "Partnerships",
-          "url": "https://education.ufl.edu/international-education/partnerships/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/gainesville-life/",
-          "title": "Gainesville Life",
-          "url": "https://education.ufl.edu/international-education/gainesville-life/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty/",
-          "title": "Faculty",
-          "url": "https://education.ufl.edu/international-education/faculty/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/students/",
-          "title": "Students",
-          "url": "https://education.ufl.edu/international-education/students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/international-education/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
     },
     {
       "id": "education-ufl-edu-faculty-policy",
