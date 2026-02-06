@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-02-05T09:24:30.442Z",
+  "crawlTimestamp": "2026-02-06T09:22:53.784Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 47,
   "subsites": [
@@ -4542,6 +4542,13 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/prospective-students/on-campus-phd/educational-technology-ph-d-program-of-study/",
+          "title": "Educational Technology Ph.D. &#8211; Program of Study",
+          "url": "https://education.ufl.edu/educational-technology/prospective-students/on-campus-phd/educational-technology-ph-d-program-of-study/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/prospective-students/graduate-certificate/application/",
           "title": "Application Instructions &#8211; Grad Certificate",
           "url": "https://education.ufl.edu/educational-technology/prospective-students/graduate-certificate/application/",
@@ -4881,43 +4888,50 @@
     {
       "id": "education-ufl-edu-math-education",
       "baseUrl": "https://education.ufl.edu/math-education/",
-      "title": "Mathematics Education",
+      "title": "Home - Mathematics Education",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
-          "path": "/students/",
-          "title": "Students",
-          "url": "https://education.ufl.edu/math-education/students/",
+          "path": "/program-highlights/",
+          "title": "Program Highlights",
+          "url": "https://education.ufl.edu/math-education/program-highlights/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/contact/",
-          "title": "Contact",
-          "url": "https://education.ufl.edu/math-education/contact/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/doctorate/research/",
-          "title": "Research",
-          "url": "https://education.ufl.edu/math-education/doctorate/research/",
+          "path": "/prospective-students/",
+          "title": "Prospective Students",
+          "url": "https://education.ufl.edu/math-education/prospective-students/",
           "isLive": true,
           "outboundLinks": []
         },
         {
           "path": "/",
-          "title": "Mathematics Education",
+          "title": "Home",
           "url": "https://education.ufl.edu/math-education/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/masters-2/",
+          "path": "/contact/",
+          "title": "Contact Us",
+          "url": "https://education.ufl.edu/math-education/contact/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/doctorate/research/",
+          "title": "Research",
+          "url": "https://education.ufl.edu/math-education/prospective-students/doctorate/research/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/masters/",
           "title": "Master&#8217;s Degree",
-          "url": "https://education.ufl.edu/math-education/masters-2/",
+          "url": "https://education.ufl.edu/math-education/prospective-students/masters/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -4930,77 +4944,141 @@
         },
         {
           "path": "/faculty-contact/",
-          "title": "Faculty",
+          "title": "Program Faculty",
           "url": "https://education.ufl.edu/math-education/faculty-contact/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/doctorate/recent-graduates/",
+          "path": "/prospective-students/doctorate/recent-graduates/",
           "title": "Recent Graduates",
-          "url": "https://education.ufl.edu/math-education/doctorate/recent-graduates/",
+          "url": "https://education.ufl.edu/math-education/prospective-students/doctorate/recent-graduates/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/doctorate/expectations-and-timeline/",
+          "path": "/prospective-students/doctorate/expectations-and-timeline/",
           "title": "Expectations and Timeline",
-          "url": "https://education.ufl.edu/math-education/doctorate/expectations-and-timeline/",
+          "url": "https://education.ufl.edu/math-education/prospective-students/doctorate/expectations-and-timeline/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/doctorate/dissertations/",
+          "path": "/prospective-students/doctorate/dissertations/",
           "title": "Dissertations",
-          "url": "https://education.ufl.edu/math-education/doctorate/dissertations/",
+          "url": "https://education.ufl.edu/math-education/prospective-students/doctorate/dissertations/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/doctorate/courses/",
-          "title": "Courses",
-          "url": "https://education.ufl.edu/math-education/doctorate/courses/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/doctorate/admissions/",
+          "path": "/prospective-students/doctorate/applications/",
           "title": "Admissions",
-          "url": "https://education.ufl.edu/math-education/doctorate/admissions/",
+          "url": "https://education.ufl.edu/math-education/prospective-students/doctorate/applications/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/doctorate/",
+          "path": "/prospective-students/doctorate/",
           "title": "Doctoral Degree",
-          "url": "https://education.ufl.edu/math-education/doctorate/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/certificate/",
-          "title": "Certificate",
-          "url": "https://education.ufl.edu/math-education/certificate/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/online-masters/",
-          "title": "Online M.Ed. or Ed.S.",
-          "url": "https://education.ufl.edu/math-education/online-masters/",
+          "url": "https://education.ufl.edu/math-education/prospective-students/doctorate/",
           "isLive": true,
           "outboundLinks": []
         }
-      ]
+      ],
+      "canonicalUrl": "https://education.ufl.edu/math-education-1"
     },
     {
       "id": "education-ufl-edu-reading-education",
       "baseUrl": "https://education.ufl.edu/reading-education/",
-      "title": "Reading and Literacy Education – Just another College of Education Sites site",
+      "title": "Reading and Literacy Education Home - Reading and Literacy Education",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/masters/m-ed-coursework/",
+          "title": "M.Ed. Coursework",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/masters/m-ed-coursework/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/reading-endorsement/faq/",
+          "title": "Frequently Asked Questions",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/reading-endorsement/faq/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/masters/faq/",
+          "title": "Frequently Asked Questions",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/masters/faq/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/masters/application-instructions/",
+          "title": "Application Instructions",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/masters/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/reading-endorsement/application-instructions/",
+          "title": "Application Instructions",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/reading-endorsement/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/specialist/faq/",
+          "title": "Frequently Asked Questions – Ed.S.",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/specialist/faq/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/specialist/application-instructions/",
+          "title": "Application Instructions",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/specialist/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/doctorate/faq/",
+          "title": "Frequently Asked Questions &#8211; Ph.D.",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/doctorate/faq/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/doctorate/application-instructions/",
+          "title": "Application Instructions- Doctorate",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/doctorate/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/program-highlights/",
+          "title": "Program Highlights",
+          "url": "https://education.ufl.edu/reading-education/program-highlights/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/",
+          "title": "Prospective Students",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/",
+          "title": "Reading and Literacy Education Home",
+          "url": "https://education.ufl.edu/reading-education/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/testimonials/",
           "title": "Testimonials",
@@ -5009,44 +5087,44 @@
           "outboundLinks": []
         },
         {
-          "path": "/specialist/",
-          "title": "Specialist",
-          "url": "https://education.ufl.edu/reading-education/specialist/",
+          "path": "/prospective-students/specialist/",
+          "title": "Specialist(Ed.S.)",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/specialist/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/reading-endorsement/",
+          "path": "/prospective-students/reading-endorsement/",
           "title": "Reading Endorsement and Certification (Online &amp; On campus)",
-          "url": "https://education.ufl.edu/reading-education/reading-endorsement/",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/reading-endorsement/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/",
+          "path": "/reading-education/",
           "title": "Reading Education",
-          "url": "https://education.ufl.edu/reading-education/",
+          "url": "https://education.ufl.edu/reading-education/reading-education/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/masters/",
-          "title": "Master&#8217;s Degrees and Certification (Online &#038; On Campus)",
-          "url": "https://education.ufl.edu/reading-education/masters/",
+          "path": "/prospective-students/masters/",
+          "title": "Master&#8217;s Degrees",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/masters/",
           "isLive": true,
           "outboundLinks": []
         },
         {
           "path": "/faculty/",
-          "title": "Faculty",
+          "title": "Program Faculty",
           "url": "https://education.ufl.edu/reading-education/faculty/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/doctorate/",
-          "title": "Doctorate",
-          "url": "https://education.ufl.edu/reading-education/doctorate/",
+          "path": "/prospective-students/doctorate/",
+          "title": "Doctorate Degree",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/doctorate/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -5071,7 +5149,8 @@
           "isLive": true,
           "outboundLinks": []
         }
-      ]
+      ],
+      "canonicalUrl": "https://education.ufl.edu/reading-education-1"
     },
     {
       "id": "education-ufl-edu-science-education",
