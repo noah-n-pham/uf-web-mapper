@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-02-06T09:22:53.784Z",
+  "crawlTimestamp": "2026-02-07T09:14:29.594Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 47,
   "subsites": [
@@ -4542,9 +4542,37 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/prospective-students/on-campus-phd/educational-technology-ph-d-program-of-study/",
+          "path": "/prospective-students/online-eds/program-of-study/",
+          "title": "Ed.S. Program of Study",
+          "url": "https://education.ufl.edu/educational-technology/prospective-students/online-eds/program-of-study/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/online-med/program-of-study/",
+          "title": "M.Ed. Program of Study",
+          "url": "https://education.ufl.edu/educational-technology/prospective-students/online-med/program-of-study/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-mae/program-of-study/",
+          "title": "MAE Program of Study",
+          "url": "https://education.ufl.edu/educational-technology/prospective-students/on-campus-mae/program-of-study/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/online-edd/program-of-study/",
+          "title": "Ed.D. Program of Study",
+          "url": "https://education.ufl.edu/educational-technology/prospective-students/online-edd/program-of-study/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-phd/program-of-study/",
           "title": "Educational Technology Ph.D. &#8211; Program of Study",
-          "url": "https://education.ufl.edu/educational-technology/prospective-students/on-campus-phd/educational-technology-ph-d-program-of-study/",
+          "url": "https://education.ufl.edu/educational-technology/prospective-students/on-campus-phd/program-of-study/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -4984,8 +5012,7 @@
           "isLive": true,
           "outboundLinks": []
         }
-      ],
-      "canonicalUrl": "https://education.ufl.edu/math-education-1"
+      ]
     },
     {
       "id": "education-ufl-edu-reading-education",
@@ -5149,8 +5176,7 @@
           "isLive": true,
           "outboundLinks": []
         }
-      ],
-      "canonicalUrl": "https://education.ufl.edu/reading-education-1"
+      ]
     },
     {
       "id": "education-ufl-edu-science-education",
