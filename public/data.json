@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-02-09T09:28:46.946Z",
+  "crawlTimestamp": "2026-02-10T09:28:44.588Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 47,
   "subsites": [
@@ -1438,30 +1438,9 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/caep-accountability-measures-previous-years/",
-          "title": "CAEP Accountability Measures &#8211; Previous Years",
-          "url": "https://education.ufl.edu/educator-quality/caep-accountability-measures-previous-years/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/university-council-on-teacher-education-ucote/",
           "title": "University Council on Teacher Education",
           "url": "https://education.ufl.edu/educator-quality/university-council-on-teacher-education-ucote/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/title-ii-institutional-report/",
-          "title": "Title II Institutional Report",
-          "url": "https://education.ufl.edu/educator-quality/title-ii-institutional-report/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/educator-standards/",
-          "title": "Educator Standards",
-          "url": "https://education.ufl.edu/educator-quality/educator-standards/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -6131,6 +6110,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/webinar/",
+          "title": "Informational Webinars for Prospective CS Education Students",
+          "url": "https://education.ufl.edu/computer-science-education/webinar/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/prospective-students/online-ed-d/online-ed-d-cohort/",
           "title": "Online Ed.D. Cohort",
