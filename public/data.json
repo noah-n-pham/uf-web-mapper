@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-02-10T09:28:44.588Z",
+  "crawlTimestamp": "2026-02-11T09:26:16.908Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 47,
+  "subsiteCount": 46,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -829,6 +829,48 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/fieldexperience/clinical-experience/livetext-faq/",
+          "title": "Livetext FAQ",
+          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/livetext-faq/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/fieldexperience/clinical-experience/contact-us/",
+          "title": "Contact Us",
+          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/contact-us/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/fieldexperience/clinical-experience/university-supervisors-faculty/",
+          "title": "University Supervisors/Faculty",
+          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/university-supervisors-faculty/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/fieldexperience/clinical-experience/mentors/",
+          "title": "Mentors &#038; SITE Supervisors",
+          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/mentors/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/fieldexperience/clinical-experience/interns-practicum-students/",
+          "title": "Interns/Practicum Students",
+          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/interns-practicum-students/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/fieldexperience/clinical-experience/",
+          "title": "Clinical Experiences",
+          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/eep-waivers/",
           "title": "EEP/State Waiver Eligibility",
           "url": "https://education.ufl.edu/student-services/eep-waivers/",
@@ -1349,7 +1391,7 @@
     {
       "id": "education-ufl-edu-faculty",
       "baseUrl": "https://education.ufl.edu/faculty/",
-      "title": "COE Faculty - Faculty",
+      "title": "UF College of Education Faculty",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
@@ -2628,15 +2670,22 @@
     {
       "id": "education-ufl-edu-school-psychology",
       "baseUrl": "https://education.ufl.edu/school-psychology/",
-      "title": "School Psychology",
+      "title": "School Psychology Homepage - School Psychology",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
-          "path": "/prospective-students/on-campus-phd/application-instructions/",
-          "title": "Application Instructions",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/application-instructions/",
+          "path": "/prospective-students/on-campus-eds/sequence-of-study/",
+          "title": "Sequence of Study",
+          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-eds/sequence-of-study/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-phd/sequence-of-study/",
+          "title": "Sequence of Study",
+          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/sequence-of-study/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -2648,13 +2697,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/on-campus-phd/faq/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/on-campus-eds/faq/",
           "title": "Frequently Asked Questions",
           "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-eds/faq/",
@@ -2662,9 +2704,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/contact/",
-          "title": "Contact",
-          "url": "https://education.ufl.edu/school-psychology/contact/",
+          "path": "/prospective-students/on-campus-eds/",
+          "title": "On-Campus Ed.S",
+          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-eds/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -2676,6 +2718,41 @@
           "outboundLinks": []
         },
         {
+          "path": "/contact-us/",
+          "title": "Contact Us",
+          "url": "https://education.ufl.edu/school-psychology/contact-us/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-phd/application-instructions/",
+          "title": "Application Instructions",
+          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-phd/faq/",
+          "title": "Frequently Asked Questions",
+          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/faq/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-staff/",
+          "title": "Program Faculty",
+          "url": "https://education.ufl.edu/school-psychology/faculty-and-staff/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-phd/",
+          "title": "On-Campus Phd",
+          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/prospective-students/",
           "title": "Prospective Students",
           "url": "https://education.ufl.edu/school-psychology/prospective-students/",
@@ -2683,141 +2760,8 @@
           "outboundLinks": []
         },
         {
-          "path": "/newsletter/",
-          "title": "Newsletter",
-          "url": "https://education.ufl.edu/school-psychology/newsletter/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/testimonials/",
-          "title": "Testimonials",
-          "url": "https://education.ufl.edu/school-psychology/testimonials/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-staff/",
-          "title": "Faculty and Staff",
-          "url": "https://education.ufl.edu/school-psychology/faculty-and-staff/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/resources/",
-          "title": "Resources",
-          "url": "https://education.ufl.edu/school-psychology/resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/degrees/",
-          "title": "Degrees",
-          "url": "https://education.ufl.edu/school-psychology/degrees/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/accreditation/",
-          "title": "Accreditation",
-          "url": "https://education.ufl.edu/school-psychology/accreditation/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-us/",
-          "title": "questions",
-          "url": "https://education.ufl.edu/school-psychology/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-eds/",
-          "title": "EdS Program",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-eds/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-phd/",
-          "title": "PhD Program",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-admissions-outcomes-and-other-data-3/",
-          "title": "Student Admissions, Outcomes, and Other Data",
-          "url": "https://education.ufl.edu/school-psychology/student-admissions-outcomes-and-other-data-3/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-phd/specialization/",
-          "title": "PhD Specialization",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/specialization/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-phd/sequence/",
-          "title": "PhD Sequence of Study",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/sequence/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-phd/requirements/",
-          "title": "PhD Requirements",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/requirements/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-eds/sequence/",
-          "title": "EdS Sequence of Study",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-eds/sequence/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-eds/requirements/",
-          "title": "EdS Requirements",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-eds/requirements/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/school-psychology-graduate-student-association-spgsa/",
-          "title": "School Psychology Graduate Student Association (SPGSA)",
-          "url": "https://education.ufl.edu/school-psychology/school-psychology-graduate-student-association-spgsa/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-phd/competencies/",
-          "title": "PhD Competencies",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-phd/competencies/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-eds/competencies/",
-          "title": "EdS Competencies",
-          "url": "https://education.ufl.edu/school-psychology/prospective-students/on-campus-eds/competencies/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/philosophy-goals/",
-          "title": "Philosophy &amp; Goals",
-          "url": "https://education.ufl.edu/school-psychology/philosophy-goals/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/",
-          "title": "School Psychology Program",
+          "title": "School Psychology Homepage",
           "url": "https://education.ufl.edu/school-psychology/",
           "isLive": true,
           "outboundLinks": []
@@ -5656,100 +5600,6 @@
       ]
     },
     {
-      "id": "education-ufl-edu-elementary-teacher-preparation",
-      "baseUrl": "https://education.ufl.edu/elementary-teacher-preparation/",
-      "title": "Elementary Teacher Preparation Center",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/presentations/",
-          "title": "Presentations",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/presentations/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/resources-2/",
-          "title": "Resources",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/resources-2/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fast-start-skills/",
-          "title": "Fast Start Skills",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/fast-start-skills/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/video-based-observations/",
-          "title": "Video-based Observations",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/video-based-observations/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact/",
-          "title": "Contact",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/contact/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/experience/",
-          "title": "Experience",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/experience/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/practice/",
-          "title": "Practice",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/practice/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/knowledge/",
-          "title": "Knowledge",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/knowledge/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/research-studies/",
-          "title": "Research Studies",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/research-studies/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/evaluation/",
-          "title": "Evaluation",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/evaluation/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/resources/",
-          "title": "Resources",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/elementary-teacher-preparation/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
       "id": "education-ufl-edu-eprc",
       "baseUrl": "https://education.ufl.edu/eprc/",
       "title": "Home - Education Policy Research Center",
@@ -6408,7 +6258,7 @@
     {
       "id": "education-ufl-edu-profiles",
       "baseUrl": "https://education.ufl.edu/profiles/",
-      "title": "COE Faculty - Faculty",
+      "title": "UF College of Education Faculty",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
