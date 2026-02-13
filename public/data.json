@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-02-12T09:25:28.216Z",
+  "crawlTimestamp": "2026-02-13T09:24:03.060Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 46,
   "subsites": [
@@ -2840,16 +2840,16 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/online-mae-early-childhood-practitioner-leader-track__trashed/application/",
+          "path": "/prospective-students/application/",
           "title": "Application Instructions",
-          "url": "https://education.ufl.edu/early-childhood/prospective-students/online-mae-early-childhood-practitioner-leader-track__trashed/application/",
+          "url": "https://education.ufl.edu/early-childhood/prospective-students/application/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/online-mae-early-childhood-practitioner-leader-track__trashed/faq/",
+          "path": "/prospective-students/faq/",
           "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/early-childhood/prospective-students/online-mae-early-childhood-practitioner-leader-track__trashed/faq/",
+          "url": "https://education.ufl.edu/early-childhood/prospective-students/faq/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -6121,13 +6121,6 @@
           "path": "/zoom/",
           "title": "Zoom",
           "url": "https://education.ufl.edu/technology/zoom/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/loaner-equipment/",
-          "title": "Loaner Equipment",
-          "url": "https://education.ufl.edu/technology/loaner-equipment/",
           "isLive": true,
           "outboundLinks": []
         },
