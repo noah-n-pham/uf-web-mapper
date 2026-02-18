@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-02-17T09:26:21.977Z",
+  "crawlTimestamp": "2026-02-18T09:24:46.652Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 46,
   "subsites": [
@@ -835,6 +835,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/fieldexperience/clinical-experience/teaching-faculty/",
+          "title": "Teaching Faculty",
+          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/teaching-faculty/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/fieldexperience/clinical-experience/livetext-faq/",
           "title": "Livetext FAQ",
