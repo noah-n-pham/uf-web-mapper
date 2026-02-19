@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-02-18T09:24:46.652Z",
+  "crawlTimestamp": "2026-02-19T09:24:53.698Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 46,
   "subsites": [
@@ -5103,13 +5103,6 @@
           "path": "/contact-us/",
           "title": "Contact Us",
           "url": "https://education.ufl.edu/reading-education/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/admissions/",
-          "title": "Admissions",
-          "url": "https://education.ufl.edu/reading-education/admissions/",
           "isLive": true,
           "outboundLinks": []
         }
