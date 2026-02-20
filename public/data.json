@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-02-19T09:24:53.698Z",
+  "crawlTimestamp": "2026-02-20T09:22:54.649Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 46,
   "subsites": [
@@ -3036,50 +3036,29 @@
     {
       "id": "education-ufl-edu-school-teaching-learning",
       "baseUrl": "https://education.ufl.edu/school-teaching-learning/",
-      "title": "School of Teaching & Learning – University of Florida – College of Education",
+      "title": "School of Teaching and Learning Home - School of Teaching and Learning",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
-          "path": "/science-or-mathematics-teaching-certificate/",
-          "title": "Science or Mathematics Teaching Certificate",
-          "url": "https://education.ufl.edu/school-teaching-learning/science-or-mathematics-teaching-certificate/",
+          "path": "/fingerprint-background-check-requirements/",
+          "title": "Fingerprint Background Check Requirements",
+          "url": "https://education.ufl.edu/school-teaching-learning/fingerprint-background-check-requirements/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/teacher-leadership-certificate/",
-          "title": "Teacher Leadership Certificate",
-          "url": "https://education.ufl.edu/school-teaching-learning/teacher-leadership-certificate/",
+          "path": "/admissions/master-arts-education-admissions/",
+          "title": "Master’s Degrees Application Instructions",
+          "url": "https://education.ufl.edu/school-teaching-learning/admissions/master-arts-education-admissions/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/secondary-teaching-preparation/",
-          "title": "Certificate Program in Secondary Teaching Preparation",
-          "url": "https://education.ufl.edu/school-teaching-learning/secondary-teaching-preparation/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/doctoral-student-conference-travel-support-guidelines/",
-          "title": "Doctoral-student-conference-travel-support-guidelines",
-          "url": "https://education.ufl.edu/school-teaching-learning/doctoral-student-conference-travel-support-guidelines/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/testing-full-width-playable-video/",
-          "title": "testing full width playable video",
-          "url": "https://education.ufl.edu/school-teaching-learning/testing-full-width-playable-video/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/nodes-test/",
-          "title": "Nodes Test",
-          "url": "https://education.ufl.edu/school-teaching-learning/nodes-test/",
+          "path": "/admissions/doctoral-degrees-phd-edd/",
+          "title": "Ph.D. Application Directions",
+          "url": "https://education.ufl.edu/school-teaching-learning/admissions/doctoral-degrees-phd-edd/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -3087,13 +3066,6 @@
           "path": "/research/culture/",
           "title": "Culture",
           "url": "https://education.ufl.edu/school-teaching-learning/research/culture/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "homepage",
-          "url": "https://education.ufl.edu/school-teaching-learning/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -3182,1051 +3154,64 @@
           "outboundLinks": []
         },
         {
+          "path": "/doctoral-student-conference-travel-support-guidelines/",
+          "title": "Doctoral Student Conference Travel Support Guidelines",
+          "url": "https://education.ufl.edu/school-teaching-learning/doctoral-student-conference-travel-support-guidelines/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/research/",
-          "title": "Research",
+          "title": "Areas of Research",
           "url": "https://education.ufl.edu/school-teaching-learning/research/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/sample-page/",
-          "title": "Sample Page",
-          "url": "https://education.ufl.edu/school-teaching-learning/sample-page/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-presentationsjune-2014-december2015/",
-          "title": "student-presentations/June 2014-December2015",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-presentationsjune-2014-december2015/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/journal-publications-2014-2015/",
-          "title": "Published Journal Articles &amp; Book Chapters",
-          "url": "https://education.ufl.edu/school-teaching-learning/journal-publications-2014-2015/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/calendar/",
-          "title": "Calendar",
-          "url": "https://education.ufl.edu/school-teaching-learning/calendar/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/admission-information-for-certificate-programs/",
-          "title": "Admission Information for Certificate Programs",
-          "url": "https://education.ufl.edu/school-teaching-learning/admission-information-for-certificate-programs/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/may-2014/",
-          "title": "May 2014",
-          "url": "https://education.ufl.edu/school-teaching-learning/may-2014/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/april-2014/",
-          "title": "April 2014",
-          "url": "https://education.ufl.edu/school-teaching-learning/april-2014/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/march-2014/",
-          "title": "March 2014",
-          "url": "https://education.ufl.edu/school-teaching-learning/march-2014/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/february-2014/",
-          "title": "February 2014",
-          "url": "https://education.ufl.edu/school-teaching-learning/february-2014/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/january-2014/",
-          "title": "January 2014",
-          "url": "https://education.ufl.edu/school-teaching-learning/january-2014/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/december-2013/",
-          "title": "December 2013",
-          "url": "https://education.ufl.edu/school-teaching-learning/december-2013/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/november-2013/",
-          "title": "November 2013",
-          "url": "https://education.ufl.edu/school-teaching-learning/november-2013/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/october-2013/",
-          "title": "October 2013",
-          "url": "https://education.ufl.edu/school-teaching-learning/october-2013/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/journal-publications-2013-2014/",
-          "title": "Journal Publications, 2013-2014",
-          "url": "https://education.ufl.edu/school-teaching-learning/journal-publications-2013-2014/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/pursuing-a-doctoral-degree/",
-          "title": "Explore Doctoral Degrees",
-          "url": "https://education.ufl.edu/school-teaching-learning/pursuing-a-doctoral-degree/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/becoming-a-better-education-professional/",
-          "title": "Advance in Your Profession",
-          "url": "https://education.ufl.edu/school-teaching-learning/becoming-a-better-education-professional/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/becoming-a-teacher/",
-          "title": "Pursue a Career in Teaching",
-          "url": "https://education.ufl.edu/school-teaching-learning/becoming-a-teacher/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/sources-of-funding-for-doctoral-students/",
-          "title": "Sources of Funding for Doctoral Students",
-          "url": "https://education.ufl.edu/school-teaching-learning/sources-of-funding-for-doctoral-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/postbaccalaureate-application/",
-          "title": "Postbaccalaureate Application",
-          "url": "https://education.ufl.edu/school-teaching-learning/postbaccalaureate-application/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/postbaccalaureate-certificate-application/",
-          "title": "Graduate Certificate Application",
-          "url": "https://education.ufl.edu/school-teaching-learning/postbaccalaureate-certificate-application/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/cognitive-behavioral-resource-guide-test-page/",
-          "title": "Cognitive-Behavioral Resource Guide Test Page",
-          "url": "https://education.ufl.edu/school-teaching-learning/cognitive-behavioral-resource-guide-test-page/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-presentations-may-june-2013/",
-          "title": "Student Conference Presentations May-June 2013",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-presentations-may-june-2013/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-presentations-april-2013/",
-          "title": "Student Conference Presentations April 2013",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-presentations-april-2013/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-presentations-march-2013/",
-          "title": "Student Conference Presentations March 2013",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-presentations-march-2013/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-presentations-february-2013/",
-          "title": "Student Conference Presentations February 2013",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-presentations-february-2013/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-presentations-january-2013/",
-          "title": "Student Conference Presentations January 2013",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-presentations-january-2013/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-presentations-november-2012/",
-          "title": "Student Conference Presentations November 2012",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-presentations-november-2012/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-presentations-october-2012/",
-          "title": "Student Conference Presentations October 2012",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-presentations-october-2012/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/studentconference-presentations-september-2012/",
-          "title": "Student Conference Presentations September 2012",
-          "url": "https://education.ufl.edu/school-teaching-learning/studentconference-presentations-september-2012/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/journal-publications-2012-2013/",
-          "title": "Journal Publications 2012-2013",
-          "url": "https://education.ufl.edu/school-teaching-learning/journal-publications-2012-2013/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/admissions/postbaccalaureate-studies/",
-          "title": "Postbaccalaureate Studies",
-          "url": "https://education.ufl.edu/school-teaching-learning/admissions/postbaccalaureate-studies/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/rose-pringle/",
-          "title": "Rose Pringle &#8211; Transforming Science Teaching",
-          "url": "https://education.ufl.edu/school-teaching-learning/rose-pringle/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/selected-funding-opportunities/",
-          "title": "Selected Graduate Student Funding Opportunities",
-          "url": "https://education.ufl.edu/school-teaching-learning/selected-funding-opportunities/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-papers-april-2011/",
-          "title": "Student Conference Presentations:  April 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-papers-april-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-papers-march-2011/",
-          "title": "Student Conference Presentations:  March 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-papers-march-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-papers-february-2011/",
-          "title": "Student Conference Presentations:  February 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-papers-february-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-papers-january-2011/",
-          "title": "Student Conference Presentations:  January 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-papers-january-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-papers-november-december-2010/",
-          "title": "Student Conference Presentations:  November-December 2010",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-papers-november-december-2010/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-papers-october-2010/",
-          "title": "Student Conference Presentations:  October 2010",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-papers-october-2010/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-papers-september-2010/",
-          "title": "Student Conference Presentations:  September 2010",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-papers-september-2010/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-conference-papers-summer-2010/",
-          "title": "Student Conference Presentations:  Summer 2010",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-conference-papers-summer-2010/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-may-2012/",
-          "title": "Conference Presentations:  May 2012",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-may-2012/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-april-2012/",
-          "title": "Conference Presentations:  April 2012",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-april-2012/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-march-2012/",
-          "title": "Conference Presentations:  March 2012",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-march-2012/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-february-2012/",
-          "title": "Conference Presentations:  February 2012",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-february-2012/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-january-2012/",
-          "title": "Conference Presentations:  January 2012",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-january-2012/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-december-2011/",
-          "title": "Conference Presentations:  December 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-december-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-november-2011/",
-          "title": "Conference Presentations:  November 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-november-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-october-2011/",
-          "title": "Conference Presentations:  October 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-october-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-september-2011/",
-          "title": "Conference Presentations:  September 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-september-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-summer-2011/",
-          "title": "Conference Presentations:  Summer 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-summer-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/journal-publications-2011-2012/",
-          "title": "Journal Publications 2011-2012",
-          "url": "https://education.ufl.edu/school-teaching-learning/journal-publications-2011-2012/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/2010-2011-journal-publications/",
-          "title": "2010-2011 Journal Publications",
-          "url": "https://education.ufl.edu/school-teaching-learning/2010-2011-journal-publications/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/1799-2/",
-          "title": null,
-          "url": "https://education.ufl.edu/school-teaching-learning/1799-2/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/stl-docseminars/",
-          "title": "STL Seminars",
-          "url": "https://education.ufl.edu/school-teaching-learning/stl-docseminars/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/online-masters-reading-literacy-education/",
-          "title": "New Online STL Master’s Degree in Reading and Literacy Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/online-masters-reading-literacy-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/current-student-testimonials-about-doctoral-study-in-the-school-of-teaching-learning/",
-          "title": "Current Student Testimonials about Doctoral Study in the School of Teaching &amp; Learning",
-          "url": "https://education.ufl.edu/school-teaching-learning/current-student-testimonials-about-doctoral-study-in-the-school-of-teaching-learning/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/book-chapters/",
-          "title": "Book Chapters",
-          "url": "https://education.ufl.edu/school-teaching-learning/book-chapters/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/journal-publications-2010-2011/",
-          "title": "Journal Publications",
-          "url": "https://education.ufl.edu/school-teaching-learning/journal-publications-2010-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-may-2011/",
-          "title": "Conference Presentations:  May 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-may-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-april-2011/",
-          "title": "Conference Presentations:  April 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-april-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-march-2011/",
-          "title": "Conference Presentations:  March 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-march-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-february-2011/",
-          "title": "Conference Presentations:  February 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-february-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-january-2011/",
-          "title": "Conference Presentations:  January 2011",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-january-2011/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-november-december-2010/",
-          "title": "Conference Presentations:  November-December 2010",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-november-december-2010/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-october-2010/",
-          "title": "Conference Presentations:  October 2010",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-october-2010/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-september2010/",
-          "title": "Conference Presentations:  September 2010",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-september2010/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conference-papers-summer2010/",
-          "title": "Conference Presentations:  Summer 2010",
-          "url": "https://education.ufl.edu/school-teaching-learning/conference-papers-summer2010/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/recently-completed-dissertations/",
-          "title": "Recently Completed Dissertations",
-          "url": "https://education.ufl.edu/school-teaching-learning/recently-completed-dissertations/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/recent-faculty-and-program-awards/",
+          "path": "/faculty-and-program-awards/",
           "title": "Faculty and Program Awards",
-          "url": "https://education.ufl.edu/school-teaching-learning/recent-faculty-and-program-awards/",
+          "url": "https://education.ufl.edu/school-teaching-learning/faculty-and-program-awards/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/bachelor-of-arts-in-education-bae/",
-          "title": "Bachelor of Arts in Education (BAE)",
-          "url": "https://education.ufl.edu/school-teaching-learning/bachelor-of-arts-in-education-bae/",
+          "path": "/student-resources/degree-specific-information/",
+          "title": "Degree-Specific Information",
+          "url": "https://education.ufl.edu/school-teaching-learning/student-resources/degree-specific-information/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/admissions/educational-specialist-eds/",
-          "title": "Educational Specialist (Ed.S.)",
-          "url": "https://education.ufl.edu/school-teaching-learning/admissions/educational-specialist-eds/",
+          "path": "/student-resources/stl-docseminars/",
+          "title": "School of Teaching &#038; Learning Graduate Seminars",
+          "url": "https://education.ufl.edu/school-teaching-learning/student-resources/stl-docseminars/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/admissions/doctoral-degrees-phd-edd/",
-          "title": "Doctoral Degrees (Ph.D./Ed.D)",
-          "url": "https://education.ufl.edu/school-teaching-learning/admissions/doctoral-degrees-phd-edd/",
+          "path": "/student-resources/selected-funding-opportunities/",
+          "title": "Selected Graduate Student Funding Opportunities",
+          "url": "https://education.ufl.edu/school-teaching-learning/student-resources/selected-funding-opportunities/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/staff-directory/",
-          "title": "Staff Directory",
-          "url": "https://education.ufl.edu/school-teaching-learning/staff-directory/",
+          "path": "/student-resources/",
+          "title": "Student Resources",
+          "url": "https://education.ufl.edu/school-teaching-learning/student-resources/",
           "isLive": true,
           "outboundLinks": []
         },
         {
           "path": "/faculty-directory/",
-          "title": "Faculty and Staff Directories",
+          "title": "Faculty and Staff",
           "url": "https://education.ufl.edu/school-teaching-learning/faculty-directory/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/published-book-chapters/",
-          "title": "Published Book Chapters",
-          "url": "https://education.ufl.edu/school-teaching-learning/published-book-chapters/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/2008-journal-articles/",
-          "title": "2008 Journal Articles",
-          "url": "https://education.ufl.edu/school-teaching-learning/2008-journal-articles/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/2009-journal-articles/",
-          "title": "2009 Journal Articles",
-          "url": "https://education.ufl.edu/school-teaching-learning/2009-journal-articles/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/school-of-teaching-learning-graduate-students-newly-published-journal-articles/",
-          "title": "School of Teaching &amp; Learning Graduate Students Newly Published Journal Articles",
-          "url": "https://education.ufl.edu/school-teaching-learning/school-of-teaching-learning-graduate-students-newly-published-journal-articles/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/stl-graduate-students-recent-presentations-at-professional-conferences-summer-2009/",
-          "title": "STL Graduate Students Recent Presentations at Professional Conferences Summer 2009",
-          "url": "https://education.ufl.edu/school-teaching-learning/stl-graduate-students-recent-presentations-at-professional-conferences-summer-2009/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/stl-graduate-students-recent-presentations-at-professional-conferences-september-2009/",
-          "title": "STL Graduate Students Recent Presentations at Professional Conferences September 2009",
-          "url": "https://education.ufl.edu/school-teaching-learning/stl-graduate-students-recent-presentations-at-professional-conferences-september-2009/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/stl-graduate-students-recent-presentations-at-professional-conferences-october-2009/",
-          "title": "STL Graduate Students Recent Presentations at Professional Conferences October 2009",
-          "url": "https://education.ufl.edu/school-teaching-learning/stl-graduate-students-recent-presentations-at-professional-conferences-october-2009/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/stl-graduate-students-recent-presentations-at-professional-conferences-november-2009/",
-          "title": "STL Graduate Students Recent Presentations at Professional Conferences November 2009",
-          "url": "https://education.ufl.edu/school-teaching-learning/stl-graduate-students-recent-presentations-at-professional-conferences-november-2009/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/stl-well-represented-at-2010-nsta-and-narst-meetings/",
-          "title": "STL Well Represented at 2010 NSTA and NARST Meetings",
-          "url": "https://education.ufl.edu/school-teaching-learning/stl-well-represented-at-2010-nsta-and-narst-meetings/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/doctor-of-philosophy-ph-d-or-doctor-of-education-ed-d-in-social-studies-education/",
-          "title": "Doctor of Philosophy (Ph.D.) or Doctor of Education (Ed.D.) in Social Studies Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/doctor-of-philosophy-ph-d-or-doctor-of-education-ed-d-in-social-studies-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/educational-specialist-ed-s-in-social-studies-education/",
-          "title": "Educational Specialist (Ed.S) in Social Studies Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/educational-specialist-ed-s-in-social-studies-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/master-of-arts-in-social-studies-education-mae/",
-          "title": "Master of Arts in Social Studies Education (MAE)",
-          "url": "https://education.ufl.edu/school-teaching-learning/master-of-arts-in-social-studies-education-mae/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/admissions%e2%80%a8-master-of-education-m-ed/",
-          "title": "Admissions  Master of Education (M.Ed.)",
-          "url": "https://education.ufl.edu/school-teaching-learning/admissions%e2%80%a8-master-of-education-m-ed/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/site-program-of-study/",
-          "title": "SITE Program of Study",
-          "url": "https://education.ufl.edu/school-teaching-learning/site-program-of-study/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-teachinginternship-applications/",
-          "title": "Student Teaching/Internship Applications",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-teachinginternship-applications/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/requirements-for-physics-certificatio/",
-          "title": "Requirements for Physics Certification",
-          "url": "https://education.ufl.edu/school-teaching-learning/requirements-for-physics-certificatio/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/requirements-for-chemistry-certification/",
-          "title": "Requirements for Chemistry Certification",
-          "url": "https://education.ufl.edu/school-teaching-learning/requirements-for-chemistry-certification/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/requirements-for-biology-certification/",
-          "title": "Requirements for Biology Certification",
-          "url": "https://education.ufl.edu/school-teaching-learning/requirements-for-biology-certification/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/science-degree-programs/",
-          "title": "Science Degree Programs",
-          "url": "https://education.ufl.edu/school-teaching-learning/science-degree-programs/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/science-environmental-faculty/",
-          "title": "Science &amp; Environmental Faculty",
-          "url": "https://education.ufl.edu/school-teaching-learning/science-environmental-faculty/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/admission-into-reading-education/",
-          "title": "Admission into Reading Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/admission-into-reading-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/reading-education-specialization-coursework-for-ed-s-and-doctoral-students/",
-          "title": "Reading Education Specialization Coursework for Ed.S. and Doctoral Students",
-          "url": "https://education.ufl.edu/school-teaching-learning/reading-education-specialization-coursework-for-ed-s-and-doctoral-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/florida-k-12-reading-certification/",
-          "title": "Florida K-12 Reading Certification",
-          "url": "https://education.ufl.edu/school-teaching-learning/florida-k-12-reading-certification/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/florida-reading-endorsement-plan-a/",
-          "title": "Florida Reading Endorsement (Plan A)",
-          "url": "https://education.ufl.edu/school-teaching-learning/florida-reading-endorsement-plan-a/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/recent-graduates-place-of-employment/",
-          "title": "Recent Graduates Place of Employment",
-          "url": "https://education.ufl.edu/school-teaching-learning/recent-graduates-place-of-employment/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/doctoral-expectations-and-timeline/",
-          "title": "Doctoral Expectations and Timeline",
-          "url": "https://education.ufl.edu/school-teaching-learning/doctoral-expectations-and-timeline/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/doctoral-program-admission-requirements/",
-          "title": "Doctoral Program Admission Requirements",
-          "url": "https://education.ufl.edu/school-teaching-learning/doctoral-program-admission-requirements/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/doctoral-programs-with-an-emphasis-in-mathematics-education/",
-          "title": "Doctoral Programs with an emphasis in Mathematics Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/doctoral-programs-with-an-emphasis-in-mathematics-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/educational-specialist-ed-s-in-mathematics-education/",
-          "title": "Educational Specialist (Ed.S.) in Mathematics Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/educational-specialist-ed-s-in-mathematics-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/master-degree-programs-in-mathematics-education/",
-          "title": "Master Degree Programs in Mathematics Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/master-degree-programs-in-mathematics-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/advanced-studies-in-esol-educationbilingual-education-master-specialist-and-doctoral-degrees/",
-          "title": "Advanced Studies in ESOL Education/Bilingual Education (Master, Specialist, and Doctoral Degrees)",
-          "url": "https://education.ufl.edu/school-teaching-learning/advanced-studies-in-esol-educationbilingual-education-master-specialist-and-doctoral-degrees/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/media-literacy-education-specialization/",
-          "title": "Media Literacy Education Specialization",
-          "url": "https://education.ufl.edu/school-teaching-learning/media-literacy-education-specialization/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/literacy-the-arts-2/",
-          "title": "Literacy &amp; the Arts",
-          "url": "https://education.ufl.edu/school-teaching-learning/literacy-the-arts-2/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/dual-certification-track/",
-          "title": "Dual Certification Track",
-          "url": "https://education.ufl.edu/school-teaching-learning/dual-certification-track/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/getting-answers/",
-          "title": "Getting Answers",
-          "url": "https://education.ufl.edu/school-teaching-learning/getting-answers/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about-the-internship/",
-          "title": "About the Internship",
-          "url": "https://education.ufl.edu/school-teaching-learning/about-the-internship/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/post-baccalaureate-program/",
-          "title": "Post-Baccalaureate Program",
-          "url": "https://education.ufl.edu/school-teaching-learning/post-baccalaureate-program/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fifth-year-options/",
-          "title": "Fifth Year Options",
-          "url": "https://education.ufl.edu/school-teaching-learning/fifth-year-options/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-contacts/",
-          "title": "Faculty Contacts",
-          "url": "https://education.ufl.edu/school-teaching-learning/faculty-contacts/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-requirements-curriculum-teaching-teacher-education/",
-          "title": "Program Requirements: Curriculum, Teaching &amp; Teacher Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/program-requirements-curriculum-teaching-teacher-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/curriculum-teaching-teacher-education-additional-admission-requirements/",
-          "title": "Curriculum, Teaching &amp; Teacher Education Additional Admission Requirements",
-          "url": "https://education.ufl.edu/school-teaching-learning/curriculum-teaching-teacher-education-additional-admission-requirements/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/independent-work-form-2/",
-          "title": "Independent Work Form",
-          "url": "https://education.ufl.edu/school-teaching-learning/independent-work-form-2/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/dissertation-defense-announcement/",
-          "title": "Dissertation Defense Announcement",
-          "url": "https://education.ufl.edu/school-teaching-learning/dissertation-defense-announcement/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/admissions/master-education-admissions/",
-          "title": "Admission Information for Master of Education (M.Ed.)",
-          "url": "https://education.ufl.edu/school-teaching-learning/admissions/master-education-admissions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/admissions/master-arts-education-admissions/",
-          "title": "Admission Information for Master&#8217;s Degrees (M.Ed. or M.A.E.)",
-          "url": "https://education.ufl.edu/school-teaching-learning/admissions/master-arts-education-admissions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/site-based-implementation-of-teacher-education-site/",
-          "title": "Site-based Implementation of Teacher Education (SITE)",
-          "url": "https://education.ufl.edu/school-teaching-learning/site-based-implementation-of-teacher-education-site/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/science-environmental-education/",
-          "title": "Science &amp; Environmental Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/science-environmental-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/reading-education/",
-          "title": "Reading Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/reading-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/mathematics-education/",
-          "title": "Mathematics Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/mathematics-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/literacy-the-arts/",
-          "title": "Literacy &amp; the Arts",
-          "url": "https://education.ufl.edu/school-teaching-learning/literacy-the-arts/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/bilingualesol-education/",
-          "title": "Bilingual/ESOL Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/bilingualesol-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/english-education/",
-          "title": "English Education",
-          "url": "https://education.ufl.edu/school-teaching-learning/english-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/educational-technology/",
-          "title": "Educational Technology",
-          "url": "https://education.ufl.edu/school-teaching-learning/educational-technology/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/teacher-leadership-for-school-improvement-online-specialist/",
-          "title": "Teacher Leadership for School Improvement Online Specialist",
-          "url": "https://education.ufl.edu/school-teaching-learning/teacher-leadership-for-school-improvement-online-specialist/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/applying-for-a-secondary-internship/",
-          "title": "Applying for a Secondary Internship",
-          "url": "https://education.ufl.edu/school-teaching-learning/applying-for-a-secondary-internship/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/eds-independent-work-form/",
-          "title": "EdS Independent Work Form",
-          "url": "https://education.ufl.edu/school-teaching-learning/eds-independent-work-form/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/phd-edd-students-2/",
-          "title": "Ph.D./Ed.D. Students",
-          "url": "https://education.ufl.edu/school-teaching-learning/phd-edd-students-2/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/graduate-student-resources/",
-          "title": "Graduate Student Resources",
-          "url": "https://education.ufl.edu/school-teaching-learning/graduate-student-resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/mae-independent-work-form/",
-          "title": "MAE Independent Work Form",
-          "url": "https://education.ufl.edu/school-teaching-learning/mae-independent-work-form/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/teacher-leadership-for-school-improvement-online-masters/",
-          "title": "Teacher Leadership for School Improvement Online Master&#8217;s",
-          "url": "https://education.ufl.edu/school-teaching-learning/teacher-leadership-for-school-improvement-online-masters/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/unified-elementary-proteach/",
-          "title": "Unified Elementary ProTeach",
-          "url": "https://education.ufl.edu/school-teaching-learning/unified-elementary-proteach/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/application-procedures-for-secondary-internships/",
-          "title": "Application Procedures for Secondary Internships",
-          "url": "https://education.ufl.edu/school-teaching-learning/application-procedures-for-secondary-internships/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fingerprint-background-check-requirements/",
-          "title": "Fingerprint &amp; Background Check Requirements",
-          "url": "https://education.ufl.edu/school-teaching-learning/fingerprint-background-check-requirements/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-resources/",
-          "title": "Faculty &amp; Teaching Resources",
-          "url": "https://education.ufl.edu/school-teaching-learning/faculty-resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/stl-doctoral-fellows/",
-          "title": "STL DOCTORAL FELLOWS",
-          "url": "https://education.ufl.edu/school-teaching-learning/stl-doctoral-fellows/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-publications/",
-          "title": "Student Publications",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-publications/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-presentations/",
-          "title": "Student Conference Presentations",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-presentations/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-awards/",
-          "title": "Student Awards",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-awards/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/education-specialist-students/",
-          "title": "Ed.S. Students",
-          "url": "https://education.ufl.edu/school-teaching-learning/education-specialist-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/mae-students/",
-          "title": "MAE Students",
-          "url": "https://education.ufl.edu/school-teaching-learning/mae-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/m-ed-students/",
-          "title": "M.Ed. Students",
-          "url": "https://education.ufl.edu/school-teaching-learning/m-ed-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-stl/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/school-teaching-learning/contact-stl/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/admissions/graduate/",
-          "title": "Graduate",
-          "url": "https://education.ufl.edu/school-teaching-learning/admissions/graduate/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/admissions/",
-          "title": "How Do I Apply?",
+          "title": "Admissions",
           "url": "https://education.ufl.edu/school-teaching-learning/admissions/",
           "isLive": true,
           "outboundLinks": []
@@ -4239,9 +3224,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/home/",
-          "title": "School of Teaching and Learning",
-          "url": "https://education.ufl.edu/school-teaching-learning/home/",
+          "path": "/",
+          "title": "School of Teaching and Learning Home",
+          "url": "https://education.ufl.edu/school-teaching-learning/",
           "isLive": true,
           "outboundLinks": []
         }
