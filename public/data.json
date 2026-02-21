@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-02-20T09:22:54.649Z",
+  "crawlTimestamp": "2026-02-21T09:16:33.457Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 46,
   "subsites": [
@@ -1525,74 +1525,17 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/faculty-resources/course-accessibility/",
-          "title": "Course Accessibility",
-          "url": "https://education.ufl.edu/helpdesk/faculty-resources/course-accessibility/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/it-resources/",
-          "title": "IT Resources",
-          "url": "https://education.ufl.edu/helpdesk/it-resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-resources/instructor-training/",
-          "title": "New Instructor Training: Powerful Online Teaching",
-          "url": "https://education.ufl.edu/helpdesk/faculty-resources/instructor-training/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/",
-          "title": "Home",
+          "title": "Home - EduGator Helpdesk",
           "url": "https://education.ufl.edu/helpdesk/",
           "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-resources/",
-          "title": "Faculty Resources",
-          "url": "https://education.ufl.edu/helpdesk/faculty-resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/brand/",
-          "title": "Brand Resources",
-          "url": "https://education.ufl.edu/helpdesk/brand/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/form/",
-          "title": "Form",
-          "url": "https://education.ufl.edu/helpdesk/form/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/communications-guide/",
-          "title": "Communications Guide",
-          "url": "https://education.ufl.edu/helpdesk/communications-guide/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/helpdesk-mailer/",
-          "title": "Helpdesk Mailer",
-          "url": "https://education.ufl.edu/helpdesk/helpdesk-mailer/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/home/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/helpdesk/home/",
-          "isLive": true,
-          "outboundLinks": []
+          "outboundLinks": [
+            "https://education.ufl.edu/helpdesk",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/admissions/undergraduate-programs"
+          ]
         }
       ]
     },
@@ -4600,347 +4543,630 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/faculty-and-researchers/chapman/",
-          "title": "Katy Chapman",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/chapman/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-2/",
-          "title": "Contact",
-          "url": "https://education.ufl.edu/eprc/contact-2/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/data-dashboard-training/",
-          "title": "Data Dashboard Training",
-          "url": "https://education.ufl.edu/eprc/data-dashboard-training/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/training/",
-          "title": "Training",
-          "url": "https://education.ufl.edu/eprc/training/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/cotman/",
-          "title": "Ann Marie Cotman",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/cotman/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/kent/",
-          "title": "Jen Kent",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/kent/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/thomas/",
-          "title": "Thomas",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/thomas/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/balser/",
-          "title": "Balser",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/balser/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/aaron/",
-          "title": "Tiffany Aaron",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/aaron/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/media/",
-          "title": "Pictures and Media",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/media/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/ecp-cc-public-engagement/",
-          "title": "ECP-CC Public Engagement",
-          "url": "https://education.ufl.edu/eprc/ecp-cc-public-engagement/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/ecp-cc-research/",
-          "title": "ECP-CC Research",
-          "url": "https://education.ufl.edu/eprc/ecp-cc-research/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/ecp-cc-programs/",
-          "title": "ECP-CC Programs",
-          "url": "https://education.ufl.edu/eprc/ecp-cc-programs/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/ecp-cc-about/",
-          "title": "ECP-CC About Us",
-          "url": "https://education.ufl.edu/eprc/ecp-cc-about/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/ecp-cc/",
-          "title": "Early Childhood Policy Centers Collaborative",
-          "url": "https://education.ufl.edu/eprc/seminar-series/ecp-cc/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/participants/",
-          "title": "Participants",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/participants/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/travel/",
-          "title": "Location and Travel",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/travel/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/conference-materials/",
-          "title": "Final Report",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/conference-materials/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/agenda/",
-          "title": "Agenda",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/agenda/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/",
-          "title": "Improving Data for School Discipline Research",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/wei-li/",
-          "title": "Wei Li",
-          "url": "https://education.ufl.edu/eprc/wei-li/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/jaime-ahlberg/",
-          "title": "Jaime Ahlberg",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/jaime-ahlberg/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/poekert/",
-          "title": "Philip Poekert",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/poekert/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/brownell/",
-          "title": "Mary Brownell",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/brownell/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/dejong/",
-          "title": "Ester De Jong",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/dejong/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/romano/",
-          "title": "Richard Romano",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/romano/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/ortagus/",
-          "title": "Justin Ortagus",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/ortagus/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/snyder/",
-          "title": "Patricia Snyder",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/snyder/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/miller/",
-          "title": "David Miller",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/miller/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/brown/",
-          "title": "Taryrn Brown",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/brown/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/",
-          "title": "Events",
-          "url": "https://education.ufl.edu/eprc/seminar-series/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/suarez/",
-          "title": "Cecilia Suarez",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/suarez/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/saygin/",
-          "title": "Perihan Saygin",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/saygin/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/sandoval/",
-          "title": "Hector Sandoval",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/sandoval/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/redding/",
-          "title": "Christopher Redding",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/redding/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/gage/",
-          "title": "Nicholas Gage",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/gage/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/paolucci/",
-          "title": "Catherine Paolucci",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/paolucci/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/atria/",
-          "title": "Catherine Atria",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/atria/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/curran/",
-          "title": "F. Chris Curran",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/curran/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/",
-          "title": "Home",
+          "title": "Home - Education Policy Research Center",
           "url": "https://education.ufl.edu/eprc/",
           "isLive": true,
-          "outboundLinks": []
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
         },
         {
-          "path": "/contact/",
-          "title": "Contact",
-          "url": "https://education.ufl.edu/eprc/contact/",
+          "path": "/about-us",
+          "title": "About Us - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/about-us",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/research",
+          "title": "Research - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/research",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/seminar-series",
+          "title": "Events - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/seminar-series",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/training",
+          "title": "Training - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/training",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers",
+          "title": "Faculty and Researchers - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/contact",
+          "title": "Contact - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/contact",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/2025/10/14/ai-discipline",
+          "title": "Disciplining AI Use: How School District Codes of Conduct Govern Students' Use of AI in Florida - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2025/10/14/ai-discipline",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/2025/10/10/2025-higher-ed-legislative-summary",
+          "title": "2025 Higher Ed Legislative Summary - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2025/10/10/2025-higher-ed-legislative-summary",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/2025/07/11/2025-k-12-legislative-summary",
+          "title": "2025 K-12 Legislative Summary - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2025/07/11/2025-k-12-legislative-summary",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/2025/04/02/absenteeismbrief",
+          "title": "Roll Call: Unpacking Chronic Absenteeism in Florida - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2025/04/02/absenteeismbrief",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/research/page/2",
+          "title": "Research - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/research/page/2",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/2024/07/09/panel-discussion-navigating-science-education-understanding-multilingual-learners-academic-journeys-in-elementary-school",
+          "title": "Panel Discussion: Navigating Science Education: Understanding Multilingual Learners’ Academic Journeys in Elementary School - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2024/07/09/panel-discussion-navigating-science-education-understanding-multilingual-learners-academic-journeys-in-elementary-school",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/2024/01/10/spring-2024-research-brown-bag",
+          "title": "Spring 2024 Research Brown Bag - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2024/01/10/spring-2024-research-brown-bag",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/2023/09/02/improving-data-for-school-discipline-research-conference",
+          "title": "Improving Data for School Discipline Research Conference - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2023/09/02/improving-data-for-school-discipline-research-conference",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/2023/09/02/silenced-stages-public-policy-debates-in-education",
+          "title": "Silenced Stages: Public Policy Debates in Education - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2023/09/02/silenced-stages-public-policy-debates-in-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/seminar-series/page/2",
+          "title": "Events - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/seminar-series/page/2",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/data-dashboard-training",
+          "title": "Data Dashboard Training - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/data-dashboard-training",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/curran",
+          "title": "F. Chris Curran - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/curran",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/chapman",
+          "title": "Katy Chapman - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/chapman",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/brown",
+          "title": "Taryrn Brown - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/brown",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/redding",
+          "title": "Christopher Redding - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/redding",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/jaime-ahlberg",
+          "title": "Jaime Ahlberg - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/jaime-ahlberg",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/sandoval",
+          "title": "Hector Sandoval - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/sandoval",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/aaron",
+          "title": "Tiffany Aaron - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/aaron",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/balser",
+          "title": "Balser - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/balser",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/thomas",
+          "title": "Thomas - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/thomas",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/kent",
+          "title": "Jen Kent - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/kent",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/li",
+          "title": "Page not found - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/li",
+          "isLive": false,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/miller",
+          "title": "David Miller - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/miller",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/poekert",
+          "title": "Philip Poekert - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/poekert",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/brownell",
+          "title": "Mary Brownell - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/brownell",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/faculty-and-researchers/romano",
+          "title": "Richard Romano - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/romano",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/eprc_policybrief-ai-and-school-discipline-curran-and-goo-2025",
+          "title": null,
+          "url": "https://education.ufl.edu/eprc/eprc_policybrief-ai-and-school-discipline-curran-and-goo-2025",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/news-and-events/",
-          "title": "News and Events",
-          "url": "https://education.ufl.edu/eprc/news-and-events/",
+          "path": "/tag/artificial-intelligence",
+          "title": "Artificial Intelligence Archives - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/tag/artificial-intelligence",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/tag/school-discipline",
+          "title": "School Discipline Archives - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/tag/school-discipline",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/files/2025/10/Higher-Education-EPRC-Brief-2025-Legislative-Session-Hatch-Wang-McElhattan.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/eprc/files/2025/10/Higher-Education-EPRC-Brief-2025-Legislative-Session-Hatch-Wang-McElhattan.pdf",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/research/publications/",
-          "title": "Publications",
-          "url": "https://education.ufl.edu/eprc/research/publications/",
+          "path": "/files/2025/07/EPRC-Brief-2025-Legislative-Session.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/eprc/files/2025/07/EPRC-Brief-2025-Legislative-Session.pdf",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/research/policy-briefs-presentations/",
-          "title": "Policy Briefs &#038; Presentations",
-          "url": "https://education.ufl.edu/eprc/research/policy-briefs-presentations/",
+          "path": "/tag/education-policy",
+          "title": "Education Policy Archives - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/tag/education-policy",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/policy-brief-chronic-absenteeism-2025",
+          "title": null,
+          "url": "https://education.ufl.edu/eprc/policy-brief-chronic-absenteeism-2025",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/research/strategic-priority-areas/",
-          "title": "Strategic Priority Areas",
-          "url": "https://education.ufl.edu/eprc/research/strategic-priority-areas/",
+          "path": "/tag/absenteeism",
+          "title": "Absenteeism Archives - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/tag/absenteeism",
           "isLive": true,
-          "outboundLinks": []
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
         },
         {
-          "path": "/research/",
-          "title": "Research",
-          "url": "https://education.ufl.edu/eprc/research/",
+          "path": "/2024/07/10/research-report-potential-implications-of-floridas-expansion-of-required-reporting-of-school-incidents-to-law-enforcement",
+          "title": "Research Report: Potential Implications of Florida’s Expansion of Required Reporting of School Incidents to Law Enforcement - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2024/07/10/research-report-potential-implications-of-floridas-expansion-of-required-reporting-of-school-incidents-to-law-enforcement",
           "isLive": true,
-          "outboundLinks": []
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
         },
         {
-          "path": "/faculty-and-researchers/",
-          "title": "Faculty and Researchers",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/",
+          "path": "/2024/07/09/floridas-education-in-focus-navigating-the-2024-k-12-legislative-landscape",
+          "title": "Florida’s Education in Focus: Navigating the 2024 K-12 Legislative Landscape - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2024/07/09/floridas-education-in-focus-navigating-the-2024-k-12-legislative-landscape",
           "isLive": true,
-          "outboundLinks": []
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
         },
         {
-          "path": "/about-us/letter-from-director/",
-          "title": "Letter from Director",
-          "url": "https://education.ufl.edu/eprc/about-us/letter-from-director/",
+          "path": "/2023/11/29/multilingual-learners-reclassification-and-science-learning-policy-brief",
+          "title": "Multilingual Learners Reclassification and Science Learning Policy Brief - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2023/11/29/multilingual-learners-reclassification-and-science-learning-policy-brief",
           "isLive": true,
-          "outboundLinks": []
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
         },
         {
-          "path": "/about-us/",
-          "title": "About Us",
-          "url": "https://education.ufl.edu/eprc/about-us/",
+          "path": "/research/page/3",
+          "title": "Research - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/research/page/3",
           "isLive": true,
-          "outboundLinks": []
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/2023/05/22/policy-debate-forum-should-pre-k-be-part-of-public-schools",
+          "title": "Policy Debate Forum: Should Pre-K be Part of Public Schools? - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2023/05/22/policy-debate-forum-should-pre-k-be-part-of-public-schools",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/2020/11/05/fall-2020-seminar",
+          "title": "Fall 2020 Seminar - Gentrification, Educational Inequality, and the Future of Urban Schooling - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/2020/11/05/fall-2020-seminar",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/author/chriscurran",
+          "title": "chriscurran, Author at Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/author/chriscurran",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/category/research",
+          "title": "Research Archives - Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/category/research",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
+        },
+        {
+          "path": "/author/evejung",
+          "title": "evekung, Author at Education Policy Research Center",
+          "url": "https://education.ufl.edu/eprc/author/evejung",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/eprc",
+            "https://education.ufl.edu/educator-quality",
+            "https://education.ufl.edu/help-and-support",
+            "https://education.ufl.edu/admissions/all-programs",
+            "https://education.ufl.edu/research"
+          ]
         }
       ]
     },
