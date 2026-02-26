@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-02-25T09:28:01.506Z",
+  "crawlTimestamp": "2026-02-26T09:26:55.342Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 46,
   "subsites": [
@@ -3463,6 +3463,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/course-calendar-2/",
+          "title": "Course Calendar",
+          "url": "https://education.ufl.edu/educational-technology/course-calendar-2/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/prospective-students/online-eds/program-of-study/",
           "title": "Ed.S. Program of Study",
