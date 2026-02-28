@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-02-27T09:23:25.492Z",
+  "crawlTimestamp": "2026-02-28T09:14:40.102Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 46,
   "subsites": [
@@ -2961,79 +2961,6 @@
       ]
     },
     {
-      "id": "education-ufl-edu-elementary-education",
-      "baseUrl": "https://education.ufl.edu/elementary-education/",
-      "title": "Elementary Education Homepage - Elementary Education",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/prospective-students/bachelors-of-art-in-elementary-education/application-instructions/",
-          "title": "Application Instructions",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/bachelors-of-art-in-elementary-education/faq/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-highlights/",
-          "title": "Program Highlights",
-          "url": "https://education.ufl.edu/elementary-education/program-highlights/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/elementary-education/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-faculty/",
-          "title": "Program Faculty",
-          "url": "https://education.ufl.edu/elementary-education/program-faculty/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/",
-          "title": "Prospective Students",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/elementary-online/",
-          "title": "Online Elementary Apprenticeship",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-online/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/bachelors-of-art-in-elementary-education/",
-          "title": "Bachelors of Art in Elementary Education",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Elementary Education Homepage",
-          "url": "https://education.ufl.edu/elementary-education/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
       "id": "education-ufl-edu-school-teaching-learning",
       "baseUrl": "https://education.ufl.edu/school-teaching-learning/",
       "title": "School of Teaching and Learning Home - School of Teaching and Learning",
@@ -3684,6 +3611,79 @@
           "path": "/",
           "title": "Homepage",
           "url": "https://education.ufl.edu/educational-technology/",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-elementary-education",
+      "baseUrl": "https://education.ufl.edu/elementary-education/",
+      "title": "Elementary Education Homepage - Elementary Education",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/prospective-students/bachelors-of-art-in-elementary-education/application-instructions/",
+          "title": "Application Instructions",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/bachelors-of-art-in-elementary-education/faq/",
+          "title": "Frequently Asked Questions",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/faq/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/program-highlights/",
+          "title": "Program Highlights",
+          "url": "https://education.ufl.edu/elementary-education/program-highlights/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/contact-us/",
+          "title": "Contact Us",
+          "url": "https://education.ufl.edu/elementary-education/contact-us/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/program-faculty/",
+          "title": "Program Faculty",
+          "url": "https://education.ufl.edu/elementary-education/program-faculty/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/",
+          "title": "Prospective Students",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/elementary-online/",
+          "title": "Online Elementary Apprenticeship",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-online/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/bachelors-of-art-in-elementary-education/",
+          "title": "Bachelors of Art in Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/",
+          "title": "Elementary Education Homepage",
+          "url": "https://education.ufl.edu/elementary-education/",
           "isLive": true,
           "outboundLinks": []
         }
