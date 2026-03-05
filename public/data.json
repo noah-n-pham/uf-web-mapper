@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-03-04T09:22:10.671Z",
+  "crawlTimestamp": "2026-03-05T09:23:07.429Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 46,
   "subsites": [
@@ -3349,13 +3349,6 @@
           "path": "/program-highlights/",
           "title": "Program Highlights",
           "url": "https://education.ufl.edu/education-sciences/program-highlights/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/",
-          "title": "Prospective Students",
-          "url": "https://education.ufl.edu/education-sciences/prospective-students/",
           "isLive": true,
           "outboundLinks": []
         },
