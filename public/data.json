@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-03-05T09:23:07.429Z",
+  "crawlTimestamp": "2026-03-06T09:20:43.431Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 46,
+  "subsiteCount": 45,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -2405,15 +2405,15 @@
     {
       "id": "education-ufl-edu-sespecs",
       "baseUrl": "https://education.ufl.edu/sespecs/",
-      "title": "SESPECS",
+      "title": "School of Special Education, School Psychology, and Early Childhood Studies - School of Special Education, School Psychology, and Early Childhood Studies",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
-          "path": "/fall/",
-          "title": "Fall 2021",
-          "url": "https://education.ufl.edu/sespecs/fall/",
+          "path": "/news/",
+          "title": "News",
+          "url": "https://education.ufl.edu/sespecs/news/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -2425,37 +2425,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/spring/",
-          "title": "Spring",
-          "url": "https://education.ufl.edu/sespecs/spring/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/summer/",
-          "title": "Summer 2022 Seminars",
-          "url": "https://education.ufl.edu/sespecs/summer/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/the-team/",
           "title": "The Team",
           "url": "https://education.ufl.edu/sespecs/the-team/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/new-noteworthy/",
-          "title": "New &amp; Noteworthy",
-          "url": "https://education.ufl.edu/sespecs/new-noteworthy/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/degrees/",
-          "title": "Academic Programs",
-          "url": "https://education.ufl.edu/sespecs/degrees/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -2480,7 +2452,8 @@
           "isLive": true,
           "outboundLinks": []
         }
-      ]
+      ],
+      "canonicalUrl": "https://education.ufl.edu/sespecs-1"
     },
     {
       "id": "education-ufl-edu-special-education",
@@ -6930,79 +6903,6 @@
           "path": "/",
           "title": "Governance Home",
           "url": "https://education.ufl.edu/governance/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
-      "id": "education-ufl-edu-prevention-intervention-network",
-      "baseUrl": "https://education.ufl.edu/prevention-intervention-network/",
-      "title": "Home - Prevention & Intervention Network",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/prevention-intervention-network/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/news/",
-          "title": "News",
-          "url": "https://education.ufl.edu/prevention-intervention-network/news/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/resources/",
-          "title": "Resources",
-          "url": "https://education.ufl.edu/prevention-intervention-network/resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/our-team/",
-          "title": "Our Team",
-          "url": "https://education.ufl.edu/prevention-intervention-network/our-team/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/projects/",
-          "title": "Projects",
-          "url": "https://education.ufl.edu/prevention-intervention-network/projects/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about/",
-          "title": "About",
-          "url": "https://education.ufl.edu/prevention-intervention-network/about/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/prevention-intervention-network/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/example/",
-          "title": "Example Page",
-          "url": "https://education.ufl.edu/prevention-intervention-network/example/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/sample-page/",
-          "title": "Sample Page",
-          "url": "https://education.ufl.edu/prevention-intervention-network/sample-page/",
           "isLive": true,
           "outboundLinks": []
         }
