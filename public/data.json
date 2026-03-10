@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-03-09T09:26:39.636Z",
+  "crawlTimestamp": "2026-03-10T09:23:48.530Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 44,
   "subsites": [
@@ -2940,6 +2940,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/admission-information-for-certificate-programs/",
+          "title": "Certificate Admission Information",
+          "url": "https://education.ufl.edu/school-teaching-learning/admission-information-for-certificate-programs/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/fingerprint-background-check-requirements/",
           "title": "Fingerprint Background Check Requirements",
