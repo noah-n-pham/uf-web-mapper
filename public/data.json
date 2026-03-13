@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-03-12T09:24:27.076Z",
+  "crawlTimestamp": "2026-03-13T09:22:23.816Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 44,
+  "subsiteCount": 45,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -6202,6 +6202,23 @@
           "path": "/",
           "title": "Home",
           "url": "https://education.ufl.edu/riel/",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-secondary-teacher-prep",
+      "baseUrl": "https://education.ufl.edu/secondary-teacher-prep/",
+      "title": "Secondary Teacher Preparation - Secondary Teacher Preparation",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Secondary Teacher Preparation",
+          "url": "https://education.ufl.edu/secondary-teacher-prep/",
           "isLive": true,
           "outboundLinks": []
         }
