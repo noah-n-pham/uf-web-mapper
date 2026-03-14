@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-03-13T09:22:23.816Z",
+  "crawlTimestamp": "2026-03-14T09:17:57.037Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 45,
+  "subsiteCount": 44,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -1813,6 +1813,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/on-campus-ph-d/program-of-study/",
+          "title": "Program of Study",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-ph-d/program-of-study/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/leadership-styles-quiz/overview/",
           "title": "EduGator Leadership Styles Overview",
@@ -4251,86 +4258,34 @@
       ]
     },
     {
-      "id": "education-ufl-edu-site",
-      "baseUrl": "https://education.ufl.edu/site/",
-      "title": "Site-based Implementation of Teacher Education – University of Florida – College of Education",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/student-experience/",
-          "title": "Student Experience",
-          "url": "https://education.ufl.edu/site/student-experience/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Homepage",
-          "url": "https://education.ufl.edu/site/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faq/",
-          "title": "FAQ",
-          "url": "https://education.ufl.edu/site/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/degrees/",
-          "title": "Degrees",
-          "url": "https://education.ufl.edu/site/degrees/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/site/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/admission-requirements/",
-          "title": "Admission Requirements",
-          "url": "https://education.ufl.edu/site/admission-requirements/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/application-date/",
-          "title": "Application Date",
-          "url": "https://education.ufl.edu/site/application-date/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/student-resources/",
-          "title": "Student Resources",
-          "url": "https://education.ufl.edu/site/student-resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-staff/",
-          "title": "Faculty &amp; Staff",
-          "url": "https://education.ufl.edu/site/faculty-staff/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
       "id": "education-ufl-edu-social-studies-education",
       "baseUrl": "https://education.ufl.edu/social-studies-education/",
-      "title": "Social Studies Education – University of Florida – College of Education",
+      "title": "Social Studies Education - Social Studies Education",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/program-faculty/",
+          "title": "Program Faculty",
+          "url": "https://education.ufl.edu/social-studies-education/program-faculty/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/program-highlights/",
+          "title": "Program Highlights",
+          "url": "https://education.ufl.edu/social-studies-education/program-highlights/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/",
+          "title": "Prospective Students",
+          "url": "https://education.ufl.edu/social-studies-education/prospective-students/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/",
           "title": "Social Studies Education",
@@ -4353,44 +4308,30 @@
           "outboundLinks": []
         },
         {
-          "path": "/degrees/mae-online/",
+          "path": "/prospective-students/mae-online/",
           "title": "MAE Online",
-          "url": "https://education.ufl.edu/social-studies-education/degrees/mae-online/",
+          "url": "https://education.ufl.edu/social-studies-education/prospective-students/mae-online/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/degrees/master-of-arts/mae-application-process/",
-          "title": "MAE Application Process",
-          "url": "https://education.ufl.edu/social-studies-education/degrees/master-of-arts/mae-application-process/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/degrees/master-of-arts/",
-          "title": "MAE in Social Studies Education",
-          "url": "https://education.ufl.edu/social-studies-education/degrees/master-of-arts/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/degrees/doctorate/",
+          "path": "/prospective-students/doctorate/",
           "title": "Doctorate (Ph.D.) in Social Studies Education",
-          "url": "https://education.ufl.edu/social-studies-education/degrees/doctorate/",
+          "url": "https://education.ufl.edu/social-studies-education/prospective-students/doctorate/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/degrees/epi-certification/steps-for-florida-certification/",
+          "path": "/prospective-students/epi-certification/steps-for-florida-certification/",
           "title": "Steps for Florida Certification",
-          "url": "https://education.ufl.edu/social-studies-education/degrees/epi-certification/steps-for-florida-certification/",
+          "url": "https://education.ufl.edu/social-studies-education/prospective-students/epi-certification/steps-for-florida-certification/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/degrees/epi-certification/",
+          "path": "/prospective-students/epi-certification/",
           "title": "Certificate Program in Secondary Teaching Preparation",
-          "url": "https://education.ufl.edu/social-studies-education/degrees/epi-certification/",
+          "url": "https://education.ufl.edu/social-studies-education/prospective-students/epi-certification/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -4402,16 +4343,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/degrees/",
-          "title": "Degrees",
-          "url": "https://education.ufl.edu/social-studies-education/degrees/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/degrees/epi-certification/fingerprint-background-check-requirements-2/",
+          "path": "/prospective-students/epi-certification/fingerprint-background-check-requirements-2/",
           "title": "Fingerprint &amp; Background Check Requirements",
-          "url": "https://education.ufl.edu/social-studies-education/degrees/epi-certification/fingerprint-background-check-requirements-2/",
+          "url": "https://education.ufl.edu/social-studies-education/prospective-students/epi-certification/fingerprint-background-check-requirements-2/",
           "isLive": true,
           "outboundLinks": []
         }
