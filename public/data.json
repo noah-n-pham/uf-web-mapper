@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-03-26T09:30:23.387Z",
+  "crawlTimestamp": "2026-03-27T09:27:51.779Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 44,
+  "subsiteCount": 45,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -6098,6 +6098,79 @@
           "path": "/",
           "title": "Homepage",
           "url": "https://education.ufl.edu/patterson/",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-prevention-intervention-network",
+      "baseUrl": "https://education.ufl.edu/prevention-intervention-network/",
+      "title": "Home - Prevention & Intervention Network",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/contact-us/",
+          "title": "Contact Us",
+          "url": "https://education.ufl.edu/prevention-intervention-network/contact-us/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/news/",
+          "title": "News",
+          "url": "https://education.ufl.edu/prevention-intervention-network/news/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/resources/",
+          "title": "Resources",
+          "url": "https://education.ufl.edu/prevention-intervention-network/resources/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/our-team/",
+          "title": "Our Team",
+          "url": "https://education.ufl.edu/prevention-intervention-network/our-team/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/projects/",
+          "title": "Projects",
+          "url": "https://education.ufl.edu/prevention-intervention-network/projects/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/about/",
+          "title": "About",
+          "url": "https://education.ufl.edu/prevention-intervention-network/about/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/",
+          "title": "Home",
+          "url": "https://education.ufl.edu/prevention-intervention-network/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/example/",
+          "title": "Example Page",
+          "url": "https://education.ufl.edu/prevention-intervention-network/example/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/sample-page/",
+          "title": "Sample Page",
+          "url": "https://education.ufl.edu/prevention-intervention-network/sample-page/",
           "isLive": true,
           "outboundLinks": []
         }
