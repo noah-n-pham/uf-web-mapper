@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-03-31T09:33:39.361Z",
+  "crawlTimestamp": "2026-04-01T09:35:32.056Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 45,
   "subsites": [
@@ -6188,13 +6188,6 @@
           "path": "/riel-resources/",
           "title": "Resources",
           "url": "https://education.ufl.edu/riel/riel-resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fall-institute-photo/",
-          "title": "Fall Institute Photo",
-          "url": "https://education.ufl.edu/riel/fall-institute-photo/",
           "isLive": true,
           "outboundLinks": []
         },
