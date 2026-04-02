@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-04-01T09:35:32.056Z",
+  "crawlTimestamp": "2026-04-02T09:30:59.098Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 45,
   "subsites": [
@@ -53,12 +53,10 @@
         },
         {
           "path": "/course-syllabi",
-          "title": "Course Syllabi - UF College of Education",
+          "title": "Simple Syllabus",
           "url": "https://education.ufl.edu/course-syllabi",
           "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu"
-          ]
+          "outboundLinks": []
         },
         {
           "path": "/coe-online",
