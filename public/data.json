@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-04-06T09:38:30.071Z",
+  "crawlTimestamp": "2026-04-07T09:35:09.859Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 45,
   "subsites": [
@@ -3676,85 +3676,57 @@
     {
       "id": "education-ufl-edu-english-education",
       "baseUrl": "https://education.ufl.edu/english-education/",
-      "title": "English Education – University of Florida – College of Education",
+      "title": "English Education Home - English Education",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
-          "path": "/team/",
-          "title": "Team",
-          "url": "https://education.ufl.edu/english-education/team/",
+          "path": "/prospective-students/masters-degrees/application-instructions/",
+          "title": "Application Instructions &#8211; Masters Degrees",
+          "url": "https://education.ufl.edu/english-education/prospective-students/masters-degrees/application-instructions/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/specializations/media-literacy-education/",
-          "title": "Media Literacy Education",
-          "url": "https://education.ufl.edu/english-education/specializations/media-literacy-education/",
+          "path": "/prospective-students/specialist-degree/application-instructions/",
+          "title": "Application Instructions &#8211; Specialist degree",
+          "url": "https://education.ufl.edu/english-education/prospective-students/specialist-degree/application-instructions/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/specializations/",
-          "title": "Specializations",
-          "url": "https://education.ufl.edu/english-education/specializations/",
+          "path": "/prospective-students/media-literacy-education/application-instructions/",
+          "title": "Application Instructions &#8211; Media Literacy Education",
+          "url": "https://education.ufl.edu/english-education/prospective-students/media-literacy-education/application-instructions/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/",
-          "title": "English Education K-12",
-          "url": "https://education.ufl.edu/english-education/",
+          "path": "/prospective-students/graduate-certificate/application-instructions/",
+          "title": "Application Instructions &#8211; Graduate Certificate",
+          "url": "https://education.ufl.edu/english-education/prospective-students/graduate-certificate/application-instructions/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/degrees/teacher-certification/",
-          "title": "Teacher Certification",
-          "url": "https://education.ufl.edu/english-education/degrees/teacher-certification/",
+          "path": "/prospective-students/on-campus-ph-d/application-instructions/",
+          "title": "Application Instructions &#8211; On Campus PhD",
+          "url": "https://education.ufl.edu/english-education/prospective-students/on-campus-ph-d/application-instructions/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/degrees/specialist/",
-          "title": "Specialist Degree",
-          "url": "https://education.ufl.edu/english-education/degrees/specialist/",
+          "path": "/prospective-students/graduate-certificate/",
+          "title": "Graduate Certificate",
+          "url": "https://education.ufl.edu/english-education/prospective-students/graduate-certificate/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/degrees/masters/",
-          "title": "Master&#8217;s Degree",
-          "url": "https://education.ufl.edu/english-education/degrees/masters/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/degrees/doctorate/",
-          "title": "Doctorate Degree",
-          "url": "https://education.ufl.edu/english-education/degrees/doctorate/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/degrees/certificate/",
-          "title": "Certificate",
-          "url": "https://education.ufl.edu/english-education/degrees/certificate/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/degrees/",
-          "title": "Degrees",
-          "url": "https://education.ufl.edu/english-education/degrees/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/courses/",
-          "title": "Courses",
-          "url": "https://education.ufl.edu/english-education/courses/",
+          "path": "/prospective-students/on-campus-ph-d/",
+          "title": "On-Campus Ph.D.",
+          "url": "https://education.ufl.edu/english-education/prospective-students/on-campus-ph-d/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -3766,9 +3738,65 @@
           "outboundLinks": []
         },
         {
-          "path": "/admissions/",
+          "path": "/program-faculty/",
+          "title": "Program Faculty",
+          "url": "https://education.ufl.edu/english-education/program-faculty/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/program-highlights/",
+          "title": "Program Highlights",
+          "url": "https://education.ufl.edu/english-education/program-highlights/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/",
+          "title": "Prospective Students",
+          "url": "https://education.ufl.edu/english-education/prospective-students/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/sample-page/post-graduate-degree-admissions/",
           "title": "Admissions",
-          "url": "https://education.ufl.edu/english-education/admissions/",
+          "url": "https://education.ufl.edu/english-education/sample-page/post-graduate-degree-admissions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/courses/",
+          "title": "Courses",
+          "url": "https://education.ufl.edu/english-education/courses/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/media-literacy-education/",
+          "title": "Media Literacy Education",
+          "url": "https://education.ufl.edu/english-education/prospective-students/media-literacy-education/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/masters-degrees/",
+          "title": "Master&#8217;s Degrees",
+          "url": "https://education.ufl.edu/english-education/prospective-students/masters-degrees/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/specialist-degree/",
+          "title": "Specialist Degree",
+          "url": "https://education.ufl.edu/english-education/prospective-students/specialist-degree/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/",
+          "title": "English Education Home",
+          "url": "https://education.ufl.edu/english-education/",
           "isLive": true,
           "outboundLinks": []
         }
@@ -4087,11 +4115,25 @@
     {
       "id": "education-ufl-edu-science-education",
       "baseUrl": "https://education.ufl.edu/science-education/",
-      "title": "Science Education – University of Florida – College of Education",
+      "title": "Home - Science Education",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/",
+          "title": "Prospective Students",
+          "url": "https://education.ufl.edu/science-education/prospective-students/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/",
+          "title": "Home",
+          "url": "https://education.ufl.edu/science-education/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/students/dissertations/",
           "title": "Dissertations",
@@ -4114,44 +4156,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/u-futures/",
-          "title": "u-futures-certificate",
-          "url": "https://education.ufl.edu/science-education/u-futures/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/students/testimonials/",
           "title": "Testimonials",
           "url": "https://education.ufl.edu/science-education/students/testimonials/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/specifics/",
-          "title": "Specifics",
-          "url": "https://education.ufl.edu/science-education/specifics/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/certificate/content-core-requirements/chemistry/",
-          "title": "Chemistry",
-          "url": "https://education.ufl.edu/science-education/certificate/content-core-requirements/chemistry/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/certificate/content-core-requirements/physics/",
-          "title": "Physics",
-          "url": "https://education.ufl.edu/science-education/certificate/content-core-requirements/physics/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/certificate/content-core-requirements/biology/",
-          "title": "biology",
-          "url": "https://education.ufl.edu/science-education/certificate/content-core-requirements/biology/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -4177,23 +4184,16 @@
           "outboundLinks": []
         },
         {
-          "path": "/master-of-arts/",
-          "title": "Master of Arts",
-          "url": "https://education.ufl.edu/science-education/master-of-arts/",
+          "path": "/prospective-students/master-of-arts/",
+          "title": "Hybrid M.A.E.",
+          "url": "https://education.ufl.edu/science-education/prospective-students/master-of-arts/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/doctor-of-philosophy/",
-          "title": "Doctor of Philosophy",
-          "url": "https://education.ufl.edu/science-education/doctor-of-philosophy/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/education-doctorate/",
-          "title": "Education Doctorate",
-          "url": "https://education.ufl.edu/science-education/education-doctorate/",
+          "path": "/prospective-students/doctor-of-philosophy/",
+          "title": "On-Campus Ph.D.",
+          "url": "https://education.ufl.edu/science-education/prospective-students/doctor-of-philosophy/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -4219,9 +4219,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/ed-s-in-science-education-or-environmental-education/",
-          "title": "Ed.S. in Science Education",
-          "url": "https://education.ufl.edu/science-education/ed-s-in-science-education-or-environmental-education/",
+          "path": "/prospective-students/online-eds/",
+          "title": "Online Ed.S.",
+          "url": "https://education.ufl.edu/science-education/prospective-students/online-eds/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -4241,15 +4241,8 @@
         },
         {
           "path": "/faculty/",
-          "title": "Faculty",
+          "title": "Program Faculty",
           "url": "https://education.ufl.edu/science-education/faculty/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Science Education",
-          "url": "https://education.ufl.edu/science-education/",
           "isLive": true,
           "outboundLinks": []
         }
