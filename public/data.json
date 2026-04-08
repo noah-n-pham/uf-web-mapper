@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-04-07T09:35:09.859Z",
+  "crawlTimestamp": "2026-04-08T09:34:43.013Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 45,
   "subsites": [
@@ -272,9 +272,9 @@
           ]
         },
         {
-          "path": "/news/2025/04/08/rising-beyond-uf-college-of-education-among-americas-top-5-public-graduate-education-schools",
-          "title": "Rising Beyond: UF College of Education Among America’s Top 5 Public Graduate Education Schools - News",
-          "url": "https://education.ufl.edu/news/2025/04/08/rising-beyond-uf-college-of-education-among-americas-top-5-public-graduate-education-schools",
+          "path": "/news/2026/04/07/unstoppable-uf-college-of-education-advances-to-no-2-in-the-nation",
+          "title": "Unstoppable UF College of Education advances to No. 2 in the nation - News",
+          "url": "https://education.ufl.edu/news/2026/04/07/unstoppable-uf-college-of-education-advances-to-no-2-in-the-nation",
           "isLive": true,
           "outboundLinks": [
             "https://education.ufl.edu"
@@ -378,6 +378,15 @@
           ]
         },
         {
+          "path": "/news/2025/04/08/rising-beyond-uf-college-of-education-among-americas-top-5-public-graduate-education-schools",
+          "title": "Rising Beyond: UF College of Education Among America’s Top 5 Public Graduate Education Schools - News",
+          "url": "https://education.ufl.edu/news/2025/04/08/rising-beyond-uf-college-of-education-among-americas-top-5-public-graduate-education-schools",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu"
+          ]
+        },
+        {
           "path": "/coe-online/tuition-and-fees",
           "title": "Tuition - UF College of Education online",
           "url": "https://education.ufl.edu/coe-online/tuition-and-fees",
@@ -471,15 +480,6 @@
           "path": "/educational-research/pre-award/research-support/faq",
           "title": "Proposal-Related FAQs - Office of Educational Research",
           "url": "https://education.ufl.edu/educational-research/pre-award/research-support/faq",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu"
-          ]
-        },
-        {
-          "path": "/educational-research/pre-award/research-communication",
-          "title": "Research Communication - Office of Educational Research",
-          "url": "https://education.ufl.edu/educational-research/pre-award/research-communication",
           "isLive": true,
           "outboundLinks": [
             "https://education.ufl.edu"
@@ -1522,6 +1522,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/webinars/",
+          "title": "Webinars",
+          "url": "https://education.ufl.edu/helpdesk/webinars/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/faculty-resources/course-accessibility/",
           "title": "Course Accessibility",
