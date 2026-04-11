@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-04-10T09:37:21.191Z",
+  "crawlTimestamp": "2026-04-11T09:23:20.881Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 45,
   "subsites": [
@@ -4352,11 +4352,53 @@
     {
       "id": "education-ufl-edu-tlsi",
       "baseUrl": "https://education.ufl.edu/tlsi/",
-      "title": "Teacher Leadership for School Improvement – University of Florida – College of Education",
+      "title": "Teacher Leadership for School Improvement - Teacher Leadership for School Improvement",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/program-highlights/",
+          "title": "Program Highlights",
+          "url": "https://education.ufl.edu/tlsi/program-highlights/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/online-m-ed/application-instructions/",
+          "title": "Application Instructions &#8211; Online M.Ed",
+          "url": "https://education.ufl.edu/tlsi/prospective-students/online-m-ed/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/online-ed-s/application-instructions/",
+          "title": "Application Instructions &#8211; Online Ed.S",
+          "url": "https://education.ufl.edu/tlsi/prospective-students/online-ed-s/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/online-ed-s/",
+          "title": "Online Ed.S.",
+          "url": "https://education.ufl.edu/tlsi/prospective-students/online-ed-s/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/online-m-ed/",
+          "title": "Online M.Ed.",
+          "url": "https://education.ufl.edu/tlsi/prospective-students/online-m-ed/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/",
+          "title": "Prospective Students",
+          "url": "https://education.ufl.edu/tlsi/prospective-students/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/learn-more/",
           "title": "Learn More",
@@ -4372,9 +4414,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/degree/faqs/",
-          "title": "FAQs",
-          "url": "https://education.ufl.edu/tlsi/degree/faqs/",
+          "path": "/faqs/",
+          "title": "Frequently Asked Questions",
+          "url": "https://education.ufl.edu/tlsi/faqs/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -4415,7 +4457,7 @@
         },
         {
           "path": "/our-team/",
-          "title": "Our Team",
+          "title": "Program Faculty",
           "url": "https://education.ufl.edu/tlsi/our-team/",
           "isLive": true,
           "outboundLinks": []
@@ -4435,13 +4477,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/resources/",
-          "title": "Resources",
-          "url": "https://education.ufl.edu/tlsi/resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/degree/",
           "title": "The Degree",
           "url": "https://education.ufl.edu/tlsi/degree/",
@@ -4455,7 +4490,8 @@
           "isLive": true,
           "outboundLinks": []
         }
-      ]
+      ],
+      "canonicalUrl": "https://education.ufl.edu/tlsi-1"
     },
     {
       "id": "education-ufl-edu-uf-teach",
