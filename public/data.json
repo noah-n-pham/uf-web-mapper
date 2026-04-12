@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-04-11T09:23:20.881Z",
+  "crawlTimestamp": "2026-04-12T09:26:05.802Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 45,
   "subsites": [
@@ -4490,8 +4490,7 @@
           "isLive": true,
           "outboundLinks": []
         }
-      ],
-      "canonicalUrl": "https://education.ufl.edu/tlsi-1"
+      ]
     },
     {
       "id": "education-ufl-edu-uf-teach",
