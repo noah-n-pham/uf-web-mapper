@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-04-13T09:46:14.789Z",
+  "crawlTimestamp": "2026-04-14T09:41:53.104Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 45,
   "subsites": [
@@ -5245,6 +5245,23 @@
       ]
     },
     {
+      "id": "education-ufl-edu-secondary-teacher-prep",
+      "baseUrl": "https://education.ufl.edu/secondary-teacher-prep/",
+      "title": "Secondary Teacher Preparation - Secondary Teacher Preparation",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Secondary Teacher Preparation",
+          "url": "https://education.ufl.edu/secondary-teacher-prep/",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
       "id": "education-ufl-edu-patterson",
       "baseUrl": "https://education.ufl.edu/patterson/",
       "title": "James Patterson Literacy Challenge – We Will Teach Every Child to Read",
@@ -6235,23 +6252,6 @@
           "path": "/",
           "title": "Home",
           "url": "https://education.ufl.edu/riel/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
-      "id": "education-ufl-edu-secondary-teacher-prep",
-      "baseUrl": "https://education.ufl.edu/secondary-teacher-prep/",
-      "title": "Secondary Teacher Preparation - Secondary Teacher Preparation",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/",
-          "title": "Secondary Teacher Preparation",
-          "url": "https://education.ufl.edu/secondary-teacher-prep/",
           "isLive": true,
           "outboundLinks": []
         }
