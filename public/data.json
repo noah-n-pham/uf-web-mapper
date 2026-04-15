@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-04-14T09:41:53.104Z",
+  "crawlTimestamp": "2026-04-15T09:42:02.627Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 45,
+  "subsiteCount": 43,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -53,9 +53,9 @@
         },
         {
           "path": "/course-syllabi",
-          "title": "Simple Syllabus",
+          "title": null,
           "url": "https://education.ufl.edu/course-syllabi",
-          "isLive": true,
+          "isLive": false,
           "outboundLinks": []
         },
         {
@@ -5020,142 +5020,6 @@
       ]
     },
     {
-      "id": "education-ufl-edu-technology",
-      "baseUrl": "https://education.ufl.edu/technology/",
-      "title": "Office of Information & Instructional Technology – UF College of Education",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/connecting-to-eduroam/",
-          "title": "Connecting to Eduroam",
-          "url": "https://education.ufl.edu/technology/connecting-to-eduroam/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/software-install-policy/",
-          "title": "Software Install Policy",
-          "url": "https://education.ufl.edu/technology/software-install-policy/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/computer-standards/",
-          "title": "Computer Standards",
-          "url": "https://education.ufl.edu/technology/computer-standards/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/electronic-files/",
-          "title": "Electronic Files",
-          "url": "https://education.ufl.edu/technology/electronic-files/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/procurement-and-installation/",
-          "title": "PROCUREMENT AND INSTALLATION",
-          "url": "https://education.ufl.edu/technology/procurement-and-installation/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/zoom/",
-          "title": "Zoom",
-          "url": "https://education.ufl.edu/technology/zoom/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/cloud-storage/",
-          "title": "Cloud Storage",
-          "url": "https://education.ufl.edu/technology/cloud-storage/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/file-storage/",
-          "title": "File Storage",
-          "url": "https://education.ufl.edu/technology/file-storage/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/email/",
-          "title": "Email",
-          "url": "https://education.ufl.edu/technology/email/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/uf-gatorlink-id/",
-          "title": "UF Gatorlink ID",
-          "url": "https://education.ufl.edu/technology/uf-gatorlink-id/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/web-services/",
-          "title": "Web",
-          "url": "https://education.ufl.edu/technology/web-services/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/support/",
-          "title": "Support",
-          "url": "https://education.ufl.edu/technology/support/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/computers/",
-          "title": "Computers",
-          "url": "https://education.ufl.edu/technology/computers/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/services-2/",
-          "title": "Services",
-          "url": "https://education.ufl.edu/technology/services-2/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Information &amp; Instructional Technology",
-          "url": "https://education.ufl.edu/technology/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/university-of-florida-college-of-education-security-policy/",
-          "title": "Security",
-          "url": "https://education.ufl.edu/technology/university-of-florida-college-of-education-security-policy/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faq/",
-          "title": "FAQ",
-          "url": "https://education.ufl.edu/technology/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/support-staff/",
-          "title": "Staff",
-          "url": "https://education.ufl.edu/technology/support-staff/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
       "id": "education-ufl-edu-ai",
       "baseUrl": "https://education.ufl.edu/ai/",
       "title": "Homepage - Artificial Intelligence at UF",
@@ -5226,23 +5090,6 @@
       "canonicalUrl": "https://education.ufl.edu/faculty",
       "isAlias": true,
       "aliasTarget": "https://education.ufl.edu/faculty/"
-    },
-    {
-      "id": "education-ufl-edu-governance",
-      "baseUrl": "https://education.ufl.edu/governance/",
-      "title": "Shared Governance – UF College of Education",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/",
-          "title": "Governance Home",
-          "url": "https://education.ufl.edu/governance/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
     },
     {
       "id": "education-ufl-edu-secondary-teacher-prep",
