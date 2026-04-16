@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-04-15T09:42:02.627Z",
+  "crawlTimestamp": "2026-04-16T09:41:40.098Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 43,
   "subsites": [
@@ -53,9 +53,9 @@
         },
         {
           "path": "/course-syllabi",
-          "title": null,
+          "title": "Simple Syllabus",
           "url": "https://education.ufl.edu/course-syllabi",
-          "isLive": false,
+          "isLive": true,
           "outboundLinks": []
         },
         {
@@ -205,11 +205,12 @@
         },
         {
           "path": "/educator-quality",
-          "title": "Educator Quality – College of Education Site",
+          "title": "Homepage - Educator Quality",
           "url": "https://education.ufl.edu/educator-quality",
           "isLive": true,
           "outboundLinks": [
-            "https://education.ufl.edu"
+            "https://education.ufl.edu",
+            "http://education.ufl.edu"
           ]
         },
         {
@@ -1486,29 +1487,15 @@
     {
       "id": "education-ufl-edu-educator-quality",
       "baseUrl": "https://education.ufl.edu/educator-quality/",
-      "title": "Educator Quality – College of Education Site",
+      "title": "Homepage - Educator Quality",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
-          "path": "/university-council-on-teacher-education-ucote/",
-          "title": "University Council on Teacher Education",
-          "url": "https://education.ufl.edu/educator-quality/university-council-on-teacher-education-ucote/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/",
-          "title": "Educator Quality",
+          "title": "Homepage",
           "url": "https://education.ufl.edu/educator-quality/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/conceptual-framework/",
-          "title": "Conceptual Framework",
-          "url": "https://education.ufl.edu/educator-quality/conceptual-framework/",
           "isLive": true,
           "outboundLinks": []
         }
@@ -1604,15 +1591,15 @@
     {
       "id": "education-ufl-edu-hdose",
       "baseUrl": "https://education.ufl.edu/hdose/",
-      "title": "School of Human Development and Organizational Studies (HDOSE) – UF College of Education",
+      "title": "School of Human Development and Organizational Studies in Education - School of Human Development and Organizational Studies in Education (HDOSE)",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
-          "path": "/2025-hdose-welcome-week/",
-          "title": "2025 HDOSE Welcome Week",
-          "url": "https://education.ufl.edu/hdose/2025-hdose-welcome-week/",
+          "path": "/resources/by-laws/",
+          "title": "By-laws for School of Human Development &#038; Organizational Studies in Education College of Education, University of Florida",
+          "url": "https://education.ufl.edu/hdose/resources/by-laws/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -5058,40 +5045,6 @@
       ]
     },
     {
-      "id": "education-ufl-edu-profiles",
-      "baseUrl": "https://education.ufl.edu/profiles/",
-      "title": "UF College of Education Faculty",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/profiles/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/list/",
-          "title": "List",
-          "url": "https://education.ufl.edu/profiles/list/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/view/",
-          "title": "View",
-          "url": "https://education.ufl.edu/profiles/view/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ],
-      "canonicalUrl": "https://education.ufl.edu/faculty",
-      "isAlias": true,
-      "aliasTarget": "https://education.ufl.edu/faculty/"
-    },
-    {
       "id": "education-ufl-edu-secondary-teacher-prep",
       "baseUrl": "https://education.ufl.edu/secondary-teacher-prep/",
       "title": "Secondary Teacher Preparation - Secondary Teacher Preparation",
@@ -6072,6 +6025,40 @@
           "outboundLinks": []
         }
       ]
+    },
+    {
+      "id": "education-ufl-edu-profiles",
+      "baseUrl": "https://education.ufl.edu/profiles/",
+      "title": "UF College of Education Faculty",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/",
+          "title": "Home",
+          "url": "https://education.ufl.edu/profiles/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/list/",
+          "title": "List",
+          "url": "https://education.ufl.edu/profiles/list/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/view/",
+          "title": "View",
+          "url": "https://education.ufl.edu/profiles/view/",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ],
+      "canonicalUrl": "https://education.ufl.edu/faculty",
+      "isAlias": true,
+      "aliasTarget": "https://education.ufl.edu/faculty/"
     },
     {
       "id": "education-ufl-edu-riel",
