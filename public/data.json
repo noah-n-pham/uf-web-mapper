@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-04-17T09:41:26.073Z",
+  "crawlTimestamp": "2026-04-18T09:25:32.875Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 43,
   "subsites": [
@@ -3262,11 +3262,18 @@
     {
       "id": "education-ufl-edu-education-sciences",
       "baseUrl": "https://education.ufl.edu/education-sciences/",
-      "title": "Education Sciences - Education Science",
+      "title": "Education Sciences at the University of Florida",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/counseling-and-human-services/",
+          "title": "Counseling and Human Services",
+          "url": "https://education.ufl.edu/education-sciences/counseling-and-human-services/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/program-requirements/",
           "title": "Program Requirements",
