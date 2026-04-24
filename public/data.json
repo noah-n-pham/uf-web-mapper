@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-04-23T09:43:30.656Z",
+  "crawlTimestamp": "2026-04-24T09:43:26.791Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 43,
   "subsites": [
@@ -4352,6 +4352,20 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/prospective-students/teacher-leadership-certificate/application-instructions-certificate-program/",
+          "title": "Application Instructions &#8211; Certificate Program",
+          "url": "https://education.ufl.edu/tlsi/prospective-students/teacher-leadership-certificate/application-instructions-certificate-program/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/teacher-leadership-certificate/",
+          "title": "Teacher Leadership Certificate",
+          "url": "https://education.ufl.edu/tlsi/prospective-students/teacher-leadership-certificate/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/program-highlights/",
           "title": "Program Highlights",
           "url": "https://education.ufl.edu/tlsi/program-highlights/",
@@ -4472,7 +4486,7 @@
         },
         {
           "path": "/degree/",
-          "title": "The Degree",
+          "title": "Masters Degree",
           "url": "https://education.ufl.edu/tlsi/degree/",
           "isLive": true,
           "outboundLinks": []
