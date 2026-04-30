@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-04-29T09:51:14.277Z",
+  "crawlTimestamp": "2026-04-30T09:51:31.856Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 43,
   "subsites": [
@@ -2170,7 +2170,7 @@
     {
       "id": "education-ufl-edu-research-evaluation-methods",
       "baseUrl": "https://education.ufl.edu/research-evaluation-methods/",
-      "title": "Homepage - Research Evaluation and Methodology",
+      "title": "Research Evaluation and Methodology at the University of Florida",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
