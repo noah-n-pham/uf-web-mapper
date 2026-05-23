@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-05-22T10:12:58.712Z",
+  "crawlTimestamp": "2026-05-23T09:43:46.573Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 43,
   "subsites": [
@@ -3690,23 +3690,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/media-literacy-education/application-instructions/",
-          "title": "Application Instructions &#8211; Media Literacy Education",
-          "url": "https://education.ufl.edu/english-education/prospective-students/media-literacy-education/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/graduate-certificate/application-instructions/",
           "title": "Application Instructions &#8211; Graduate Certificate",
           "url": "https://education.ufl.edu/english-education/prospective-students/graduate-certificate/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-ph-d/application-instructions/",
-          "title": "Application Instructions &#8211; On Campus PhD",
-          "url": "https://education.ufl.edu/english-education/prospective-students/on-campus-ph-d/application-instructions/",
           "isLive": true,
           "outboundLinks": []
         },
