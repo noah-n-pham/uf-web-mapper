@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-05-26T10:31:53.639Z",
+  "crawlTimestamp": "2026-05-27T10:33:00.278Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 43,
   "subsites": [
@@ -3686,13 +3686,6 @@
           "path": "/prospective-students/specialist-degree/application-instructions/",
           "title": "Application Instructions &#8211; Specialist degree",
           "url": "https://education.ufl.edu/english-education/prospective-students/specialist-degree/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/graduate-certificate/application-instructions/",
-          "title": "Application Instructions &#8211; Graduate Certificate",
-          "url": "https://education.ufl.edu/english-education/prospective-students/graduate-certificate/application-instructions/",
           "isLive": true,
           "outboundLinks": []
         },
