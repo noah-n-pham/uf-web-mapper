@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-05-28T10:34:56.878Z",
+  "crawlTimestamp": "2026-05-29T10:28:55.323Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 43,
+  "subsiteCount": 41,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -1509,6 +1509,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/webinars/you-plus-ai/",
+          "title": "You + AI",
+          "url": "https://education.ufl.edu/helpdesk/webinars/you-plus-ai/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/webinars/",
           "title": "Webinars",
@@ -3778,15 +3785,127 @@
     {
       "id": "education-ufl-edu-esol",
       "baseUrl": "https://education.ufl.edu/esol/",
-      "title": "ESOL/Bilingual Education. – University of Florida – College of Education",
+      "title": "Home - ESOL/Bilingual Education",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
         {
+          "path": "/prospective-students/language-education-and-technology-certification/application-instructions/",
+          "title": "Application Instructions &#8211; Certification",
+          "url": "https://education.ufl.edu/esol/prospective-students/language-education-and-technology-certification/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-m-ed/application-instructions/",
+          "title": "Application Instructions &#8211; On-campus M.Ed",
+          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-m-ed/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-m-a-e/application-instructions/",
+          "title": "Application Instructions &#8211; On-campus M.A.E.",
+          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-m-a-e/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-ed-s/application-instructions/",
+          "title": "Application Instructions &#8211; On-campus Ed.S",
+          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-ed-s/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-ed-d/application-instructions/",
+          "title": "Application Instructions- On-campus Ed.D",
+          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-ed-d/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-ph-d/application-instructions/",
+          "title": "Application Instructions &#8211; On-campus Ph.D",
+          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-ph-d/application-instructions/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/language-education-and-technology-certification/",
+          "title": "Language, Education and Technology Certification",
+          "url": "https://education.ufl.edu/esol/prospective-students/language-education-and-technology-certification/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-m-ed/",
+          "title": "On-campus M.Ed.",
+          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-m-ed/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-m-a-e/",
+          "title": "On-campus M.A.E",
+          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-m-a-e/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-ed-s/",
+          "title": "On-campus Ed.S",
+          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-ed-s/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-ed-d/",
+          "title": "On-campus Ed.D.",
+          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-ed-d/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-ph-d/",
+          "title": "On-campus Ph.D",
+          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-ph-d/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/program-highlights/",
+          "title": "Program Highlights",
+          "url": "https://education.ufl.edu/esol/program-highlights/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/",
+          "title": "Prospective Students",
+          "url": "https://education.ufl.edu/esol/prospective-students/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/",
+          "title": "Home",
+          "url": "https://education.ufl.edu/esol/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/degrees/certificate/",
           "title": "Certificate",
           "url": "https://education.ufl.edu/esol/degrees/certificate/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty/",
+          "title": "Program Faculty",
+          "url": "https://education.ufl.edu/esol/faculty/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -3812,16 +3931,23 @@
           "outboundLinks": []
         },
         {
+          "path": "/team-2/",
+          "title": "Program Faculty",
+          "url": "https://education.ufl.edu/esol/team-2/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/contact/",
-          "title": "Contact",
+          "title": "Contact Us",
           "url": "https://education.ufl.edu/esol/contact/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/",
+          "path": "/esol-education/",
           "title": "ESOL/Bilingual Education",
-          "url": "https://education.ufl.edu/esol/",
+          "url": "https://education.ufl.edu/esol/esol-education/",
           "isLive": true,
           "outboundLinks": []
         }
@@ -6021,71 +6147,6 @@
           "path": "/sample-page/",
           "title": "Sample Page",
           "url": "https://education.ufl.edu/prevention-intervention-network/sample-page/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
-      "id": "education-ufl-edu-profiles",
-      "baseUrl": "https://education.ufl.edu/profiles/",
-      "title": "UF College of Education Faculty",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/profiles/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/list/",
-          "title": "List",
-          "url": "https://education.ufl.edu/profiles/list/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/view/",
-          "title": "View",
-          "url": "https://education.ufl.edu/profiles/view/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ],
-      "canonicalUrl": "https://education.ufl.edu/faculty",
-      "isAlias": true,
-      "aliasTarget": "https://education.ufl.edu/faculty/"
-    },
-    {
-      "id": "education-ufl-edu-riel",
-      "baseUrl": "https://education.ufl.edu/riel/",
-      "title": "RIEL – Responsive Instruction for Emergent Bilingual Learners in Biology Classrooms – UF College of Education",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/riel-resources/",
-          "title": "Resources",
-          "url": "https://education.ufl.edu/riel/riel-resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/application-information/",
-          "title": "Application Information",
-          "url": "https://education.ufl.edu/riel/application-information/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/riel/",
           "isLive": true,
           "outboundLinks": []
         }
