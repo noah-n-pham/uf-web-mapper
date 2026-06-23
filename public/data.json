@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-06-22T11:06:05.519Z",
+  "crawlTimestamp": "2026-06-23T10:23:12.221Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -3094,13 +3094,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/student-resources/stl-docseminars/",
-          "title": "School of Teaching &#038; Learning Graduate Seminars",
-          "url": "https://education.ufl.edu/school-teaching-learning/student-resources/stl-docseminars/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/student-resources/selected-funding-opportunities/",
           "title": "Selected Graduate Student Funding Opportunities",
           "url": "https://education.ufl.edu/school-teaching-learning/student-resources/selected-funding-opportunities/",
@@ -3690,13 +3683,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/specialist-degree/application-instructions/",
-          "title": "Application Instructions &#8211; Specialist degree",
-          "url": "https://education.ufl.edu/english-education/prospective-students/specialist-degree/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/graduate-certificate/",
           "title": "Graduate Certificate",
           "url": "https://education.ufl.edu/english-education/prospective-students/graduate-certificate/",
@@ -3763,13 +3749,6 @@
           "path": "/prospective-students/masters-degrees/",
           "title": "Master&#8217;s Degrees",
           "url": "https://education.ufl.edu/english-education/prospective-students/masters-degrees/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/specialist-degree/",
-          "title": "Specialist Degree",
-          "url": "https://education.ufl.edu/english-education/prospective-students/specialist-degree/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -4321,13 +4300,6 @@
           "path": "/contact-us/",
           "title": "Contact Us",
           "url": "https://education.ufl.edu/science-education/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/online-eds/",
-          "title": "Online Ed.S.",
-          "url": "https://education.ufl.edu/science-education/prospective-students/online-eds/",
           "isLive": true,
           "outboundLinks": []
         },
