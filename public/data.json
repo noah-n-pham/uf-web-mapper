@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-07-02T10:09:54.521Z",
+  "crawlTimestamp": "2026-07-03T11:37:18.549Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -4048,6 +4048,34 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/on-campus-m-ed/",
+          "title": "On-campus M.Ed.",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/on-campus-m-ed/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/online-m-ed/",
+          "title": "Online M.Ed.",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/online-m-ed/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-mae/",
+          "title": "On-campus MAE",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/on-campus-mae/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/online-mae/",
+          "title": "Online-MAE",
+          "url": "https://education.ufl.edu/reading-education/prospective-students/online-mae/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/prospective-students/masters/m-ed-coursework/",
           "title": "M.Ed. Coursework",
