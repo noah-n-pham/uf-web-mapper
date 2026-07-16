@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-07-15T10:55:20.889Z",
+  "crawlTimestamp": "2026-07-16T11:06:10.259Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -3940,6 +3940,20 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/online-mae/",
+          "title": "Online-MAE",
+          "url": "https://education.ufl.edu/math-education/prospective-students/online-mae/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/on-campus-m-a-e/",
+          "title": "On-Campus M.A.E",
+          "url": "https://education.ufl.edu/math-education/prospective-students/on-campus-m-a-e/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/math-education-graduate-minor/",
           "title": "Math Education Graduate Minor",
