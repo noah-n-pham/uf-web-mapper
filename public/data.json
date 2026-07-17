@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-07-16T11:06:10.259Z",
+  "crawlTimestamp": "2026-07-17T10:53:37.239Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -3993,13 +3993,6 @@
           "path": "/prospective-students/doctorate/research/",
           "title": "Research",
           "url": "https://education.ufl.edu/math-education/prospective-students/doctorate/research/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/masters/",
-          "title": "Master&#8217;s Degree",
-          "url": "https://education.ufl.edu/math-education/prospective-students/masters/",
           "isLive": true,
           "outboundLinks": []
         },
