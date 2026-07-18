@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-07-17T10:53:37.239Z",
+  "crawlTimestamp": "2026-07-18T10:23:41.172Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -3942,7 +3942,7 @@
       "pages": [
         {
           "path": "/prospective-students/online-mae/",
-          "title": "Online-MAE",
+          "title": "Online Math Education M.A.E.",
           "url": "https://education.ufl.edu/math-education/prospective-students/online-mae/",
           "isLive": true,
           "outboundLinks": []
