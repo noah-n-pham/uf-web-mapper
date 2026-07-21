@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-07-20T11:51:45.431Z",
+  "crawlTimestamp": "2026-07-21T11:14:45.501Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -4672,6 +4672,20 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/faculty-and-researchers/elizabeth-huffaker/",
+          "title": "Elizabeth Huffaker",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/elizabeth-huffaker/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/tuuli-robinson/",
+          "title": "Tuuli Robinson",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/tuuli-robinson/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/faculty-and-researchers/chapman/",
           "title": "Katy Chapman",
