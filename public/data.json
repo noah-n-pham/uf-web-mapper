@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-07-23T11:16:21.647Z",
+  "crawlTimestamp": "2026-07-24T11:09:21.976Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -1509,6 +1509,20 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/online-documents/",
+          "title": "Online Documents",
+          "url": "https://education.ufl.edu/helpdesk/online-documents/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/accessibility/",
+          "title": "Accessibility",
+          "url": "https://education.ufl.edu/helpdesk/accessibility/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/webinars/you-plus-ai/",
           "title": "You + AI",
