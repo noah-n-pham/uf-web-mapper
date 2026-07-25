@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-07-24T11:09:21.976Z",
+  "crawlTimestamp": "2026-07-25T10:33:07.641Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -1510,9 +1510,9 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/online-documents/",
+          "path": "/accessibility/online-documents/",
           "title": "Online Documents",
-          "url": "https://education.ufl.edu/helpdesk/online-documents/",
+          "url": "https://education.ufl.edu/helpdesk/accessibility/online-documents/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -1604,6 +1604,439 @@
           "path": "/home/",
           "title": "Home",
           "url": "https://education.ufl.edu/helpdesk/home/",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-eprc",
+      "baseUrl": "https://education.ufl.edu/eprc/",
+      "title": "Home - Education Policy Research Center",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/faculty-and-researchers/elizabeth-huffaker/",
+          "title": "Elizabeth Huffaker",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/elizabeth-huffaker/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/tuuli-robinson/",
+          "title": "Tuuli Robinson",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/tuuli-robinson/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/chapman/",
+          "title": "Katy Chapman",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/chapman/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/contact-2/",
+          "title": "Contact",
+          "url": "https://education.ufl.edu/eprc/contact-2/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/data-dashboard-training/",
+          "title": "Data Dashboard Training",
+          "url": "https://education.ufl.edu/eprc/data-dashboard-training/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/training/",
+          "title": "Training",
+          "url": "https://education.ufl.edu/eprc/training/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/cotman/",
+          "title": "Ann Marie Cotman",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/cotman/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/kent/",
+          "title": "Jen Kent",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/kent/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/thomas/",
+          "title": "Thomas",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/thomas/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/balser/",
+          "title": "Balser",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/balser/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/seminar-series/school-discipline-conference/media/",
+          "title": "Pictures and Media",
+          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/media/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ecp-cc-public-engagement/",
+          "title": "ECP-CC Public Engagement",
+          "url": "https://education.ufl.edu/eprc/ecp-cc-public-engagement/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ecp-cc-research/",
+          "title": "ECP-CC Research",
+          "url": "https://education.ufl.edu/eprc/ecp-cc-research/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ecp-cc-programs/",
+          "title": "ECP-CC Programs",
+          "url": "https://education.ufl.edu/eprc/ecp-cc-programs/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/ecp-cc-about/",
+          "title": "ECP-CC About Us",
+          "url": "https://education.ufl.edu/eprc/ecp-cc-about/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/seminar-series/ecp-cc/",
+          "title": "Early Childhood Policy Centers Collaborative",
+          "url": "https://education.ufl.edu/eprc/seminar-series/ecp-cc/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/seminar-series/school-discipline-conference/participants/",
+          "title": "Participants",
+          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/participants/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/seminar-series/school-discipline-conference/travel/",
+          "title": "Location and Travel",
+          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/travel/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/seminar-series/school-discipline-conference/conference-materials/",
+          "title": "Final Report",
+          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/conference-materials/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/seminar-series/school-discipline-conference/agenda/",
+          "title": "Agenda",
+          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/agenda/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/seminar-series/school-discipline-conference/",
+          "title": "Improving Data for School Discipline Research",
+          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/wei-li/",
+          "title": "Wei Li",
+          "url": "https://education.ufl.edu/eprc/wei-li/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/jaime-ahlberg/",
+          "title": "Jaime Ahlberg",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/jaime-ahlberg/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/poekert/",
+          "title": "Philip Poekert",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/poekert/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/brownell/",
+          "title": "Mary Brownell",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/brownell/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/dejong/",
+          "title": "Ester De Jong",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/dejong/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/romano/",
+          "title": "Richard Romano",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/romano/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/ortagus/",
+          "title": "Justin Ortagus",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/ortagus/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/snyder/",
+          "title": "Patricia Snyder",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/snyder/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/miller/",
+          "title": "David Miller",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/miller/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/brown/",
+          "title": "Taryrn Brown",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/brown/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/seminar-series/",
+          "title": "Events",
+          "url": "https://education.ufl.edu/eprc/seminar-series/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/suarez/",
+          "title": "Cecilia Suarez",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/suarez/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/saygin/",
+          "title": "Perihan Saygin",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/saygin/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/sandoval/",
+          "title": "Hector Sandoval",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/sandoval/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/redding/",
+          "title": "Christopher Redding",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/redding/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/gage/",
+          "title": "Nicholas Gage",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/gage/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/paolucci/",
+          "title": "Catherine Paolucci",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/paolucci/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/atria/",
+          "title": "Catherine Atria",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/atria/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/curran/",
+          "title": "F. Chris Curran",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/curran/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/",
+          "title": "Home",
+          "url": "https://education.ufl.edu/eprc/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/contact/",
+          "title": "Contact",
+          "url": "https://education.ufl.edu/eprc/contact/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/news-and-events/",
+          "title": "News and Events",
+          "url": "https://education.ufl.edu/eprc/news-and-events/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/research/publications/",
+          "title": "Publications",
+          "url": "https://education.ufl.edu/eprc/research/publications/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/research/policy-briefs-presentations/",
+          "title": "Policy Briefs &#038; Presentations",
+          "url": "https://education.ufl.edu/eprc/research/policy-briefs-presentations/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/research/strategic-priority-areas/",
+          "title": "Strategic Priority Areas",
+          "url": "https://education.ufl.edu/eprc/research/strategic-priority-areas/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/research/",
+          "title": "Research",
+          "url": "https://education.ufl.edu/eprc/research/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/",
+          "title": "Faculty and Researchers",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/about-us/letter-from-director/",
+          "title": "Letter from Director",
+          "url": "https://education.ufl.edu/eprc/about-us/letter-from-director/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/about-us/",
+          "title": "About Us",
+          "url": "https://education.ufl.edu/eprc/about-us/",
+          "isLive": true,
+          "outboundLinks": []
+        }
+      ]
+    },
+    {
+      "id": "education-ufl-edu-prevention-intervention-network",
+      "baseUrl": "https://education.ufl.edu/prevention-intervention-network/",
+      "title": "Home - Prevention & Intervention Network",
+      "detectionMethod": "wp-json",
+      "detectionConfidence": "high",
+      "isLive": true,
+      "pages": [
+        {
+          "path": "/contact-us/",
+          "title": "Contact Us",
+          "url": "https://education.ufl.edu/prevention-intervention-network/contact-us/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/news/",
+          "title": "News",
+          "url": "https://education.ufl.edu/prevention-intervention-network/news/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/resources/",
+          "title": "Resources",
+          "url": "https://education.ufl.edu/prevention-intervention-network/resources/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/our-team/",
+          "title": "Our Team",
+          "url": "https://education.ufl.edu/prevention-intervention-network/our-team/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/projects/",
+          "title": "Projects",
+          "url": "https://education.ufl.edu/prevention-intervention-network/projects/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/about/",
+          "title": "About",
+          "url": "https://education.ufl.edu/prevention-intervention-network/about/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/",
+          "title": "Home",
+          "url": "https://education.ufl.edu/prevention-intervention-network/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/example/",
+          "title": "Example Page",
+          "url": "https://education.ufl.edu/prevention-intervention-network/example/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/sample-page/",
+          "title": "Sample Page",
+          "url": "https://education.ufl.edu/prevention-intervention-network/sample-page/",
           "isLive": true,
           "outboundLinks": []
         }
@@ -4679,366 +5112,6 @@
       ]
     },
     {
-      "id": "education-ufl-edu-eprc",
-      "baseUrl": "https://education.ufl.edu/eprc/",
-      "title": "Home - Education Policy Research Center",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/faculty-and-researchers/elizabeth-huffaker/",
-          "title": "Elizabeth Huffaker",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/elizabeth-huffaker/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/tuuli-robinson/",
-          "title": "Tuuli Robinson",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/tuuli-robinson/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/chapman/",
-          "title": "Katy Chapman",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/chapman/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-2/",
-          "title": "Contact",
-          "url": "https://education.ufl.edu/eprc/contact-2/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/data-dashboard-training/",
-          "title": "Data Dashboard Training",
-          "url": "https://education.ufl.edu/eprc/data-dashboard-training/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/training/",
-          "title": "Training",
-          "url": "https://education.ufl.edu/eprc/training/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/cotman/",
-          "title": "Ann Marie Cotman",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/cotman/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/kent/",
-          "title": "Jen Kent",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/kent/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/thomas/",
-          "title": "Thomas",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/thomas/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/balser/",
-          "title": "Balser",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/balser/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/media/",
-          "title": "Pictures and Media",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/media/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/ecp-cc-public-engagement/",
-          "title": "ECP-CC Public Engagement",
-          "url": "https://education.ufl.edu/eprc/ecp-cc-public-engagement/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/ecp-cc-research/",
-          "title": "ECP-CC Research",
-          "url": "https://education.ufl.edu/eprc/ecp-cc-research/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/ecp-cc-programs/",
-          "title": "ECP-CC Programs",
-          "url": "https://education.ufl.edu/eprc/ecp-cc-programs/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/ecp-cc-about/",
-          "title": "ECP-CC About Us",
-          "url": "https://education.ufl.edu/eprc/ecp-cc-about/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/ecp-cc/",
-          "title": "Early Childhood Policy Centers Collaborative",
-          "url": "https://education.ufl.edu/eprc/seminar-series/ecp-cc/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/participants/",
-          "title": "Participants",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/participants/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/travel/",
-          "title": "Location and Travel",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/travel/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/conference-materials/",
-          "title": "Final Report",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/conference-materials/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/agenda/",
-          "title": "Agenda",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/agenda/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/school-discipline-conference/",
-          "title": "Improving Data for School Discipline Research",
-          "url": "https://education.ufl.edu/eprc/seminar-series/school-discipline-conference/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/wei-li/",
-          "title": "Wei Li",
-          "url": "https://education.ufl.edu/eprc/wei-li/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/jaime-ahlberg/",
-          "title": "Jaime Ahlberg",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/jaime-ahlberg/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/poekert/",
-          "title": "Philip Poekert",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/poekert/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/brownell/",
-          "title": "Mary Brownell",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/brownell/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/dejong/",
-          "title": "Ester De Jong",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/dejong/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/romano/",
-          "title": "Richard Romano",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/romano/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/ortagus/",
-          "title": "Justin Ortagus",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/ortagus/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/snyder/",
-          "title": "Patricia Snyder",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/snyder/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/miller/",
-          "title": "David Miller",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/miller/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/brown/",
-          "title": "Taryrn Brown",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/brown/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/seminar-series/",
-          "title": "Events",
-          "url": "https://education.ufl.edu/eprc/seminar-series/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/suarez/",
-          "title": "Cecilia Suarez",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/suarez/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/saygin/",
-          "title": "Perihan Saygin",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/saygin/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/sandoval/",
-          "title": "Hector Sandoval",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/sandoval/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/redding/",
-          "title": "Christopher Redding",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/redding/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/gage/",
-          "title": "Nicholas Gage",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/gage/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/paolucci/",
-          "title": "Catherine Paolucci",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/paolucci/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/atria/",
-          "title": "Catherine Atria",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/atria/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/curran/",
-          "title": "F. Chris Curran",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/curran/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/eprc/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact/",
-          "title": "Contact",
-          "url": "https://education.ufl.edu/eprc/contact/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/news-and-events/",
-          "title": "News and Events",
-          "url": "https://education.ufl.edu/eprc/news-and-events/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/research/publications/",
-          "title": "Publications",
-          "url": "https://education.ufl.edu/eprc/research/publications/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/research/policy-briefs-presentations/",
-          "title": "Policy Briefs &#038; Presentations",
-          "url": "https://education.ufl.edu/eprc/research/policy-briefs-presentations/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/research/strategic-priority-areas/",
-          "title": "Strategic Priority Areas",
-          "url": "https://education.ufl.edu/eprc/research/strategic-priority-areas/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/research/",
-          "title": "Research",
-          "url": "https://education.ufl.edu/eprc/research/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/",
-          "title": "Faculty and Researchers",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about-us/letter-from-director/",
-          "title": "Letter from Director",
-          "url": "https://education.ufl.edu/eprc/about-us/letter-from-director/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about-us/",
-          "title": "About Us",
-          "url": "https://education.ufl.edu/eprc/about-us/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
       "id": "education-ufl-edu-computer-science-education",
       "baseUrl": "https://education.ufl.edu/computer-science-education/",
       "title": "Computer Science Education at UF - Flexible Online Programs",
@@ -6102,79 +6175,6 @@
           "path": "/",
           "title": "Homepage",
           "url": "https://education.ufl.edu/patterson/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
-      "id": "education-ufl-edu-prevention-intervention-network",
-      "baseUrl": "https://education.ufl.edu/prevention-intervention-network/",
-      "title": "Home - Prevention & Intervention Network",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/prevention-intervention-network/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/news/",
-          "title": "News",
-          "url": "https://education.ufl.edu/prevention-intervention-network/news/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/resources/",
-          "title": "Resources",
-          "url": "https://education.ufl.edu/prevention-intervention-network/resources/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/our-team/",
-          "title": "Our Team",
-          "url": "https://education.ufl.edu/prevention-intervention-network/our-team/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/projects/",
-          "title": "Projects",
-          "url": "https://education.ufl.edu/prevention-intervention-network/projects/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/about/",
-          "title": "About",
-          "url": "https://education.ufl.edu/prevention-intervention-network/about/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Home",
-          "url": "https://education.ufl.edu/prevention-intervention-network/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/example/",
-          "title": "Example Page",
-          "url": "https://education.ufl.edu/prevention-intervention-network/example/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/sample-page/",
-          "title": "Sample Page",
-          "url": "https://education.ufl.edu/prevention-intervention-network/sample-page/",
           "isLive": true,
           "outboundLinks": []
         }
