@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-07-29T11:31:52.529Z",
+  "crawlTimestamp": "2026-07-30T11:13:55.518Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -53,9 +53,9 @@
         },
         {
           "path": "/course-syllabi",
-          "title": "Simple Syllabus",
+          "title": null,
           "url": "https://education.ufl.edu/course-syllabi",
-          "isLive": true,
+          "isLive": false,
           "outboundLinks": []
         },
         {
@@ -3593,13 +3593,6 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/program-highlights/",
-          "title": "Program Highlights",
-          "url": "https://education.ufl.edu/curriculum-teaching/program-highlights/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/",
           "title": "Prospective Students",
           "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/",
@@ -3656,13 +3649,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/on-campus-ph-d/program-study/",
-          "title": "Ph.D. Program of Study",
-          "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/on-campus-ph-d/program-study/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/on-campus-ph-d/faq/",
           "title": "Ph.D. Frequently Asked Questions ",
           "url": "https://education.ufl.edu/curriculum-teaching/prospective-students/on-campus-ph-d/faq/",
@@ -3694,13 +3680,6 @@
           "path": "/contact-us/",
           "title": "Contact Us",
           "url": "https://education.ufl.edu/curriculum-teaching/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/apply-now/",
-          "title": "Apply Now",
-          "url": "https://education.ufl.edu/curriculum-teaching/apply-now/",
           "isLive": true,
           "outboundLinks": []
         }
