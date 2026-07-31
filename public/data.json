@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-07-30T11:13:55.518Z",
+  "crawlTimestamp": "2026-07-31T11:35:05.929Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -53,9 +53,9 @@
         },
         {
           "path": "/course-syllabi",
-          "title": null,
+          "title": "Simple Syllabus",
           "url": "https://education.ufl.edu/course-syllabi",
-          "isLive": false,
+          "isLive": true,
           "outboundLinks": []
         },
         {
@@ -5098,6 +5098,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/online-ed-d/online-ed-d-cohort-2025/",
+          "title": "Online Ed.D. Cohort 2025",
+          "url": "https://education.ufl.edu/computer-science-education/prospective-students/online-ed-d/online-ed-d-cohort-2025/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/webinar/",
           "title": "Informational Webinars for Prospective CS Education Students",
