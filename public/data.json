@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-07-31T11:35:05.929Z",
+  "crawlTimestamp": "2026-08-01T10:46:17.060Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -53,9 +53,9 @@
         },
         {
           "path": "/course-syllabi",
-          "title": "Simple Syllabus",
+          "title": null,
           "url": "https://education.ufl.edu/course-syllabi",
-          "isLive": true,
+          "isLive": false,
           "outboundLinks": []
         },
         {
