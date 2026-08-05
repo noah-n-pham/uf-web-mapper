@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-08-04T11:28:50.294Z",
+  "crawlTimestamp": "2026-08-05T11:27:12.340Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -2915,6 +2915,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/dyslexia-graduate-certificate/program-courses/",
+          "title": "Program Courses",
+          "url": "https://education.ufl.edu/special-education/prospective-students/dyslexia-graduate-certificate/program-courses/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/prospective-students/disabilities-in-society-minor/",
           "title": "Disabilities in Society Minor",
