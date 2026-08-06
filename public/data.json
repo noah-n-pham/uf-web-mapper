@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-08-05T11:27:12.340Z",
+  "crawlTimestamp": "2026-08-06T11:30:00.800Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -1361,13 +1361,6 @@
           "path": "/academic-affairs/academic-learning-compacts/",
           "title": "Academic Learning Compacts",
           "url": "https://education.ufl.edu/administration/academic-affairs/academic-learning-compacts/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/academic-affairs/",
-          "title": "Academic Affairs",
-          "url": "https://education.ufl.edu/administration/academic-affairs/",
           "isLive": true,
           "outboundLinks": []
         },
