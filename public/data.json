@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-08-06T11:30:00.800Z",
+  "crawlTimestamp": "2026-08-07T10:07:55.921Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -379,27 +379,9 @@
           ]
         },
         {
-          "path": "/news/2025/04/08/rising-beyond-uf-college-of-education-among-americas-top-5-public-graduate-education-schools",
-          "title": "Rising Beyond: UF College of Education Among America’s Top 5 Public Graduate Education Schools - News",
-          "url": "https://education.ufl.edu/news/2025/04/08/rising-beyond-uf-college-of-education-among-americas-top-5-public-graduate-education-schools",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu"
-          ]
-        },
-        {
           "path": "/coe-online/tuition-and-fees",
           "title": "Tuition - UF College of Education online",
           "url": "https://education.ufl.edu/coe-online/tuition-and-fees",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu"
-          ]
-        },
-        {
-          "path": "/coe-online/online-accolades",
-          "title": "Online Accolades - COE Online",
-          "url": "https://education.ufl.edu/coe-online/online-accolades",
           "isLive": true,
           "outboundLinks": [
             "https://education.ufl.edu"
@@ -481,6 +463,24 @@
           "path": "/educational-research/pre-award/research-support/faq",
           "title": "Proposal-Related FAQs - Office of Educational Research",
           "url": "https://education.ufl.edu/educational-research/pre-award/research-support/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/educational-research/pre-award/research-communication",
+          "title": "Research Communication - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/research-communication",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu"
+          ]
+        },
+        {
+          "path": "/educational-research/pre-award/research-bulletin",
+          "title": "Research Bulletin - Office of Educational Research",
+          "url": "https://education.ufl.edu/educational-research/pre-award/research-bulletin",
           "isLive": true,
           "outboundLinks": [
             "https://education.ufl.edu"
