@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-08-12T10:10:51.854Z",
+  "crawlTimestamp": "2026-08-13T10:11:51.666Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 41,
   "subsites": [
@@ -834,6 +834,34 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/test/university-supervisors/",
+          "title": "University Supervisors",
+          "url": "https://education.ufl.edu/student-services/test/university-supervisors/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/test/teaching-faculty/",
+          "title": "Teaching Faculty",
+          "url": "https://education.ufl.edu/student-services/test/teaching-faculty/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/test/interns-practicum-students/",
+          "title": "Interns/Practicum Students",
+          "url": "https://education.ufl.edu/student-services/test/interns-practicum-students/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/test/mentors-and-site-supervisors/",
+          "title": "Mentors and Site Supervisors",
+          "url": "https://education.ufl.edu/student-services/test/mentors-and-site-supervisors/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/test/",
           "title": "Test",
