@@ -1,7 +1,7 @@
 {
-  "crawlTimestamp": "2026-08-17T09:47:03.418Z",
+  "crawlTimestamp": "2026-08-18T09:38:57.703Z",
   "root": "https://education.ufl.edu/",
-  "subsiteCount": 41,
+  "subsiteCount": 40,
   "subsites": [
     {
       "id": "education-ufl-edu",
@@ -205,13 +205,10 @@
         },
         {
           "path": "/educator-quality",
-          "title": "Homepage - Educator Quality",
+          "title": "WordPress › Error",
           "url": "https://education.ufl.edu/educator-quality",
-          "isLive": true,
-          "outboundLinks": [
-            "https://education.ufl.edu",
-            "http://education.ufl.edu"
-          ]
+          "isLive": false,
+          "outboundLinks": []
         },
         {
           "path": "/contact",
@@ -1514,30 +1511,6 @@
           "path": "/",
           "title": "2025 Impact",
           "url": "https://education.ufl.edu/impact/",
-          "isLive": true,
-          "outboundLinks": []
-        }
-      ]
-    },
-    {
-      "id": "education-ufl-edu-educator-quality",
-      "baseUrl": "https://education.ufl.edu/educator-quality/",
-      "title": "Homepage - Educator Quality",
-      "detectionMethod": "wp-json",
-      "detectionConfidence": "high",
-      "isLive": true,
-      "pages": [
-        {
-          "path": "/title-ii-institutional-report/",
-          "title": "Title II Institutional Report",
-          "url": "https://education.ufl.edu/educator-quality/title-ii-institutional-report/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/",
-          "title": "Homepage",
-          "url": "https://education.ufl.edu/educator-quality/",
           "isLive": true,
           "outboundLinks": []
         }
