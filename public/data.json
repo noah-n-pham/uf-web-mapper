@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-08-18T09:38:57.703Z",
+  "crawlTimestamp": "2026-08-19T09:40:44.679Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 40,
   "subsites": [
@@ -205,10 +205,13 @@
         },
         {
           "path": "/educator-quality",
-          "title": "WordPress › Error",
+          "title": "Educator Quality - UF College of Education",
           "url": "https://education.ufl.edu/educator-quality",
-          "isLive": false,
-          "outboundLinks": []
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "http://education.ufl.edu"
+          ]
         },
         {
           "path": "/contact",
