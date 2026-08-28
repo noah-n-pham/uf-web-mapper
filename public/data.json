@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-08-27T19:34:37.959Z",
+  "crawlTimestamp": "2026-08-28T20:49:44.636Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 40,
   "subsites": [
@@ -2934,6 +2934,13 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/prospective-students/on-campus-phd/special-education-doctoral-program-webinar/",
+          "title": "UF Special Education Doctoral Program Prospective Student Webinar",
+          "url": "https://education.ufl.edu/special-education/prospective-students/on-campus-phd/special-education-doctoral-program-webinar/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/prospective-students/dyslexia-graduate-certificate/program-courses/",
           "title": "Program Courses",
           "url": "https://education.ufl.edu/special-education/prospective-students/dyslexia-graduate-certificate/program-courses/",
@@ -3235,7 +3242,7 @@
     {
       "id": "education-ufl-edu-early-childhood",
       "baseUrl": "https://education.ufl.edu/early-childhood/",
-      "title": "Early Childhood Education - Early Childhood Education",
+      "title": "Early Childhood Studies - Early Childhood Education",
       "detectionMethod": "wp-json",
       "detectionConfidence": "high",
       "isLive": true,
@@ -3403,7 +3410,7 @@
         },
         {
           "path": "/",
-          "title": "Early Childhood Education",
+          "title": "Early Childhood Studies",
           "url": "https://education.ufl.edu/early-childhood/",
           "isLive": true,
           "outboundLinks": []
