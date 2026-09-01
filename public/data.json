@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-08-31T16:51:36.347Z",
+  "crawlTimestamp": "2026-09-01T14:04:19.613Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 40,
   "subsites": [
@@ -2655,13 +2655,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/program-evaluation-in-educational-environments/",
-          "title": "Program Evaluation in Educational Environments",
-          "url": "https://education.ufl.edu/research-evaluation-methods/prospective-students/program-evaluation-in-educational-environments/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/auto-draft/",
           "title": "Auto Draft",
           "url": "https://education.ufl.edu/research-evaluation-methods/auto-draft/",
@@ -2693,13 +2686,6 @@
           "path": "/our-students/",
           "title": "Our Students",
           "url": "https://education.ufl.edu/research-evaluation-methods/our-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/baes/",
-          "title": "B.A.E.S",
-          "url": "https://education.ufl.edu/research-evaluation-methods/prospective-students/baes/",
           "isLive": true,
           "outboundLinks": []
         },
