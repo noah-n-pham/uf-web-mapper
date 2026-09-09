@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-09-08T13:28:23.514Z",
+  "crawlTimestamp": "2026-09-09T13:34:30.108Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 40,
   "subsites": [
@@ -2683,13 +2683,6 @@
           "outboundLinks": []
         },
         {
-          "path": "/our-students/",
-          "title": "Our Students",
-          "url": "https://education.ufl.edu/research-evaluation-methods/our-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/areas-of-research/",
           "title": "Areas of Research",
           "url": "https://education.ufl.edu/research-evaluation-methods/areas-of-research/",
@@ -4144,13 +4137,6 @@
           "path": "/contact-us/",
           "title": "Contact Us",
           "url": "https://education.ufl.edu/english-education/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-faculty/",
-          "title": "Program Faculty",
-          "url": "https://education.ufl.edu/english-education/program-faculty/",
           "isLive": true,
           "outboundLinks": []
         },
