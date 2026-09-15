@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-09-14T15:49:14.161Z",
+  "crawlTimestamp": "2026-09-15T14:18:31.526Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 40,
   "subsites": [
@@ -2271,6 +2271,13 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/prospective-students/online-m-ed/program-of-study/",
+          "title": "Program of Study",
+          "url": "https://education.ufl.edu/educational-leadership/prospective-students/online-m-ed/program-of-study/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/prospective-students/on-campus-ph-d/program-of-study/",
           "title": "Program of Study",
           "url": "https://education.ufl.edu/educational-leadership/prospective-students/on-campus-ph-d/program-of-study/",
@@ -2504,6 +2511,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/online-med/program-of-study/",
+          "title": "Program of Study",
+          "url": "https://education.ufl.edu/higher-education/prospective-students/online-med/program-of-study/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/prospective-students/on-campus-med/webinars/",
           "title": "Webinars",
@@ -3835,7 +3849,7 @@
         },
         {
           "path": "/prospective-students/online-edtech-41/",
-          "title": "ONLINE EdTech 4+1",
+          "title": "Ed Tech UF 4+1 Program",
           "url": "https://education.ufl.edu/educational-technology/prospective-students/online-edtech-41/",
           "isLive": true,
           "outboundLinks": []
