@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-09-15T14:18:31.526Z",
+  "crawlTimestamp": "2026-09-16T14:10:00.966Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 40,
   "subsites": [
@@ -1214,6 +1214,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/_sandbox/",
+          "title": "_Sandbox",
+          "url": "https://education.ufl.edu/etc/_sandbox/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/work/ar-expeditions/",
           "title": "AR Expeditions",
