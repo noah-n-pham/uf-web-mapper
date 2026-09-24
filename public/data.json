@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-09-23T14:12:06.372Z",
+  "crawlTimestamp": "2026-09-24T14:09:39.804Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 40,
   "subsites": [
@@ -2148,6 +2148,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/on-campus-ph-d/open-house/",
+          "title": "Open House",
+          "url": "https://education.ufl.edu/counselor-education/prospective-students/on-campus-ph-d/open-house/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/program-outcome-report/",
           "title": "Program Outcome Reports",
