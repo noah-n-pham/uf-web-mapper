@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-09-24T14:09:39.804Z",
+  "crawlTimestamp": "2026-09-25T14:33:54.052Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 40,
   "subsites": [
@@ -1635,6 +1635,27 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/faculty-and-researchers/sooji-kim/",
+          "title": "Sooji Kim",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/sooji-kim/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/zyrashae-smith-onyewu/",
+          "title": "Zyrashae Smith-Onyewu",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/zyrashae-smith-onyewu/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/faculty-and-researchers/briana-bivens/",
+          "title": "Briana Bivens",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/briana-bivens/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/faculty-and-researchers/elizabeth-huffaker/",
           "title": "Elizabeth Huffaker",
