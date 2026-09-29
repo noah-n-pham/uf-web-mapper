@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-09-28T17:30:11.501Z",
+  "crawlTimestamp": "2026-09-29T15:31:53.968Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -2372,13 +2372,6 @@
           "path": "/lead/",
           "title": "Webinar &#8211; Invitation &#8211; M",
           "url": "https://education.ufl.edu/educational-leadership/lead/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/tfa-student-webinar/",
-          "title": "UF Educational Leadership &amp; Policy TFA Prospective Student Webinar",
-          "url": "https://education.ufl.edu/educational-leadership/tfa-student-webinar/",
           "isLive": true,
           "outboundLinks": []
         },
