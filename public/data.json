@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-10-06T15:49:22.788Z",
+  "crawlTimestamp": "2026-10-07T16:14:23.828Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -4426,6 +4426,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/doctorate/math-education-ph-d-virtual-information-session/",
+          "title": "Math Education Ph.D. Virtual Information Session",
+          "url": "https://education.ufl.edu/math-education/prospective-students/doctorate/math-education-ph-d-virtual-information-session/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/prospective-students/online-mae/",
           "title": "Online Math Education M.A.E.",
