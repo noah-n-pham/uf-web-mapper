@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-10-08T16:16:48.449Z",
+  "crawlTimestamp": "2026-10-09T15:57:19.126Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -4154,6 +4154,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/prospective-students/undergraduate-minor-in-secondary-english-language-arts-education/",
+          "title": "Undergraduate Minor in Secondary English Language Arts Education",
+          "url": "https://education.ufl.edu/english-education/prospective-students/undergraduate-minor-in-secondary-english-language-arts-education/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/prospective-students/masters-degrees/application-instructions/",
           "title": "Application Instructions &#8211; Masters Degrees",
