@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-10-20T14:14:26.447Z",
+  "crawlTimestamp": "2026-10-21T14:28:02.586Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -1842,13 +1842,6 @@
           "path": "/faculty-and-researchers/romano/",
           "title": "Richard Romano",
           "url": "https://education.ufl.edu/eprc/faculty-and-researchers/romano/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/faculty-and-researchers/ortagus/",
-          "title": "Justin Ortagus",
-          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/ortagus/",
           "isLive": true,
           "outboundLinks": []
         },
