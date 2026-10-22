@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-10-21T14:28:02.586Z",
+  "crawlTimestamp": "2026-10-22T14:28:23.877Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -835,6 +835,27 @@
       "isLive": true,
       "pages": [
         {
+          "path": "/test/clinical-edugator-of-the-year/",
+          "title": "Clinical “EduGator” of the Year",
+          "url": "https://education.ufl.edu/student-services/test/clinical-edugator-of-the-year/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/test/final-intern-practicum-evaluations-mentors/",
+          "title": "Final Intern/Practicum Evaluations- Mentors",
+          "url": "https://education.ufl.edu/student-services/test/final-intern-practicum-evaluations-mentors/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
+          "path": "/test/final-intern-practicum-evaluations-uf-faculty-supervisors/",
+          "title": "Final Intern/Practicum Evaluations- UF Faculty Supervisors",
+          "url": "https://education.ufl.edu/student-services/test/final-intern-practicum-evaluations-uf-faculty-supervisors/",
+          "isLive": true,
+          "outboundLinks": []
+        },
+        {
           "path": "/test/contact-us/",
           "title": "Contact Us",
           "url": "https://education.ufl.edu/student-services/test/contact-us/",
@@ -1635,6 +1656,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/floridas-teacher-workforce/",
+          "title": "Florida&#8217;s Teacher Workforce Research Brief Series",
+          "url": "https://education.ufl.edu/eprc/floridas-teacher-workforce/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/faculty-and-researchers/sooji-kim/",
           "title": "Sooji Kim",
