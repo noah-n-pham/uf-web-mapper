@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-10-26T16:00:34.978Z",
+  "crawlTimestamp": "2026-10-27T15:16:27.598Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -992,13 +992,6 @@
           "path": "/edugator-newsletters/",
           "title": "EduGator Newsletter",
           "url": "https://education.ufl.edu/student-services/edugator-newsletters/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/online-learning/",
-          "title": "Graduate Online Learning",
-          "url": "https://education.ufl.edu/student-services/online-learning/",
           "isLive": true,
           "outboundLinks": []
         },
