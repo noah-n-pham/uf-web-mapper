@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-10-30T15:43:06.454Z",
+  "crawlTimestamp": "2026-10-31T15:13:02.386Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -835,114 +835,65 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/test/clinical-edugator-of-the-year/",
+          "path": "/clinical-experiences/clinical-edugator-of-the-year/",
           "title": "Clinical “EduGator” of the Year",
-          "url": "https://education.ufl.edu/student-services/test/clinical-edugator-of-the-year/",
+          "url": "https://education.ufl.edu/student-services/clinical-experiences/clinical-edugator-of-the-year/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/test/final-intern-practicum-evaluations-mentors/",
+          "path": "/clinical-experiences/final-intern-practicum-evaluations-mentors/",
           "title": "Final Intern/Practicum Evaluations- Mentors",
-          "url": "https://education.ufl.edu/student-services/test/final-intern-practicum-evaluations-mentors/",
+          "url": "https://education.ufl.edu/student-services/clinical-experiences/final-intern-practicum-evaluations-mentors/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/test/final-intern-practicum-evaluations-uf-faculty-supervisors/",
+          "path": "/clinical-experiences/final-intern-practicum-evaluations-uf-faculty-supervisors/",
           "title": "Final Intern/Practicum Evaluations- UF Faculty Supervisors",
-          "url": "https://education.ufl.edu/student-services/test/final-intern-practicum-evaluations-uf-faculty-supervisors/",
+          "url": "https://education.ufl.edu/student-services/clinical-experiences/final-intern-practicum-evaluations-uf-faculty-supervisors/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/test/contact-us/",
+          "path": "/clinical-experiences/contact-us/",
           "title": "Contact Us",
-          "url": "https://education.ufl.edu/student-services/test/contact-us/",
+          "url": "https://education.ufl.edu/student-services/clinical-experiences/contact-us/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/test/university-supervisors/",
+          "path": "/clinical-experiences/university-supervisors/",
           "title": "University Supervisors",
-          "url": "https://education.ufl.edu/student-services/test/university-supervisors/",
+          "url": "https://education.ufl.edu/student-services/clinical-experiences/university-supervisors/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/test/teaching-faculty/",
+          "path": "/clinical-experiences/teaching-faculty/",
           "title": "Teaching Faculty",
-          "url": "https://education.ufl.edu/student-services/test/teaching-faculty/",
+          "url": "https://education.ufl.edu/student-services/clinical-experiences/teaching-faculty/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/test/interns-practicum-students/",
+          "path": "/clinical-experiences/interns-practicum-students/",
           "title": "Interns/Practicum Students",
-          "url": "https://education.ufl.edu/student-services/test/interns-practicum-students/",
+          "url": "https://education.ufl.edu/student-services/clinical-experiences/interns-practicum-students/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/test/mentors-and-site-supervisors/",
+          "path": "/clinical-experiences/mentors-and-site-supervisors/",
           "title": "Mentors and Site Supervisors",
-          "url": "https://education.ufl.edu/student-services/test/mentors-and-site-supervisors/",
+          "url": "https://education.ufl.edu/student-services/clinical-experiences/mentors-and-site-supervisors/",
           "isLive": true,
           "outboundLinks": []
         },
         {
-          "path": "/test/",
-          "title": "Test",
-          "url": "https://education.ufl.edu/student-services/test/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fieldexperience/clinical-experience/teaching-faculty/",
-          "title": "Teaching Faculty",
-          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/teaching-faculty/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fieldexperience/clinical-experience/livetext-faq/",
-          "title": "Livetext FAQ",
-          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/livetext-faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fieldexperience/clinical-experience/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fieldexperience/clinical-experience/university-supervisors-faculty/",
-          "title": "University Supervisors/Faculty",
-          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/university-supervisors-faculty/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fieldexperience/clinical-experience/mentors/",
-          "title": "Mentors &#038; SITE Supervisors",
-          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/mentors/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fieldexperience/clinical-experience/interns-practicum-students/",
-          "title": "Interns/Practicum Students",
-          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/interns-practicum-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fieldexperience/clinical-experience/",
+          "path": "/clinical-experiences/",
           "title": "Clinical Experiences",
-          "url": "https://education.ufl.edu/student-services/fieldexperience/clinical-experience/",
+          "url": "https://education.ufl.edu/student-services/clinical-experiences/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -999,13 +950,6 @@
           "path": "/certificate/",
           "title": "Certification and Professional Development",
           "url": "https://education.ufl.edu/student-services/certificate/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/fieldexperience/",
-          "title": "Field Experience",
-          "url": "https://education.ufl.edu/student-services/fieldexperience/",
           "isLive": true,
           "outboundLinks": []
         },
