@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-11-01T15:55:23.408Z",
+  "crawlTimestamp": "2026-11-02T19:20:12.785Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -1593,13 +1593,6 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
-        {
-          "path": "/floridas-teacher-workforce/",
-          "title": "Florida&#8217;s Teacher Workforce Research Brief Series",
-          "url": "https://education.ufl.edu/eprc/floridas-teacher-workforce/",
-          "isLive": true,
-          "outboundLinks": []
-        },
         {
           "path": "/faculty-and-researchers/sooji-kim/",
           "title": "Sooji Kim",
