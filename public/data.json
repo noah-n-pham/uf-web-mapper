@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-11-06T16:43:31.243Z",
+  "crawlTimestamp": "2026-11-07T15:34:11.873Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -2912,13 +2912,6 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
-        {
-          "path": "/prospective-students/on-campus-phd/special-education-doctoral-program-webinar/",
-          "title": "UF Special Education Doctoral Program Prospective Student Webinar",
-          "url": "https://education.ufl.edu/special-education/prospective-students/on-campus-phd/special-education-doctoral-program-webinar/",
-          "isLive": true,
-          "outboundLinks": []
-        },
         {
           "path": "/prospective-students/dyslexia-graduate-certificate/program-courses/",
           "title": "Program Courses",
