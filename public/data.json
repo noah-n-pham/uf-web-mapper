@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-11-09T19:37:47.101Z",
+  "crawlTimestamp": "2026-11-10T16:55:15.385Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -5127,13 +5127,6 @@
           "path": "/prospective-students/online-ed-d/online-ed-d-cohort-2025/",
           "title": "Online Ed.D. Cohort 2025",
           "url": "https://education.ufl.edu/computer-science-education/prospective-students/online-ed-d/online-ed-d-cohort-2025/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/webinar/",
-          "title": "Informational Webinars for Prospective CS Education Students",
-          "url": "https://education.ufl.edu/computer-science-education/webinar/",
           "isLive": true,
           "outboundLinks": []
         },
