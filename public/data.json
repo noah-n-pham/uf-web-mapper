@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-11-10T16:55:15.385Z",
+  "crawlTimestamp": "2026-11-11T17:01:28.804Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -1426,6 +1426,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/impact-2026/",
+          "title": "impact-2026",
+          "url": "https://education.ufl.edu/impact/impact-2026/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/2024-2/",
           "title": "2024",
@@ -4691,6 +4698,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/uf-gulf-scholars-education/",
+          "title": "UF Gulf Scholars Education",
+          "url": "https://education.ufl.edu/science-education/uf-gulf-scholars-education/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/prospective-students/",
           "title": "Prospective Students",
