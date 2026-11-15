@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-11-14T15:41:59.443Z",
+  "crawlTimestamp": "2026-11-15T16:12:42.476Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -4019,88 +4019,648 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/prospective-students/site/frequently-asked-questions/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/frequently-asked-questions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/site/program-of-study/",
-          "title": "M.A.E. Program of Study",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/program-of-study/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/site/",
-          "title": "Site-based Implementation of Teacher Education",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/bachelors-of-art-in-elementary-education/application-instructions/",
-          "title": "Application Instructions",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/bachelors-of-art-in-elementary-education/faq/",
-          "title": "Frequently Asked Questions",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/faq/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-highlights/",
-          "title": "Program Highlights",
-          "url": "https://education.ufl.edu/elementary-education/program-highlights/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/contact-us/",
-          "title": "Contact Us",
-          "url": "https://education.ufl.edu/elementary-education/contact-us/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/program-faculty/",
-          "title": "Program Faculty",
-          "url": "https://education.ufl.edu/elementary-education/program-faculty/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/",
-          "title": "Prospective Students",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/elementary-online/",
-          "title": "Online Elementary Apprenticeship",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-online/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/bachelors-of-art-in-elementary-education/",
-          "title": "Bachelors of Art in Elementary Education",
-          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/",
-          "title": "Elementary Education Homepage",
+          "title": "Elementary Education Homepage - Elementary Education",
           "url": "https://education.ufl.edu/elementary-education/",
           "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu/elementary-education",
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory"
+          ]
+        },
+        {
+          "path": "/prospective-students",
+          "title": "Prospective Students - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/program-faculty",
+          "title": "Program Faculty - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/program-faculty",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/contact-us",
+          "title": "Contact Us - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/contact-us",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-online",
+          "title": "Online Elementary Apprenticeship - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-online",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/bbeckett@coe.ufl.edu",
+          "title": "Page not found - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/bbeckett@coe.ufl.edu",
+          "isLive": false,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/lespinosa@coe.ufl.edu",
+          "title": "Page not found - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/lespinosa@coe.ufl.edu",
+          "isLive": false,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/frequently-asked-questions",
+          "title": "Frequently Asked Questions - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/frequently-asked-questions",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/program-of-study",
+          "title": "M.A.E. Program of Study - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/program-of-study",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/bachelors-of-art-in-elementary-education/faq",
+          "title": "Frequently Asked Questions - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/bachelors-of-art-in-elementary-education/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/files/2026/09/2025-08_2025-Fall-Elementary-BAE-Upper-Division-Program-Plan1.pdf",
+          "title": null,
+          "url": "https://education.ufl.edu/elementary-education/files/2026/09/2025-08_2025-Fall-Elementary-BAE-Upper-Division-Program-Plan1.pdf",
+          "isLive": true,
           "outboundLinks": []
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/site/faq",
+          "title": "Frequently Asked Questions - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/site/faq",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/site/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "title": "Bachelors of Art in Elementary Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/bachelors-of-art-in-elementary-education",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
+        },
+        {
+          "path": "/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "title": "Site-based Implementation of Teacher Education - Elementary Education",
+          "url": "https://education.ufl.edu/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/elementary-education/prospective-students/site",
+          "isLive": true,
+          "outboundLinks": [
+            "https://education.ufl.edu",
+            "https://education.ufl.edu/study",
+            "https://education.ufl.edu/admissions",
+            "https://education.ufl.edu/program-directory",
+            "https://education.ufl.edu/course-syllabi"
+          ]
         }
       ]
     },
