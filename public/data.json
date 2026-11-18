@@ -1,5 +1,5 @@
 {
-  "crawlTimestamp": "2026-11-17T18:19:18.297Z",
+  "crawlTimestamp": "2026-11-18T17:56:19.594Z",
   "root": "https://education.ufl.edu/",
   "subsiteCount": 39,
   "subsites": [
@@ -1600,6 +1600,13 @@
       "detectionConfidence": "high",
       "isLive": true,
       "pages": [
+        {
+          "path": "/faculty-and-researchers/jiaxin-jessie-wang/",
+          "title": "Jiaxin Jessie Wang",
+          "url": "https://education.ufl.edu/eprc/faculty-and-researchers/jiaxin-jessie-wang/",
+          "isLive": true,
+          "outboundLinks": []
+        },
         {
           "path": "/floridas-teacher-workforce/",
           "title": "Florida&#8217;s Teacher Workforce Research Brief Series",
@@ -4221,13 +4228,6 @@
       "isLive": true,
       "pages": [
         {
-          "path": "/prospective-students/language-education-and-technology-certification/application-instructions/",
-          "title": "Application Instructions &#8211; Certification",
-          "url": "https://education.ufl.edu/esol/prospective-students/language-education-and-technology-certification/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/on-campus-m-ed/application-instructions/",
           "title": "Application Instructions &#8211; On-campus M.Ed",
           "url": "https://education.ufl.edu/esol/prospective-students/on-campus-m-ed/application-instructions/",
@@ -4249,23 +4249,9 @@
           "outboundLinks": []
         },
         {
-          "path": "/prospective-students/on-campus-ed-d/application-instructions/",
-          "title": "Application Instructions- On-campus Ed.D",
-          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-ed-d/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
           "path": "/prospective-students/on-campus-ph-d/application-instructions/",
           "title": "Application Instructions &#8211; On-campus Ph.D",
           "url": "https://education.ufl.edu/esol/prospective-students/on-campus-ph-d/application-instructions/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/language-education-and-technology-certification/",
-          "title": "Language, Education and Technology Certification",
-          "url": "https://education.ufl.edu/esol/prospective-students/language-education-and-technology-certification/",
           "isLive": true,
           "outboundLinks": []
         },
@@ -4287,13 +4273,6 @@
           "path": "/prospective-students/on-campus-ed-s/",
           "title": "On-campus Ed.S",
           "url": "https://education.ufl.edu/esol/prospective-students/on-campus-ed-s/",
-          "isLive": true,
-          "outboundLinks": []
-        },
-        {
-          "path": "/prospective-students/on-campus-ed-d/",
-          "title": "On-campus Ed.D.",
-          "url": "https://education.ufl.edu/esol/prospective-students/on-campus-ed-d/",
           "isLive": true,
           "outboundLinks": []
         },
